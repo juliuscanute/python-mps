@@ -65,6 +65,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6z8ixwEaE3d" resolve="FromStatement" />
     </node>
+    <node concept="1TJgyj" id="6z8ixwEaMAW" role="1TKVEi">
+      <property role="IQ2ns" value="7550366242933778876" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="fromImportAs" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6z8ixwEaM_5" resolve="FromStatementAsName" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3mAorzWGMvE">
     <property role="EcuMT" value="3865884777285625834" />
@@ -142,6 +149,27 @@
       <property role="20kJfa" value="importStatement" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3mAorzWGMvE" resolve="ImportStatement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6z8ixwEaM_5">
+    <property role="EcuMT" value="7550366242933778757" />
+    <property role="TrG5h" value="FromStatementAsName" />
+    <property role="34LRSv" value="import_from_as_name" />
+    <property role="R4oN_" value="import and bound locally" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6z8ixwEaM_6" role="1TKVEi">
+      <property role="IQ2ns" value="7550366242933778758" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="dottedName" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3mAorzWGRUx" resolve="DottedName" />
+    </node>
+    <node concept="1TJgyj" id="6z8ixwEaM_7" role="1TKVEi">
+      <property role="IQ2ns" value="7550366242933778759" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="importAsStatement" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6z8ixwEax5p" resolve="ImportStatementAsName" />
     </node>
   </node>
 </model>

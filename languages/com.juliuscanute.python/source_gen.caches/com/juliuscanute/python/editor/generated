@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-4dr2yxgny2s9y5cdwcow1xda596rdrk">
-  <files names="DottedName_Editor.java:DottedName_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:FromStatement_Editor.java:FromStatement_EditorBuilder_a.java:ImportStatementAsName_Editor.java:ImportStatementAsName_EditorBuilder_a.java:ImportStatement_Editor.java:ImportStatement_EditorBuilder_a.java:Name_Editor.java:Name_EditorBuilder_a.java:PythonProgram_Editor.java:PythonProgram_EditorBuilder_a.java" />
+<product version="3" modelHash="-62ogruqgifzhk0vxnlem78dcui8d170">
+  <files names="DottedName_Editor.java:DottedName_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:FromStatementAsName_Editor.java:FromStatementAsName_EditorBuilder_a.java:FromStatement_Editor.java:FromStatement_EditorBuilder_a.java:ImportStatementAsName_Editor.java:ImportStatementAsName_EditorBuilder_a.java:ImportStatement_Editor.java:ImportStatement_EditorBuilder_a.java:Name_Editor.java:Name_EditorBuilder_a.java:PythonProgram_Editor.java:PythonProgram_EditorBuilder_a.java" />
 </product>
 

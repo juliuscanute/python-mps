@@ -15,6 +15,7 @@ import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptDottedName = createDescriptorForDottedName();
   /*package*/ final ConceptDescriptor myConceptFromStatement = createDescriptorForFromStatement();
+  /*package*/ final ConceptDescriptor myConceptFromStatementAsName = createDescriptorForFromStatementAsName();
   /*package*/ final ConceptDescriptor myConceptImportStatement = createDescriptorForImportStatement();
   /*package*/ final ConceptDescriptor myConceptImportStatementAsName = createDescriptorForImportStatementAsName();
   /*package*/ final ConceptDescriptor myConceptName = createDescriptorForName();
@@ -33,7 +34,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptImportStatement, myConceptImportStatementAsName, myConceptName, myConceptPythonProgram);
+    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptFromStatementAsName, myConceptImportStatement, myConceptImportStatementAsName, myConceptName, myConceptPythonProgram);
   }
 
   @Override
@@ -44,6 +45,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptDottedName;
       case LanguageConceptSwitch.FromStatement:
         return myConceptFromStatement;
+      case LanguageConceptSwitch.FromStatementAsName:
+        return myConceptFromStatementAsName;
       case LanguageConceptSwitch.ImportStatement:
         return myConceptImportStatement;
       case LanguageConceptSwitch.ImportStatementAsName:
@@ -78,6 +81,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("dottedName", 0x68c84a182a2aa0ceL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L).optional(false).ordered(true).multiple(false).origin("7550366242933743822").done();
     b.aggregate("importStatement", 0x68c84a182a2aa0cfL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327eaL).optional(false).ordered(true).multiple(false).origin("7550366242933743823").done();
     b.alias("import_from");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForFromStatementAsName() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "FromStatementAsName", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2b2945L);
+    b.class_(false, false, false);
+    b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/7550366242933778757");
+    b.version(2);
+    b.aggregate("dottedName", 0x68c84a182a2b2946L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L).optional(false).ordered(true).multiple(false).origin("7550366242933778758").done();
+    b.aggregate("importAsStatement", 0x68c84a182a2b2947L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2a1159L).optional(false).ordered(true).multiple(false).origin("7550366242933778759").done();
+    b.alias("import_from_as_name");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForImportStatement() {
@@ -115,6 +128,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("import", 0x35a661b8fcb327ebL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327eaL).optional(true).ordered(true).multiple(true).origin("3865884777285625835").done();
     b.aggregate("importAs", 0x68c84a182a2a2d15L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2a1159L).optional(true).ordered(true).multiple(true).origin("7550366242933714197").done();
     b.aggregate("fromImport", 0x68c84a182a2aa13fL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2aa0cdL).optional(true).ordered(true).multiple(true).origin("7550366242933743935").done();
+    b.aggregate("fromImportAs", 0x68c84a182a2b29bcL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2b2945L).optional(true).ordered(true).multiple(true).origin("7550366242933778876").done();
     return b.create();
   }
 }

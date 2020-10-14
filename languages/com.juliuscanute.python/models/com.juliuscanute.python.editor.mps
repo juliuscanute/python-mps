@@ -98,6 +98,10 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F2HdR" id="6z8ixwEaMBc" role="3EZMnx">
+        <ref role="1NtTu8" to="e5uo:6z8ixwEaMAW" resolve="fromImportAs" />
+        <node concept="l2Vlx" id="6z8ixwEaMBf" role="2czzBx" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="3mAorzWGRUY">
@@ -152,6 +156,25 @@
         <node concept="l2Vlx" id="6z8ixwEaE3U" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="6z8ixwEaE3L" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6z8ixwEaM_y">
+    <ref role="1XX52x" to="e5uo:6z8ixwEaM_5" resolve="FromStatementAsName" />
+    <node concept="3EZMnI" id="6z8ixwEaM_N" role="2wV5jI">
+      <node concept="2iRkQZ" id="6z8ixwEaM_Q" role="2iSdaV" />
+      <node concept="3EZMnI" id="6z8ixwEaMA0" role="3EZMnx">
+        <node concept="l2Vlx" id="6z8ixwEaMA1" role="2iSdaV" />
+        <node concept="VPM3Z" id="6z8ixwEaMA2" role="3F10Kt" />
+        <node concept="3F0ifn" id="6z8ixwEaMA8" role="3EZMnx">
+          <property role="3F0ifm" value="from" />
+        </node>
+        <node concept="3F1sOY" id="6z8ixwEaMAd" role="3EZMnx">
+          <ref role="1NtTu8" to="e5uo:6z8ixwEaM_6" resolve="dottedName" />
+        </node>
+        <node concept="3F1sOY" id="6z8ixwEaMAz" role="3EZMnx">
+          <ref role="1NtTu8" to="e5uo:6z8ixwEaM_7" resolve="importAsStatement" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

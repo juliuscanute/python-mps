@@ -11,6 +11,7 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_DottedName;
   private ConceptPresentation props_FromStatement;
+  private ConceptPresentation props_FromStatementAsName;
   private ConceptPresentation props_ImportStatement;
   private ConceptPresentation props_ImportStatementAsName;
   private ConceptPresentation props_Name;
@@ -36,6 +37,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_FromStatement = cpb.create();
         }
         return props_FromStatement;
+      case LanguageConceptSwitch.FromStatementAsName:
+        if (props_FromStatementAsName == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("import and bound locally");
+          cpb.rawPresentation("import_from_as_name");
+          props_FromStatementAsName = cpb.create();
+        }
+        return props_FromStatementAsName;
       case LanguageConceptSwitch.ImportStatement:
         if (props_ImportStatement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
