@@ -15,7 +15,9 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_ImportStatement;
   private ConceptPresentation props_ImportStatementAsName;
   private ConceptPresentation props_Name;
+  private ConceptPresentation props_PythonNode;
   private ConceptPresentation props_PythonProgram;
+  private ConceptPresentation props_PythonStatement;
 
   @Override
   @Nullable
@@ -68,13 +70,27 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Name = cpb.create();
         }
         return props_Name;
+      case LanguageConceptSwitch.PythonNode:
+        if (props_PythonNode == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonNode");
+          props_PythonNode = cpb.create();
+        }
+        return props_PythonNode;
       case LanguageConceptSwitch.PythonProgram:
         if (props_PythonProgram == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("PythonProgram");
+          cpb.presentationByName();
           props_PythonProgram = cpb.create();
         }
         return props_PythonProgram;
+      case LanguageConceptSwitch.PythonStatement:
+        if (props_PythonStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonStatement");
+          props_PythonStatement = cpb.create();
+        }
+        return props_PythonStatement;
     }
     return null;
   }

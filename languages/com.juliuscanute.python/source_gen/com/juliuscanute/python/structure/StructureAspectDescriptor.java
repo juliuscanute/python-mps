@@ -19,7 +19,9 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptImportStatement = createDescriptorForImportStatement();
   /*package*/ final ConceptDescriptor myConceptImportStatementAsName = createDescriptorForImportStatementAsName();
   /*package*/ final ConceptDescriptor myConceptName = createDescriptorForName();
+  /*package*/ final ConceptDescriptor myConceptPythonNode = createDescriptorForPythonNode();
   /*package*/ final ConceptDescriptor myConceptPythonProgram = createDescriptorForPythonProgram();
+  /*package*/ final ConceptDescriptor myConceptPythonStatement = createDescriptorForPythonStatement();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -34,7 +36,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptFromStatementAsName, myConceptImportStatement, myConceptImportStatementAsName, myConceptName, myConceptPythonProgram);
+    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptFromStatementAsName, myConceptImportStatement, myConceptImportStatementAsName, myConceptName, myConceptPythonNode, myConceptPythonProgram, myConceptPythonStatement);
   }
 
   @Override
@@ -53,8 +55,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptImportStatementAsName;
       case LanguageConceptSwitch.Name:
         return myConceptName;
+      case LanguageConceptSwitch.PythonNode:
+        return myConceptPythonNode;
       case LanguageConceptSwitch.PythonProgram:
         return myConceptPythonProgram;
+      case LanguageConceptSwitch.PythonStatement:
+        return myConceptPythonStatement;
       default:
         return null;
     }
@@ -76,6 +82,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForFromStatement() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "FromStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2aa0cdL);
     b.class_(false, false, false);
+    b.super_("com.juliuscanute.python.structure.PythonStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/7550366242933743821");
     b.version(2);
     b.aggregate("dottedName", 0x68c84a182a2aa0ceL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L).optional(false).ordered(true).multiple(false).origin("7550366242933743822").done();
@@ -86,6 +93,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForFromStatementAsName() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "FromStatementAsName", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2b2945L);
     b.class_(false, false, false);
+    b.super_("com.juliuscanute.python.structure.PythonStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/7550366242933778757");
     b.version(2);
     b.aggregate("dottedName", 0x68c84a182a2b2946L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L).optional(false).ordered(true).multiple(false).origin("7550366242933778758").done();
@@ -96,6 +104,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForImportStatement() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "ImportStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327eaL);
     b.class_(false, false, false);
+    b.super_("com.juliuscanute.python.structure.PythonStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3865884777285625834");
     b.version(2);
     b.aggregate("dottedName", 0x35a661b8fcb32ec0L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L).optional(false).ordered(true).multiple(false).origin("3865884777285627584").done();
@@ -105,6 +114,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForImportStatementAsName() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "ImportStatementAsName", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2a1159L);
     b.class_(false, false, false);
+    b.super_("com.juliuscanute.python.structure.PythonStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/7550366242933707097");
     b.version(2);
     b.aggregate("dottedName", 0x68c84a182a2a115aL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L).optional(false).ordered(true).multiple(false).origin("7550366242933707098").done();
@@ -120,15 +130,31 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("name", 0x35a661b8fcb35122L).type(PrimitiveTypeId.STRING).origin("3865884777285636386").done();
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForPythonNode() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonNode", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee66582d22L);
+    b.class_(false, false, false);
+    b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032376610");
+    b.version(2);
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForPythonProgram() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonProgram", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327e9L);
     b.class_(false, false, true);
+    b.super_("com.juliuscanute.python.structure.PythonNode", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee66582d22L);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3865884777285625833");
     b.version(2);
-    b.aggregate("import", 0x35a661b8fcb327ebL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327eaL).optional(true).ordered(true).multiple(true).origin("3865884777285625835").done();
-    b.aggregate("importAs", 0x68c84a182a2a2d15L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2a1159L).optional(true).ordered(true).multiple(true).origin("7550366242933714197").done();
-    b.aggregate("fromImport", 0x68c84a182a2aa13fL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2aa0cdL).optional(true).ordered(true).multiple(true).origin("7550366242933743935").done();
-    b.aggregate("fromImportAs", 0x68c84a182a2b29bcL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2b2945L).optional(true).ordered(true).multiple(true).origin("7550366242933778876").done();
+    b.aggregate("body", 0x46cfc4ee6658f416L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL).optional(true).ordered(true).multiple(true).origin("5102513431032427542").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPythonStatement() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL);
+    b.class_(false, false, false);
+    b.super_("com.juliuscanute.python.structure.PythonNode", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee66582d22L);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L);
+    b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032416539");
+    b.version(2);
     return b.create();
   }
 }

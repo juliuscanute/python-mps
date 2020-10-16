@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="e5uo" ref="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -19,6 +20,7 @@
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
+      <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1233148810477" name="jetbrains.mps.lang.editor.structure.InlineStyleDeclaration" flags="ng" index="tppnM" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
@@ -26,6 +28,7 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
@@ -49,8 +52,14 @@
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="24kQdi" id="3mAorzWGMwA">
+    <property role="3GE5qa" value="declaration" />
     <ref role="1XX52x" to="e5uo:3mAorzWGMvH" resolve="Name" />
     <node concept="3F0A7n" id="3mAorzWGRUu" role="2wV5jI">
       <property role="1$x2rV" value="library" />
@@ -58,6 +67,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3mAorzWGNLu">
+    <property role="3GE5qa" value="statement" />
     <ref role="1XX52x" to="e5uo:3mAorzWGMvE" resolve="ImportStatement" />
     <node concept="3EZMnI" id="3mAorzWGPHJ" role="2wV5jI">
       <node concept="2iRkQZ" id="3mAorzWGPHM" role="2iSdaV" />
@@ -75,36 +85,29 @@
   </node>
   <node concept="24kQdi" id="3mAorzWGNMf">
     <ref role="1XX52x" to="e5uo:3mAorzWGMvD" resolve="PythonProgram" />
-    <node concept="3EZMnI" id="3mAorzWGOr_" role="2wV5jI">
-      <node concept="2iRkQZ" id="3mAorzWGOrA" role="2iSdaV" />
-      <node concept="3F2HdR" id="3mAorzWGNMh" role="3EZMnx">
-        <ref role="1NtTu8" to="e5uo:3mAorzWGMvF" resolve="import" />
-        <node concept="l2Vlx" id="6z8ixwEau4$" role="2czzBx" />
-        <node concept="pj6Ft" id="6z8ixwEau4A" role="3F10Kt">
+    <node concept="3EZMnI" id="4rfLeTAmguH" role="2wV5jI">
+      <node concept="3F0ifn" id="4rfLeTAmguV" role="3EZMnx">
+        <property role="3F0ifm" value="program" />
+      </node>
+      <node concept="3F0A7n" id="4rfLeTAmgv5" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F2HdR" id="4rfLeTAmgvg" role="3EZMnx">
+        <ref role="1NtTu8" to="e5uo:4rfLeTAmfgm" resolve="body" />
+        <node concept="l2Vlx" id="4rfLeTAmgvj" role="2czzBx" />
+        <node concept="pVoyu" id="4rfLeTAmgvr" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-      </node>
-      <node concept="3F2HdR" id="6z8ixwEayP1" role="3EZMnx">
-        <ref role="1NtTu8" to="e5uo:6z8ixwEayOl" resolve="importAs" />
-        <node concept="l2Vlx" id="6z8ixwEayP4" role="2czzBx" />
-        <node concept="pj6Ft" id="6z8ixwEayPa" role="3F10Kt">
+        <node concept="pj6Ft" id="4rfLeTAmgv$" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="VPM3Z" id="4rfLeTAmgvG" role="3F10Kt" />
       </node>
-      <node concept="3F2HdR" id="6z8ixwEaE5F" role="3EZMnx">
-        <ref role="1NtTu8" to="e5uo:6z8ixwEaE4Z" resolve="fromImport" />
-        <node concept="l2Vlx" id="6z8ixwEaE5I" role="2czzBx" />
-        <node concept="pj6Ft" id="6z8ixwEaE5R" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F2HdR" id="6z8ixwEaMBc" role="3EZMnx">
-        <ref role="1NtTu8" to="e5uo:6z8ixwEaMAW" resolve="fromImportAs" />
-        <node concept="l2Vlx" id="6z8ixwEaMBf" role="2czzBx" />
-      </node>
+      <node concept="l2Vlx" id="4rfLeTAmgvL" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="3mAorzWGRUY">
+    <property role="3GE5qa" value="declaration" />
     <ref role="1XX52x" to="e5uo:3mAorzWGRUx" resolve="DottedName" />
     <node concept="3F2HdR" id="3mAorzWGRV0" role="2wV5jI">
       <property role="2czwfO" value="." />
@@ -118,6 +121,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6z8ixwEax6i">
+    <property role="3GE5qa" value="statement" />
     <ref role="1XX52x" to="e5uo:6z8ixwEax5p" resolve="ImportStatementAsName" />
     <node concept="3EZMnI" id="6z8ixwEax6s" role="2wV5jI">
       <node concept="3EZMnI" id="6z8ixwEax6z" role="3EZMnx">
@@ -140,6 +144,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6z8ixwEaE3G">
+    <property role="3GE5qa" value="statement" />
     <ref role="1XX52x" to="e5uo:6z8ixwEaE3d" resolve="FromStatement" />
     <node concept="3EZMnI" id="6z8ixwEaE3I" role="2wV5jI">
       <node concept="3EZMnI" id="6z8ixwEaE3P" role="3EZMnx">
@@ -159,6 +164,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6z8ixwEaM_y">
+    <property role="3GE5qa" value="statement" />
     <ref role="1XX52x" to="e5uo:6z8ixwEaM_5" resolve="FromStatementAsName" />
     <node concept="3EZMnI" id="6z8ixwEaM_N" role="2wV5jI">
       <node concept="2iRkQZ" id="6z8ixwEaM_Q" role="2iSdaV" />
@@ -174,6 +180,15 @@
         <node concept="3F1sOY" id="6z8ixwEaMAz" role="3EZMnx">
           <ref role="1NtTu8" to="e5uo:6z8ixwEaM_7" resolve="importAsStatement" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4rfLeTAmc$S">
+    <property role="3GE5qa" value="statement" />
+    <ref role="1XX52x" to="e5uo:4rfLeTAmc$r" resolve="PythonStatement" />
+    <node concept="3F0ifn" id="4rfLeTAmc$U" role="2wV5jI">
+      <node concept="VPxyj" id="4rfLeTAmc$X" role="3F10Kt">
+        <property role="VOm3f" value="true" />
       </node>
     </node>
   </node>
