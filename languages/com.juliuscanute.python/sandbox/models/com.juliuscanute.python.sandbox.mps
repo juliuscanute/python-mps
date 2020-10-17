@@ -7,22 +7,18 @@
   <imports />
   <registry>
     <language id="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639" name="com.juliuscanute.python">
-      <concept id="5102513431032416539" name="com.juliuscanute.python.structure.PythonStatement" flags="ng" index="w_KRP" />
-      <concept id="7550366242933743821" name="com.juliuscanute.python.structure.FromStatement" flags="ng" index="12SIFl">
-        <child id="7550366242933743822" name="dottedName" index="12SIFm" />
-        <child id="7550366242933743823" name="importStatement" index="12SIFn" />
+      <concept id="5102513431032780448" name="com.juliuscanute.python.structure.PythonNumericLiteral" flags="ng" index="w$p9e">
+        <property id="5102513431032780450" name="value" index="w$p9c" />
       </concept>
-      <concept id="3865884777285648033" name="com.juliuscanute.python.structure.DottedName" flags="ng" index="395hWp">
-        <child id="3865884777285648034" name="names" index="395hWq" />
+      <concept id="5102513431032741473" name="com.juliuscanute.python.structure.PythonExpressionStatement" flags="ng" index="w$BEf">
+        <child id="5102513431032741474" name="expression" index="w$BEc" />
+      </concept>
+      <concept id="5102513431032467573" name="com.juliuscanute.python.structure.PythonUnaryExpression" flags="ng" index="w__ir">
+        <property id="5102513431032467574" name="operator" index="w__io" />
+        <child id="5102513431032467576" name="argument" index="w__im" />
       </concept>
       <concept id="3865884777285625833" name="com.juliuscanute.python.structure.PythonProgram" flags="ng" index="395kph">
         <child id="5102513431032427542" name="body" index="w_N3S" />
-      </concept>
-      <concept id="3865884777285625834" name="com.juliuscanute.python.structure.ImportStatement" flags="ng" index="395kpi">
-        <child id="3865884777285627584" name="dottedName" index="395kXS" />
-      </concept>
-      <concept id="3865884777285625837" name="com.juliuscanute.python.structure.Name" flags="ng" index="395kpl">
-        <property id="3865884777285636386" name="name" index="395j2q" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -33,44 +29,14 @@
   </registry>
   <node concept="395kph" id="4rfLeTAmmGA">
     <property role="TrG5h" value="alfred.py" />
-    <node concept="12SIFl" id="4rfLeTAo6JU" role="w_N3S">
-      <node concept="395hWp" id="4rfLeTAo6JW" role="12SIFm">
-        <node concept="395kpl" id="4rfLeTAo6JY" role="395hWq">
-          <property role="395j2q" value="uyyutguy" />
-        </node>
-        <node concept="395kpl" id="4rfLeTAo6Kc" role="395hWq">
-          <property role="395j2q" value="hjkhkjh" />
-        </node>
-      </node>
-      <node concept="395kpi" id="4rfLeTAo6K0" role="12SIFn">
-        <node concept="395hWp" id="4rfLeTAo6K2" role="395kXS">
-          <node concept="395kpl" id="4rfLeTAo6K4" role="395hWq">
-            <property role="395j2q" value="kjkljklj" />
-          </node>
+    <node concept="w$BEf" id="4YHeL1jiZEP" role="w_N3S">
+      <node concept="w__ir" id="4YHeL1jiZFa" role="w$BEc">
+        <property role="w__io" value="4rfLeTAmp1I/unPlus" />
+        <node concept="w$p9e" id="4YHeL1jiZFc" role="w__im">
+          <property role="w$p9c" value="45345345" />
         </node>
       </node>
     </node>
-    <node concept="12SIFl" id="4YHeL1jefK4" role="w_N3S">
-      <node concept="395hWp" id="4YHeL1jefK6" role="12SIFm">
-        <node concept="395kpl" id="4YHeL1jefK8" role="395hWq">
-          <property role="395j2q" value="fsdfsdf" />
-        </node>
-        <node concept="395kpl" id="4YHeL1jefKt" role="395hWq">
-          <property role="395j2q" value="sdfsdfsd" />
-        </node>
-        <node concept="395kpl" id="4YHeL1jefKw" role="395hWq">
-          <property role="395j2q" value="fsdfdsf" />
-        </node>
-      </node>
-      <node concept="395kpi" id="4YHeL1jefKa" role="12SIFn">
-        <node concept="395hWp" id="4YHeL1jefKc" role="395kXS">
-          <node concept="395kpl" id="4YHeL1jefKe" role="395hWq">
-            <property role="395j2q" value="dsfdsfsd" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="w_KRP" id="4YHeL1jhc$r" role="w_N3S" />
   </node>
 </model>
 
