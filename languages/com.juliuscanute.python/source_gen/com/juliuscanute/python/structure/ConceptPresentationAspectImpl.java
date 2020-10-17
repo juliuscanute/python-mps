@@ -15,9 +15,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_ImportStatement;
   private ConceptPresentation props_ImportStatementAsName;
   private ConceptPresentation props_Name;
+  private ConceptPresentation props_PythonExpression;
+  private ConceptPresentation props_PythonExpressionStatement;
+  private ConceptPresentation props_PythonLiteral;
   private ConceptPresentation props_PythonNode;
+  private ConceptPresentation props_PythonNumericLiteral;
   private ConceptPresentation props_PythonProgram;
   private ConceptPresentation props_PythonStatement;
+  private ConceptPresentation props_PythonUnaryExpression;
 
   @Override
   @Nullable
@@ -70,6 +75,27 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Name = cpb.create();
         }
         return props_Name;
+      case LanguageConceptSwitch.PythonExpression:
+        if (props_PythonExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonExpression");
+          props_PythonExpression = cpb.create();
+        }
+        return props_PythonExpression;
+      case LanguageConceptSwitch.PythonExpressionStatement:
+        if (props_PythonExpressionStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonExpressionStatement");
+          props_PythonExpressionStatement = cpb.create();
+        }
+        return props_PythonExpressionStatement;
+      case LanguageConceptSwitch.PythonLiteral:
+        if (props_PythonLiteral == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonLiteral");
+          props_PythonLiteral = cpb.create();
+        }
+        return props_PythonLiteral;
       case LanguageConceptSwitch.PythonNode:
         if (props_PythonNode == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -77,6 +103,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonNode = cpb.create();
         }
         return props_PythonNode;
+      case LanguageConceptSwitch.PythonNumericLiteral:
+        if (props_PythonNumericLiteral == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonNumericLiteral");
+          props_PythonNumericLiteral = cpb.create();
+        }
+        return props_PythonNumericLiteral;
       case LanguageConceptSwitch.PythonProgram:
         if (props_PythonProgram == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -91,6 +124,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonStatement = cpb.create();
         }
         return props_PythonStatement;
+      case LanguageConceptSwitch.PythonUnaryExpression:
+        if (props_PythonUnaryExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonUnaryExpression");
+          props_PythonUnaryExpression = cpb.create();
+        }
+        return props_PythonUnaryExpression;
     }
     return null;
   }

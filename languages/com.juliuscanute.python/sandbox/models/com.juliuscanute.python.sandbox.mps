@@ -7,10 +7,7 @@
   <imports />
   <registry>
     <language id="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639" name="com.juliuscanute.python">
-      <concept id="7550366242933707097" name="com.juliuscanute.python.structure.ImportStatementAsName" flags="ng" index="12S_H1">
-        <child id="7550366242933707098" name="dottedName" index="12S_H2" />
-        <child id="7550366242933707125" name="asName" index="12S_HH" />
-      </concept>
+      <concept id="5102513431032416539" name="com.juliuscanute.python.structure.PythonStatement" flags="ng" index="w_KRP" />
       <concept id="7550366242933743821" name="com.juliuscanute.python.structure.FromStatement" flags="ng" index="12SIFl">
         <child id="7550366242933743822" name="dottedName" index="12SIFm" />
         <child id="7550366242933743823" name="importStatement" index="12SIFn" />
@@ -36,53 +33,44 @@
   </registry>
   <node concept="395kph" id="4rfLeTAmmGA">
     <property role="TrG5h" value="alfred.py" />
-    <node concept="12S_H1" id="4rfLeTAmmGD" role="w_N3S">
-      <node concept="395hWp" id="4rfLeTAmmGE" role="12S_H2">
-        <node concept="395kpl" id="4rfLeTAmmGF" role="395hWq">
+    <node concept="12SIFl" id="4rfLeTAo6JU" role="w_N3S">
+      <node concept="395hWp" id="4rfLeTAo6JW" role="12SIFm">
+        <node concept="395kpl" id="4rfLeTAo6JY" role="395hWq">
+          <property role="395j2q" value="uyyutguy" />
+        </node>
+        <node concept="395kpl" id="4rfLeTAo6Kc" role="395hWq">
+          <property role="395j2q" value="hjkhkjh" />
+        </node>
+      </node>
+      <node concept="395kpi" id="4rfLeTAo6K0" role="12SIFn">
+        <node concept="395hWp" id="4rfLeTAo6K2" role="395kXS">
+          <node concept="395kpl" id="4rfLeTAo6K4" role="395hWq">
+            <property role="395j2q" value="kjkljklj" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="12SIFl" id="4YHeL1jefK4" role="w_N3S">
+      <node concept="395hWp" id="4YHeL1jefK6" role="12SIFm">
+        <node concept="395kpl" id="4YHeL1jefK8" role="395hWq">
+          <property role="395j2q" value="fsdfsdf" />
+        </node>
+        <node concept="395kpl" id="4YHeL1jefKt" role="395hWq">
+          <property role="395j2q" value="sdfsdfsd" />
+        </node>
+        <node concept="395kpl" id="4YHeL1jefKw" role="395hWq">
           <property role="395j2q" value="fsdfdsf" />
         </node>
       </node>
-      <node concept="395kpl" id="4rfLeTAmmGG" role="12S_HH">
-        <property role="395j2q" value="sfdfsd" />
-      </node>
-    </node>
-    <node concept="395kpi" id="4rfLeTAmmGR" role="w_N3S">
-      <node concept="395hWp" id="4rfLeTAmmGT" role="395kXS">
-        <node concept="395kpl" id="4rfLeTAmmGV" role="395hWq">
-          <property role="395j2q" value="sfdfsdf" />
-        </node>
-      </node>
-    </node>
-    <node concept="12SIFl" id="4rfLeTAmmHd" role="w_N3S">
-      <node concept="395hWp" id="4rfLeTAmmHf" role="12SIFm">
-        <node concept="395kpl" id="4rfLeTAmmHh" role="395hWq">
-          <property role="395j2q" value="sdfsdf" />
-        </node>
-        <node concept="395kpl" id="4rfLeTAmmHA" role="395hWq">
-          <property role="395j2q" value="sdfsdf" />
-        </node>
-        <node concept="395kpl" id="4rfLeTAmmHD" role="395hWq">
-          <property role="395j2q" value="sdfsdf" />
-        </node>
-      </node>
-      <node concept="395kpi" id="4rfLeTAmmHj" role="12SIFn">
-        <node concept="395hWp" id="4rfLeTAmmHl" role="395kXS">
-          <node concept="395kpl" id="4rfLeTAmmHn" role="395hWq">
-            <property role="395j2q" value="sfdsfdsf" />
-          </node>
-          <node concept="395kpl" id="4rfLeTAmmHH" role="395hWq">
-            <property role="395j2q" value="fsdfsd" />
+      <node concept="395kpi" id="4YHeL1jefKa" role="12SIFn">
+        <node concept="395hWp" id="4YHeL1jefKc" role="395kXS">
+          <node concept="395kpl" id="4YHeL1jefKe" role="395hWq">
+            <property role="395j2q" value="dsfdsfsd" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="395kpi" id="4rfLeTAmmI2" role="w_N3S">
-      <node concept="395hWp" id="4rfLeTAmmI4" role="395kXS">
-        <node concept="395kpl" id="4rfLeTAmmI6" role="395hWq">
-          <property role="395j2q" value="sfdsfds" />
-        </node>
-      </node>
-    </node>
+    <node concept="w_KRP" id="4YHeL1jhc$r" role="w_N3S" />
   </node>
 </model>
 
