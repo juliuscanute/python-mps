@@ -7,18 +7,23 @@
   <imports />
   <registry>
     <language id="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639" name="com.juliuscanute.python">
-      <concept id="5102513431032780448" name="com.juliuscanute.python.structure.PythonNumericLiteral" flags="ng" index="w$p9e">
-        <property id="5102513431032780450" name="value" index="w$p9c" />
-      </concept>
       <concept id="5102513431032741473" name="com.juliuscanute.python.structure.PythonExpressionStatement" flags="ng" index="w$BEf">
         <child id="5102513431032741474" name="expression" index="w$BEc" />
       </concept>
-      <concept id="5102513431032467573" name="com.juliuscanute.python.structure.PythonUnaryExpression" flags="ng" index="w__ir">
-        <property id="5102513431032467574" name="operator" index="w__io" />
-        <child id="5102513431032467576" name="argument" index="w__im" />
+      <concept id="5102513431032467563" name="com.juliuscanute.python.structure.PythonExpression" flags="ng" index="w__i5" />
+      <concept id="5102513431032416539" name="com.juliuscanute.python.structure.PythonStatement" flags="ng" index="w_KRP" />
+      <concept id="7550366242933707097" name="com.juliuscanute.python.structure.ImportStatementAsName" flags="ng" index="12S_H1">
+        <child id="7550366242933707098" name="dottedName" index="12S_H2" />
+        <child id="7550366242933707125" name="asName" index="12S_HH" />
+      </concept>
+      <concept id="3865884777285648033" name="com.juliuscanute.python.structure.DottedName" flags="ng" index="395hWp">
+        <child id="3865884777285648034" name="names" index="395hWq" />
       </concept>
       <concept id="3865884777285625833" name="com.juliuscanute.python.structure.PythonProgram" flags="ng" index="395kph">
         <child id="5102513431032427542" name="body" index="w_N3S" />
+      </concept>
+      <concept id="3865884777285625837" name="com.juliuscanute.python.structure.Name" flags="ng" index="395kpl">
+        <property id="3865884777285636386" name="name" index="395j2q" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -27,15 +32,27 @@
       </concept>
     </language>
   </registry>
-  <node concept="395kph" id="4rfLeTAmmGA">
+  <node concept="395kph" id="4_DfFMGpXhT">
     <property role="TrG5h" value="alfred.py" />
-    <node concept="w$BEf" id="4YHeL1jiZEP" role="w_N3S">
-      <node concept="w__ir" id="4YHeL1jiZFa" role="w$BEc">
-        <property role="w__io" value="4rfLeTAmp1I/unPlus" />
-        <node concept="w$p9e" id="4YHeL1jiZFc" role="w__im">
-          <property role="w$p9c" value="45345345" />
+    <node concept="12S_H1" id="4_DfFMGpXhW" role="w_N3S">
+      <node concept="395hWp" id="4_DfFMGpXhY" role="12S_H2">
+        <node concept="395kpl" id="4_DfFMGpXi0" role="395hWq">
+          <property role="395j2q" value="sdfsdf" />
+        </node>
+        <node concept="395kpl" id="4_DfFMGpXi8" role="395hWq">
+          <property role="395j2q" value="fsdfsdfsd" />
+        </node>
+        <node concept="395kpl" id="4_DfFMGpXib" role="395hWq">
+          <property role="395j2q" value="sdfsdfdsf" />
         </node>
       </node>
+      <node concept="395kpl" id="4_DfFMGpXi2" role="12S_HH">
+        <property role="395j2q" value="sfsdf" />
+      </node>
+    </node>
+    <node concept="w_KRP" id="4_DfFMGpXif" role="w_N3S" />
+    <node concept="w$BEf" id="4_DfFMGpXix" role="w_N3S">
+      <node concept="w__i5" id="4_DfFMGpXiK" role="w$BEc" />
     </node>
   </node>
 </model>
