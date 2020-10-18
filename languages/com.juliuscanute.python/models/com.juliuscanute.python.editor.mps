@@ -2517,18 +2517,40 @@
         <node concept="16Na2f" id="4_DfFMGvcwV" role="16NL3A">
           <node concept="3clFbS" id="4_DfFMGvcwX" role="2VODD2">
             <node concept="3clFbF" id="4_DfFMGvdcz" role="3cqZAp">
-              <node concept="1eOMI4" id="4_DfFMGvdcx" role="3clFbG">
-                <node concept="22lmx$" id="4_DfFMGvdF4" role="1eOMHV">
-                  <node concept="1Wc70l" id="4_DfFMGvhM6" role="3uHU7w">
-                    <node concept="3fqX7Q" id="4_DfFMGvhPo" role="3uHU7w">
-                      <node concept="2YIFZM" id="4_DfFMGviaB" role="3fr31v">
-                        <ref role="37wK5l" to="e5uo:cr9LB7kVju" resolve="isPythonScriptReservedWord" />
-                        <ref role="1Pybhc" to="e5uo:cr9LB7kvHT" resolve="PythonIdentifierConstraintsUtil" />
-                        <node concept="ub8z3" id="4_DfFMGvicU" role="37wK5m" />
+              <node concept="1Wc70l" id="4_DfFMGvhM6" role="3clFbG">
+                <node concept="3fqX7Q" id="4_DfFMGvhPo" role="3uHU7w">
+                  <node concept="2YIFZM" id="4_DfFMGviaB" role="3fr31v">
+                    <ref role="37wK5l" to="e5uo:cr9LB7kVju" resolve="isPythonScriptReservedWord" />
+                    <ref role="1Pybhc" to="e5uo:cr9LB7kvHT" resolve="PythonIdentifierConstraintsUtil" />
+                    <node concept="ub8z3" id="4_DfFMGvicU" role="37wK5m" />
+                  </node>
+                </node>
+                <node concept="1Wc70l" id="4_DfFMGveTV" role="3uHU7B">
+                  <node concept="2OqwBi" id="4_DfFMGvg2m" role="3uHU7w">
+                    <node concept="2OqwBi" id="4_DfFMGvfmn" role="2Oq$k0">
+                      <node concept="ub8z3" id="4_DfFMGveZ9" role="2Oq$k0" />
+                      <node concept="liA8E" id="4_DfFMGvfHX" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
                       </node>
                     </node>
-                    <node concept="1Wc70l" id="4_DfFMGveTV" role="3uHU7B">
-                      <node concept="2OqwBi" id="4_DfFMGve6g" role="3uHU7B">
+                    <node concept="liA8E" id="4_DfFMGvg_B" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+                      <node concept="2OqwBi" id="4_DfFMGvgWz" role="37wK5m">
+                        <node concept="3B5_sB" id="4_DfFMGvgBB" role="2Oq$k0">
+                          <ref role="3B5MYn" to="e5uo:2J96awjcT_d" resolve="_PythonIdentifierName" />
+                        </node>
+                        <node concept="3TrcHB" id="4_DfFMGvhnS" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpce:fKFLfW2" resolve="constraint" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1eOMI4" id="4_DfFMGy6vu" role="3uHU7B">
+                    <node concept="22lmx$" id="4_DfFMGvdF4" role="1eOMHV">
+                      <node concept="3fqX7Q" id="4_DfFMGvdgC" role="3uHU7B">
+                        <node concept="34TFGs" id="4_DfFMGvdkU" role="3fr31v" />
+                      </node>
+                      <node concept="2OqwBi" id="4_DfFMGve6g" role="3uHU7w">
                         <node concept="ub8z3" id="4_DfFMGvdJ_" role="2Oq$k0" />
                         <node concept="liA8E" id="4_DfFMGvetj" role="2OqNvi">
                           <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
@@ -2537,29 +2559,7 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="2OqwBi" id="4_DfFMGvg2m" role="3uHU7w">
-                        <node concept="2OqwBi" id="4_DfFMGvfmn" role="2Oq$k0">
-                          <node concept="ub8z3" id="4_DfFMGveZ9" role="2Oq$k0" />
-                          <node concept="liA8E" id="4_DfFMGvfHX" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="4_DfFMGvg_B" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                          <node concept="2OqwBi" id="4_DfFMGvgWz" role="37wK5m">
-                            <node concept="3B5_sB" id="4_DfFMGvgBB" role="2Oq$k0">
-                              <ref role="3B5MYn" to="e5uo:2J96awjcT_d" resolve="_PythonIdentifierName" />
-                            </node>
-                            <node concept="3TrcHB" id="4_DfFMGvhnS" role="2OqNvi">
-                              <ref role="3TsBF5" to="tpce:fKFLfW2" resolve="constraint" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
                     </node>
-                  </node>
-                  <node concept="3fqX7Q" id="4_DfFMGvdgC" role="3uHU7B">
-                    <node concept="34TFGs" id="4_DfFMGvdkU" role="3fr31v" />
                   </node>
                 </node>
               </node>

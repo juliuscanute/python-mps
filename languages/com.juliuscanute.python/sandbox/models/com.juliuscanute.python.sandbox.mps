@@ -13,7 +13,7 @@
       <concept id="5102513431032741473" name="com.juliuscanute.python.structure.PythonExpressionStatement" flags="ng" index="w$BEf">
         <child id="5102513431032741474" name="expression" index="w$BEc" />
       </concept>
-      <concept id="5102513431032416539" name="com.juliuscanute.python.structure.PythonStatement" flags="ng" index="w_KRP" />
+      <concept id="5102513431032467563" name="com.juliuscanute.python.structure.PythonExpression" flags="ng" index="w__i5" />
       <concept id="7550366242933707097" name="com.juliuscanute.python.structure.ImportStatementAsName" flags="ng" index="12S_H1">
         <child id="7550366242933707098" name="dottedName" index="12S_H2" />
         <child id="7550366242933707125" name="asName" index="12S_HH" />
@@ -204,7 +204,72 @@
         </node>
       </node>
     </node>
-    <node concept="w_KRP" id="4_DfFMGw6BV" role="w_N3S" />
+    <node concept="w$BEf" id="4_DfFMGx$ui" role="w_N3S">
+      <node concept="3_4kww" id="4_DfFMGx$ug" role="w$BEc">
+        <node concept="3_7pGq" id="4_DfFMGx$uh" role="3_4kwx">
+          <property role="3_7pGr" value="hi" />
+        </node>
+        <node concept="3_0q_z" id="4_DfFMGx$vg" role="3_4kwz">
+          <property role="3_0q_s" value="4_DfFMGq3Mw/bnIn" />
+          <node concept="w$p9e" id="4_DfFMGx$vc" role="3_0q_u">
+            <property role="w$p9c" value="123344" />
+          </node>
+          <node concept="3_UNK9" id="4_DfFMGx$vk" role="3_0q_o">
+            <node concept="w$p9e" id="4_DfFMGx$vm" role="3_UNK4">
+              <property role="w$p9c" value="1" />
+            </node>
+            <node concept="w$p9e" id="4_DfFMGx$vv" role="3_UNK4">
+              <property role="w$p9c" value="12321321" />
+            </node>
+            <node concept="w$p9e" id="4_DfFMGx$vC" role="3_UNK4">
+              <property role="w$p9c" value="314233432" />
+            </node>
+            <node concept="w$p9e" id="4_DfFMGx$vN" role="3_UNK4">
+              <property role="w$p9c" value="23423432432" />
+            </node>
+            <node concept="w$p9e" id="4_DfFMGx$vT" role="3_UNK4">
+              <property role="w$p9c" value="2432423423" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="w$BEf" id="4_DfFMGx$w1" role="w_N3S">
+      <node concept="3_4kww" id="4_DfFMGx$vZ" role="w$BEc">
+        <node concept="3_7pGq" id="4_DfFMGx$w0" role="3_4kwx">
+          <property role="3_7pGr" value="hello" />
+        </node>
+        <node concept="3_0q_z" id="4_DfFMGx$zl" role="3_4kwz">
+          <property role="3_0q_s" value="4_DfFMGq3MM/bnNotIn" />
+          <node concept="w$p9e" id="4_DfFMGx$x5" role="3_0q_u">
+            <property role="w$p9c" value="1" />
+          </node>
+          <node concept="3_UNK9" id="4_DfFMGx$zr" role="3_0q_o">
+            <node concept="w$p9e" id="4_DfFMGx$zu" role="3_UNK4">
+              <property role="w$p9c" value="1" />
+            </node>
+            <node concept="w$p9e" id="4_DfFMGx$zR" role="3_UNK4">
+              <property role="w$p9c" value="2" />
+            </node>
+            <node concept="w$p9e" id="4_DfFMGx$$0" role="3_UNK4">
+              <property role="w$p9c" value="3" />
+            </node>
+            <node concept="w$p9e" id="4_DfFMGx$$b" role="3_UNK4">
+              <property role="w$p9c" value="4" />
+            </node>
+            <node concept="w$p9e" id="4_DfFMGx$$o" role="3_UNK4">
+              <property role="w$p9c" value="5" />
+            </node>
+            <node concept="w$p9e" id="4_DfFMGx$$v" role="3_UNK4">
+              <property role="w$p9c" value="6" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="w$BEf" id="4_DfFMGyLyc" role="w_N3S">
+      <node concept="w__i5" id="4_DfFMGyLzK" role="w$BEc" />
+    </node>
   </node>
 </model>
 

@@ -2,6 +2,7 @@
 <dependenciesRoot>
   <dependency className="com.juliuscanute.python.Language">
     <classNode dependClassName="com.juliuscanute.python.behavior.BehaviorAspectDescriptor" />
+    <classNode dependClassName="com.juliuscanute.python.constraints.ConstraintsAspectDescriptor" />
     <classNode dependClassName="com.juliuscanute.python.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="com.juliuscanute.python.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="com.juliuscanute.python.structure.StructureAspectDescriptor" />
@@ -14,6 +15,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.language.LanguageExtensions" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptPresentationAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />

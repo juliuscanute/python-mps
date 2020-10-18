@@ -723,92 +723,110 @@
           <node concept="2ShNRf" id="cr9LB7k_eu" role="I$8f6">
             <node concept="3g6Rrh" id="cr9LB7kBuV" role="2ShVmc">
               <node concept="17QB3L" id="cr9LB7kBo2" role="3g7fb8" />
-              <node concept="Xl_RD" id="cr9LB7kBCT" role="3g7hyw">
-                <property role="Xl_RC" value="break" />
+              <node concept="Xl_RD" id="4_DfFMGx_tZ" role="3g7hyw">
+                <property role="Xl_RC" value="False" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kBY0" role="3g7hyw">
-                <property role="Xl_RC" value="case" />
+              <node concept="Xl_RD" id="4_DfFMGx_Bh" role="3g7hyw">
+                <property role="Xl_RC" value="await" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kC6m" role="3g7hyw">
-                <property role="Xl_RC" value="catch" />
-              </node>
-              <node concept="Xl_RD" id="cr9LB7kCqW" role="3g7hyw">
-                <property role="Xl_RC" value="continue" />
-              </node>
-              <node concept="Xl_RD" id="cr9LB7kCEa" role="3g7hyw">
-                <property role="Xl_RC" value="debugger" />
-              </node>
-              <node concept="Xl_RD" id="cr9LB7kCNW" role="3g7hyw">
-                <property role="Xl_RC" value="default" />
-              </node>
-              <node concept="Xl_RD" id="cr9LB7kCYe" role="3g7hyw">
-                <property role="Xl_RC" value="delete" />
-              </node>
-              <node concept="Xl_RD" id="cr9LB7kDq6" role="3g7hyw">
-                <property role="Xl_RC" value="do" />
-              </node>
-              <node concept="Xl_RD" id="cr9LB7kD_k" role="3g7hyw">
+              <node concept="Xl_RD" id="4_DfFMGx_KO" role="3g7hyw">
                 <property role="Xl_RC" value="else" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kDWc" role="3g7hyw">
-                <property role="Xl_RC" value="finally" />
+              <node concept="Xl_RD" id="4_DfFMGx_UN" role="3g7hyw">
+                <property role="Xl_RC" value="import" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kE4$" role="3g7hyw">
-                <property role="Xl_RC" value="for" />
+              <node concept="Xl_RD" id="4_DfFMGxA4S" role="3g7hyw">
+                <property role="Xl_RC" value="pass" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kEkS" role="3g7hyw">
-                <property role="Xl_RC" value="function" />
+              <node concept="Xl_RD" id="4_DfFMGxAfe" role="3g7hyw">
+                <property role="Xl_RC" value="None" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kEAm" role="3g7hyw">
-                <property role="Xl_RC" value="if" />
+              <node concept="Xl_RD" id="4_DfFMGxAms" role="3g7hyw">
+                <property role="Xl_RC" value="break" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kEO4" role="3g7hyw">
+              <node concept="Xl_RD" id="4_DfFMGxACg" role="3g7hyw">
+                <property role="Xl_RC" value="except" />
+              </node>
+              <node concept="Xl_RD" id="4_DfFMGxAQW" role="3g7hyw">
                 <property role="Xl_RC" value="in" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kF5R" role="3g7hyw">
-                <property role="Xl_RC" value="instanceof" />
+              <node concept="Xl_RD" id="4_DfFMGxB2m" role="3g7hyw">
+                <property role="Xl_RC" value="raise" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kG06" role="3g7hyw">
-                <property role="Xl_RC" value="new" />
+              <node concept="Xl_RD" id="4_DfFMGxBht" role="3g7hyw">
+                <property role="Xl_RC" value="True" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kGfk" role="3g7hyw">
+              <node concept="Xl_RD" id="4_DfFMGxBtp" role="3g7hyw">
+                <property role="Xl_RC" value="class" />
+              </node>
+              <node concept="Xl_RD" id="4_DfFMGxBDA" role="3g7hyw">
+                <property role="Xl_RC" value="finally" />
+              </node>
+              <node concept="Xl_RD" id="4_DfFMGxBQ4" role="3g7hyw">
+                <property role="Xl_RC" value="is" />
+              </node>
+              <node concept="Xl_RD" id="4_DfFMGxC2N" role="3g7hyw">
                 <property role="Xl_RC" value="return" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kGva" role="3g7hyw">
-                <property role="Xl_RC" value="switch" />
+              <node concept="Xl_RD" id="4_DfFMGxCbH" role="3g7hyw">
+                <property role="Xl_RC" value="and" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kH2o" role="3g7hyw">
-                <property role="Xl_RC" value="this" />
+              <node concept="Xl_RD" id="4_DfFMGxCoY" role="3g7hyw">
+                <property role="Xl_RC" value="continue" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kHje" role="3g7hyw">
-                <property role="Xl_RC" value="throw" />
+              <node concept="Xl_RD" id="4_DfFMGxCAf" role="3g7hyw">
+                <property role="Xl_RC" value="for" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kI5o" role="3g7hyw">
+              <node concept="Xl_RD" id="4_DfFMGxCO2" role="3g7hyw">
+                <property role="Xl_RC" value="lambda" />
+              </node>
+              <node concept="Xl_RD" id="4_DfFMGxD6w" role="3g7hyw">
                 <property role="Xl_RC" value="try" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kIqT" role="3g7hyw">
-                <property role="Xl_RC" value="typeof" />
+              <node concept="Xl_RD" id="4_DfFMGxDgm" role="3g7hyw">
+                <property role="Xl_RC" value="as" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kIMZ" role="3g7hyw">
-                <property role="Xl_RC" value="var" />
+              <node concept="Xl_RD" id="4_DfFMGxDuW" role="3g7hyw">
+                <property role="Xl_RC" value="def" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kJbR" role="3g7hyw">
-                <property role="Xl_RC" value="void" />
+              <node concept="Xl_RD" id="4_DfFMGxDHN" role="3g7hyw">
+                <property role="Xl_RC" value="from" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kJCZ" role="3g7hyw">
+              <node concept="Xl_RD" id="4_DfFMGxE1D" role="3g7hyw">
+                <property role="Xl_RC" value="nonlocal" />
+              </node>
+              <node concept="Xl_RD" id="4_DfFMGxElP" role="3g7hyw">
                 <property role="Xl_RC" value="while" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kK2Z" role="3g7hyw">
+              <node concept="Xl_RD" id="4_DfFMGxE_v" role="3g7hyw">
+                <property role="Xl_RC" value="assert" />
+              </node>
+              <node concept="Xl_RD" id="4_DfFMGxEPq" role="3g7hyw">
+                <property role="Xl_RC" value="del" />
+              </node>
+              <node concept="Xl_RD" id="4_DfFMGxF5A" role="3g7hyw">
+                <property role="Xl_RC" value="global" />
+              </node>
+              <node concept="Xl_RD" id="4_DfFMGxFm3" role="3g7hyw">
+                <property role="Xl_RC" value="not" />
+              </node>
+              <node concept="Xl_RD" id="4_DfFMGxFAL" role="3g7hyw">
                 <property role="Xl_RC" value="with" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kKBX" role="3g7hyw">
-                <property role="Xl_RC" value="null" />
+              <node concept="Xl_RD" id="4_DfFMGxFMv" role="3g7hyw">
+                <property role="Xl_RC" value="async" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kLEt" role="3g7hyw">
-                <property role="Xl_RC" value="true" />
+              <node concept="Xl_RD" id="4_DfFMGxG3J" role="3g7hyw">
+                <property role="Xl_RC" value="elif" />
               </node>
-              <node concept="Xl_RD" id="cr9LB7kMjJ" role="3g7hyw">
-                <property role="Xl_RC" value="false" />
+              <node concept="Xl_RD" id="4_DfFMGxGfP" role="3g7hyw">
+                <property role="Xl_RC" value="if" />
+              </node>
+              <node concept="Xl_RD" id="4_DfFMGxGs7" role="3g7hyw">
+                <property role="Xl_RC" value="or" />
+              </node>
+              <node concept="Xl_RD" id="4_DfFMGxGIa" role="3g7hyw">
+                <property role="Xl_RC" value="yield" />
               </node>
             </node>
           </node>

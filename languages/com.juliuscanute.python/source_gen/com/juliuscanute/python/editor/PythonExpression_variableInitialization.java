@@ -111,7 +111,7 @@ public class PythonExpression_variableInitialization extends SubstituteMenuBase 
         return canExecute_internal(pattern, true);
       }
       public boolean canExecute_internal(@NotNull String pattern, boolean strictly) {
-        return (!(strictly) || pattern.endsWith(" ") && pattern.trim().matches(SPropertyOperations.getString(SNodeOperations.getNode("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)", "3155080124105464141"), PROPS.constraint$Gtcd)) && !(PythonIdentifierConstraintsUtil.isPythonScriptReservedWord(pattern)));
+        return (!(strictly) || pattern.endsWith(" ")) && pattern.trim().matches(SPropertyOperations.getString(SNodeOperations.getNode("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)", "3155080124105464141"), PROPS.constraint$Gtcd)) && !(PythonIdentifierConstraintsUtil.isPythonScriptReservedWord(pattern));
       }
       @Nullable
       @Override

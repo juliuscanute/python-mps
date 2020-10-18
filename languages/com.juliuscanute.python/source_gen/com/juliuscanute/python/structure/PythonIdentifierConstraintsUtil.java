@@ -7,7 +7,7 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 
 public class PythonIdentifierConstraintsUtil {
-  private static Set<String> pythonScriptReservedWords = SetSequence.fromSetAndArray(new HashSet<String>(), new String[]{"break", "case", "catch", "continue", "debugger", "default", "delete", "do", "else", "finally", "for", "function", "if", "in", "instanceof", "new", "return", "switch", "this", "throw", "try", "typeof", "var", "void", "while", "with", "null", "true", "false"});
+  private static Set<String> pythonScriptReservedWords = SetSequence.fromSetAndArray(new HashSet<String>(), new String[]{"False", "await", "else", "import", "pass", "None", "break", "except", "in", "raise", "True", "class", "finally", "is", "return", "and", "continue", "for", "lambda", "try", "as", "def", "from", "nonlocal", "while", "assert", "del", "global", "not", "with", "async", "elif", "if", "or", "yield"});
   private PythonIdentifierConstraintsUtil() {
   }
   public static boolean isPythonScriptReservedWord(String s) {
