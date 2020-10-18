@@ -16,6 +16,7 @@ import jetbrains.mps.smodel.SNodePointer;
 import jetbrains.mps.lang.editor.menus.MenuPart;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.editor.menus.transformation.ConstraintsFilteringTransformationMenuPartDecorator;
 import jetbrains.mps.lang.editor.menus.ParameterizedMenuPart;
 import org.jetbrains.mps.openapi.language.SEnumerationLiteral;
 import org.jetbrains.annotations.Nullable;
@@ -25,6 +26,7 @@ import jetbrains.mps.lang.editor.menus.SingleItemMenuPart;
 import org.apache.log4j.Logger;
 import jetbrains.mps.openapi.editor.menus.transformation.ActionItemBase;
 import jetbrains.mps.nodeEditor.cellMenu.SideTransformCompletionActionItem;
+import jetbrains.mps.openapi.editor.menus.transformation.ConstraintsVerifiableActionItem;
 import jetbrains.mps.openapi.editor.menus.EditorMenuTraceInfo;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
@@ -33,14 +35,15 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.editor.runtime.selection.SelectionUtil;
 import jetbrains.mps.openapi.editor.selection.SelectionManager;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.openapi.editor.menus.style.EditorMenuItemStyle;
 import jetbrains.mps.editor.runtime.menus.EditorMenuItemModifyingCustomizationContext;
-import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.editor.runtime.menus.EditorMenuItemCompositeCustomizationContext;
 import jetbrains.mps.editor.runtime.completion.CompletionMenuItemCustomizationContext;
 import jetbrains.mps.editor.runtime.completion.CompletionItemInformation;
 import jetbrains.mps.openapi.editor.menus.style.EditorMenuItemCustomizer;
 import jetbrains.mps.internal.collections.runtime.CollectionSequence;
+import org.jetbrains.mps.openapi.language.SConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SProperty;
 
@@ -68,7 +71,7 @@ public class PythonExpression_logicalExpression extends TransformationMenuBase {
   protected List<MenuPart<TransformationMenuItem, TransformationMenuContext>> getParts(TransformationMenuContext _context) {
     List<MenuPart<TransformationMenuItem, TransformationMenuContext>> result = new ArrayList<MenuPart<TransformationMenuItem, TransformationMenuContext>>();
     if (ListSequence.fromListAndArray(new ArrayList<String>(), MenuLocations.RIGHT_SIDE_TRANSFORM).contains(_context.getMenuLocation())) {
-      result.add(new TMP_Param_ugo63_a0());
+      result.add(new ConstraintsFilteringTransformationMenuPartDecorator(new TMP_Param_ugo63_a0(), CONCEPTS.PythonLogicalExpression$c0));
     }
     return result;
   }
@@ -115,7 +118,7 @@ public class PythonExpression_logicalExpression extends TransformationMenuBase {
         }
         context.getEditorMenuTrace().pushTraceInfo();
         try {
-          context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase(description, new SNodePointer("r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)", "5289828217390969714")));
+          context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase(description, new SNodePointer("r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)", "7288091893673868493")));
           item.setTraceInfo(context.getEditorMenuTrace().getTraceInfo());
         } finally {
           context.getEditorMenuTrace().popTraceInfo();
@@ -123,7 +126,7 @@ public class PythonExpression_logicalExpression extends TransformationMenuBase {
         return item;
       }
 
-      private class Item extends ActionItemBase implements SideTransformCompletionActionItem {
+      private class Item extends ActionItemBase implements SideTransformCompletionActionItem, ConstraintsVerifiableActionItem {
         private final TransformationMenuContext _context;
         private EditorMenuTraceInfo myEditorMenuTraceInfo;
         private Item(TransformationMenuContext context) {
@@ -140,14 +143,19 @@ public class PythonExpression_logicalExpression extends TransformationMenuBase {
 
         @Override
         public void execute(@NotNull String pattern) {
-          SNode logicalExpression = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6ca205L, "com.juliuscanute.python.structure.PythonLogicalExpression"));
-          SNodeOperations.replaceWithAnother(_context.getNode(), logicalExpression);
-          SLinkOperations.setTarget(logicalExpression, LINKS.left$xvZc, _context.getNode());
-          SPropertyOperations.assignEnum(logicalExpression, PROPS.operator$tmHd, myParameterObject);
-          SelectionUtil.selectLabelCellAnSetCaret(_context.getEditorContext(), logicalExpression, SelectionManager.FIRST_ERROR_CELL + "|" + SelectionManager.FOCUS_POLICY_CELL + "|" + SelectionManager.FIRST_EDITABLE_CELL + "|" + SelectionManager.FIRST_CELL, -1);
+          SNode logicalExp = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6ca205L, "com.juliuscanute.python.structure.PythonLogicalExpression"));
+          SNodeOperations.replaceWithAnother(_context.getNode(), logicalExp);
+          SLinkOperations.setTarget(logicalExp, LINKS.left$tnbf, _context.getNode());
+          SPropertyOperations.assignEnum(logicalExp, PROPS.operator$tmHd, myParameterObject);
+          SelectionUtil.selectLabelCellAnSetCaret(_context.getEditorContext(), logicalExp, SelectionManager.FIRST_ERROR_CELL + "|" + SelectionManager.FOCUS_POLICY_CELL + "|" + SelectionManager.FIRST_EDITABLE_CELL + "|" + SelectionManager.FIRST_CELL, -1);
         }
 
 
+        @Nullable
+        @Override
+        public SAbstractConcept getOutputConcept() {
+          return CONCEPTS.PythonLogicalExpression$c0;
+        }
         @Override
         public String getShortDescriptionText(@NotNull String pattern) {
           return "logical operator";
@@ -161,7 +169,7 @@ public class PythonExpression_logicalExpression extends TransformationMenuBase {
 
         public void customize(String pattern, EditorMenuItemStyle style) {
           EditorMenuItemModifyingCustomizationContext modifyingContext = new EditorMenuItemModifyingCustomizationContext(_context.getNode(), null, null, null);
-          SAbstractConcept outputConcept = null;
+          SAbstractConcept outputConcept = CONCEPTS.PythonLogicalExpression$c0;
           EditorMenuItemCompositeCustomizationContext compositeContext = new EditorMenuItemCompositeCustomizationContext(modifyingContext, new CompletionMenuItemCustomizationContext(new CompletionItemInformation(myParameterObject, outputConcept, getLabelText(pattern), getShortDescriptionText(pattern))));
           for (EditorMenuItemCustomizer customizer : CollectionSequence.fromCollection(_context.getCustomizers())) {
             customizer.customize(style, compositeContext);
@@ -172,8 +180,12 @@ public class PythonExpression_logicalExpression extends TransformationMenuBase {
     }
   }
 
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept PythonLogicalExpression$c0 = MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6ca205L, "com.juliuscanute.python.structure.PythonLogicalExpression");
+  }
+
   private static final class LINKS {
-    /*package*/ static final SContainmentLink left$xvZc = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6897dfL, 0x49693ebcac6897e2L, "left");
+    /*package*/ static final SContainmentLink left$tnbf = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6ca205L, 0x49693ebcac6d2bb7L, "left");
   }
 
   private static final class PROPS {
