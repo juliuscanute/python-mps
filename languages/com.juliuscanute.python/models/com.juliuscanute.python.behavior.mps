@@ -52,6 +52,9 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -148,6 +151,23 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="4_DfFMGzf_0">
+    <property role="3GE5qa" value="statement" />
+    <ref role="13h7C2" to="e5uo:4rfLeTAmc$r" resolve="PythonStatement" />
+    <node concept="13hLZK" id="4_DfFMGzf_1" role="13h7CW">
+      <node concept="3clFbS" id="4_DfFMGzf_2" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="4_DfFMGzf_O" role="13h7CS">
+      <property role="TrG5h" value="isSameLineStatement" />
+      <node concept="3Tm1VV" id="4_DfFMGzf_P" role="1B3o_S" />
+      <node concept="10P_77" id="4_DfFMGzfB8" role="3clF45" />
+      <node concept="3clFbS" id="4_DfFMGzf_R" role="3clF47">
+        <node concept="3cpWs6" id="4_DfFMGzfBj" role="3cqZAp">
+          <node concept="3clFbT" id="4_DfFMGzfBK" role="3cqZAk" />
         </node>
       </node>
     </node>

@@ -17,6 +17,9 @@ import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.LeftBracke
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.RightBracketStyleClass;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.LeftBraceStyleClass;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.RightBraceStyleClass;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.RightParenStyleClass;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.KeyWordStyleClass;
+import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class PythonScriptStyle_StyleSheet {
   /**
@@ -88,6 +91,26 @@ public class PythonScriptStyle_StyleSheet {
     SNode node = (editorCell == null ? null : editorCell.getSNode());
     EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
     new PythonRightBraceStyleClass(editorContext, node).apply(style, editorCell);
+  }
+  /**
+   * 
+   * @deprecated Since MPS 3.5 use generated StyleClass
+   */
+  @Deprecated
+  public static void apply_PythonRightParen(Style style, EditorCell editorCell) {
+    SNode node = (editorCell == null ? null : editorCell.getSNode());
+    EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
+    new PythonRightParenStyleClass(editorContext, node).apply(style, editorCell);
+  }
+  /**
+   * 
+   * @deprecated Since MPS 3.5 use generated StyleClass
+   */
+  @Deprecated
+  public static void apply_PythonKeyWord(Style style, EditorCell editorCell) {
+    SNode node = (editorCell == null ? null : editorCell.getSNode());
+    EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
+    new PythonKeyWordStyleClass(editorContext, node).apply(style, editorCell);
   }
 
   public static class PythonStringLiteralStyleClass extends AbstractStyleClass {
@@ -165,6 +188,30 @@ public class PythonScriptStyle_StyleSheet {
     @Override
     public void apply(Style style, EditorCell editorCell) {
       new RightBraceStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    }
+
+  }
+  public static class PythonRightParenStyleClass extends AbstractStyleClass {
+    public PythonRightParenStyleClass(EditorContext editorContext, SNode node) {
+      super(editorContext, node);
+    }
+
+    @Override
+    public void apply(Style style, EditorCell editorCell) {
+      new RightParenStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    }
+
+  }
+  public static class PythonKeyWordStyleClass extends AbstractStyleClass {
+    public PythonKeyWordStyleClass(EditorContext editorContext, SNode node) {
+      super(editorContext, node);
+    }
+
+    @Override
+    public void apply(Style style, EditorCell editorCell) {
+      new KeyWordStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+      style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(new Color(9109504)));
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
     }
 
   }

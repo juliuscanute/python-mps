@@ -21,18 +21,20 @@ public final class LanguageConceptSwitch {
   public static final int PythonExpression = 9;
   public static final int PythonExpressionStatement = 10;
   public static final int PythonIdentifier = 11;
-  public static final int PythonLeftHandSideExpression = 12;
-  public static final int PythonLiteral = 13;
-  public static final int PythonLogicalExpression = 14;
-  public static final int PythonNode = 15;
-  public static final int PythonNumericLiteral = 16;
-  public static final int PythonObjectExpression = 17;
-  public static final int PythonProgram = 18;
-  public static final int PythonProperty = 19;
-  public static final int PythonStatement = 20;
-  public static final int PythonStringLiteral = 21;
-  public static final int PythonUnaryExpression = 22;
-  public static final int PythonVariableDeclarator = 23;
+  public static final int PythonIndentBlockStatement = 12;
+  public static final int PythonLeftHandSideExpression = 13;
+  public static final int PythonLiteral = 14;
+  public static final int PythonLogicalExpression = 15;
+  public static final int PythonNode = 16;
+  public static final int PythonNumericLiteral = 17;
+  public static final int PythonObjectExpression = 18;
+  public static final int PythonProgram = 19;
+  public static final int PythonProperty = 20;
+  public static final int PythonStatement = 21;
+  public static final int PythonStringLiteral = 22;
+  public static final int PythonUnaryExpression = 23;
+  public static final int PythonVariableDeclarator = 24;
+  public static final int PythonWhileStatement = 25;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L);
@@ -48,6 +50,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x46cfc4ee6659906bL, PythonExpression);
     builder.put(0x46cfc4ee665dbe61L, PythonExpressionStatement);
     builder.put(0x49693ebcac74a5a6L, PythonIdentifier);
+    builder.put(0x49693ebcac9426e0L, PythonIndentBlockStatement);
     builder.put(0x49693ebcac786f66L, PythonLeftHandSideExpression);
     builder.put(0x46cfc4ee665e56a1L, PythonLiteral);
     builder.put(0x49693ebcac6ca205L, PythonLogicalExpression);
@@ -60,6 +63,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x49693ebcac6e840aL, PythonStringLiteral);
     builder.put(0x46cfc4ee66599075L, PythonUnaryExpression);
     builder.put(0x49693ebcac75abe5L, PythonVariableDeclarator);
+    builder.put(0x49693ebcac94e877L, PythonWhileStatement);
     myIndex = builder.seal();
   }
 

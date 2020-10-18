@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-1yymjjqrgzbq4953p9rlra9qa68eogh">
-  <files names="BehaviorAspectDescriptor.java:PythonStringLiteral__BehaviorDescriptor.java" />
+<product version="3" modelHash="-6kejobjgd89c2fd6bvqqd22wn5zbkr1">
+  <files names="BehaviorAspectDescriptor.java:PythonStatement__BehaviorDescriptor.java:PythonStringLiteral__BehaviorDescriptor.java" />
 </product>
 

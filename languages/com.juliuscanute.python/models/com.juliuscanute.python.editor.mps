@@ -59,6 +59,7 @@
       <concept id="6089045305654894366" name="jetbrains.mps.lang.editor.structure.SubstituteMenuReference_Default" flags="ng" index="2kknPJ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
+      <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
       <concept id="784421273959492578" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_IncludeMenu" flags="ng" index="mvV$s">
         <child id="6718020819487784677" name="menuReference" index="A14EM" />
       </concept>
@@ -115,6 +116,9 @@
       </concept>
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <child id="1186403803051" name="query" index="VblUZ" />
+      </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
+        <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="615427434521884870" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Subconcepts" flags="ng" index="2VfDsV" />
@@ -1333,6 +1337,30 @@
         <node concept="1wgc9g" id="4_DfFMGxow0" role="3XvnJa">
           <ref role="1wgcnl" to="tpen:hFD5_7H" resolve="RightBrace" />
         </node>
+      </node>
+    </node>
+    <node concept="14StLt" id="bcrrPfv9Le" role="V601i">
+      <property role="TrG5h" value="PythonRightParen" />
+      <node concept="3Xmtl4" id="bcrrPfv9LN" role="3F10Kt">
+        <node concept="1wgc9g" id="bcrrPfv9LV" role="3XvnJa">
+          <ref role="1wgcnl" to="tpen:hFCSUmN" resolve="RightParen" />
+        </node>
+      </node>
+    </node>
+    <node concept="14StLt" id="bcrrPfrAxm" role="V601i">
+      <property role="TrG5h" value="PythonKeyWord" />
+      <node concept="3Xmtl4" id="bcrrPfuAxh" role="3F10Kt">
+        <node concept="1wgc9g" id="bcrrPfuAxr" role="3XvnJa">
+          <ref role="1wgcnl" to="tpen:hgVS8CF" resolve="KeyWord" />
+        </node>
+      </node>
+      <node concept="VechU" id="bcrrPfuADH" role="3F10Kt">
+        <node concept="1iSF2X" id="bcrrPfuADP" role="VblUZ">
+          <property role="1iTho6" value="8B0000" />
+        </node>
+      </node>
+      <node concept="Vb9p2" id="bcrrPfuAMH" role="3F10Kt">
+        <property role="Vbekb" value="g1_k_vY/BOLD" />
       </node>
     </node>
   </node>
@@ -2996,6 +3024,62 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4_DfFMG_2rZ">
+    <property role="3GE5qa" value="statement" />
+    <ref role="1XX52x" to="e5uo:4_DfFMG_2rw" resolve="PythonIndentBlockStatement" />
+    <node concept="3EZMnI" id="4_DfFMG_2s1" role="2wV5jI">
+      <node concept="3F2HdR" id="4_DfFMG_2sc" role="3EZMnx">
+        <ref role="1NtTu8" to="e5uo:4_DfFMG_2rz" resolve="body" />
+        <node concept="l2Vlx" id="4_DfFMG_2se" role="2czzBx" />
+        <node concept="lj46D" id="4_DfFMG_O5Q" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="4_DfFMG_O5V" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pj6Ft" id="4_DfFMG_O63" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4_DfFMG_2s4" role="2iSdaV" />
+      <node concept="pj6Ft" id="4_DfFMG_2sq" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4_DfFMG_eyk">
+    <property role="3GE5qa" value="statement" />
+    <ref role="1XX52x" to="e5uo:4_DfFMG_exR" resolve="PythonWhileStatement" />
+    <node concept="3EZMnI" id="4_DfFMG_eFT" role="2wV5jI">
+      <node concept="3F0ifn" id="4_DfFMG_eG0" role="3EZMnx">
+        <property role="3F0ifm" value="while" />
+        <ref role="1k5W1q" node="bcrrPfrAxm" resolve="PythonKeyWord" />
+      </node>
+      <node concept="3F1sOY" id="4_DfFMG_eGe" role="3EZMnx">
+        <ref role="1NtTu8" to="e5uo:4_DfFMG_exS" resolve="test" />
+      </node>
+      <node concept="3F0ifn" id="4_DfFMG_eGo" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="ljvvj" id="4_DfFMG_eGu" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="4_DfFMG_eGB" role="3EZMnx">
+        <ref role="1NtTu8" to="e5uo:4_DfFMG_2rz" resolve="body" />
+        <node concept="pVoyu" id="4_DfFMGAcLp" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4_DfFMGAcLh" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="l2Vlx" id="4_DfFMG_eGD" role="2czzBx" />
+        <node concept="pj6Ft" id="4_DfFMGAcLc" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4_DfFMG_eFW" role="2iSdaV" />
     </node>
   </node>
 </model>

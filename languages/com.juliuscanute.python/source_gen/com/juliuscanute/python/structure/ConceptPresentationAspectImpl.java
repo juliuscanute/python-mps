@@ -21,6 +21,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonExpression;
   private ConceptPresentation props_PythonExpressionStatement;
   private ConceptPresentation props_PythonIdentifier;
+  private ConceptPresentation props_PythonIndentBlockStatement;
   private ConceptPresentation props_PythonLeftHandSideExpression;
   private ConceptPresentation props_PythonLiteral;
   private ConceptPresentation props_PythonLogicalExpression;
@@ -33,6 +34,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonStringLiteral;
   private ConceptPresentation props_PythonUnaryExpression;
   private ConceptPresentation props_PythonVariableDeclarator;
+  private ConceptPresentation props_PythonWhileStatement;
 
   @Override
   @Nullable
@@ -130,6 +132,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonIdentifier = cpb.create();
         }
         return props_PythonIdentifier;
+      case LanguageConceptSwitch.PythonIndentBlockStatement:
+        if (props_PythonIndentBlockStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonIndentBlockStatement");
+          props_PythonIndentBlockStatement = cpb.create();
+        }
+        return props_PythonIndentBlockStatement;
       case LanguageConceptSwitch.PythonLeftHandSideExpression:
         if (props_PythonLeftHandSideExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -215,6 +224,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonVariableDeclarator = cpb.create();
         }
         return props_PythonVariableDeclarator;
+      case LanguageConceptSwitch.PythonWhileStatement:
+        if (props_PythonWhileStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("while");
+          props_PythonWhileStatement = cpb.create();
+        }
+        return props_PythonWhileStatement;
     }
     return null;
   }
