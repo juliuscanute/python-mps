@@ -50,6 +50,13 @@
       <concept id="5289828217392333493" name="com.juliuscanute.python.structure.PythonArrayExpression" flags="ng" index="3_UNK9">
         <child id="5289828217392333496" name="elements" index="3_UNK4" />
       </concept>
+      <concept id="5289828217392563977" name="com.juliuscanute.python.structure.PythonObjectExpression" flags="ng" index="3_VbAP">
+        <child id="5289828217392563978" name="properties" index="3_VbAQ" />
+      </concept>
+      <concept id="5289828217392510327" name="com.juliuscanute.python.structure.PythonProperty" flags="ng" index="3_VoJb">
+        <child id="5289828217392510328" name="key" index="3_VoJ4" />
+        <child id="5289828217392510330" name="value" index="3_VoJ6" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -164,7 +171,39 @@
         </node>
       </node>
     </node>
-    <node concept="w_KRP" id="4_DfFMGwZ_u" role="w_N3S" />
+    <node concept="w$BEf" id="4_DfFMGx$hn" role="w_N3S">
+      <node concept="3_4kww" id="4_DfFMGx$hl" role="w$BEc">
+        <node concept="3_7pGq" id="4_DfFMGx$hm" role="3_4kwx">
+          <property role="3_7pGr" value="hello" />
+        </node>
+        <node concept="3_VbAP" id="4_DfFMGx$i4" role="3_4kwz">
+          <node concept="3_VoJb" id="4_DfFMGx$i6" role="3_VbAQ">
+            <node concept="3_1VEQ" id="4_DfFMGx$i7" role="3_VoJ4">
+              <property role="3_1VEL" value="key1" />
+            </node>
+            <node concept="w$p9e" id="4_DfFMGx$ic" role="3_VoJ6">
+              <property role="w$p9c" value="23423423" />
+            </node>
+          </node>
+          <node concept="3_VoJb" id="4_DfFMGx$ie" role="3_VbAQ">
+            <node concept="3_1VEQ" id="4_DfFMGx$if" role="3_VoJ4">
+              <property role="3_1VEL" value="key2" />
+            </node>
+            <node concept="w$p9e" id="4_DfFMGx$in" role="3_VoJ6">
+              <property role="w$p9c" value="234234234" />
+            </node>
+          </node>
+          <node concept="3_VoJb" id="4_DfFMGx$ir" role="3_VbAQ">
+            <node concept="3_1VEQ" id="4_DfFMGx$is" role="3_VoJ4">
+              <property role="3_1VEL" value="key3" />
+            </node>
+            <node concept="w$p9e" id="4_DfFMGx$iB" role="3_VoJ6">
+              <property role="w$p9c" value="23432423423324" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="w_KRP" id="4_DfFMGw6BV" role="w_N3S" />
   </node>
 </model>

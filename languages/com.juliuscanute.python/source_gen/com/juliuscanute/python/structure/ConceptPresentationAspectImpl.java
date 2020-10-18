@@ -26,7 +26,9 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonLogicalExpression;
   private ConceptPresentation props_PythonNode;
   private ConceptPresentation props_PythonNumericLiteral;
+  private ConceptPresentation props_PythonObjectExpression;
   private ConceptPresentation props_PythonProgram;
+  private ConceptPresentation props_PythonProperty;
   private ConceptPresentation props_PythonStatement;
   private ConceptPresentation props_PythonStringLiteral;
   private ConceptPresentation props_PythonUnaryExpression;
@@ -162,6 +164,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonNumericLiteral = cpb.create();
         }
         return props_PythonNumericLiteral;
+      case LanguageConceptSwitch.PythonObjectExpression:
+        if (props_PythonObjectExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("object expression");
+          cpb.rawPresentation("{");
+          props_PythonObjectExpression = cpb.create();
+        }
+        return props_PythonObjectExpression;
       case LanguageConceptSwitch.PythonProgram:
         if (props_PythonProgram == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -169,6 +179,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonProgram = cpb.create();
         }
         return props_PythonProgram;
+      case LanguageConceptSwitch.PythonProperty:
+        if (props_PythonProperty == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonProperty");
+          props_PythonProperty = cpb.create();
+        }
+        return props_PythonProperty;
       case LanguageConceptSwitch.PythonStatement:
         if (props_PythonStatement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

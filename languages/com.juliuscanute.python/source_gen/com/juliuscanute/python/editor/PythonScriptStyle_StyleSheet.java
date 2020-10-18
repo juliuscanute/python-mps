@@ -15,6 +15,8 @@ import jetbrains.mps.openapi.editor.style.StyleRegistry;
 import java.awt.Color;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.LeftBracketStyleClass;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.RightBracketStyleClass;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.LeftBraceStyleClass;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.RightBraceStyleClass;
 
 public class PythonScriptStyle_StyleSheet {
   /**
@@ -66,6 +68,26 @@ public class PythonScriptStyle_StyleSheet {
     SNode node = (editorCell == null ? null : editorCell.getSNode());
     EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
     new PythonRightBracketStyleClass(editorContext, node).apply(style, editorCell);
+  }
+  /**
+   * 
+   * @deprecated Since MPS 3.5 use generated StyleClass
+   */
+  @Deprecated
+  public static void apply_PythonLeftBrace(Style style, EditorCell editorCell) {
+    SNode node = (editorCell == null ? null : editorCell.getSNode());
+    EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
+    new PythonLeftBraceStyleClass(editorContext, node).apply(style, editorCell);
+  }
+  /**
+   * 
+   * @deprecated Since MPS 3.5 use generated StyleClass
+   */
+  @Deprecated
+  public static void apply_PythonRightBrace(Style style, EditorCell editorCell) {
+    SNode node = (editorCell == null ? null : editorCell.getSNode());
+    EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
+    new PythonRightBraceStyleClass(editorContext, node).apply(style, editorCell);
   }
 
   public static class PythonStringLiteralStyleClass extends AbstractStyleClass {
@@ -121,6 +143,28 @@ public class PythonScriptStyle_StyleSheet {
     @Override
     public void apply(Style style, EditorCell editorCell) {
       new RightBracketStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    }
+
+  }
+  public static class PythonLeftBraceStyleClass extends AbstractStyleClass {
+    public PythonLeftBraceStyleClass(EditorContext editorContext, SNode node) {
+      super(editorContext, node);
+    }
+
+    @Override
+    public void apply(Style style, EditorCell editorCell) {
+      new LeftBraceStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    }
+
+  }
+  public static class PythonRightBraceStyleClass extends AbstractStyleClass {
+    public PythonRightBraceStyleClass(EditorContext editorContext, SNode node) {
+      super(editorContext, node);
+    }
+
+    @Override
+    public void apply(Style style, EditorCell editorCell) {
+      new RightBraceStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
     }
 
   }

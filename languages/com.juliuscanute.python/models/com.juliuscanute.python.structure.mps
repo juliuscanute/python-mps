@@ -863,5 +863,40 @@
       <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4_DfFMGxblR">
+    <property role="EcuMT" value="5289828217392510327" />
+    <property role="3GE5qa" value="declaration" />
+    <property role="TrG5h" value="PythonProperty" />
+    <ref role="1TJDcQ" node="4rfLeTAm2Oy" resolve="PythonNode" />
+    <node concept="1TJgyj" id="4_DfFMGxblS" role="1TKVEi">
+      <property role="IQ2ns" value="5289828217392510328" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="key" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4_DfFMGrCga" resolve="PythonStringLiteral" />
+    </node>
+    <node concept="1TJgyj" id="4_DfFMGxblU" role="1TKVEi">
+      <property role="IQ2ns" value="5289828217392510330" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4_DfFMGxos9">
+    <property role="EcuMT" value="5289828217392563977" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="PythonObjectExpression" />
+    <property role="34LRSv" value="{" />
+    <property role="R4oN_" value="object expression" />
+    <ref role="1TJDcQ" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    <node concept="1TJgyj" id="4_DfFMGxosa" role="1TKVEi">
+      <property role="IQ2ns" value="5289828217392563978" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="properties" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4_DfFMGxblR" resolve="PythonProperty" />
+    </node>
+  </node>
 </model>
 
