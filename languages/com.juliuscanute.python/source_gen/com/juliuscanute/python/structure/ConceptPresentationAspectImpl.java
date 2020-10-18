@@ -15,9 +15,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_ImportStatement;
   private ConceptPresentation props_ImportStatementAsName;
   private ConceptPresentation props_Name;
+  private ConceptPresentation props_PythonAssignmentExpression;
   private ConceptPresentation props_PythonBinaryExpression;
   private ConceptPresentation props_PythonExpression;
   private ConceptPresentation props_PythonExpressionStatement;
+  private ConceptPresentation props_PythonIdentifier;
+  private ConceptPresentation props_PythonLeftHandSideExpression;
   private ConceptPresentation props_PythonLiteral;
   private ConceptPresentation props_PythonLogicalExpression;
   private ConceptPresentation props_PythonNode;
@@ -26,6 +29,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonStatement;
   private ConceptPresentation props_PythonStringLiteral;
   private ConceptPresentation props_PythonUnaryExpression;
+  private ConceptPresentation props_PythonVariableDeclarator;
 
   @Override
   @Nullable
@@ -78,6 +82,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Name = cpb.create();
         }
         return props_Name;
+      case LanguageConceptSwitch.PythonAssignmentExpression:
+        if (props_PythonAssignmentExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("assignment expression");
+          cpb.rawPresentation("=");
+          props_PythonAssignmentExpression = cpb.create();
+        }
+        return props_PythonAssignmentExpression;
       case LanguageConceptSwitch.PythonBinaryExpression:
         if (props_PythonBinaryExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -100,6 +112,19 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonExpressionStatement = cpb.create();
         }
         return props_PythonExpressionStatement;
+      case LanguageConceptSwitch.PythonIdentifier:
+        if (props_PythonIdentifier == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_PythonIdentifier = cpb.create();
+        }
+        return props_PythonIdentifier;
+      case LanguageConceptSwitch.PythonLeftHandSideExpression:
+        if (props_PythonLeftHandSideExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_PythonLeftHandSideExpression = cpb.create();
+        }
+        return props_PythonLeftHandSideExpression;
       case LanguageConceptSwitch.PythonLiteral:
         if (props_PythonLiteral == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -157,6 +182,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonUnaryExpression = cpb.create();
         }
         return props_PythonUnaryExpression;
+      case LanguageConceptSwitch.PythonVariableDeclarator:
+        if (props_PythonVariableDeclarator == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonVariableDeclarator");
+          props_PythonVariableDeclarator = cpb.create();
+        }
+        return props_PythonVariableDeclarator;
     }
     return null;
   }

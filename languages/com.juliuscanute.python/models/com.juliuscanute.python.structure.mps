@@ -32,6 +32,7 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -489,6 +490,146 @@
     <property role="TrG5h" value="_PythonDoubleStringCharacters" />
     <property role="FLfZY" value="([^&quot;\\\\]|\\\\((['\&quot;\\\\bfnrtv]|[^'\&quot;\\\\bfnrtv0-9xu])|0|x[0-9a-fA-F][0-9a-fA-F]|u[0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F]))*" />
     <property role="3F6X1D" value="7727025628334104092" />
+  </node>
+  <node concept="Az7Fb" id="2J96awjcT_d">
+    <property role="3GE5qa" value="declaration" />
+    <property role="TrG5h" value="_PythonIdentifierName" />
+    <property role="FLfZY" value="[a-zA-Z_$][a-zA-Z_$0-9\\.]*" />
+    <property role="3F6X1D" value="3155080124105464141" />
+  </node>
+  <node concept="1TIwiD" id="4_DfFMGtamA">
+    <property role="EcuMT" value="5289828217391457702" />
+    <property role="3GE5qa" value="declaration" />
+    <property role="TrG5h" value="PythonIdentifier" />
+    <ref role="1TJDcQ" node="4rfLeTAm2Oy" resolve="PythonNode" />
+    <node concept="1TJgyi" id="4_DfFMGtamB" role="1TKVEl">
+      <property role="IQ2nx" value="5289828217391457703" />
+      <property role="TrG5h" value="idName" />
+      <ref role="AX2Wp" node="2J96awjcT_d" resolve="_PythonIdentifierName" />
+    </node>
+    <node concept="PrWs8" id="4_DfFMGtamD" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="4_DfFMGu7q_" role="PzmwI">
+      <ref role="PrY4T" node="4_DfFMGu6XA" resolve="PythonLeftHandSideExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4_DfFMGtqJ_">
+    <property role="EcuMT" value="5289828217391524837" />
+    <property role="3GE5qa" value="declaration" />
+    <property role="TrG5h" value="PythonVariableDeclarator" />
+    <ref role="1TJDcQ" node="4rfLeTAm2Oy" resolve="PythonNode" />
+    <node concept="1TJgyj" id="4_DfFMGtqJA" role="1TKVEi">
+      <property role="IQ2ns" value="5289828217391524838" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="id" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4_DfFMGtamA" resolve="PythonIdentifier" />
+    </node>
+    <node concept="1TJgyj" id="4_DfFMGtqJC" role="1TKVEi">
+      <property role="IQ2ns" value="5289828217391524840" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="init" />
+      <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4_DfFMGu6XA">
+    <property role="EcuMT" value="5289828217391705958" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="PythonLeftHandSideExpression" />
+  </node>
+  <node concept="1TIwiD" id="4_DfFMGu7qs">
+    <property role="EcuMT" value="5289828217391707804" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="PythonAssignmentExpression" />
+    <property role="34LRSv" value="=" />
+    <property role="R4oN_" value="assignment expression" />
+    <ref role="1TJDcQ" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    <node concept="1TJgyi" id="4_DfFMGu7Ri" role="1TKVEl">
+      <property role="IQ2nx" value="5289828217391709650" />
+      <property role="TrG5h" value="operator" />
+      <ref role="AX2Wp" node="4_DfFMGu7L8" resolve="PythonAssignmentOperator" />
+    </node>
+    <node concept="1TJgyj" id="4_DfFMGu7qt" role="1TKVEi">
+      <property role="IQ2ns" value="5289828217391707805" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4_DfFMGu6XA" resolve="PythonLeftHandSideExpression" />
+    </node>
+    <node concept="1TJgyj" id="4_DfFMGu7qv" role="1TKVEi">
+      <property role="IQ2ns" value="5289828217391707807" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    </node>
+  </node>
+  <node concept="25R3W" id="4_DfFMGu7L8">
+    <property role="3F6X1D" value="5289828217391709256" />
+    <property role="3GE5qa" value="expression.operator" />
+    <property role="TrG5h" value="PythonAssignmentOperator" />
+    <ref role="1H5jkz" node="4_DfFMGu7L9" resolve="aoAssign" />
+    <node concept="25R33" id="4_DfFMGu7L9" role="25R1y">
+      <property role="3tVfz5" value="5289828217391709257" />
+      <property role="TrG5h" value="aoAssign" />
+      <property role="1L1pqM" value="=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGu7La" role="25R1y">
+      <property role="3tVfz5" value="5289828217391709258" />
+      <property role="TrG5h" value="aoAdd" />
+      <property role="1L1pqM" value="+=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGu7Ld" role="25R1y">
+      <property role="3tVfz5" value="5289828217391709261" />
+      <property role="TrG5h" value="aoSub" />
+      <property role="1L1pqM" value="-=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGu7Lh" role="25R1y">
+      <property role="3tVfz5" value="5289828217391709265" />
+      <property role="TrG5h" value="aoDiv" />
+      <property role="1L1pqM" value="/=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGu7Lm" role="25R1y">
+      <property role="3tVfz5" value="5289828217391709270" />
+      <property role="TrG5h" value="aoMul" />
+      <property role="1L1pqM" value="*=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGu7Ls" role="25R1y">
+      <property role="3tVfz5" value="5289828217391709276" />
+      <property role="TrG5h" value="aoRem" />
+      <property role="1L1pqM" value="%=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGu7Lz" role="25R1y">
+      <property role="3tVfz5" value="5289828217391709283" />
+      <property role="TrG5h" value="aoAnd" />
+      <property role="1L1pqM" value="&amp;=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGu7LF" role="25R1y">
+      <property role="3tVfz5" value="5289828217391709291" />
+      <property role="TrG5h" value="aoOr" />
+      <property role="1L1pqM" value="|=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGu7LO" role="25R1y">
+      <property role="3tVfz5" value="5289828217391709300" />
+      <property role="TrG5h" value="aoXor" />
+      <property role="1L1pqM" value="^=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGu7LY" role="25R1y">
+      <property role="3tVfz5" value="5289828217391709310" />
+      <property role="TrG5h" value="aoLS" />
+      <property role="1L1pqM" value="&lt;&lt;=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGu7M9" role="25R1y">
+      <property role="3tVfz5" value="5289828217391709321" />
+      <property role="TrG5h" value="aoRS" />
+      <property role="1L1pqM" value="&gt;&gt;=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGu7Ml" role="25R1y">
+      <property role="3tVfz5" value="5289828217391709333" />
+      <property role="TrG5h" value="aoIntDiv" />
+      <property role="1L1pqM" value="//=" />
+    </node>
   </node>
 </model>
 

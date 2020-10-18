@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="ejtp900kwfdzb1qkooc0v92kusqld5d">
-  <files names="ConceptPresentationAspectImpl.java:EnumerationDescriptor_PythonBinaryOperator.java:EnumerationDescriptor_PythonLogicalOperator.java:EnumerationDescriptor_PythonUnaryOperator.java:LanguageConceptSwitch.java:StructureAspectDescriptor.java" />
+<product version="3" modelHash="cznptqpmzuy8zp3ex9l73r5dt8o02nf">
+  <files names="ConceptPresentationAspectImpl.java:EnumerationDescriptor_PythonAssignmentOperator.java:EnumerationDescriptor_PythonBinaryOperator.java:EnumerationDescriptor_PythonLogicalOperator.java:EnumerationDescriptor_PythonUnaryOperator.java:LanguageConceptSwitch.java:StructureAspectDescriptor.java" />
 </product>
 
