@@ -13,6 +13,7 @@
       <concept id="5102513431032741473" name="com.juliuscanute.python.structure.PythonExpressionStatement" flags="ng" index="w$BEf">
         <child id="5102513431032741474" name="expression" index="w$BEc" />
       </concept>
+      <concept id="5102513431032416539" name="com.juliuscanute.python.structure.PythonStatement" flags="ng" index="w_KRP" />
       <concept id="7550366242933707097" name="com.juliuscanute.python.structure.ImportStatementAsName" flags="ng" index="12S_H1">
         <child id="7550366242933707098" name="dottedName" index="12S_H2" />
         <child id="7550366242933707125" name="asName" index="12S_HH" />
@@ -38,6 +39,13 @@
       </concept>
       <concept id="5289828217391055882" name="com.juliuscanute.python.structure.PythonStringLiteral" flags="ng" index="3_1VEQ">
         <property id="5289828217391055885" name="singleQuotedValue" index="3_1VEL" />
+      </concept>
+      <concept id="5289828217391707804" name="com.juliuscanute.python.structure.PythonAssignmentExpression" flags="ng" index="3_4kww">
+        <child id="5289828217391707805" name="left" index="3_4kwx" />
+        <child id="5289828217391707807" name="right" index="3_4kwz" />
+      </concept>
+      <concept id="5289828217391457702" name="com.juliuscanute.python.structure.PythonIdentifier" flags="ng" index="3_7pGq">
+        <property id="5289828217391457703" name="idName" index="3_7pGr" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -113,6 +121,23 @@
         </node>
       </node>
     </node>
+    <node concept="w$BEf" id="4_DfFMGwt8V" role="w_N3S">
+      <node concept="3_4kww" id="4_DfFMGwt9H" role="w$BEc">
+        <node concept="3_7pGq" id="4_DfFMGwt9I" role="3_4kwx">
+          <property role="3_7pGr" value="hello" />
+        </node>
+        <node concept="3_1pMT" id="4_DfFMGwt9P" role="3_4kwz">
+          <property role="3_11k9" value="4_DfFMGr9EZ/logicalOr" />
+          <node concept="w$p9e" id="4_DfFMGwt9L" role="3_11kb">
+            <property role="w$p9c" value="32434234" />
+          </node>
+          <node concept="w$p9e" id="4_DfFMGwt9T" role="3_11k5">
+            <property role="w$p9c" value="32423423" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="w_KRP" id="4_DfFMGw6BV" role="w_N3S" />
   </node>
 </model>
 

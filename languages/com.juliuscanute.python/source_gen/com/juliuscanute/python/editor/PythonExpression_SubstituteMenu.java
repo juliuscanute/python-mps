@@ -33,7 +33,8 @@ public class PythonExpression_SubstituteMenu extends SubstituteMenuBase {
     result.add(new SMP_Include_2hq236_a());
     result.add(new SMP_Include_2hq236_b());
     result.add(new SMP_Include_2hq236_c());
-    result.add(new SMP_Subconcepts_2hq236_d());
+    result.add(new SMP_Include_2hq236_d());
+    result.add(new SMP_Subconcepts_2hq236_e());
     return result;
   }
 
@@ -51,6 +52,30 @@ public class PythonExpression_SubstituteMenu extends SubstituteMenuBase {
 
 
   public class SMP_Include_2hq236_a extends IncludeSubstituteMenuSubstituteMenuPart {
+
+    @NotNull
+    @Override
+    public List<SubstituteMenuItem> createItems(SubstituteMenuContext context) {
+      context.getEditorMenuTrace().pushTraceInfo();
+      context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("include " + "named substitute menu " + "PythonExpression_variableInitialization", new SNodePointer("r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)", "5289828217392108856")));
+      try {
+        return super.createItems(context);
+      } finally {
+        context.getEditorMenuTrace().popTraceInfo();
+      }
+    }
+    @Nullable
+    @Override
+    protected SubstituteMenuLookup getMenuLookup(SubstituteMenuContext _context) {
+      final EditorContext editorContext = _context.getEditorContext();
+      SAbstractConcept conceptToFindMenuFor = getConceptToFindMenuFor(_context);
+      return new NamedSubstituteMenuLookup(LanguageRegistry.getInstance(editorContext.getRepository()), conceptToFindMenuFor, "com.juliuscanute.python.editor.PythonExpression_variableInitialization");
+    }
+    private SAbstractConcept getConceptToFindMenuFor(SubstituteMenuContext _context) {
+      return CONCEPTS.PythonExpression$6o;
+    }
+  }
+  public class SMP_Include_2hq236_b extends IncludeSubstituteMenuSubstituteMenuPart {
 
     @NotNull
     @Override
@@ -74,7 +99,7 @@ public class PythonExpression_SubstituteMenu extends SubstituteMenuBase {
       return CONCEPTS.PythonExpression$6o;
     }
   }
-  public class SMP_Include_2hq236_b extends IncludeSubstituteMenuSubstituteMenuPart {
+  public class SMP_Include_2hq236_c extends IncludeSubstituteMenuSubstituteMenuPart {
 
     @NotNull
     @Override
@@ -98,7 +123,7 @@ public class PythonExpression_SubstituteMenu extends SubstituteMenuBase {
       return CONCEPTS.PythonExpression$6o;
     }
   }
-  public class SMP_Include_2hq236_c extends IncludeSubstituteMenuSubstituteMenuPart {
+  public class SMP_Include_2hq236_d extends IncludeSubstituteMenuSubstituteMenuPart {
 
     @NotNull
     @Override
@@ -122,7 +147,7 @@ public class PythonExpression_SubstituteMenu extends SubstituteMenuBase {
       return CONCEPTS.PythonExpression$6o;
     }
   }
-  public class SMP_Subconcepts_2hq236_d extends ConceptMenusPart<SubstituteMenuItem, SubstituteMenuContext> {
+  public class SMP_Subconcepts_2hq236_e extends ConceptMenusPart<SubstituteMenuItem, SubstituteMenuContext> {
     protected Collection getConcepts(final SubstituteMenuContext _context) {
       return ConceptDescendantsCache.getInstance().getDirectDescendants(CONCEPTS.PythonExpression$6o);
     }

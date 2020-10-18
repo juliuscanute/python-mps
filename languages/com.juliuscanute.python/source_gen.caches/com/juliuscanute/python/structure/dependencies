@@ -57,6 +57,12 @@
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SConceptId" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
   </dependency>
+  <dependency className="com.juliuscanute.python.structure.PythonIdentifierConstraintsUtil">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
+  </dependency>
   <dependency className="com.juliuscanute.python.structure.StructureAspectDescriptor">
     <classNode dependClassName="com.juliuscanute.python.structure.EnumerationDescriptor_PythonAssignmentOperator" />
     <classNode dependClassName="com.juliuscanute.python.structure.EnumerationDescriptor_PythonBinaryOperator" />

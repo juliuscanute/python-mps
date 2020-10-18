@@ -22,6 +22,21 @@
       <unit at="20,0,331,0" name="com.juliuscanute.python.structure.StructureAspectDescriptor" />
     </file>
   </root>
+  <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/223815598156675961">
+    <file name="PythonIdentifierConstraintsUtil.java">
+      <node id="223815598156791433" at="10,0,11,0" concept="7" trace="pythonScriptReservedWords" />
+      <node id="223815598156770039" at="13,62,14,70" concept="6" />
+      <node id="223815598156754954" at="11,0,13,0" concept="0" trace="PythonIdentifierConstraintsUtil#()V" />
+      <node id="223815598156788958" at="13,0,16,0" concept="8" trace="isPythonScriptReservedWord#(Ljava/lang/String;)Z" />
+      <scope id="223815598156754958" at="11,45,11,45" />
+      <scope id="223815598156757121" at="13,62,14,70" />
+      <scope id="223815598156754954" at="11,0,13,0" />
+      <scope id="223815598156788958" at="13,0,16,0">
+        <var name="s" id="223815598156758220" />
+      </scope>
+      <unit id="223815598156675961" at="9,0,18,0" name="com.juliuscanute.python.structure.PythonIdentifierConstraintsUtil" />
+    </file>
+  </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3155080124105464141">
     <file name="StructureAspectDescriptor.java">
       <node id="3155080124105464141" at="47,0,48,0" concept="2" trace="myCSDatatype_PythonIdentifierName" />

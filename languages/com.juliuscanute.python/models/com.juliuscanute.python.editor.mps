@@ -140,6 +140,7 @@
         <child id="1136930944870" name="item" index="2QnnpI" />
       </concept>
       <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt" />
+      <concept id="6481697812325410509" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_SubstituteMenu_Strictly" flags="ng" index="34TFGs" />
       <concept id="8998492695583109601" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_CanSubstitute" flags="ig" index="16Na2f" />
       <concept id="8998492695583125082" name="jetbrains.mps.lang.editor.structure.SubstituteFeature_MatchingText" flags="ng" index="16NfWO">
         <child id="8998492695583129244" name="query" index="16NeZM" />
@@ -261,6 +262,7 @@
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -287,6 +289,9 @@
       </concept>
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
@@ -335,6 +340,9 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
@@ -364,6 +372,7 @@
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
       </concept>
@@ -377,6 +386,9 @@
       </concept>
       <concept id="1204851882688" name="jetbrains.mps.lang.smodel.structure.LinkRefQualifier" flags="ng" index="26LbJo">
         <reference id="1204851882689" name="link" index="26LbJp" />
+      </concept>
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
@@ -395,6 +407,9 @@
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
       <concept id="1966870290088668520" name="jetbrains.mps.lang.smodel.structure.Enum_MembersOperation" flags="ng" index="2ViDtN" />
+      <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
+        <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
+      </concept>
       <concept id="1240170042401" name="jetbrains.mps.lang.smodel.structure.SEnumerationMemberType" flags="in" index="2ZThk1">
         <reference id="1240170836027" name="enum" index="2ZWj4r" />
       </concept>
@@ -403,6 +418,10 @@
       </concept>
       <concept id="5168775467716640652" name="jetbrains.mps.lang.smodel.structure.OperationParm_LinkQualifier" flags="ng" index="1aIX9F">
         <child id="5168775467716640653" name="linkQualifier" index="1aIX9E" />
+      </concept>
+      <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
       <concept id="6870613620390542976" name="jetbrains.mps.lang.smodel.structure.ConceptAliasOperation" flags="ng" index="3n3YKJ" />
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
@@ -1194,6 +1213,11 @@
   <node concept="22mcaB" id="4YHeL1jgCjL">
     <property role="3GE5qa" value="expression" />
     <ref role="aqKnT" to="e5uo:4rfLeTAmp1F" resolve="PythonExpression" />
+    <node concept="1s_PAr" id="4_DfFMGvDkS" role="3ft7WO">
+      <node concept="2kknPI" id="4_DfFMGvDlk" role="1s_PAo">
+        <ref role="2kkw0f" node="4_DfFMGv4EW" resolve="PythonExpression_variableInitialization" />
+      </node>
+    </node>
     <node concept="22hDWj" id="4YHeL1jgCjM" role="22hAXT" />
     <node concept="1s_PAr" id="4YHeL1jgCjQ" role="3ft7WO">
       <node concept="2kknPI" id="4YHeL1jgCjT" role="1s_PAo">
@@ -2436,6 +2460,403 @@
         <ref role="1NtTu8" to="e5uo:4_DfFMGu7qv" resolve="right" />
       </node>
       <node concept="l2Vlx" id="4_DfFMGu7KT" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="22mcaB" id="4_DfFMGv4EW">
+    <property role="3GE5qa" value="expression" />
+    <ref role="aqKnT" to="e5uo:4rfLeTAmp1F" resolve="PythonExpression" />
+    <node concept="22hDWg" id="4_DfFMGv4EX" role="22hAXT">
+      <property role="TrG5h" value="PythonExpression_variableInitialization" />
+    </node>
+    <node concept="3eGOop" id="4_DfFMGv4EZ" role="3ft7WO">
+      <ref role="3EoQqy" to="e5uo:4_DfFMGu7qs" resolve="PythonAssignmentExpression" />
+      <node concept="16NL3D" id="4_DfFMGvcwT" role="upBLP">
+        <node concept="16Na2f" id="4_DfFMGvcwV" role="16NL3A">
+          <node concept="3clFbS" id="4_DfFMGvcwX" role="2VODD2">
+            <node concept="3clFbF" id="4_DfFMGvdcz" role="3cqZAp">
+              <node concept="1eOMI4" id="4_DfFMGvdcx" role="3clFbG">
+                <node concept="22lmx$" id="4_DfFMGvdF4" role="1eOMHV">
+                  <node concept="1Wc70l" id="4_DfFMGvhM6" role="3uHU7w">
+                    <node concept="3fqX7Q" id="4_DfFMGvhPo" role="3uHU7w">
+                      <node concept="2YIFZM" id="4_DfFMGviaB" role="3fr31v">
+                        <ref role="37wK5l" to="e5uo:cr9LB7kVju" resolve="isPythonScriptReservedWord" />
+                        <ref role="1Pybhc" to="e5uo:cr9LB7kvHT" resolve="PythonIdentifierConstraintsUtil" />
+                        <node concept="ub8z3" id="4_DfFMGvicU" role="37wK5m" />
+                      </node>
+                    </node>
+                    <node concept="1Wc70l" id="4_DfFMGveTV" role="3uHU7B">
+                      <node concept="2OqwBi" id="4_DfFMGve6g" role="3uHU7B">
+                        <node concept="ub8z3" id="4_DfFMGvdJ_" role="2Oq$k0" />
+                        <node concept="liA8E" id="4_DfFMGvetj" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
+                          <node concept="Xl_RD" id="4_DfFMGveuy" role="37wK5m">
+                            <property role="Xl_RC" value=" " />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="4_DfFMGvg2m" role="3uHU7w">
+                        <node concept="2OqwBi" id="4_DfFMGvfmn" role="2Oq$k0">
+                          <node concept="ub8z3" id="4_DfFMGveZ9" role="2Oq$k0" />
+                          <node concept="liA8E" id="4_DfFMGvfHX" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="4_DfFMGvg_B" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+                          <node concept="2OqwBi" id="4_DfFMGvgWz" role="37wK5m">
+                            <node concept="3B5_sB" id="4_DfFMGvgBB" role="2Oq$k0">
+                              <ref role="3B5MYn" to="e5uo:2J96awjcT_d" resolve="_PythonIdentifierName" />
+                            </node>
+                            <node concept="3TrcHB" id="4_DfFMGvhnS" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpce:fKFLfW2" resolve="constraint" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3fqX7Q" id="4_DfFMGvdgC" role="3uHU7B">
+                    <node concept="34TFGs" id="4_DfFMGvdkU" role="3fr31v" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="16NL0t" id="4_DfFMGvbm6" role="upBLP">
+        <node concept="uGdhv" id="4_DfFMGvbol" role="16NL0q">
+          <node concept="3clFbS" id="4_DfFMGvbon" role="2VODD2">
+            <node concept="3cpWs6" id="4_DfFMGvboI" role="3cqZAp">
+              <node concept="Xl_RD" id="4_DfFMGvbul" role="3cqZAk">
+                <property role="Xl_RC" value="variable initialization" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="ucgPf" id="4_DfFMGv4F0" role="3aKz83">
+        <node concept="3clFbS" id="4_DfFMGv4F1" role="2VODD2">
+          <node concept="3cpWs8" id="4_DfFMGv4JB" role="3cqZAp">
+            <node concept="3cpWsn" id="4_DfFMGv4JC" role="3cpWs9">
+              <property role="TrG5h" value="assignExp" />
+              <node concept="3Tqbb2" id="4_DfFMGv4K2" role="1tU5fm">
+                <ref role="ehGHo" to="e5uo:4_DfFMGu7qs" resolve="PythonAssignmentExpression" />
+              </node>
+              <node concept="2ShNRf" id="4_DfFMGv4OF" role="33vP2m">
+                <node concept="3zrR0B" id="4_DfFMGv4OD" role="2ShVmc">
+                  <node concept="3Tqbb2" id="4_DfFMGv4OE" role="3zrR0E">
+                    <ref role="ehGHo" to="e5uo:4_DfFMGu7qs" resolve="PythonAssignmentExpression" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs8" id="4_DfFMGv4RM" role="3cqZAp">
+            <node concept="3cpWsn" id="4_DfFMGv4RP" role="3cpWs9">
+              <property role="TrG5h" value="identifier" />
+              <node concept="3Tqbb2" id="4_DfFMGv4RK" role="1tU5fm">
+                <ref role="ehGHo" to="e5uo:4_DfFMGtamA" resolve="PythonIdentifier" />
+              </node>
+              <node concept="2ShNRf" id="4_DfFMGv4VE" role="33vP2m">
+                <node concept="3zrR0B" id="4_DfFMGv4VC" role="2ShVmc">
+                  <node concept="3Tqbb2" id="4_DfFMGv4VD" role="3zrR0E">
+                    <ref role="ehGHo" to="e5uo:4_DfFMGtamA" resolve="PythonIdentifier" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="4_DfFMGv4WH" role="3cqZAp">
+            <node concept="37vLTI" id="4_DfFMGv5PT" role="3clFbG">
+              <node concept="2OqwBi" id="4_DfFMGv6ol" role="37vLTx">
+                <node concept="ub8z3" id="4_DfFMGv61o" role="2Oq$k0" />
+                <node concept="liA8E" id="4_DfFMGv6UE" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4_DfFMGv5aI" role="37vLTJ">
+                <node concept="37vLTw" id="4_DfFMGv4WF" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4_DfFMGv4RP" resolve="identifier" />
+                </node>
+                <node concept="3TrcHB" id="4_DfFMGv5ox" role="2OqNvi">
+                  <ref role="3TsBF5" to="e5uo:4_DfFMGtamB" resolve="idName" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="4_DfFMGv725" role="3cqZAp">
+            <node concept="2OqwBi" id="4_DfFMGv7Ga" role="3clFbG">
+              <node concept="2OqwBi" id="4_DfFMGv7jb" role="2Oq$k0">
+                <node concept="37vLTw" id="4_DfFMGv723" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4_DfFMGv4JC" resolve="assignExp" />
+                </node>
+                <node concept="3TrEf2" id="4_DfFMGv7vT" role="2OqNvi">
+                  <ref role="3Tt5mk" to="e5uo:4_DfFMGu7qt" resolve="left" />
+                </node>
+              </node>
+              <node concept="2oxUTD" id="4_DfFMGv7R4" role="2OqNvi">
+                <node concept="37vLTw" id="4_DfFMGv84p" role="2oxUTC">
+                  <ref role="3cqZAo" node="4_DfFMGv4RP" resolve="identifier" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="4_DfFMGv8da" role="3cqZAp">
+            <node concept="37vLTI" id="4_DfFMGv8Wg" role="3clFbG">
+              <node concept="2OqwBi" id="4_DfFMGv9xY" role="37vLTx">
+                <node concept="1XH99k" id="4_DfFMGv95Z" role="2Oq$k0">
+                  <ref role="1XH99l" to="e5uo:4_DfFMGu7L8" resolve="PythonAssignmentOperator" />
+                </node>
+                <node concept="2ViDtV" id="4_DfFMGva0I" role="2OqNvi">
+                  <ref role="2ViDtZ" to="e5uo:4_DfFMGu7L9" resolve="aoAssign" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4_DfFMGv8p$" role="37vLTJ">
+                <node concept="37vLTw" id="4_DfFMGv8d8" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4_DfFMGv4JC" resolve="assignExp" />
+                </node>
+                <node concept="3TrcHB" id="4_DfFMGv8Kn" role="2OqNvi">
+                  <ref role="3TsBF5" to="e5uo:4_DfFMGu7Ri" resolve="operator" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="4_DfFMGva5a" role="3cqZAp">
+            <node concept="37vLTw" id="4_DfFMGva58" role="3clFbG">
+              <ref role="3cqZAo" node="4_DfFMGv4JC" resolve="assignExp" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="16NfWO" id="4_DfFMGvamM" role="upBLP">
+        <node concept="uGdhv" id="4_DfFMGvaoM" role="16NeZM">
+          <node concept="3clFbS" id="4_DfFMGvaoO" role="2VODD2">
+            <node concept="3clFbF" id="4_DfFMGvatp" role="3cqZAp">
+              <node concept="2OqwBi" id="4_DfFMGvaJ_" role="3clFbG">
+                <node concept="ub8z3" id="4_DfFMGvato" role="2Oq$k0" />
+                <node concept="liA8E" id="4_DfFMGvb2C" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3VyMlK" id="4_DfFMGvb8A" role="3ft7WO" />
+  </node>
+  <node concept="3ICUPy" id="4_DfFMGw7ez">
+    <property role="3GE5qa" value="expression" />
+    <ref role="aqKnT" to="e5uo:4_DfFMGu6XA" resolve="PythonLeftHandSideExpression" />
+    <node concept="22hDWj" id="4_DfFMGw7e$" role="22hAXT" />
+    <node concept="1Qtc8_" id="4_DfFMGw7eA" role="IW6Ez">
+      <node concept="3cWJ9i" id="4_DfFMGw7eE" role="1Qtc8$">
+        <node concept="CtIbL" id="4_DfFMGw7eG" role="CtIbM">
+          <property role="CtIbK" value="1A4kJjlVmVt/LEFT" />
+        </node>
+        <node concept="CtIbL" id="4_DfFMGw7eK" role="CtIbM">
+          <property role="CtIbK" value="30NnNOohrQL/RIGHT" />
+        </node>
+      </node>
+      <node concept="L$LW2" id="4_DfFMGw7eN" role="1Qtc8A" />
+    </node>
+    <node concept="1Qtc8_" id="4_DfFMGw7eP" role="IW6Ez">
+      <node concept="3cWJ9i" id="4_DfFMGw7eY" role="1Qtc8$">
+        <node concept="CtIbL" id="4_DfFMGw7f0" role="CtIbM">
+          <property role="CtIbK" value="30NnNOohrQL/RIGHT" />
+        </node>
+      </node>
+      <node concept="aenpk" id="4_DfFMGw7f4" role="1Qtc8A">
+        <node concept="27VH4U" id="4_DfFMGw7f6" role="aenpu">
+          <node concept="3clFbS" id="4_DfFMGw7f7" role="2VODD2">
+            <node concept="3clFbF" id="4_DfFMGw7j2" role="3cqZAp">
+              <node concept="3fqX7Q" id="4_DfFMGw7j0" role="3clFbG">
+                <node concept="2OqwBi" id="4_DfFMGw7Tr" role="3fr31v">
+                  <node concept="2OqwBi" id="4_DfFMGw7$9" role="2Oq$k0">
+                    <node concept="7Obwk" id="4_DfFMGw7nj" role="2Oq$k0" />
+                    <node concept="1mfA1w" id="4_DfFMGw7K$" role="2OqNvi" />
+                  </node>
+                  <node concept="1mIQ4w" id="4_DfFMGw84L" role="2OqNvi">
+                    <node concept="chp4Y" id="4_DfFMGw8aO" role="cj9EA">
+                      <ref role="cht4Q" to="e5uo:4_DfFMGtqJ_" resolve="PythonVariableDeclarator" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1GhOrh" id="4_DfFMGw8nd" role="aenpr">
+          <node concept="1GhMSn" id="4_DfFMGw8ne" role="1GhOrs">
+            <node concept="3clFbS" id="4_DfFMGw8nf" role="2VODD2">
+              <node concept="3clFbJ" id="4_DfFMGw8w8" role="3cqZAp">
+                <node concept="2OqwBi" id="4_DfFMGw8G8" role="3clFbw">
+                  <node concept="7Obwk" id="4_DfFMGw8yV" role="2Oq$k0" />
+                  <node concept="1mIQ4w" id="4_DfFMGw8R4" role="2OqNvi">
+                    <node concept="chp4Y" id="4_DfFMGw8TA" role="cj9EA">
+                      <ref role="cht4Q" to="e5uo:4_DfFMGtamA" resolve="PythonIdentifier" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbS" id="4_DfFMGw8wa" role="3clFbx">
+                  <node concept="3cpWs8" id="4_DfFMGw8UA" role="3cqZAp">
+                    <node concept="3cpWsn" id="4_DfFMGw8UD" role="3cpWs9">
+                      <property role="TrG5h" value="value" />
+                      <node concept="_YKpA" id="4_DfFMGw8U$" role="1tU5fm">
+                        <node concept="2ZThk1" id="4_DfFMGw8ZI" role="_ZDj9">
+                          <ref role="2ZWj4r" to="e5uo:4_DfFMGu7L8" resolve="PythonAssignmentOperator" />
+                        </node>
+                      </node>
+                      <node concept="2ShNRf" id="4_DfFMGw940" role="33vP2m">
+                        <node concept="Tc6Ow" id="4_DfFMGw9fY" role="2ShVmc">
+                          <node concept="2ZThk1" id="4_DfFMGw9AQ" role="HW$YZ">
+                            <ref role="2ZWj4r" to="e5uo:4_DfFMGu7L8" resolve="PythonAssignmentOperator" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="4_DfFMGw9Qr" role="3cqZAp">
+                    <node concept="2OqwBi" id="4_DfFMGwawd" role="3clFbG">
+                      <node concept="37vLTw" id="4_DfFMGw9Qp" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4_DfFMGw8UD" resolve="value" />
+                      </node>
+                      <node concept="TSZUe" id="4_DfFMGwbip" role="2OqNvi">
+                        <node concept="2OqwBi" id="4_DfFMGwbOZ" role="25WWJ7">
+                          <node concept="1XH99k" id="4_DfFMGwbm3" role="2Oq$k0">
+                            <ref role="1XH99l" to="e5uo:4_DfFMGu7L8" resolve="PythonAssignmentOperator" />
+                          </node>
+                          <node concept="2ViDtV" id="4_DfFMGwc95" role="2OqNvi">
+                            <ref role="2ViDtZ" to="e5uo:4_DfFMGu7L9" resolve="aoAssign" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs6" id="4_DfFMGwchK" role="3cqZAp">
+                    <node concept="37vLTw" id="4_DfFMGwcjH" role="3cqZAk">
+                      <ref role="3cqZAo" node="4_DfFMGw8UD" resolve="value" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="4_DfFMGwcrn" role="3cqZAp">
+                <node concept="2OqwBi" id="4_DfFMGwerb" role="3cqZAk">
+                  <node concept="1XH99k" id="4_DfFMGwcv8" role="2Oq$k0">
+                    <ref role="1XH99l" to="e5uo:4_DfFMGu7L8" resolve="PythonAssignmentOperator" />
+                  </node>
+                  <node concept="2ViDtN" id="4_DfFMGweHK" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ZThk1" id="4_DfFMGw8qR" role="2ZBHrp">
+            <ref role="2ZWj4r" to="e5uo:4_DfFMGu7L8" resolve="PythonAssignmentOperator" />
+          </node>
+          <node concept="IWgqT" id="6k$wfqsPrH9" role="1GhOri">
+            <node concept="1hCUdq" id="6k$wfqsPrHa" role="1hCUd6">
+              <node concept="3clFbS" id="6k$wfqsPrHb" role="2VODD2">
+                <node concept="3clFbF" id="6k$wfqsPrHc" role="3cqZAp">
+                  <node concept="3cpWs3" id="6k$wfqsPrHe" role="3clFbG">
+                    <node concept="Xl_RD" id="6k$wfqsPrHf" role="3uHU7B">
+                      <property role="Xl_RC" value="" />
+                    </node>
+                    <node concept="2ZBlsa" id="6k$wfqsPrHd" role="3uHU7w" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cqGtN" id="6k$wfqsPrHg" role="2jZA2a">
+              <node concept="3cqJkl" id="6k$wfqsPrHh" role="3cqGtW">
+                <node concept="3clFbS" id="6k$wfqsPrHi" role="2VODD2">
+                  <node concept="3clFbF" id="6k$wfqsPrHj" role="3cqZAp">
+                    <node concept="Xl_RD" id="6k$wfqsPrHk" role="3clFbG">
+                      <property role="Xl_RC" value="assignment operator" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="IWg2L" id="6k$wfqsPrHl" role="IWgqQ">
+              <node concept="3clFbS" id="6k$wfqsPrHm" role="2VODD2">
+                <node concept="3cpWs8" id="6k$wfqsPrHn" role="3cqZAp">
+                  <node concept="3cpWsn" id="6k$wfqsPrHo" role="3cpWs9">
+                    <property role="TrG5h" value="assignmentExp" />
+                    <node concept="3Tqbb2" id="6k$wfqsPrHp" role="1tU5fm">
+                      <ref role="ehGHo" to="e5uo:4_DfFMGu7qs" resolve="PythonAssignmentExpression" />
+                    </node>
+                    <node concept="2ShNRf" id="6k$wfqsPrHq" role="33vP2m">
+                      <node concept="3zrR0B" id="6k$wfqsPrHr" role="2ShVmc">
+                        <node concept="3Tqbb2" id="6k$wfqsPrHs" role="3zrR0E">
+                          <ref role="ehGHo" to="e5uo:4_DfFMGu7qs" resolve="PythonAssignmentExpression" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="6k$wfqsPrHt" role="3cqZAp">
+                  <node concept="2OqwBi" id="6k$wfqsPrHu" role="3clFbG">
+                    <node concept="7Obwk" id="6k$wfqsPrHN" role="2Oq$k0" />
+                    <node concept="1P9Npp" id="6k$wfqsPrHw" role="2OqNvi">
+                      <node concept="37vLTw" id="6k$wfqsPrHx" role="1P9ThW">
+                        <ref role="3cqZAo" node="6k$wfqsPrHo" resolve="assignmentExp" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="6k$wfqsPrHy" role="3cqZAp">
+                  <node concept="2OqwBi" id="4_DfFMGwg11" role="3clFbG">
+                    <node concept="2OqwBi" id="4_DfFMGwfHu" role="2Oq$k0">
+                      <node concept="37vLTw" id="6k$wfqsPrH_" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6k$wfqsPrHo" resolve="assignmentExp" />
+                      </node>
+                      <node concept="3TrEf2" id="4_DfFMGwfTr" role="2OqNvi">
+                        <ref role="3Tt5mk" to="e5uo:4_DfFMGu7qt" resolve="left" />
+                      </node>
+                    </node>
+                    <node concept="2oxUTD" id="4_DfFMGwgdi" role="2OqNvi">
+                      <node concept="7Obwk" id="4_DfFMGwggy" role="2oxUTC" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="4_DfFMGwgpg" role="3cqZAp">
+                  <node concept="37vLTI" id="4_DfFMGwgUy" role="3clFbG">
+                    <node concept="2ZBlsa" id="4_DfFMGwgYB" role="37vLTx" />
+                    <node concept="2OqwBi" id="4_DfFMGwg$M" role="37vLTJ">
+                      <node concept="37vLTw" id="4_DfFMGwgpe" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6k$wfqsPrHo" resolve="assignmentExp" />
+                      </node>
+                      <node concept="3TrcHB" id="4_DfFMGwgKJ" role="2OqNvi">
+                        <ref role="3TsBF5" to="e5uo:4_DfFMGu7Ri" resolve="operator" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="6k$wfqsPrHV" role="3cqZAp">
+                  <node concept="2OqwBi" id="6k$wfqsPrHQ" role="3clFbG">
+                    <node concept="37vLTw" id="6k$wfqsPrHM" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6k$wfqsPrHo" resolve="assignmentExp" />
+                    </node>
+                    <node concept="1OKiuA" id="6k$wfqsPrHR" role="2OqNvi">
+                      <node concept="1Q80Hx" id="6k$wfqsPrHS" role="lBI5i" />
+                      <node concept="2B6iha" id="6k$wfqsPrHT" role="lGT1i">
+                        <property role="1lyBwo" value="59pBc0SIIVt/mostRelevant" />
+                      </node>
+                      <node concept="3cmrfG" id="6k$wfqsPrHU" role="3dN3m$">
+                        <property role="3cmrfH" value="-1" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1FNNb$" id="6k$wfqsPrHW" role="1FNMel">
+              <ref role="1FNNbB" to="e5uo:4_DfFMGu7qs" resolve="PythonAssignmentExpression" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
