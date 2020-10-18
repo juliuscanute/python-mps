@@ -222,8 +222,8 @@
     </node>
     <node concept="25R33" id="4rfLeTAmp1L" role="25R1y">
       <property role="3tVfz5" value="5102513431032467569" />
-      <property role="TrG5h" value="unNot" />
-      <property role="1L1pqM" value="not" />
+      <property role="TrG5h" value="unInvert" />
+      <property role="1L1pqM" value="~" />
     </node>
   </node>
   <node concept="1TIwiD" id="4rfLeTAmp1P">
@@ -282,6 +282,143 @@
     <property role="3GE5qa" value="expression.literal" />
     <property role="TrG5h" value="PythonLiteral" />
     <ref role="1TJDcQ" node="4rfLeTAmp1F" resolve="PythonExpression" />
+  </node>
+  <node concept="25R3W" id="4_DfFMGq3Jy">
+    <property role="3F6X1D" value="5289828217390644194" />
+    <property role="3GE5qa" value="expression.operator" />
+    <property role="TrG5h" value="PythonBinaryOperator" />
+    <ref role="1H5jkz" node="4_DfFMGq3Jz" resolve="bnEq" />
+    <node concept="25R33" id="4_DfFMGq3Jz" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644195" />
+      <property role="TrG5h" value="bnEq" />
+      <property role="1L1pqM" value="==" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3JC" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644200" />
+      <property role="TrG5h" value="bnInEq" />
+      <property role="1L1pqM" value="!=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3JF" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644203" />
+      <property role="TrG5h" value="bnLt" />
+      <property role="1L1pqM" value="&lt;" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3JJ" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644207" />
+      <property role="TrG5h" value="bnLtEq" />
+      <property role="1L1pqM" value="&lt;=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3JO" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644212" />
+      <property role="TrG5h" value="bnGt" />
+      <property role="1L1pqM" value="&gt;" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3JU" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644218" />
+      <property role="TrG5h" value="bnGtEq" />
+      <property role="1L1pqM" value="&gt;=" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3K1" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644225" />
+      <property role="TrG5h" value="bnLs" />
+      <property role="1L1pqM" value="&lt;&lt;" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3K9" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644233" />
+      <property role="TrG5h" value="bnRs" />
+      <property role="1L1pqM" value="&gt;&gt;" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3Ki" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644242" />
+      <property role="TrG5h" value="bnPlus" />
+      <property role="1L1pqM" value="+" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3Ks" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644252" />
+      <property role="TrG5h" value="bnMinus" />
+      <property role="1L1pqM" value="-" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3KB" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644263" />
+      <property role="TrG5h" value="bnMul" />
+      <property role="1L1pqM" value="*" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3KN" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644275" />
+      <property role="TrG5h" value="bnDiv" />
+      <property role="1L1pqM" value="/" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3NI" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644462" />
+      <property role="TrG5h" value="bnIntDiv" />
+      <property role="1L1pqM" value="//" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3L0" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644288" />
+      <property role="TrG5h" value="bnMod" />
+      <property role="1L1pqM" value="%" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3Le" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644302" />
+      <property role="TrG5h" value="bnOr" />
+      <property role="1L1pqM" value="|" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3Lt" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644317" />
+      <property role="TrG5h" value="bnXor" />
+      <property role="1L1pqM" value="^" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3LH" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644333" />
+      <property role="TrG5h" value="bnAnd" />
+      <property role="1L1pqM" value="&amp;" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3Mw" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644384" />
+      <property role="TrG5h" value="bnIn" />
+      <property role="1L1pqM" value="in" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3MM" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644402" />
+      <property role="TrG5h" value="bnNotIn" />
+      <property role="1L1pqM" value="not in" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3N5" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644421" />
+      <property role="TrG5h" value="bnIs" />
+      <property role="1L1pqM" value="is" />
+    </node>
+    <node concept="25R33" id="4_DfFMGq3Np" role="25R1y">
+      <property role="3tVfz5" value="5289828217390644441" />
+      <property role="TrG5h" value="bnIsNot" />
+      <property role="1L1pqM" value="is not" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4_DfFMGq9vv">
+    <property role="EcuMT" value="5289828217390667743" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="PythonBinaryExpression" />
+    <property role="R4oN_" value="binary expression" />
+    <ref role="1TJDcQ" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    <node concept="1TJgyj" id="4_DfFMGq9vy" role="1TKVEi">
+      <property role="IQ2ns" value="5289828217390667746" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    </node>
+    <node concept="1TJgyj" id="4_DfFMGq9v$" role="1TKVEi">
+      <property role="IQ2ns" value="5289828217390667748" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    </node>
+    <node concept="1TJgyi" id="4_DfFMGq9vw" role="1TKVEl">
+      <property role="IQ2nx" value="5289828217390667744" />
+      <property role="TrG5h" value="operator" />
+      <ref role="AX2Wp" node="4_DfFMGq3Jy" resolve="PythonBinaryOperator" />
+    </node>
   </node>
 </model>
 

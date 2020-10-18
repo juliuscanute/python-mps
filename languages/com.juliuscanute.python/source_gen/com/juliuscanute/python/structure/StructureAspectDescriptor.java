@@ -24,6 +24,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptImportStatement = createDescriptorForImportStatement();
   /*package*/ final ConceptDescriptor myConceptImportStatementAsName = createDescriptorForImportStatementAsName();
   /*package*/ final ConceptDescriptor myConceptName = createDescriptorForName();
+  /*package*/ final ConceptDescriptor myConceptPythonBinaryExpression = createDescriptorForPythonBinaryExpression();
   /*package*/ final ConceptDescriptor myConceptPythonExpression = createDescriptorForPythonExpression();
   /*package*/ final ConceptDescriptor myConceptPythonExpressionStatement = createDescriptorForPythonExpressionStatement();
   /*package*/ final ConceptDescriptor myConceptPythonLiteral = createDescriptorForPythonLiteral();
@@ -32,6 +33,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptPythonProgram = createDescriptorForPythonProgram();
   /*package*/ final ConceptDescriptor myConceptPythonStatement = createDescriptorForPythonStatement();
   /*package*/ final ConceptDescriptor myConceptPythonUnaryExpression = createDescriptorForPythonUnaryExpression();
+  /*package*/ final EnumerationDescriptor myEnumerationPythonBinaryOperator = new EnumerationDescriptor_PythonBinaryOperator();
   /*package*/ final EnumerationDescriptor myEnumerationPythonUnaryOperator = new EnumerationDescriptor_PythonUnaryOperator();
   /*package*/ final ConstrainedStringDatatypeDescriptor myCSDatatype_PythonNumericLiteralType = new ConstrainedStringDatatypeDescriptorImpl(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee665e569fL, "_PythonNumericLiteralType", "r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032780447", "0[xX][0-9a-fA-F]+|([0-9]+\\.[0-9]*|\\.?[0-9]+)([eE][+-]?[0-9]*)?|Infinity|NaN");
   private final LanguageConceptSwitch myIndexSwitch;
@@ -48,7 +50,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptFromStatementAsName, myConceptImportStatement, myConceptImportStatementAsName, myConceptName, myConceptPythonExpression, myConceptPythonExpressionStatement, myConceptPythonLiteral, myConceptPythonNode, myConceptPythonNumericLiteral, myConceptPythonProgram, myConceptPythonStatement, myConceptPythonUnaryExpression);
+    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptFromStatementAsName, myConceptImportStatement, myConceptImportStatementAsName, myConceptName, myConceptPythonBinaryExpression, myConceptPythonExpression, myConceptPythonExpressionStatement, myConceptPythonLiteral, myConceptPythonNode, myConceptPythonNumericLiteral, myConceptPythonProgram, myConceptPythonStatement, myConceptPythonUnaryExpression);
   }
 
   @Override
@@ -67,6 +69,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptImportStatementAsName;
       case LanguageConceptSwitch.Name:
         return myConceptName;
+      case LanguageConceptSwitch.PythonBinaryExpression:
+        return myConceptPythonBinaryExpression;
       case LanguageConceptSwitch.PythonExpression:
         return myConceptPythonExpression;
       case LanguageConceptSwitch.PythonExpressionStatement:
@@ -90,7 +94,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
-    return Arrays.asList(myEnumerationPythonUnaryOperator, myCSDatatype_PythonNumericLiteralType);
+    return Arrays.asList(myEnumerationPythonBinaryOperator, myEnumerationPythonUnaryOperator, myCSDatatype_PythonNumericLiteralType);
   }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
@@ -154,6 +158,17 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3865884777285625837");
     b.version(2);
     b.property("name", 0x35a661b8fcb35122L).type(PrimitiveTypeId.STRING).origin("3865884777285636386").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPythonBinaryExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonBinaryExpression", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6897dfL);
+    b.class_(false, false, false);
+    b.super_("com.juliuscanute.python.structure.PythonExpression", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL);
+    b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217390667743");
+    b.version(2);
+    b.property("operator", 0x49693ebcac6897e0L).type(MetaIdFactory.dataTypeId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac683be2L)).origin("5289828217390667744").done();
+    b.aggregate("left", 0x49693ebcac6897e2L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL).optional(false).ordered(true).multiple(false).origin("5289828217390667746").done();
+    b.aggregate("right", 0x49693ebcac6897e4L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL).optional(false).ordered(true).multiple(false).origin("5289828217390667748").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPythonExpression() {

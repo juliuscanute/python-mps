@@ -17,10 +17,10 @@ public class EnumerationDescriptor_PythonUnaryOperator extends EnumerationDescri
 
   private final EnumerationDescriptor.MemberDescriptor myMember_unMinus_0 = new EnumerationDescriptor.MemberDescriptor("unMinus", "-", 0x46cfc4ee6659906dL, "r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032467565");
   private final EnumerationDescriptor.MemberDescriptor myMember_unPlus_0 = new EnumerationDescriptor.MemberDescriptor("unPlus", "+", 0x46cfc4ee6659906eL, "r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032467566");
-  private final EnumerationDescriptor.MemberDescriptor myMember_unNot_0 = new EnumerationDescriptor.MemberDescriptor("unNot", "not", 0x46cfc4ee66599071L, "r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032467569");
+  private final EnumerationDescriptor.MemberDescriptor myMember_unInvert_0 = new EnumerationDescriptor.MemberDescriptor("unInvert", "~", 0x46cfc4ee66599071L, "r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032467569");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906cL, 0x46cfc4ee6659906dL, 0x46cfc4ee6659906eL, 0x46cfc4ee66599071L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_unMinus_0, myMember_unPlus_0, myMember_unNot_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_unMinus_0, myMember_unPlus_0, myMember_unInvert_0);
 
   @Nullable
   @Override
@@ -45,8 +45,8 @@ public class EnumerationDescriptor_PythonUnaryOperator extends EnumerationDescri
         return myMember_unMinus_0;
       case "unPlus":
         return myMember_unPlus_0;
-      case "unNot":
-        return myMember_unNot_0;
+      case "unInvert":
+        return myMember_unInvert_0;
     }
     return null;
   }

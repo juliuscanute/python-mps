@@ -15,6 +15,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_ImportStatement;
   private ConceptPresentation props_ImportStatementAsName;
   private ConceptPresentation props_Name;
+  private ConceptPresentation props_PythonBinaryExpression;
   private ConceptPresentation props_PythonExpression;
   private ConceptPresentation props_PythonExpressionStatement;
   private ConceptPresentation props_PythonLiteral;
@@ -75,6 +76,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Name = cpb.create();
         }
         return props_Name;
+      case LanguageConceptSwitch.PythonBinaryExpression:
+        if (props_PythonBinaryExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("binary expression");
+          cpb.rawPresentation("PythonBinaryExpression");
+          props_PythonBinaryExpression = cpb.create();
+        }
+        return props_PythonBinaryExpression;
       case LanguageConceptSwitch.PythonExpression:
         if (props_PythonExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

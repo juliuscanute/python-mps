@@ -11,7 +11,6 @@
         <child id="5102513431032741474" name="expression" index="w$BEc" />
       </concept>
       <concept id="5102513431032467563" name="com.juliuscanute.python.structure.PythonExpression" flags="ng" index="w__i5" />
-      <concept id="5102513431032416539" name="com.juliuscanute.python.structure.PythonStatement" flags="ng" index="w_KRP" />
       <concept id="7550366242933707097" name="com.juliuscanute.python.structure.ImportStatementAsName" flags="ng" index="12S_H1">
         <child id="7550366242933707098" name="dottedName" index="12S_H2" />
         <child id="7550366242933707125" name="asName" index="12S_HH" />
@@ -50,9 +49,8 @@
         <property role="395j2q" value="sfsdf" />
       </node>
     </node>
-    <node concept="w_KRP" id="4_DfFMGpXif" role="w_N3S" />
-    <node concept="w$BEf" id="4_DfFMGpXix" role="w_N3S">
-      <node concept="w__i5" id="4_DfFMGpXiK" role="w$BEc" />
+    <node concept="w$BEf" id="4_DfFMGr2Ni" role="w_N3S">
+      <node concept="w__i5" id="4_DfFMGr2NH" role="w$BEc" />
     </node>
   </node>
 </model>
