@@ -47,6 +47,9 @@
       <concept id="5289828217391457702" name="com.juliuscanute.python.structure.PythonIdentifier" flags="ng" index="3_7pGq">
         <property id="5289828217391457703" name="idName" index="3_7pGr" />
       </concept>
+      <concept id="5289828217392333493" name="com.juliuscanute.python.structure.PythonArrayExpression" flags="ng" index="3_UNK9">
+        <child id="5289828217392333496" name="elements" index="3_UNK4" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -137,6 +140,31 @@
         </node>
       </node>
     </node>
+    <node concept="w$BEf" id="4_DfFMGwZxD" role="w_N3S">
+      <node concept="3_4kww" id="4_DfFMGwZ$J" role="w$BEc">
+        <node concept="3_7pGq" id="4_DfFMGwZ$K" role="3_4kwx">
+          <property role="3_7pGr" value="hello" />
+        </node>
+        <node concept="3_UNK9" id="4_DfFMGwZ$N" role="3_4kwz">
+          <node concept="w$p9e" id="4_DfFMGwZ$P" role="3_UNK4">
+            <property role="w$p9c" value="234234234" />
+          </node>
+          <node concept="w$p9e" id="4_DfFMGwZ$Y" role="3_UNK4">
+            <property role="w$p9c" value="2342342342" />
+          </node>
+          <node concept="w$p9e" id="4_DfFMGwZ_7" role="3_UNK4">
+            <property role="w$p9c" value="42342342345" />
+          </node>
+          <node concept="w$p9e" id="4_DfFMGwZ_i" role="3_UNK4">
+            <property role="w$p9c" value="2432423432" />
+          </node>
+          <node concept="w$p9e" id="4_DfFMGwZ_o" role="3_UNK4">
+            <property role="w$p9c" value="423423423423" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="w_KRP" id="4_DfFMGwZ_u" role="w_N3S" />
     <node concept="w_KRP" id="4_DfFMGw6BV" role="w_N3S" />
   </node>
 </model>

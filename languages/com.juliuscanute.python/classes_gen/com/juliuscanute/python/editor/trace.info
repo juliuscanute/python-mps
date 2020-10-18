@@ -17,7 +17,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="19,0,149,0" name="com.juliuscanute.python.editor.EditorAspectDescriptorImpl" />
+      <unit at="19,0,151,0" name="com.juliuscanute.python.editor.EditorAspectDescriptorImpl" />
     </file>
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/3865884777285625894">
@@ -1086,8 +1086,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5102513431032802523">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5102513431032802523" at="125,82,126,96" concept="8" />
-      <scope id="5102513431032802523" at="125,82,126,96" />
+      <node id="5102513431032802523" at="127,82,128,96" concept="8" />
+      <scope id="5102513431032802523" at="127,82,128,96" />
     </file>
     <file name="PythonExpression_numericLiteral.java">
       <node id="5102513431032802523" at="31,118,32,140" concept="7" />
@@ -1723,8 +1723,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217390855752">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5289828217390855752" at="89,84,90,102" concept="8" />
-      <scope id="5289828217390855752" at="89,84,90,102" />
+      <node id="5289828217390855752" at="91,84,92,102" concept="8" />
+      <scope id="5289828217390855752" at="91,84,92,102" />
     </file>
     <file name="PythonExpression_binaryExpression.java">
       <node id="5289828217390855752" at="48,0,49,0" concept="3" trace="myLocations" />
@@ -2397,8 +2397,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217390968754">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5289828217390968754" at="91,85,92,103" concept="8" />
-      <scope id="5289828217390968754" at="91,85,92,103" />
+      <node id="5289828217390968754" at="93,85,94,103" concept="8" />
+      <scope id="5289828217390968754" at="93,85,94,103" />
     </file>
     <file name="PythonExpression_logicalExpression.java">
       <node id="5289828217390968754" at="51,0,52,0" concept="3" trace="myLocations" />
@@ -2787,8 +2787,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217391225409">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5289828217391225409" at="127,81,128,95" concept="8" />
-      <scope id="5289828217391225409" at="127,81,128,95" />
+      <node id="5289828217391225409" at="129,81,130,95" concept="8" />
+      <scope id="5289828217391225409" at="129,81,130,95" />
     </file>
     <file name="PythonExpression_stringLiteral.java">
       <node id="5289828217391225409" at="34,118,35,140" concept="7" />
@@ -3696,8 +3696,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217391958716">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5289828217391958716" at="131,90,132,104" concept="8" />
-      <scope id="5289828217391958716" at="131,90,132,104" />
+      <node id="5289828217391958716" at="133,90,134,104" concept="8" />
+      <scope id="5289828217391958716" at="133,90,134,104" />
     </file>
     <file name="PythonExpression_variableInitialization.java">
       <node id="5289828217391958716" at="35,118,36,140" concept="7" />
@@ -4046,10 +4046,194 @@
       <unit id="5289828217392231331" at="55,0,246,0" name="com.juliuscanute.python.editor.PythonLeftHandSideExpression_TransformationMenu" />
     </file>
   </root>
+  <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217392379052">
+    <file name="PythonArrayExpression_Editor.java">
+      <node id="5289828217392379052" at="11,79,12,87" concept="8" />
+      <node id="5289828217392379052" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="5289828217392379052" at="11,79,12,87" />
+      <scope id="5289828217392379052" at="11,0,14,0">
+        <var name="editorContext" id="5289828217392379052" />
+        <var name="node" id="5289828217392379052" />
+      </scope>
+      <unit id="5289828217392379052" at="10,0,15,0" name="com.juliuscanute.python.editor.PythonArrayExpression_Editor" />
+    </file>
+    <file name="PythonArrayExpression_EditorBuilder_a.java">
+      <node id="5289828217392379052" at="36,101,37,19" concept="13" />
+      <node id="5289828217392379052" at="37,19,38,18" concept="2" />
+      <node id="5289828217392379052" at="43,26,44,18" concept="8" />
+      <node id="5289828217392379052" at="47,39,48,32" concept="8" />
+      <node id="5289828217392379052" at="51,43,52,118" concept="7" />
+      <node id="5289828217392379052" at="52,118,53,48" concept="2" />
+      <node id="5289828217392379052" at="53,48,54,28" concept="2" />
+      <node id="5289828217392379052" at="54,28,55,31" concept="2" />
+      <node id="5289828217392379061" at="55,31,56,49" concept="2" />
+      <node id="5289828217392379067" at="56,49,57,52" concept="2" />
+      <node id="5289828217392379078" at="57,52,58,49" concept="2" />
+      <node id="5289828217392379052" at="58,49,59,22" concept="8" />
+      <node id="5289828217392379061" at="61,41,62,94" concept="7" />
+      <node id="5289828217392379061" at="62,94,63,47" concept="2" />
+      <node id="5289828217392379061" at="63,47,64,34" concept="7" />
+      <node id="5289828217392379061" at="64,34,65,92" concept="2" />
+      <node id="5289828217392379061" at="65,92,66,40" concept="2" />
+      <node id="5289828217392379061" at="66,40,67,34" concept="2" />
+      <node id="5289828217392379061" at="67,34,68,22" concept="8" />
+      <node id="5289828217392379052" at="70,44,71,100" concept="7" />
+      <node id="5289828217392379052" at="71,100,72,91" concept="7" />
+      <node id="5289828217392379052" at="72,91,73,49" concept="2" />
+      <node id="5289828217392379052" at="73,49,74,51" concept="2" />
+      <node id="5289828217392379052" at="74,51,75,22" concept="8" />
+      <node id="5289828217392379052" at="81,82,82,28" concept="13" />
+      <node id="5289828217392379052" at="82,28,83,25" concept="2" />
+      <node id="5289828217392379052" at="87,28,88,20" concept="8" />
+      <node id="5289828217392379052" at="90,40,91,33" concept="8" />
+      <node id="5289828217392379052" at="93,48,94,42" concept="8" />
+      <node id="5289828217392379052" at="97,57,98,83" concept="7" />
+      <node id="5289828217392379052" at="98,83,99,65" concept="2" />
+      <node id="5289828217392379052" at="99,65,100,25" concept="8" />
+      <node id="5289828217392379052" at="102,41,103,41" concept="2" />
+      <node id="5289828217392379052" at="103,41,104,143" concept="2" />
+      <node id="5289828217392379052" at="105,11,106,36" concept="7" />
+      <node id="5289828217392379052" at="106,36,107,44" concept="2" />
+      <node id="5289828217392379052" at="107,44,108,57" concept="2" />
+      <node id="5289828217392379052" at="108,57,109,34" concept="2" />
+      <node id="5289828217392379052" at="109,34,110,25" concept="8" />
+      <node id="5289828217392379052" at="111,17,112,42" concept="2" />
+      <node id="5289828217392379052" at="116,0,117,0" concept="11" trace="OBJ" />
+      <node id="5289828217392379052" at="120,122,121,92" concept="2" />
+      <node id="5289828217392379052" at="121,92,122,146" concept="2" />
+      <node id="5289828217392379052" at="126,34,127,90" concept="2" />
+      <node id="5289828217392379052" at="127,90,128,142" concept="2" />
+      <node id="5289828217392379052" at="132,34,133,69" concept="2" />
+      <node id="5289828217392379052" at="133,69,134,146" concept="2" />
+      <node id="5289828217392379052" at="138,34,139,91" concept="2" />
+      <node id="5289828217392379052" at="139,91,140,80" concept="2" />
+      <node id="5289828217392379052" at="145,75,146,99" concept="7" />
+      <node id="5289828217392379052" at="146,99,147,38" concept="2" />
+      <node id="5289828217392379052" at="147,38,148,36" concept="7" />
+      <node id="5289828217392379052" at="148,36,149,55" concept="2" />
+      <node id="5289828217392379052" at="149,55,150,56" concept="2" />
+      <node id="5289828217392379052" at="150,56,151,42" concept="2" />
+      <node id="5289828217392379052" at="151,42,152,134" concept="2" />
+      <node id="5289828217392379052" at="152,134,153,138" concept="2" />
+      <node id="5289828217392379052" at="153,138,154,24" concept="8" />
+      <node id="5289828217392379078" at="157,41,158,94" concept="7" />
+      <node id="5289828217392379078" at="158,94,159,47" concept="2" />
+      <node id="5289828217392379078" at="159,47,160,34" concept="7" />
+      <node id="5289828217392379078" at="160,34,161,93" concept="2" />
+      <node id="5289828217392379078" at="161,93,162,40" concept="2" />
+      <node id="5289828217392379078" at="162,40,163,34" concept="2" />
+      <node id="5289828217392379078" at="163,34,164,22" concept="8" />
+      <node id="5289828217392379052" at="168,0,169,0" concept="11" trace="elements$tbwc" />
+      <node id="5289828217392379052" at="172,0,173,0" concept="11" trace="PythonExpression$6o" />
+      <node id="5289828217392379052" at="33,0,35,0" concept="3" trace="myNode" />
+      <node id="5289828217392379052" at="78,0,80,0" concept="3" trace="myNode" />
+      <node id="5289828217392379052" at="47,0,50,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5289828217392379052" at="90,0,93,0" concept="6" trace="getSLink#()Lorg/jetbrains/mps/openapi/language/SContainmentLink;" />
+      <node id="5289828217392379052" at="93,0,96,0" concept="6" trace="getChildSConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5289828217392379052" at="36,0,40,0" concept="1" trace="PythonArrayExpression_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5289828217392379052" at="81,0,85,0" concept="1" trace="elementsListHandler_tjjqwb_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="5289828217392379052" at="86,0,90,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5289828217392379052" at="119,97,123,9" concept="5" />
+      <node id="5289828217392379052" at="125,95,129,9" concept="5" />
+      <node id="5289828217392379052" at="131,74,135,9" concept="5" />
+      <node id="5289828217392379052" at="137,96,141,9" concept="5" />
+      <node id="5289828217392379052" at="41,0,46,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5289828217392379052" at="97,0,102,0" concept="6" trace="createNodeCell#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5289828217392379052" at="118,107,124,7" concept="5" />
+      <node id="5289828217392379052" at="124,7,130,7" concept="5" />
+      <node id="5289828217392379052" at="130,7,136,7" concept="5" />
+      <node id="5289828217392379052" at="136,7,142,7" concept="5" />
+      <node id="5289828217392379052" at="70,0,77,0" concept="6" trace="createRefNodeList_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5289828217392379061" at="61,0,70,0" concept="6" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5289828217392379052" at="104,143,113,7" concept="14" />
+      <node id="5289828217392379078" at="157,0,166,0" concept="6" trace="createConstant_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5289828217392379052" at="51,0,61,0" concept="6" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5289828217392379052" at="144,0,156,0" concept="6" trace="createSeparatorCell#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5289828217392379052" at="102,0,115,0" concept="6" trace="createEmptyCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="5289828217392379052" at="118,0,144,0" concept="6" trace="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Z)V" />
+      <scope id="5289828217392379052" at="43,26,44,18" />
+      <scope id="5289828217392379052" at="47,39,48,32" />
+      <scope id="5289828217392379052" at="87,28,88,20" />
+      <scope id="5289828217392379052" at="90,40,91,33" />
+      <scope id="5289828217392379052" at="93,48,94,42" />
+      <scope id="5289828217392379052" at="111,17,112,42" />
+      <scope id="5289828217392379052" at="36,101,38,18" />
+      <scope id="5289828217392379052" at="81,82,83,25" />
+      <scope id="5289828217392379052" at="120,122,122,146" />
+      <scope id="5289828217392379052" at="126,34,128,142" />
+      <scope id="5289828217392379052" at="132,34,134,146" />
+      <scope id="5289828217392379052" at="138,34,140,80" />
+      <scope id="5289828217392379052" at="47,0,50,0" />
+      <scope id="5289828217392379052" at="90,0,93,0" />
+      <scope id="5289828217392379052" at="93,0,96,0" />
+      <scope id="5289828217392379052" at="97,57,100,25">
+        <var name="elementCell" id="5289828217392379052" />
+      </scope>
+      <scope id="5289828217392379052" at="36,0,40,0">
+        <var name="context" id="5289828217392379052" />
+        <var name="node" id="5289828217392379052" />
+      </scope>
+      <scope id="5289828217392379052" at="81,0,85,0">
+        <var name="context" id="5289828217392379052" />
+        <var name="ownerNode" id="5289828217392379052" />
+      </scope>
+      <scope id="5289828217392379052" at="86,0,90,0" />
+      <scope id="5289828217392379052" at="119,97,123,9" />
+      <scope id="5289828217392379052" at="125,95,129,9" />
+      <scope id="5289828217392379052" at="131,74,135,9" />
+      <scope id="5289828217392379052" at="137,96,141,9" />
+      <scope id="5289828217392379052" at="41,0,46,0" />
+      <scope id="5289828217392379052" at="70,44,75,22">
+        <var name="editorCell" id="5289828217392379052" />
+        <var name="handler" id="5289828217392379052" />
+      </scope>
+      <scope id="5289828217392379052" at="97,0,102,0">
+        <var name="elementNode" id="5289828217392379052" />
+      </scope>
+      <scope id="5289828217392379052" at="105,11,110,25">
+        <var name="emptyCell" id="5289828217392379052" />
+      </scope>
+      <scope id="5289828217392379061" at="61,41,68,22">
+        <var name="editorCell" id="5289828217392379061" />
+        <var name="style" id="5289828217392379061" />
+      </scope>
+      <scope id="5289828217392379052" at="70,0,77,0" />
+      <scope id="5289828217392379078" at="157,41,164,22">
+        <var name="editorCell" id="5289828217392379078" />
+        <var name="style" id="5289828217392379078" />
+      </scope>
+      <scope id="5289828217392379052" at="51,43,59,22">
+        <var name="editorCell" id="5289828217392379052" />
+      </scope>
+      <scope id="5289828217392379061" at="61,0,70,0" />
+      <scope id="5289828217392379052" at="145,75,154,24">
+        <var name="editorCell" id="5289828217392379052" />
+        <var name="style" id="5289828217392379052" />
+      </scope>
+      <scope id="5289828217392379078" at="157,0,166,0" />
+      <scope id="5289828217392379052" at="51,0,61,0" />
+      <scope id="5289828217392379052" at="102,41,113,7" />
+      <scope id="5289828217392379052" at="144,0,156,0">
+        <var name="nextNode" id="5289828217392379052" />
+        <var name="prevNode" id="5289828217392379052" />
+      </scope>
+      <scope id="5289828217392379052" at="102,0,115,0" />
+      <scope id="5289828217392379052" at="118,107,142,7" />
+      <scope id="5289828217392379052" at="118,0,144,0">
+        <var name="elementCell" id="5289828217392379052" />
+        <var name="elementNode" id="5289828217392379052" />
+        <var name="isEmptyCell" id="5289828217392379052" />
+      </scope>
+      <unit id="5289828217392379052" at="167,0,170,0" name="com.juliuscanute.python.editor.PythonArrayExpression_EditorBuilder_a$LINKS" />
+      <unit id="5289828217392379052" at="171,0,174,0" name="com.juliuscanute.python.editor.PythonArrayExpression_EditorBuilder_a$CONCEPTS" />
+      <unit id="5289828217392379052" at="77,0,157,0" name="com.juliuscanute.python.editor.PythonArrayExpression_EditorBuilder_a$elementsListHandler_tjjqwb_b0" />
+      <unit id="5289828217392379052" at="32,0,175,0" name="com.juliuscanute.python.editor.PythonArrayExpression_EditorBuilder_a" />
+    </file>
+  </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5741310041268745326">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5741310041268745326" at="129,83,130,97" concept="8" />
-      <scope id="5741310041268745326" at="129,83,130,97" />
+      <node id="5741310041268745326" at="131,83,132,97" concept="8" />
+      <scope id="5741310041268745326" at="131,83,132,97" />
     </file>
     <file name="PythonExpression_unaryExpression.java">
       <node id="5741310041268745326" at="35,118,36,140" concept="7" />
@@ -4361,8 +4545,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5741310041269031464">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5741310041269031464" at="93,84,94,102" concept="8" />
-      <scope id="5741310041269031464" at="93,84,94,102" />
+      <node id="5741310041269031464" at="95,84,96,102" concept="8" />
+      <scope id="5741310041269031464" at="95,84,96,102" />
     </file>
     <file name="PythonExpression_unaryExpression1.java">
       <node id="5741310041269031464" at="51,0,52,0" concept="3" trace="myLocations" />
@@ -4798,89 +4982,143 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5741310041269782869">
     <file name="PythonScriptStyle_StyleSheet.java">
-      <node id="5289828217391343287" at="23,84,24,69" concept="7" />
-      <node id="5289828217391343287" at="24,69,25,88" concept="7" />
-      <node id="5289828217391343287" at="25,88,26,84" concept="2" />
-      <node id="5289828217391457759" at="33,81,34,69" concept="7" />
-      <node id="5289828217391457759" at="34,69,35,88" concept="7" />
-      <node id="5289828217391457759" at="35,88,36,81" concept="2" />
-      <node id="5741310041269785815" at="43,85,44,69" concept="7" />
-      <node id="5741310041269785815" at="44,69,45,88" concept="7" />
-      <node id="5741310041269785815" at="45,88,46,85" concept="2" />
-      <node id="5289828217391343287" at="50,83,51,33" concept="13" />
-      <node id="5289828217391343295" at="55,59,56,90" concept="2" />
-      <node id="5289828217391457759" at="61,80,62,33" concept="13" />
-      <node id="5289828217391457787" at="66,59,67,89" concept="2" />
-      <node id="5741310041269785815" at="72,84,73,33" concept="13" />
-      <node id="5741310041269785819" at="77,59,78,91" concept="2" />
-      <node id="5741310041269810283" at="78,91,79,104" concept="2" />
-      <node id="5289828217391343287" at="50,0,53,0" concept="1" trace="PythonStringLiteralStyleClass#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="5289828217391457759" at="61,0,64,0" concept="1" trace="PythonIdentifierStyleClass#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="5741310041269785815" at="72,0,75,0" concept="1" trace="PythonNumericLiteralStyleClass#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="5289828217391343287" at="54,0,58,0" concept="6" trace="apply#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-      <node id="5289828217391457759" at="65,0,69,0" concept="6" trace="apply#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-      <node id="5741310041269785815" at="76,0,81,0" concept="6" trace="apply#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-      <node id="5289828217391343287" at="22,0,28,0" concept="12" trace="apply_PythonStringLiteral#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-      <node id="5289828217391457759" at="32,0,38,0" concept="12" trace="apply_PythonIdentifier#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-      <node id="5741310041269785815" at="42,0,48,0" concept="12" trace="apply_PythonNumericLiteral#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-      <scope id="5289828217391343287" at="50,83,51,33" />
-      <scope id="5289828217391343287" at="55,59,56,90" />
-      <scope id="5289828217391457759" at="61,80,62,33" />
-      <scope id="5289828217391457759" at="66,59,67,89" />
-      <scope id="5741310041269785815" at="72,84,73,33" />
-      <scope id="5741310041269785815" at="77,59,79,104" />
-      <scope id="5289828217391343287" at="23,84,26,84">
+      <node id="5289828217391343287" at="25,84,26,69" concept="7" />
+      <node id="5289828217391343287" at="26,69,27,88" concept="7" />
+      <node id="5289828217391343287" at="27,88,28,84" concept="2" />
+      <node id="5289828217391457759" at="35,81,36,69" concept="7" />
+      <node id="5289828217391457759" at="36,69,37,88" concept="7" />
+      <node id="5289828217391457759" at="37,88,38,81" concept="2" />
+      <node id="5741310041269785815" at="45,85,46,69" concept="7" />
+      <node id="5741310041269785815" at="46,69,47,88" concept="7" />
+      <node id="5741310041269785815" at="47,88,48,85" concept="2" />
+      <node id="5289828217392379099" at="55,82,56,69" concept="7" />
+      <node id="5289828217392379099" at="56,69,57,88" concept="7" />
+      <node id="5289828217392379099" at="57,88,58,82" concept="2" />
+      <node id="5289828217392379136" at="65,83,66,69" concept="7" />
+      <node id="5289828217392379136" at="66,69,67,88" concept="7" />
+      <node id="5289828217392379136" at="67,88,68,83" concept="2" />
+      <node id="5289828217391343287" at="72,83,73,33" concept="13" />
+      <node id="5289828217391343295" at="77,59,78,90" concept="2" />
+      <node id="5289828217391457759" at="83,80,84,33" concept="13" />
+      <node id="5289828217391457787" at="88,59,89,89" concept="2" />
+      <node id="5741310041269785815" at="94,84,95,33" concept="13" />
+      <node id="5741310041269785819" at="99,59,100,91" concept="2" />
+      <node id="5741310041269810283" at="100,91,101,104" concept="2" />
+      <node id="5289828217392379099" at="106,81,107,33" concept="13" />
+      <node id="5289828217392379113" at="111,59,112,88" concept="2" />
+      <node id="5289828217392379136" at="117,82,118,33" concept="13" />
+      <node id="5289828217392379153" at="122,59,123,89" concept="2" />
+      <node id="5289828217391343287" at="72,0,75,0" concept="1" trace="PythonStringLiteralStyleClass#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5289828217391457759" at="83,0,86,0" concept="1" trace="PythonIdentifierStyleClass#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5741310041269785815" at="94,0,97,0" concept="1" trace="PythonNumericLiteralStyleClass#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5289828217392379099" at="106,0,109,0" concept="1" trace="PythonLeftBracketStyleClass#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5289828217392379136" at="117,0,120,0" concept="1" trace="PythonRightBracketStyleClass#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5289828217391343287" at="76,0,80,0" concept="6" trace="apply#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="5289828217391457759" at="87,0,91,0" concept="6" trace="apply#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="5289828217392379099" at="110,0,114,0" concept="6" trace="apply#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="5289828217392379136" at="121,0,125,0" concept="6" trace="apply#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="5741310041269785815" at="98,0,103,0" concept="6" trace="apply#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="5289828217391343287" at="24,0,30,0" concept="12" trace="apply_PythonStringLiteral#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="5289828217391457759" at="34,0,40,0" concept="12" trace="apply_PythonIdentifier#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="5741310041269785815" at="44,0,50,0" concept="12" trace="apply_PythonNumericLiteral#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="5289828217392379099" at="54,0,60,0" concept="12" trace="apply_PythonLeftBracket#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <node id="5289828217392379136" at="64,0,70,0" concept="12" trace="apply_PythonRightBracket#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+      <scope id="5289828217391343287" at="72,83,73,33" />
+      <scope id="5289828217391343287" at="77,59,78,90" />
+      <scope id="5289828217391457759" at="83,80,84,33" />
+      <scope id="5289828217391457759" at="88,59,89,89" />
+      <scope id="5741310041269785815" at="94,84,95,33" />
+      <scope id="5289828217392379099" at="106,81,107,33" />
+      <scope id="5289828217392379099" at="111,59,112,88" />
+      <scope id="5289828217392379136" at="117,82,118,33" />
+      <scope id="5289828217392379136" at="122,59,123,89" />
+      <scope id="5741310041269785815" at="99,59,101,104" />
+      <scope id="5289828217391343287" at="25,84,28,84">
         <var name="editorContext" id="5289828217391343287" />
         <var name="node" id="5289828217391343287" />
       </scope>
-      <scope id="5289828217391457759" at="33,81,36,81">
+      <scope id="5289828217391457759" at="35,81,38,81">
         <var name="editorContext" id="5289828217391457759" />
         <var name="node" id="5289828217391457759" />
       </scope>
-      <scope id="5741310041269785815" at="43,85,46,85">
+      <scope id="5741310041269785815" at="45,85,48,85">
         <var name="editorContext" id="5741310041269785815" />
         <var name="node" id="5741310041269785815" />
       </scope>
-      <scope id="5289828217391343287" at="50,0,53,0">
+      <scope id="5289828217392379099" at="55,82,58,82">
+        <var name="editorContext" id="5289828217392379099" />
+        <var name="node" id="5289828217392379099" />
+      </scope>
+      <scope id="5289828217392379136" at="65,83,68,83">
+        <var name="editorContext" id="5289828217392379136" />
+        <var name="node" id="5289828217392379136" />
+      </scope>
+      <scope id="5289828217391343287" at="72,0,75,0">
         <var name="editorContext" id="5289828217391343287" />
         <var name="node" id="5289828217391343287" />
       </scope>
-      <scope id="5289828217391457759" at="61,0,64,0">
+      <scope id="5289828217391457759" at="83,0,86,0">
         <var name="editorContext" id="5289828217391457759" />
         <var name="node" id="5289828217391457759" />
       </scope>
-      <scope id="5741310041269785815" at="72,0,75,0">
+      <scope id="5741310041269785815" at="94,0,97,0">
         <var name="editorContext" id="5741310041269785815" />
         <var name="node" id="5741310041269785815" />
       </scope>
-      <scope id="5289828217391343287" at="54,0,58,0">
+      <scope id="5289828217392379099" at="106,0,109,0">
+        <var name="editorContext" id="5289828217392379099" />
+        <var name="node" id="5289828217392379099" />
+      </scope>
+      <scope id="5289828217392379136" at="117,0,120,0">
+        <var name="editorContext" id="5289828217392379136" />
+        <var name="node" id="5289828217392379136" />
+      </scope>
+      <scope id="5289828217391343287" at="76,0,80,0">
         <var name="editorCell" id="5289828217391343287" />
         <var name="style" id="5289828217391343287" />
       </scope>
-      <scope id="5289828217391457759" at="65,0,69,0">
+      <scope id="5289828217391457759" at="87,0,91,0">
         <var name="editorCell" id="5289828217391457759" />
         <var name="style" id="5289828217391457759" />
       </scope>
-      <scope id="5741310041269785815" at="76,0,81,0">
+      <scope id="5289828217392379099" at="110,0,114,0">
+        <var name="editorCell" id="5289828217392379099" />
+        <var name="style" id="5289828217392379099" />
+      </scope>
+      <scope id="5289828217392379136" at="121,0,125,0">
+        <var name="editorCell" id="5289828217392379136" />
+        <var name="style" id="5289828217392379136" />
+      </scope>
+      <scope id="5741310041269785815" at="98,0,103,0">
         <var name="editorCell" id="5741310041269785815" />
         <var name="style" id="5741310041269785815" />
       </scope>
-      <scope id="5289828217391343287" at="22,0,28,0">
+      <scope id="5289828217391343287" at="24,0,30,0">
         <var name="editorCell" id="5289828217391343287" />
         <var name="style" id="5289828217391343287" />
       </scope>
-      <scope id="5289828217391457759" at="32,0,38,0">
+      <scope id="5289828217391457759" at="34,0,40,0">
         <var name="editorCell" id="5289828217391457759" />
         <var name="style" id="5289828217391457759" />
       </scope>
-      <scope id="5741310041269785815" at="42,0,48,0">
+      <scope id="5741310041269785815" at="44,0,50,0">
         <var name="editorCell" id="5741310041269785815" />
         <var name="style" id="5741310041269785815" />
       </scope>
-      <unit id="5289828217391343287" at="49,0,60,0" name="com.juliuscanute.python.editor.PythonScriptStyle_StyleSheet$PythonStringLiteralStyleClass" />
-      <unit id="5289828217391457759" at="60,0,71,0" name="com.juliuscanute.python.editor.PythonScriptStyle_StyleSheet$PythonIdentifierStyleClass" />
-      <unit id="5741310041269785815" at="71,0,83,0" name="com.juliuscanute.python.editor.PythonScriptStyle_StyleSheet$PythonNumericLiteralStyleClass" />
-      <unit id="5741310041269782869" at="17,0,84,0" name="com.juliuscanute.python.editor.PythonScriptStyle_StyleSheet" />
+      <scope id="5289828217392379099" at="54,0,60,0">
+        <var name="editorCell" id="5289828217392379099" />
+        <var name="style" id="5289828217392379099" />
+      </scope>
+      <scope id="5289828217392379136" at="64,0,70,0">
+        <var name="editorCell" id="5289828217392379136" />
+        <var name="style" id="5289828217392379136" />
+      </scope>
+      <unit id="5289828217391343287" at="71,0,82,0" name="com.juliuscanute.python.editor.PythonScriptStyle_StyleSheet$PythonStringLiteralStyleClass" />
+      <unit id="5289828217391457759" at="82,0,93,0" name="com.juliuscanute.python.editor.PythonScriptStyle_StyleSheet$PythonIdentifierStyleClass" />
+      <unit id="5289828217392379099" at="105,0,116,0" name="com.juliuscanute.python.editor.PythonScriptStyle_StyleSheet$PythonLeftBracketStyleClass" />
+      <unit id="5289828217392379136" at="116,0,127,0" name="com.juliuscanute.python.editor.PythonScriptStyle_StyleSheet$PythonRightBracketStyleClass" />
+      <unit id="5741310041269785815" at="93,0,105,0" name="com.juliuscanute.python.editor.PythonScriptStyle_StyleSheet$PythonNumericLiteralStyleClass" />
+      <unit id="5741310041269782869" at="19,0,128,0" name="com.juliuscanute.python.editor.PythonScriptStyle_StyleSheet" />
     </file>
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5741310041269851463">

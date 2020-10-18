@@ -1292,6 +1292,22 @@
         </node>
       </node>
     </node>
+    <node concept="14StLt" id="4_DfFMGwFjr" role="V601i">
+      <property role="TrG5h" value="PythonLeftBracket" />
+      <node concept="3Xmtl4" id="4_DfFMGwFjD" role="3F10Kt">
+        <node concept="1wgc9g" id="4_DfFMGwFjH" role="3XvnJa">
+          <ref role="1wgcnl" to="tpen:hXb$RYA" resolve="LeftBracket" />
+        </node>
+      </node>
+    </node>
+    <node concept="14StLt" id="4_DfFMGwFk0" role="V601i">
+      <property role="TrG5h" value="PythonRightBracket" />
+      <node concept="3Xmtl4" id="4_DfFMGwFkh" role="3F10Kt">
+        <node concept="1wgc9g" id="4_DfFMGwFkl" role="3XvnJa">
+          <ref role="1wgcnl" to="tpen:hXb$V4T" resolve="RightBracket" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3ICUPy" id="4YHeL1jhtl7">
     <property role="3GE5qa" value="expression" />
@@ -2857,6 +2873,26 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4_DfFMGwFiG">
+    <property role="3GE5qa" value="expression" />
+    <ref role="1XX52x" to="e5uo:4_DfFMGwwaP" resolve="PythonArrayExpression" />
+    <node concept="3EZMnI" id="4_DfFMGwFiI" role="2wV5jI">
+      <node concept="3F0ifn" id="4_DfFMGwFiP" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+        <ref role="1k5W1q" node="4_DfFMGwFjr" resolve="PythonLeftBracket" />
+      </node>
+      <node concept="3F2HdR" id="4_DfFMGwFiV" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="e5uo:4_DfFMGwwaS" resolve="elements" />
+        <node concept="l2Vlx" id="4_DfFMGwFiX" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="4_DfFMGwFj6" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <ref role="1k5W1q" node="4_DfFMGwFk0" resolve="PythonRightBracket" />
+      </node>
+      <node concept="l2Vlx" id="4_DfFMGwFiL" role="2iSdaV" />
     </node>
   </node>
 </model>

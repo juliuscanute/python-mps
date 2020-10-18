@@ -15,21 +15,22 @@ public final class LanguageConceptSwitch {
   public static final int ImportStatement = 3;
   public static final int ImportStatementAsName = 4;
   public static final int Name = 5;
-  public static final int PythonAssignmentExpression = 6;
-  public static final int PythonBinaryExpression = 7;
-  public static final int PythonExpression = 8;
-  public static final int PythonExpressionStatement = 9;
-  public static final int PythonIdentifier = 10;
-  public static final int PythonLeftHandSideExpression = 11;
-  public static final int PythonLiteral = 12;
-  public static final int PythonLogicalExpression = 13;
-  public static final int PythonNode = 14;
-  public static final int PythonNumericLiteral = 15;
-  public static final int PythonProgram = 16;
-  public static final int PythonStatement = 17;
-  public static final int PythonStringLiteral = 18;
-  public static final int PythonUnaryExpression = 19;
-  public static final int PythonVariableDeclarator = 20;
+  public static final int PythonArrayExpression = 6;
+  public static final int PythonAssignmentExpression = 7;
+  public static final int PythonBinaryExpression = 8;
+  public static final int PythonExpression = 9;
+  public static final int PythonExpressionStatement = 10;
+  public static final int PythonIdentifier = 11;
+  public static final int PythonLeftHandSideExpression = 12;
+  public static final int PythonLiteral = 13;
+  public static final int PythonLogicalExpression = 14;
+  public static final int PythonNode = 15;
+  public static final int PythonNumericLiteral = 16;
+  public static final int PythonProgram = 17;
+  public static final int PythonStatement = 18;
+  public static final int PythonStringLiteral = 19;
+  public static final int PythonUnaryExpression = 20;
+  public static final int PythonVariableDeclarator = 21;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L);
@@ -39,6 +40,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x35a661b8fcb327eaL, ImportStatement);
     builder.put(0x68c84a182a2a1159L, ImportStatementAsName);
     builder.put(0x35a661b8fcb327edL, Name);
+    builder.put(0x49693ebcac8202b5L, PythonArrayExpression);
     builder.put(0x49693ebcac78769cL, PythonAssignmentExpression);
     builder.put(0x49693ebcac6897dfL, PythonBinaryExpression);
     builder.put(0x46cfc4ee6659906bL, PythonExpression);

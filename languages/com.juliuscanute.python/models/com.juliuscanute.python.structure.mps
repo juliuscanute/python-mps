@@ -848,5 +848,20 @@
     <node concept="2tJIrI" id="cr9LB7kNh9" role="jymVt" />
     <node concept="3Tm1VV" id="cr9LB7kvHU" role="1B3o_S" />
   </node>
+  <node concept="1TIwiD" id="4_DfFMGwwaP">
+    <property role="EcuMT" value="5289828217392333493" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="PythonArrayExpression" />
+    <property role="34LRSv" value="[" />
+    <property role="R4oN_" value="array expression" />
+    <ref role="1TJDcQ" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    <node concept="1TJgyj" id="4_DfFMGwwaS" role="1TKVEi">
+      <property role="IQ2ns" value="5289828217392333496" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="elements" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    </node>
+  </node>
 </model>
 

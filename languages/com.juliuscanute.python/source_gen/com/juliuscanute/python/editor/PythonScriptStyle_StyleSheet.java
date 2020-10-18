@@ -13,6 +13,8 @@ import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.NumericLit
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.openapi.editor.style.StyleRegistry;
 import java.awt.Color;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.LeftBracketStyleClass;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet.RightBracketStyleClass;
 
 public class PythonScriptStyle_StyleSheet {
   /**
@@ -44,6 +46,26 @@ public class PythonScriptStyle_StyleSheet {
     SNode node = (editorCell == null ? null : editorCell.getSNode());
     EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
     new PythonNumericLiteralStyleClass(editorContext, node).apply(style, editorCell);
+  }
+  /**
+   * 
+   * @deprecated Since MPS 3.5 use generated StyleClass
+   */
+  @Deprecated
+  public static void apply_PythonLeftBracket(Style style, EditorCell editorCell) {
+    SNode node = (editorCell == null ? null : editorCell.getSNode());
+    EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
+    new PythonLeftBracketStyleClass(editorContext, node).apply(style, editorCell);
+  }
+  /**
+   * 
+   * @deprecated Since MPS 3.5 use generated StyleClass
+   */
+  @Deprecated
+  public static void apply_PythonRightBracket(Style style, EditorCell editorCell) {
+    SNode node = (editorCell == null ? null : editorCell.getSNode());
+    EditorContext editorContext = (editorCell == null ? null : editorCell.getContext());
+    new PythonRightBracketStyleClass(editorContext, node).apply(style, editorCell);
   }
 
   public static class PythonStringLiteralStyleClass extends AbstractStyleClass {
@@ -77,6 +99,28 @@ public class PythonScriptStyle_StyleSheet {
     public void apply(Style style, EditorCell editorCell) {
       new NumericLiteralStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
       style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(new Color(255)));
+    }
+
+  }
+  public static class PythonLeftBracketStyleClass extends AbstractStyleClass {
+    public PythonLeftBracketStyleClass(EditorContext editorContext, SNode node) {
+      super(editorContext, node);
+    }
+
+    @Override
+    public void apply(Style style, EditorCell editorCell) {
+      new LeftBracketStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    }
+
+  }
+  public static class PythonRightBracketStyleClass extends AbstractStyleClass {
+    public PythonRightBracketStyleClass(EditorContext editorContext, SNode node) {
+      super(editorContext, node);
+    }
+
+    @Override
+    public void apply(Style style, EditorCell editorCell) {
+      new RightBracketStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
     }
 
   }

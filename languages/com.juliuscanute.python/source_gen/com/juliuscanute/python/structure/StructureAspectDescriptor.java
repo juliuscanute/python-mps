@@ -24,6 +24,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptImportStatement = createDescriptorForImportStatement();
   /*package*/ final ConceptDescriptor myConceptImportStatementAsName = createDescriptorForImportStatementAsName();
   /*package*/ final ConceptDescriptor myConceptName = createDescriptorForName();
+  /*package*/ final ConceptDescriptor myConceptPythonArrayExpression = createDescriptorForPythonArrayExpression();
   /*package*/ final ConceptDescriptor myConceptPythonAssignmentExpression = createDescriptorForPythonAssignmentExpression();
   /*package*/ final ConceptDescriptor myConceptPythonBinaryExpression = createDescriptorForPythonBinaryExpression();
   /*package*/ final ConceptDescriptor myConceptPythonExpression = createDescriptorForPythonExpression();
@@ -61,7 +62,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptFromStatementAsName, myConceptImportStatement, myConceptImportStatementAsName, myConceptName, myConceptPythonAssignmentExpression, myConceptPythonBinaryExpression, myConceptPythonExpression, myConceptPythonExpressionStatement, myConceptPythonIdentifier, myConceptPythonLeftHandSideExpression, myConceptPythonLiteral, myConceptPythonLogicalExpression, myConceptPythonNode, myConceptPythonNumericLiteral, myConceptPythonProgram, myConceptPythonStatement, myConceptPythonStringLiteral, myConceptPythonUnaryExpression, myConceptPythonVariableDeclarator);
+    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptFromStatementAsName, myConceptImportStatement, myConceptImportStatementAsName, myConceptName, myConceptPythonArrayExpression, myConceptPythonAssignmentExpression, myConceptPythonBinaryExpression, myConceptPythonExpression, myConceptPythonExpressionStatement, myConceptPythonIdentifier, myConceptPythonLeftHandSideExpression, myConceptPythonLiteral, myConceptPythonLogicalExpression, myConceptPythonNode, myConceptPythonNumericLiteral, myConceptPythonProgram, myConceptPythonStatement, myConceptPythonStringLiteral, myConceptPythonUnaryExpression, myConceptPythonVariableDeclarator);
   }
 
   @Override
@@ -80,6 +81,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptImportStatementAsName;
       case LanguageConceptSwitch.Name:
         return myConceptName;
+      case LanguageConceptSwitch.PythonArrayExpression:
+        return myConceptPythonArrayExpression;
       case LanguageConceptSwitch.PythonAssignmentExpression:
         return myConceptPythonAssignmentExpression;
       case LanguageConceptSwitch.PythonBinaryExpression:
@@ -181,6 +184,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3865884777285625837");
     b.version(2);
     b.property("name", 0x35a661b8fcb35122L).type(PrimitiveTypeId.STRING).origin("3865884777285636386").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPythonArrayExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonArrayExpression", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac8202b5L);
+    b.class_(false, false, false);
+    b.super_("com.juliuscanute.python.structure.PythonExpression", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL);
+    b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217392333493");
+    b.version(2);
+    b.aggregate("elements", 0x49693ebcac8202b8L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL).optional(true).ordered(true).multiple(true).origin("5289828217392333496").done();
+    b.alias("[");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPythonAssignmentExpression() {
