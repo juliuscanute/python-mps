@@ -19,10 +19,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonExpression;
   private ConceptPresentation props_PythonExpressionStatement;
   private ConceptPresentation props_PythonLiteral;
+  private ConceptPresentation props_PythonLogicalExpression;
   private ConceptPresentation props_PythonNode;
   private ConceptPresentation props_PythonNumericLiteral;
   private ConceptPresentation props_PythonProgram;
   private ConceptPresentation props_PythonStatement;
+  private ConceptPresentation props_PythonStringLiteral;
   private ConceptPresentation props_PythonUnaryExpression;
 
   @Override
@@ -105,6 +107,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonLiteral = cpb.create();
         }
         return props_PythonLiteral;
+      case LanguageConceptSwitch.PythonLogicalExpression:
+        if (props_PythonLogicalExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonLogicalExpression");
+          props_PythonLogicalExpression = cpb.create();
+        }
+        return props_PythonLogicalExpression;
       case LanguageConceptSwitch.PythonNode:
         if (props_PythonNode == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -133,6 +142,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonStatement = cpb.create();
         }
         return props_PythonStatement;
+      case LanguageConceptSwitch.PythonStringLiteral:
+        if (props_PythonStringLiteral == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("string literal");
+          cpb.rawPresentation("PythonStringLiteral");
+          props_PythonStringLiteral = cpb.create();
+        }
+        return props_PythonStringLiteral;
       case LanguageConceptSwitch.PythonUnaryExpression:
         if (props_PythonUnaryExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

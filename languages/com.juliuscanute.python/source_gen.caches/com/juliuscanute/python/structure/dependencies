@@ -21,6 +21,16 @@
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.EnumerationDescriptorBase" />
   </dependency>
+  <dependency className="com.juliuscanute.python.structure.EnumerationDescriptor_PythonLogicalOperator">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.EnumerationLiteralsIndex" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.EnumerationDescriptor" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.EnumerationDescriptorBase" />
+  </dependency>
   <dependency className="com.juliuscanute.python.structure.EnumerationDescriptor_PythonUnaryOperator">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -39,6 +49,7 @@
   </dependency>
   <dependency className="com.juliuscanute.python.structure.StructureAspectDescriptor">
     <classNode dependClassName="com.juliuscanute.python.structure.EnumerationDescriptor_PythonBinaryOperator" />
+    <classNode dependClassName="com.juliuscanute.python.structure.EnumerationDescriptor_PythonLogicalOperator" />
     <classNode dependClassName="com.juliuscanute.python.structure.EnumerationDescriptor_PythonUnaryOperator" />
     <classNode dependClassName="com.juliuscanute.python.structure.LanguageConceptSwitch" />
     <classNode dependClassName="java.lang.Override" />

@@ -420,5 +420,75 @@
       <ref role="AX2Wp" node="4_DfFMGq3Jy" resolve="PythonBinaryOperator" />
     </node>
   </node>
+  <node concept="25R3W" id="4_DfFMGr9EX">
+    <property role="3F6X1D" value="5289828217390930621" />
+    <property role="3GE5qa" value="expression.operator" />
+    <property role="TrG5h" value="PythonLogicalOperator" />
+    <ref role="1H5jkz" node="4_DfFMGr9EY" resolve="logicalAnd" />
+    <node concept="25R33" id="4_DfFMGr9EY" role="25R1y">
+      <property role="3tVfz5" value="5289828217390930622" />
+      <property role="TrG5h" value="logicalAnd" />
+      <property role="1L1pqM" value="and" />
+    </node>
+    <node concept="25R33" id="4_DfFMGr9EZ" role="25R1y">
+      <property role="3tVfz5" value="5289828217390930623" />
+      <property role="TrG5h" value="logicalOr" />
+      <property role="1L1pqM" value="or" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4_DfFMGra85">
+    <property role="EcuMT" value="5289828217390932485" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="PythonLogicalExpression" />
+    <ref role="1TJDcQ" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    <node concept="1TJgyj" id="4_DfFMGriIR" role="1TKVEi">
+      <property role="IQ2ns" value="5289828217390967735" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    </node>
+    <node concept="1TJgyj" id="4_DfFMGriIT" role="1TKVEi">
+      <property role="IQ2ns" value="5289828217390967737" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    </node>
+    <node concept="1TJgyi" id="4_DfFMGriIP" role="1TKVEl">
+      <property role="IQ2nx" value="5289828217390967733" />
+      <property role="TrG5h" value="operator" />
+      <ref role="AX2Wp" node="4_DfFMGr9EX" resolve="PythonLogicalOperator" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4_DfFMGrCga">
+    <property role="EcuMT" value="5289828217391055882" />
+    <property role="3GE5qa" value="expression.literal" />
+    <property role="TrG5h" value="PythonStringLiteral" />
+    <property role="R4oN_" value="string literal" />
+    <ref role="1TJDcQ" node="4rfLeTAn_qx" resolve="PythonLiteral" />
+    <node concept="1TJgyi" id="4_DfFMGrCgb" role="1TKVEl">
+      <property role="IQ2nx" value="5289828217391055883" />
+      <property role="TrG5h" value="doubleQuotedValue" />
+      <ref role="AX2Wp" node="6GVUdUjcpSs" resolve="_PythonDoubleStringCharacters" />
+    </node>
+    <node concept="1TJgyi" id="4_DfFMGrCgd" role="1TKVEl">
+      <property role="IQ2nx" value="5289828217391055885" />
+      <property role="TrG5h" value="singleQuotedValue" />
+      <ref role="AX2Wp" node="6GVUdUjcpWt" resolve="_PythonSingleStringCharacters" />
+    </node>
+  </node>
+  <node concept="Az7Fb" id="6GVUdUjcpWt">
+    <property role="3GE5qa" value="expression.literal" />
+    <property role="TrG5h" value="_PythonSingleStringCharacters" />
+    <property role="FLfZY" value="([^'\\\\]|\\\\((['\&quot;\\\\bfnrtv]|[^'\&quot;\\\\bfnrtv0-9xu])|0|x[0-9a-fA-F][0-9a-fA-F]|u[0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F]))*" />
+    <property role="3F6X1D" value="7727025628334104349" />
+  </node>
+  <node concept="Az7Fb" id="6GVUdUjcpSs">
+    <property role="3GE5qa" value="expression.literal" />
+    <property role="TrG5h" value="_PythonDoubleStringCharacters" />
+    <property role="FLfZY" value="([^&quot;\\\\]|\\\\((['\&quot;\\\\bfnrtv]|[^'\&quot;\\\\bfnrtv0-9xu])|0|x[0-9a-fA-F][0-9a-fA-F]|u[0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F]))*" />
+    <property role="3F6X1D" value="7727025628334104092" />
+  </node>
 </model>
 

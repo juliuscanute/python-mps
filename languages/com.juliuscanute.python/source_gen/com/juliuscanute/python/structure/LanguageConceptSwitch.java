@@ -19,11 +19,13 @@ public final class LanguageConceptSwitch {
   public static final int PythonExpression = 7;
   public static final int PythonExpressionStatement = 8;
   public static final int PythonLiteral = 9;
-  public static final int PythonNode = 10;
-  public static final int PythonNumericLiteral = 11;
-  public static final int PythonProgram = 12;
-  public static final int PythonStatement = 13;
-  public static final int PythonUnaryExpression = 14;
+  public static final int PythonLogicalExpression = 10;
+  public static final int PythonNode = 11;
+  public static final int PythonNumericLiteral = 12;
+  public static final int PythonProgram = 13;
+  public static final int PythonStatement = 14;
+  public static final int PythonStringLiteral = 15;
+  public static final int PythonUnaryExpression = 16;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L);
@@ -37,10 +39,12 @@ public final class LanguageConceptSwitch {
     builder.put(0x46cfc4ee6659906bL, PythonExpression);
     builder.put(0x46cfc4ee665dbe61L, PythonExpressionStatement);
     builder.put(0x46cfc4ee665e56a1L, PythonLiteral);
+    builder.put(0x49693ebcac6ca205L, PythonLogicalExpression);
     builder.put(0x46cfc4ee66582d22L, PythonNode);
     builder.put(0x46cfc4ee665e56a0L, PythonNumericLiteral);
     builder.put(0x35a661b8fcb327e9L, PythonProgram);
     builder.put(0x46cfc4ee6658c91bL, PythonStatement);
+    builder.put(0x49693ebcac6e840aL, PythonStringLiteral);
     builder.put(0x46cfc4ee66599075L, PythonUnaryExpression);
     myIndex = builder.seal();
   }
