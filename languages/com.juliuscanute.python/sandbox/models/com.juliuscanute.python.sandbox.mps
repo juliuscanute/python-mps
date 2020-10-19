@@ -61,6 +61,7 @@
         <child id="5289828217393522403" name="body" index="3_Zhxv" />
       </concept>
       <concept id="5289828217393571959" name="com.juliuscanute.python.structure.PythonWhileStatement" flags="ng" index="3_Ztrb">
+        <child id="5289828217394102522" name="elseBlk" index="3_X3T6" />
         <child id="5289828217393571960" name="test" index="3_Ztr4" />
       </concept>
     </language>
@@ -273,6 +274,7 @@
         </node>
       </node>
     </node>
+    <node concept="w_KRP" id="4_DfFMGCzJQ" role="w_N3S" />
     <node concept="3_Ztrb" id="4_DfFMG_rdH" role="w_N3S">
       <node concept="3_0q_z" id="4_DfFMG_rfh" role="3_Ztr4">
         <property role="3_0q_s" value="4_DfFMGq3JO/bnGt" />
@@ -352,16 +354,60 @@
         </node>
       </node>
     </node>
-    <node concept="w_KRP" id="4_DfFMG$hkX" role="w_N3S" />
-    <node concept="w_KRP" id="4_DfFMG$4K0" role="w_N3S" />
-    <node concept="w_KRP" id="4_DfFMG$4Ix" role="w_N3S" />
-    <node concept="w_KRP" id="4_DfFMG$4H3" role="w_N3S" />
-    <node concept="w_KRP" id="4_DfFMGzSlk" role="w_N3S" />
-    <node concept="w_KRP" id="4_DfFMGzSjC" role="w_N3S" />
-    <node concept="w_KRP" id="4_DfFMGzSic" role="w_N3S" />
     <node concept="w_KRP" id="4_DfFMGzut$" role="w_N3S" />
-    <node concept="w_KRP" id="4_DfFMGzumB" role="w_N3S" />
-    <node concept="w_KRP" id="4_DfFMGzulg" role="w_N3S" />
+    <node concept="3_Ztrb" id="4_DfFMGC$0R" role="w_N3S">
+      <node concept="w$BEf" id="4_DfFMGC$30" role="3_Zhxv">
+        <node concept="3_4kww" id="4_DfFMGC$2Y" role="w$BEc">
+          <node concept="3_7pGq" id="4_DfFMGC$2Z" role="3_4kwx">
+            <property role="3_7pGr" value="abc" />
+          </node>
+          <node concept="w$p9e" id="4_DfFMGC$36" role="3_4kwz">
+            <property role="w$p9c" value="23232323" />
+          </node>
+        </node>
+      </node>
+      <node concept="w$BEf" id="4_DfFMGC$3g" role="3_Zhxv">
+        <node concept="3_4kww" id="4_DfFMGC$3r" role="w$BEc">
+          <node concept="3_7pGq" id="4_DfFMGC$3s" role="3_4kwx">
+            <property role="3_7pGr" value="adbcc" />
+          </node>
+          <node concept="3_1VEQ" id="4_DfFMGC$3v" role="3_4kwz">
+            <property role="3_1VEL" value="2342342342" />
+          </node>
+        </node>
+      </node>
+      <node concept="3_0q_z" id="4_DfFMGC$2O" role="3_Ztr4">
+        <property role="3_0q_s" value="4_DfFMGq3JO/bnGt" />
+        <node concept="3_1VEQ" id="4_DfFMGC$2K" role="3_0q_u">
+          <property role="3_1VEL" value="a" />
+        </node>
+        <node concept="3_1VEQ" id="4_DfFMGC$2P" role="3_0q_o">
+          <property role="3_1VEL" value="b" />
+        </node>
+      </node>
+      <node concept="3_Zhxs" id="4TVlTE89zLl" role="3_X3T6">
+        <node concept="w$BEf" id="4TVlTE89zLp" role="3_Zhxv">
+          <node concept="3_4kww" id="4TVlTE89zLn" role="w$BEc">
+            <node concept="3_7pGq" id="4TVlTE89zLo" role="3_4kwx">
+              <property role="3_7pGr" value="hello" />
+            </node>
+            <node concept="w$p9e" id="4TVlTE89zLA" role="3_4kwz">
+              <property role="w$p9c" value="121323123" />
+            </node>
+          </node>
+        </node>
+        <node concept="w$BEf" id="4TVlTE89zLK" role="3_Zhxv">
+          <node concept="3_4kww" id="4TVlTE89zLI" role="w$BEc">
+            <node concept="3_7pGq" id="4TVlTE89zLJ" role="3_4kwx">
+              <property role="3_7pGr" value="world" />
+            </node>
+            <node concept="w$p9e" id="4TVlTE89zLT" role="3_4kwz">
+              <property role="w$p9c" value="3423423423" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="w_KRP" id="4_DfFMGzuhe" role="w_N3S" />
     <node concept="w_KRP" id="4_DfFMGzudf" role="w_N3S" />
   </node>

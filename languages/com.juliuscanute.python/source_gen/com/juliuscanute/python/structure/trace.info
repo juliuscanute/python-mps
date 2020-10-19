@@ -19,7 +19,7 @@
       <unit at="10,0,78,0" name="com.juliuscanute.python.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="20,0,396,0" name="com.juliuscanute.python.structure.StructureAspectDescriptor" />
+      <unit at="20,0,397,0" name="com.juliuscanute.python.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/223815598156675961">
@@ -1150,14 +1150,15 @@
       <node id="5289828217393571959" at="388,140,389,110" concept="1" />
       <node id="5289828217393571959" at="389,110,390,17" concept="1" />
       <node id="5289828217393571960" at="390,17,391,198" concept="1" />
-      <node id="5289828217393571959" at="391,198,392,21" concept="1" />
-      <node id="5289828217393571959" at="392,21,393,22" concept="6" />
-      <node id="5289828217393571959" at="385,0,395,0" concept="8" trace="createDescriptorForPythonWhileStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="5289828217394102522" at="391,198,392,200" concept="1" />
+      <node id="5289828217393571959" at="392,200,393,21" concept="1" />
+      <node id="5289828217393571959" at="393,21,394,22" concept="6" />
+      <node id="5289828217393571959" at="385,0,396,0" concept="8" trace="createDescriptorForPythonWhileStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="5289828217393571959" at="126,54,127,45" />
-      <scope id="5289828217393571959" at="385,78,393,22">
+      <scope id="5289828217393571959" at="385,78,394,22">
         <var name="b" id="5289828217393571959" />
       </scope>
-      <scope id="5289828217393571959" at="385,0,395,0" />
+      <scope id="5289828217393571959" at="385,0,396,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/7550366242933707097">
