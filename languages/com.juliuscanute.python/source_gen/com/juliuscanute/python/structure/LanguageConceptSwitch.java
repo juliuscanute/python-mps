@@ -22,21 +22,22 @@ public final class LanguageConceptSwitch {
   public static final int PythonExpression = 10;
   public static final int PythonExpressionStatement = 11;
   public static final int PythonIdentifier = 12;
-  public static final int PythonIfElseStatement = 13;
-  public static final int PythonIndentBlockStatement = 14;
-  public static final int PythonLeftHandSideExpression = 15;
-  public static final int PythonLiteral = 16;
-  public static final int PythonLogicalExpression = 17;
-  public static final int PythonNode = 18;
-  public static final int PythonNumericLiteral = 19;
-  public static final int PythonObjectExpression = 20;
-  public static final int PythonProgram = 21;
-  public static final int PythonProperty = 22;
-  public static final int PythonStatement = 23;
-  public static final int PythonStringLiteral = 24;
-  public static final int PythonUnaryExpression = 25;
-  public static final int PythonVariableDeclarator = 26;
-  public static final int PythonWhileStatement = 27;
+  public static final int PythonIdentifierReference = 13;
+  public static final int PythonIfElseStatement = 14;
+  public static final int PythonIndentBlockStatement = 15;
+  public static final int PythonLeftHandSideExpression = 16;
+  public static final int PythonLiteral = 17;
+  public static final int PythonLogicalExpression = 18;
+  public static final int PythonNode = 19;
+  public static final int PythonNumericLiteral = 20;
+  public static final int PythonObjectExpression = 21;
+  public static final int PythonProgram = 22;
+  public static final int PythonProperty = 23;
+  public static final int PythonStatement = 24;
+  public static final int PythonStringLiteral = 25;
+  public static final int PythonUnaryExpression = 26;
+  public static final int PythonVariableDeclarator = 27;
+  public static final int PythonWhileStatement = 28;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L);
@@ -53,6 +54,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x46cfc4ee6659906bL, PythonExpression);
     builder.put(0x46cfc4ee665dbe61L, PythonExpressionStatement);
     builder.put(0x49693ebcac74a5a6L, PythonIdentifier);
+    builder.put(0x4e7b579a882ea95dL, PythonIdentifierReference);
     builder.put(0x4e7b579a88263da6L, PythonIfElseStatement);
     builder.put(0x49693ebcac9426e0L, PythonIndentBlockStatement);
     builder.put(0x49693ebcac786f66L, PythonLeftHandSideExpression);

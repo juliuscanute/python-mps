@@ -8,6 +8,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -989,6 +990,21 @@
       <property role="20kJfa" value="consequent" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4rfLeTAmc$r" resolve="PythonStatement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4TVlTE8bE_t">
+    <property role="EcuMT" value="5655210078315129181" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="PythonIdentifierReference" />
+    <ref role="1TJDcQ" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    <node concept="1TJgyj" id="4TVlTE8bE_u" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078315129182" />
+      <property role="20kJfa" value="identifier" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4_DfFMGtamA" resolve="PythonIdentifier" />
+    </node>
+    <node concept="PrWs8" id="4TVlTE8bE_w" role="PzmwI">
+      <ref role="PrY4T" node="4_DfFMGu6XA" resolve="PythonLeftHandSideExpression" />
     </node>
   </node>
 </model>

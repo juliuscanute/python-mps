@@ -181,6 +181,9 @@
       </concept>
       <concept id="1139535439104" name="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" flags="in" index="1hAIg9" />
       <concept id="5692353713941573329" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_ActionLabelText" flags="ig" index="1hCUdq" />
+      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
+        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
       <concept id="1225456267680" name="jetbrains.mps.lang.editor.structure.RGBColor" flags="ng" index="1iSF2X">
         <property id="1225456424731" name="value" index="1iTho6" />
       </concept>
@@ -194,12 +197,14 @@
       <concept id="730181322658904464" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_IncludeMenu" flags="ng" index="1s_PAr">
         <child id="730181322658904467" name="menuReference" index="1s_PAo" />
       </concept>
+      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="9122903797312246523" name="jetbrains.mps.lang.editor.structure.StyleReference" flags="ng" index="1wgc9g">
         <reference id="9122903797312247166" name="style" index="1wgcnl" />
       </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="7991336459489871999" name="jetbrains.mps.lang.editor.structure.IOutputConceptSubstituteMenuPart" flags="ng" index="3EoQpk">
@@ -3282,6 +3287,23 @@
         </node>
       </node>
       <node concept="l2Vlx" id="4TVlTE89_kH" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4TVlTE8bTks">
+    <property role="3GE5qa" value="expression" />
+    <ref role="1XX52x" to="e5uo:4TVlTE8bE_t" resolve="PythonIdentifierReference" />
+    <node concept="3EZMnI" id="4TVlTE8bTku" role="2wV5jI">
+      <node concept="1iCGBv" id="4TVlTE8bTk_" role="3EZMnx">
+        <property role="1$x2rV" value="select an identifier" />
+        <ref role="1NtTu8" to="e5uo:4TVlTE8bE_u" resolve="identifier" />
+        <node concept="1sVBvm" id="4TVlTE8bTkB" role="1sWHZn">
+          <node concept="3F0A7n" id="4TVlTE8bTkI" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="e5uo:4_DfFMGtamB" resolve="idName" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4TVlTE8bTkx" role="2iSdaV" />
     </node>
   </node>
 </model>

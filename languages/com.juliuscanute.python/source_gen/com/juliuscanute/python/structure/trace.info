@@ -13,13 +13,13 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
   <root>
     <file name="ConceptPresentationAspectImpl.java">
-      <unit at="11,0,254,0" name="com.juliuscanute.python.structure.ConceptPresentationAspectImpl" />
+      <unit at="11,0,262,0" name="com.juliuscanute.python.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <unit at="10,0,82,0" name="com.juliuscanute.python.structure.LanguageConceptSwitch" />
+      <unit at="10,0,84,0" name="com.juliuscanute.python.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="20,0,424,0" name="com.juliuscanute.python.structure.StructureAspectDescriptor" />
+      <unit at="20,0,437,0" name="com.juliuscanute.python.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/223815598156675961">
@@ -39,251 +39,251 @@
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3155080124105464141">
     <file name="StructureAspectDescriptor.java">
-      <node id="3155080124105464141" at="54,0,55,0" concept="2" trace="myCSDatatype_PythonIdentifierName" />
+      <node id="3155080124105464141" at="55,0,56,0" concept="2" trace="myCSDatatype_PythonIdentifierName" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3865884777285625833">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="3865884777285625833" at="33,0,34,0" concept="2" trace="props_PythonProgram" />
-      <node id="3865884777285625833" at="201,42,202,76" concept="5" />
-      <node id="3865884777285625833" at="202,76,203,35" concept="1" />
-      <node id="3865884777285625833" at="203,35,204,45" concept="1" />
-      <node id="3865884777285625833" at="205,9,206,35" concept="6" />
-      <node id="3865884777285625833" at="200,47,205,9" concept="3" />
-      <scope id="3865884777285625833" at="201,42,204,45">
+      <node id="3865884777285625833" at="34,0,35,0" concept="2" trace="props_PythonProgram" />
+      <node id="3865884777285625833" at="209,42,210,76" concept="5" />
+      <node id="3865884777285625833" at="210,76,211,35" concept="1" />
+      <node id="3865884777285625833" at="211,35,212,45" concept="1" />
+      <node id="3865884777285625833" at="213,9,214,35" concept="6" />
+      <node id="3865884777285625833" at="208,47,213,9" concept="3" />
+      <scope id="3865884777285625833" at="209,42,212,45">
         <var name="cpb" id="3865884777285625833" />
       </scope>
-      <scope id="3865884777285625833" at="200,47,206,35" />
+      <scope id="3865884777285625833" at="208,47,214,35" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="3865884777285625833" at="33,0,34,0" concept="7" trace="PythonProgram" />
-      <node id="3865884777285625833" at="63,61,64,52" concept="1" />
+      <node id="3865884777285625833" at="34,0,35,0" concept="7" trace="PythonProgram" />
+      <node id="3865884777285625833" at="65,61,66,52" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="3865884777285625833" at="42,0,43,0" concept="2" trace="myConceptPythonProgram" />
-      <node id="3865884777285625833" at="120,47,121,38" concept="6" />
-      <node id="3865884777285625833" at="352,71,353,171" concept="5" />
-      <node id="3865884777285625833" at="353,171,354,33" concept="1" />
-      <node id="3865884777285625833" at="354,33,355,124" concept="1" />
-      <node id="3865884777285625833" at="355,124,356,71" concept="1" />
-      <node id="3865884777285625833" at="356,71,357,76" concept="1" />
-      <node id="3865884777285625833" at="357,76,358,110" concept="1" />
-      <node id="3865884777285625833" at="358,110,359,17" concept="1" />
-      <node id="5102513431032427542" at="359,17,360,196" concept="1" />
-      <node id="3865884777285625833" at="360,196,361,22" concept="6" />
-      <node id="3865884777285625833" at="352,0,363,0" concept="8" trace="createDescriptorForPythonProgram#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="3865884777285625833" at="120,47,121,38" />
-      <scope id="3865884777285625833" at="352,71,361,22">
+      <node id="3865884777285625833" at="43,0,44,0" concept="2" trace="myConceptPythonProgram" />
+      <node id="3865884777285625833" at="123,47,124,38" concept="6" />
+      <node id="3865884777285625833" at="365,71,366,171" concept="5" />
+      <node id="3865884777285625833" at="366,171,367,33" concept="1" />
+      <node id="3865884777285625833" at="367,33,368,124" concept="1" />
+      <node id="3865884777285625833" at="368,124,369,71" concept="1" />
+      <node id="3865884777285625833" at="369,71,370,76" concept="1" />
+      <node id="3865884777285625833" at="370,76,371,110" concept="1" />
+      <node id="3865884777285625833" at="371,110,372,17" concept="1" />
+      <node id="5102513431032427542" at="372,17,373,196" concept="1" />
+      <node id="3865884777285625833" at="373,196,374,22" concept="6" />
+      <node id="3865884777285625833" at="365,0,376,0" concept="8" trace="createDescriptorForPythonProgram#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3865884777285625833" at="123,47,124,38" />
+      <scope id="3865884777285625833" at="365,71,374,22">
         <var name="b" id="3865884777285625833" />
       </scope>
-      <scope id="3865884777285625833" at="352,0,363,0" />
+      <scope id="3865884777285625833" at="365,0,376,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3865884777285625834">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="3865884777285625834" at="15,0,16,0" concept="2" trace="props_ImportStatement" />
-      <node id="3865884777285625834" at="70,44,71,76" concept="5" />
-      <node id="3865884777285625834" at="71,76,72,52" concept="1" />
-      <node id="3865884777285625834" at="72,52,73,45" concept="1" />
-      <node id="3865884777285625834" at="73,45,74,47" concept="1" />
-      <node id="3865884777285625834" at="75,9,76,37" concept="6" />
-      <node id="3865884777285625834" at="69,49,75,9" concept="3" />
-      <scope id="3865884777285625834" at="70,44,74,47">
+      <node id="3865884777285625834" at="71,44,72,76" concept="5" />
+      <node id="3865884777285625834" at="72,76,73,52" concept="1" />
+      <node id="3865884777285625834" at="73,52,74,45" concept="1" />
+      <node id="3865884777285625834" at="74,45,75,47" concept="1" />
+      <node id="3865884777285625834" at="76,9,77,37" concept="6" />
+      <node id="3865884777285625834" at="70,49,76,9" concept="3" />
+      <scope id="3865884777285625834" at="71,44,75,47">
         <var name="cpb" id="3865884777285625834" />
       </scope>
-      <scope id="3865884777285625834" at="69,49,76,37" />
+      <scope id="3865884777285625834" at="70,49,77,37" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="3865884777285625834" at="15,0,16,0" concept="7" trace="ImportStatement" />
-      <node id="3865884777285625834" at="45,58,46,54" concept="1" />
+      <node id="3865884777285625834" at="46,58,47,54" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="3865884777285625834" at="24,0,25,0" concept="2" trace="myConceptImportStatement" />
-      <node id="3865884777285625834" at="84,49,85,40" concept="6" />
-      <node id="3865884777285625834" at="178,73,179,173" concept="5" />
-      <node id="3865884777285625834" at="179,173,180,34" concept="1" />
-      <node id="3865884777285625834" at="180,34,181,129" concept="1" />
-      <node id="3865884777285625834" at="181,129,182,110" concept="1" />
-      <node id="3865884777285625834" at="182,110,183,17" concept="1" />
-      <node id="3865884777285627584" at="183,17,184,204" concept="1" />
-      <node id="3865884777285625834" at="184,204,185,27" concept="1" />
-      <node id="3865884777285625834" at="185,27,186,22" concept="6" />
-      <node id="3865884777285625834" at="178,0,188,0" concept="8" trace="createDescriptorForImportStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="3865884777285625834" at="84,49,85,40" />
-      <scope id="3865884777285625834" at="178,73,186,22">
+      <node id="3865884777285625834" at="85,49,86,40" concept="6" />
+      <node id="3865884777285625834" at="181,73,182,173" concept="5" />
+      <node id="3865884777285625834" at="182,173,183,34" concept="1" />
+      <node id="3865884777285625834" at="183,34,184,129" concept="1" />
+      <node id="3865884777285625834" at="184,129,185,110" concept="1" />
+      <node id="3865884777285625834" at="185,110,186,17" concept="1" />
+      <node id="3865884777285627584" at="186,17,187,204" concept="1" />
+      <node id="3865884777285625834" at="187,204,188,27" concept="1" />
+      <node id="3865884777285625834" at="188,27,189,22" concept="6" />
+      <node id="3865884777285625834" at="181,0,191,0" concept="8" trace="createDescriptorForImportStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3865884777285625834" at="85,49,86,40" />
+      <scope id="3865884777285625834" at="181,73,189,22">
         <var name="b" id="3865884777285625834" />
       </scope>
-      <scope id="3865884777285625834" at="178,0,188,0" />
+      <scope id="3865884777285625834" at="181,0,191,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3865884777285625837">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="3865884777285625837" at="17,0,18,0" concept="2" trace="props_Name" />
-      <node id="3865884777285625837" at="86,33,87,76" concept="5" />
-      <node id="3865884777285625837" at="87,76,88,38" concept="1" />
-      <node id="3865884777285625837" at="88,38,89,36" concept="1" />
-      <node id="3865884777285625837" at="90,9,91,26" concept="6" />
-      <node id="3865884777285625837" at="85,38,90,9" concept="3" />
-      <scope id="3865884777285625837" at="86,33,89,36">
+      <node id="3865884777285625837" at="87,33,88,76" concept="5" />
+      <node id="3865884777285625837" at="88,76,89,38" concept="1" />
+      <node id="3865884777285625837" at="89,38,90,36" concept="1" />
+      <node id="3865884777285625837" at="91,9,92,26" concept="6" />
+      <node id="3865884777285625837" at="86,38,91,9" concept="3" />
+      <scope id="3865884777285625837" at="87,33,90,36">
         <var name="cpb" id="3865884777285625837" />
       </scope>
-      <scope id="3865884777285625837" at="85,38,91,26" />
+      <scope id="3865884777285625837" at="86,38,92,26" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="3865884777285625837" at="17,0,18,0" concept="7" trace="Name" />
-      <node id="3865884777285625837" at="47,60,48,43" concept="1" />
+      <node id="3865884777285625837" at="48,60,49,43" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="3865884777285625837" at="26,0,27,0" concept="2" trace="myConceptName" />
-      <node id="3865884777285625837" at="88,38,89,29" concept="6" />
-      <node id="3865884777285625837" at="199,62,200,162" concept="5" />
-      <node id="3865884777285625837" at="200,162,201,34" concept="1" />
-      <node id="3865884777285625837" at="201,34,202,110" concept="1" />
-      <node id="3865884777285625837" at="202,110,203,17" concept="1" />
-      <node id="3865884777285636386" at="203,17,204,110" concept="1" />
-      <node id="3865884777285625837" at="204,110,205,22" concept="6" />
-      <node id="3865884777285625837" at="199,0,207,0" concept="8" trace="createDescriptorForName#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="3865884777285625837" at="88,38,89,29" />
-      <scope id="3865884777285625837" at="199,62,205,22">
+      <node id="3865884777285625837" at="89,38,90,29" concept="6" />
+      <node id="3865884777285625837" at="202,62,203,162" concept="5" />
+      <node id="3865884777285625837" at="203,162,204,34" concept="1" />
+      <node id="3865884777285625837" at="204,34,205,110" concept="1" />
+      <node id="3865884777285625837" at="205,110,206,17" concept="1" />
+      <node id="3865884777285636386" at="206,17,207,110" concept="1" />
+      <node id="3865884777285625837" at="207,110,208,22" concept="6" />
+      <node id="3865884777285625837" at="202,0,210,0" concept="8" trace="createDescriptorForName#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3865884777285625837" at="89,38,90,29" />
+      <scope id="3865884777285625837" at="202,62,208,22">
         <var name="b" id="3865884777285625837" />
       </scope>
-      <scope id="3865884777285625837" at="199,0,207,0" />
+      <scope id="3865884777285625837" at="202,0,210,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3865884777285648033">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="3865884777285648033" at="12,0,13,0" concept="2" trace="props_DottedName" />
-      <node id="3865884777285648033" at="47,39,48,76" concept="5" />
-      <node id="3865884777285648033" at="48,76,49,44" concept="1" />
-      <node id="3865884777285648033" at="49,44,50,42" concept="1" />
-      <node id="3865884777285648033" at="51,9,52,32" concept="6" />
-      <node id="3865884777285648033" at="46,44,51,9" concept="3" />
-      <scope id="3865884777285648033" at="47,39,50,42">
+      <node id="3865884777285648033" at="48,39,49,76" concept="5" />
+      <node id="3865884777285648033" at="49,76,50,44" concept="1" />
+      <node id="3865884777285648033" at="50,44,51,42" concept="1" />
+      <node id="3865884777285648033" at="52,9,53,32" concept="6" />
+      <node id="3865884777285648033" at="47,44,52,9" concept="3" />
+      <scope id="3865884777285648033" at="48,39,51,42">
         <var name="cpb" id="3865884777285648033" />
       </scope>
-      <scope id="3865884777285648033" at="46,44,52,32" />
+      <scope id="3865884777285648033" at="47,44,53,32" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="3865884777285648033" at="12,0,13,0" concept="7" trace="DottedName" />
-      <node id="3865884777285648033" at="42,116,43,49" concept="1" />
+      <node id="3865884777285648033" at="43,116,44,49" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="3865884777285648033" at="21,0,22,0" concept="2" trace="myConceptDottedName" />
-      <node id="3865884777285648033" at="78,44,79,35" concept="6" />
-      <node id="3865884777285648033" at="148,68,149,168" concept="5" />
-      <node id="3865884777285648033" at="149,168,150,34" concept="1" />
-      <node id="3865884777285648033" at="150,34,151,110" concept="1" />
-      <node id="3865884777285648033" at="151,110,152,17" concept="1" />
-      <node id="3865884777285648034" at="152,17,153,198" concept="1" />
-      <node id="3865884777285648033" at="153,198,154,22" concept="6" />
-      <node id="3865884777285648033" at="148,0,156,0" concept="8" trace="createDescriptorForDottedName#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="3865884777285648033" at="78,44,79,35" />
-      <scope id="3865884777285648033" at="148,68,154,22">
+      <node id="3865884777285648033" at="79,44,80,35" concept="6" />
+      <node id="3865884777285648033" at="151,68,152,168" concept="5" />
+      <node id="3865884777285648033" at="152,168,153,34" concept="1" />
+      <node id="3865884777285648033" at="153,34,154,110" concept="1" />
+      <node id="3865884777285648033" at="154,110,155,17" concept="1" />
+      <node id="3865884777285648034" at="155,17,156,198" concept="1" />
+      <node id="3865884777285648033" at="156,198,157,22" concept="6" />
+      <node id="3865884777285648033" at="151,0,159,0" concept="8" trace="createDescriptorForDottedName#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3865884777285648033" at="79,44,80,35" />
+      <scope id="3865884777285648033" at="151,68,157,22">
         <var name="b" id="3865884777285648033" />
       </scope>
-      <scope id="3865884777285648033" at="148,0,156,0" />
+      <scope id="3865884777285648033" at="151,0,159,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032376610">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5102513431032376610" at="30,0,31,0" concept="2" trace="props_PythonNode" />
-      <node id="5102513431032376610" at="179,39,180,76" concept="5" />
-      <node id="5102513431032376610" at="180,76,181,44" concept="1" />
-      <node id="5102513431032376610" at="181,44,182,42" concept="1" />
-      <node id="5102513431032376610" at="183,9,184,32" concept="6" />
-      <node id="5102513431032376610" at="178,44,183,9" concept="3" />
-      <scope id="5102513431032376610" at="179,39,182,42">
+      <node id="5102513431032376610" at="31,0,32,0" concept="2" trace="props_PythonNode" />
+      <node id="5102513431032376610" at="187,39,188,76" concept="5" />
+      <node id="5102513431032376610" at="188,76,189,44" concept="1" />
+      <node id="5102513431032376610" at="189,44,190,42" concept="1" />
+      <node id="5102513431032376610" at="191,9,192,32" concept="6" />
+      <node id="5102513431032376610" at="186,44,191,9" concept="3" />
+      <scope id="5102513431032376610" at="187,39,190,42">
         <var name="cpb" id="5102513431032376610" />
       </scope>
-      <scope id="5102513431032376610" at="178,44,184,32" />
+      <scope id="5102513431032376610" at="186,44,192,32" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5102513431032376610" at="30,0,31,0" concept="7" trace="PythonNode" />
-      <node id="5102513431032376610" at="60,62,61,49" concept="1" />
+      <node id="5102513431032376610" at="31,0,32,0" concept="7" trace="PythonNode" />
+      <node id="5102513431032376610" at="62,62,63,49" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5102513431032376610" at="39,0,40,0" concept="2" trace="myConceptPythonNode" />
-      <node id="5102513431032376610" at="114,44,115,35" concept="6" />
-      <node id="5102513431032376610" at="326,68,327,168" concept="5" />
-      <node id="5102513431032376610" at="327,168,328,34" concept="1" />
-      <node id="5102513431032376610" at="328,34,329,110" concept="1" />
-      <node id="5102513431032376610" at="329,110,330,17" concept="1" />
-      <node id="5102513431032376610" at="330,17,331,22" concept="6" />
-      <node id="5102513431032376610" at="326,0,333,0" concept="8" trace="createDescriptorForPythonNode#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5102513431032376610" at="114,44,115,35" />
-      <scope id="5102513431032376610" at="326,68,331,22">
+      <node id="5102513431032376610" at="40,0,41,0" concept="2" trace="myConceptPythonNode" />
+      <node id="5102513431032376610" at="117,44,118,35" concept="6" />
+      <node id="5102513431032376610" at="339,68,340,168" concept="5" />
+      <node id="5102513431032376610" at="340,168,341,34" concept="1" />
+      <node id="5102513431032376610" at="341,34,342,110" concept="1" />
+      <node id="5102513431032376610" at="342,110,343,17" concept="1" />
+      <node id="5102513431032376610" at="343,17,344,22" concept="6" />
+      <node id="5102513431032376610" at="339,0,346,0" concept="8" trace="createDescriptorForPythonNode#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5102513431032376610" at="117,44,118,35" />
+      <scope id="5102513431032376610" at="339,68,344,22">
         <var name="b" id="5102513431032376610" />
       </scope>
-      <scope id="5102513431032376610" at="326,0,333,0" />
+      <scope id="5102513431032376610" at="339,0,346,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032416539">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5102513431032416539" at="35,0,36,0" concept="2" trace="props_PythonStatement" />
-      <node id="5102513431032416539" at="215,44,216,76" concept="5" />
-      <node id="5102513431032416539" at="216,76,217,49" concept="1" />
-      <node id="5102513431032416539" at="217,49,218,47" concept="1" />
-      <node id="5102513431032416539" at="219,9,220,37" concept="6" />
-      <node id="5102513431032416539" at="214,49,219,9" concept="3" />
-      <scope id="5102513431032416539" at="215,44,218,47">
+      <node id="5102513431032416539" at="36,0,37,0" concept="2" trace="props_PythonStatement" />
+      <node id="5102513431032416539" at="223,44,224,76" concept="5" />
+      <node id="5102513431032416539" at="224,76,225,49" concept="1" />
+      <node id="5102513431032416539" at="225,49,226,47" concept="1" />
+      <node id="5102513431032416539" at="227,9,228,37" concept="6" />
+      <node id="5102513431032416539" at="222,49,227,9" concept="3" />
+      <scope id="5102513431032416539" at="223,44,226,47">
         <var name="cpb" id="5102513431032416539" />
       </scope>
-      <scope id="5102513431032416539" at="214,49,220,37" />
+      <scope id="5102513431032416539" at="222,49,228,37" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5102513431032416539" at="35,0,36,0" concept="7" trace="PythonStatement" />
-      <node id="5102513431032416539" at="65,53,66,54" concept="1" />
+      <node id="5102513431032416539" at="36,0,37,0" concept="7" trace="PythonStatement" />
+      <node id="5102513431032416539" at="67,53,68,54" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5102513431032416539" at="44,0,45,0" concept="2" trace="myConceptPythonStatement" />
-      <node id="5102513431032416539" at="124,49,125,40" concept="6" />
-      <node id="5102513431032416539" at="373,73,374,173" concept="5" />
-      <node id="5102513431032416539" at="374,173,375,34" concept="1" />
-      <node id="5102513431032416539" at="375,34,376,124" concept="1" />
-      <node id="5102513431032416539" at="376,124,377,76" concept="1" />
-      <node id="5102513431032416539" at="377,76,378,110" concept="1" />
-      <node id="5102513431032416539" at="378,110,379,17" concept="1" />
-      <node id="5102513431032416539" at="379,17,380,22" concept="6" />
-      <node id="5102513431032416539" at="373,0,382,0" concept="8" trace="createDescriptorForPythonStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5102513431032416539" at="124,49,125,40" />
-      <scope id="5102513431032416539" at="373,73,380,22">
+      <node id="5102513431032416539" at="45,0,46,0" concept="2" trace="myConceptPythonStatement" />
+      <node id="5102513431032416539" at="127,49,128,40" concept="6" />
+      <node id="5102513431032416539" at="386,73,387,173" concept="5" />
+      <node id="5102513431032416539" at="387,173,388,34" concept="1" />
+      <node id="5102513431032416539" at="388,34,389,124" concept="1" />
+      <node id="5102513431032416539" at="389,124,390,76" concept="1" />
+      <node id="5102513431032416539" at="390,76,391,110" concept="1" />
+      <node id="5102513431032416539" at="391,110,392,17" concept="1" />
+      <node id="5102513431032416539" at="392,17,393,22" concept="6" />
+      <node id="5102513431032416539" at="386,0,395,0" concept="8" trace="createDescriptorForPythonStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5102513431032416539" at="127,49,128,40" />
+      <scope id="5102513431032416539" at="386,73,393,22">
         <var name="b" id="5102513431032416539" />
       </scope>
-      <scope id="5102513431032416539" at="373,0,382,0" />
+      <scope id="5102513431032416539" at="386,0,395,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032467563">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="5102513431032467563" at="22,0,23,0" concept="2" trace="props_PythonExpression" />
-      <node id="5102513431032467563" at="124,45,125,76" concept="5" />
-      <node id="5102513431032467563" at="125,76,126,50" concept="1" />
-      <node id="5102513431032467563" at="126,50,127,48" concept="1" />
-      <node id="5102513431032467563" at="128,9,129,38" concept="6" />
-      <node id="5102513431032467563" at="123,50,128,9" concept="3" />
-      <scope id="5102513431032467563" at="124,45,127,48">
+      <node id="5102513431032467563" at="125,45,126,76" concept="5" />
+      <node id="5102513431032467563" at="126,76,127,50" concept="1" />
+      <node id="5102513431032467563" at="127,50,128,48" concept="1" />
+      <node id="5102513431032467563" at="129,9,130,38" concept="6" />
+      <node id="5102513431032467563" at="124,50,129,9" concept="3" />
+      <scope id="5102513431032467563" at="125,45,128,48">
         <var name="cpb" id="5102513431032467563" />
       </scope>
-      <scope id="5102513431032467563" at="123,50,129,38" />
+      <scope id="5102513431032467563" at="124,50,130,38" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="5102513431032467563" at="22,0,23,0" concept="7" trace="PythonExpression" />
-      <node id="5102513431032467563" at="52,60,53,55" concept="1" />
+      <node id="5102513431032467563" at="53,60,54,55" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5102513431032467563" at="31,0,32,0" concept="2" trace="myConceptPythonExpression" />
-      <node id="5102513431032467563" at="98,50,99,41" concept="6" />
-      <node id="5102513431032467563" at="250,74,251,174" concept="5" />
-      <node id="5102513431032467563" at="251,174,252,34" concept="1" />
-      <node id="5102513431032467563" at="252,34,253,124" concept="1" />
-      <node id="5102513431032467563" at="253,124,254,110" concept="1" />
-      <node id="5102513431032467563" at="254,110,255,17" concept="1" />
-      <node id="5102513431032467563" at="255,17,256,22" concept="6" />
-      <node id="5102513431032467563" at="250,0,258,0" concept="8" trace="createDescriptorForPythonExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5102513431032467563" at="98,50,99,41" />
-      <scope id="5102513431032467563" at="250,74,256,22">
+      <node id="5102513431032467563" at="99,50,100,41" concept="6" />
+      <node id="5102513431032467563" at="253,74,254,174" concept="5" />
+      <node id="5102513431032467563" at="254,174,255,34" concept="1" />
+      <node id="5102513431032467563" at="255,34,256,124" concept="1" />
+      <node id="5102513431032467563" at="256,124,257,110" concept="1" />
+      <node id="5102513431032467563" at="257,110,258,17" concept="1" />
+      <node id="5102513431032467563" at="258,17,259,22" concept="6" />
+      <node id="5102513431032467563" at="253,0,261,0" concept="8" trace="createDescriptorForPythonExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5102513431032467563" at="99,50,100,41" />
+      <scope id="5102513431032467563" at="253,74,259,22">
         <var name="b" id="5102513431032467563" />
       </scope>
-      <scope id="5102513431032467563" at="250,0,258,0" />
+      <scope id="5102513431032467563" at="253,0,261,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032467564">
@@ -336,153 +336,153 @@
       <unit id="5102513431032467564" at="12,0,64,0" name="com.juliuscanute.python.structure.EnumerationDescriptor_PythonUnaryOperator" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5102513431032467564" at="52,0,53,0" concept="2" trace="myEnumerationPythonUnaryOperator" />
+      <node id="5102513431032467564" at="53,0,54,0" concept="2" trace="myEnumerationPythonUnaryOperator" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032467573">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5102513431032467573" at="37,0,38,0" concept="2" trace="props_PythonUnaryExpression" />
-      <node id="5102513431032467573" at="230,50,231,76" concept="5" />
-      <node id="5102513431032467573" at="231,76,232,55" concept="1" />
-      <node id="5102513431032467573" at="232,55,233,53" concept="1" />
-      <node id="5102513431032467573" at="234,9,235,43" concept="6" />
-      <node id="5102513431032467573" at="229,55,234,9" concept="3" />
-      <scope id="5102513431032467573" at="230,50,233,53">
+      <node id="5102513431032467573" at="38,0,39,0" concept="2" trace="props_PythonUnaryExpression" />
+      <node id="5102513431032467573" at="238,50,239,76" concept="5" />
+      <node id="5102513431032467573" at="239,76,240,55" concept="1" />
+      <node id="5102513431032467573" at="240,55,241,53" concept="1" />
+      <node id="5102513431032467573" at="242,9,243,43" concept="6" />
+      <node id="5102513431032467573" at="237,55,242,9" concept="3" />
+      <scope id="5102513431032467573" at="238,50,241,53">
         <var name="cpb" id="5102513431032467573" />
       </scope>
-      <scope id="5102513431032467573" at="229,55,235,43" />
+      <scope id="5102513431032467573" at="237,55,243,43" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5102513431032467573" at="37,0,38,0" concept="7" trace="PythonUnaryExpression" />
-      <node id="5102513431032467573" at="67,58,68,60" concept="1" />
+      <node id="5102513431032467573" at="38,0,39,0" concept="7" trace="PythonUnaryExpression" />
+      <node id="5102513431032467573" at="69,58,70,60" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5102513431032467573" at="46,0,47,0" concept="2" trace="myConceptPythonUnaryExpression" />
-      <node id="5102513431032467573" at="128,55,129,46" concept="6" />
-      <node id="5102513431032467573" at="392,79,393,179" concept="5" />
-      <node id="5102513431032467573" at="393,179,394,34" concept="1" />
-      <node id="5102513431032467573" at="394,34,395,130" concept="1" />
-      <node id="5102513431032467573" at="395,130,396,110" concept="1" />
-      <node id="5102513431032467573" at="396,110,397,17" concept="1" />
-      <node id="5102513431032467574" at="397,17,398,179" concept="1" />
-      <node id="5102513431032467576" at="398,179,399,202" concept="1" />
-      <node id="5102513431032467573" at="399,202,400,22" concept="6" />
-      <node id="5102513431032467573" at="392,0,402,0" concept="8" trace="createDescriptorForPythonUnaryExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5102513431032467573" at="128,55,129,46" />
-      <scope id="5102513431032467573" at="392,79,400,22">
+      <node id="5102513431032467573" at="47,0,48,0" concept="2" trace="myConceptPythonUnaryExpression" />
+      <node id="5102513431032467573" at="131,55,132,46" concept="6" />
+      <node id="5102513431032467573" at="405,79,406,179" concept="5" />
+      <node id="5102513431032467573" at="406,179,407,34" concept="1" />
+      <node id="5102513431032467573" at="407,34,408,130" concept="1" />
+      <node id="5102513431032467573" at="408,130,409,110" concept="1" />
+      <node id="5102513431032467573" at="409,110,410,17" concept="1" />
+      <node id="5102513431032467574" at="410,17,411,179" concept="1" />
+      <node id="5102513431032467576" at="411,179,412,202" concept="1" />
+      <node id="5102513431032467573" at="412,202,413,22" concept="6" />
+      <node id="5102513431032467573" at="405,0,415,0" concept="8" trace="createDescriptorForPythonUnaryExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5102513431032467573" at="131,55,132,46" />
+      <scope id="5102513431032467573" at="405,79,413,22">
         <var name="b" id="5102513431032467573" />
       </scope>
-      <scope id="5102513431032467573" at="392,0,402,0" />
+      <scope id="5102513431032467573" at="405,0,415,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032741473">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="5102513431032741473" at="23,0,24,0" concept="2" trace="props_PythonExpressionStatement" />
-      <node id="5102513431032741473" at="131,54,132,76" concept="5" />
-      <node id="5102513431032741473" at="132,76,133,59" concept="1" />
-      <node id="5102513431032741473" at="133,59,134,57" concept="1" />
-      <node id="5102513431032741473" at="135,9,136,47" concept="6" />
-      <node id="5102513431032741473" at="130,59,135,9" concept="3" />
-      <scope id="5102513431032741473" at="131,54,134,57">
+      <node id="5102513431032741473" at="132,54,133,76" concept="5" />
+      <node id="5102513431032741473" at="133,76,134,59" concept="1" />
+      <node id="5102513431032741473" at="134,59,135,57" concept="1" />
+      <node id="5102513431032741473" at="136,9,137,47" concept="6" />
+      <node id="5102513431032741473" at="131,59,136,9" concept="3" />
+      <scope id="5102513431032741473" at="132,54,135,57">
         <var name="cpb" id="5102513431032741473" />
       </scope>
-      <scope id="5102513431032741473" at="130,59,136,47" />
+      <scope id="5102513431032741473" at="131,59,137,47" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="5102513431032741473" at="23,0,24,0" concept="7" trace="PythonExpressionStatement" />
-      <node id="5102513431032741473" at="53,55,54,64" concept="1" />
+      <node id="5102513431032741473" at="54,55,55,64" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5102513431032741473" at="32,0,33,0" concept="2" trace="myConceptPythonExpressionStatement" />
-      <node id="5102513431032741473" at="100,59,101,50" concept="6" />
-      <node id="5102513431032741473" at="258,83,259,183" concept="5" />
-      <node id="5102513431032741473" at="259,183,260,34" concept="1" />
-      <node id="5102513431032741473" at="260,34,261,129" concept="1" />
-      <node id="5102513431032741473" at="261,129,262,76" concept="1" />
-      <node id="5102513431032741473" at="262,76,263,110" concept="1" />
-      <node id="5102513431032741473" at="263,110,264,17" concept="1" />
-      <node id="5102513431032741474" at="264,17,265,204" concept="1" />
-      <node id="5102513431032741473" at="265,204,266,22" concept="6" />
-      <node id="5102513431032741473" at="258,0,268,0" concept="8" trace="createDescriptorForPythonExpressionStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5102513431032741473" at="100,59,101,50" />
-      <scope id="5102513431032741473" at="258,83,266,22">
+      <node id="5102513431032741473" at="101,59,102,50" concept="6" />
+      <node id="5102513431032741473" at="261,83,262,183" concept="5" />
+      <node id="5102513431032741473" at="262,183,263,34" concept="1" />
+      <node id="5102513431032741473" at="263,34,264,129" concept="1" />
+      <node id="5102513431032741473" at="264,129,265,76" concept="1" />
+      <node id="5102513431032741473" at="265,76,266,110" concept="1" />
+      <node id="5102513431032741473" at="266,110,267,17" concept="1" />
+      <node id="5102513431032741474" at="267,17,268,204" concept="1" />
+      <node id="5102513431032741473" at="268,204,269,22" concept="6" />
+      <node id="5102513431032741473" at="261,0,271,0" concept="8" trace="createDescriptorForPythonExpressionStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5102513431032741473" at="101,59,102,50" />
+      <scope id="5102513431032741473" at="261,83,269,22">
         <var name="b" id="5102513431032741473" />
       </scope>
-      <scope id="5102513431032741473" at="258,0,268,0" />
+      <scope id="5102513431032741473" at="261,0,271,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032780447">
     <file name="StructureAspectDescriptor.java">
-      <node id="5102513431032780447" at="55,0,56,0" concept="2" trace="myCSDatatype_PythonNumericLiteralType" />
+      <node id="5102513431032780447" at="56,0,57,0" concept="2" trace="myCSDatatype_PythonNumericLiteralType" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032780448">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5102513431032780448" at="31,0,32,0" concept="2" trace="props_PythonNumericLiteral" />
-      <node id="5102513431032780448" at="186,49,187,76" concept="5" />
-      <node id="5102513431032780448" at="187,76,188,54" concept="1" />
-      <node id="5102513431032780448" at="188,54,189,52" concept="1" />
-      <node id="5102513431032780448" at="190,9,191,42" concept="6" />
-      <node id="5102513431032780448" at="185,54,190,9" concept="3" />
-      <scope id="5102513431032780448" at="186,49,189,52">
+      <node id="5102513431032780448" at="32,0,33,0" concept="2" trace="props_PythonNumericLiteral" />
+      <node id="5102513431032780448" at="194,49,195,76" concept="5" />
+      <node id="5102513431032780448" at="195,76,196,54" concept="1" />
+      <node id="5102513431032780448" at="196,54,197,52" concept="1" />
+      <node id="5102513431032780448" at="198,9,199,42" concept="6" />
+      <node id="5102513431032780448" at="193,54,198,9" concept="3" />
+      <scope id="5102513431032780448" at="194,49,197,52">
         <var name="cpb" id="5102513431032780448" />
       </scope>
-      <scope id="5102513431032780448" at="185,54,191,42" />
+      <scope id="5102513431032780448" at="193,54,199,42" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5102513431032780448" at="31,0,32,0" concept="7" trace="PythonNumericLiteral" />
-      <node id="5102513431032780448" at="61,49,62,59" concept="1" />
+      <node id="5102513431032780448" at="32,0,33,0" concept="7" trace="PythonNumericLiteral" />
+      <node id="5102513431032780448" at="63,49,64,59" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5102513431032780448" at="40,0,41,0" concept="2" trace="myConceptPythonNumericLiteral" />
-      <node id="5102513431032780448" at="116,54,117,45" concept="6" />
-      <node id="5102513431032780448" at="333,78,334,178" concept="5" />
-      <node id="5102513431032780448" at="334,178,335,34" concept="1" />
-      <node id="5102513431032780448" at="335,34,336,127" concept="1" />
-      <node id="5102513431032780448" at="336,127,337,110" concept="1" />
-      <node id="5102513431032780448" at="337,110,338,17" concept="1" />
-      <node id="5102513431032780450" at="338,17,339,176" concept="1" />
-      <node id="5102513431032780448" at="339,176,340,22" concept="6" />
-      <node id="5102513431032780448" at="333,0,342,0" concept="8" trace="createDescriptorForPythonNumericLiteral#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5102513431032780448" at="116,54,117,45" />
-      <scope id="5102513431032780448" at="333,78,340,22">
+      <node id="5102513431032780448" at="41,0,42,0" concept="2" trace="myConceptPythonNumericLiteral" />
+      <node id="5102513431032780448" at="119,54,120,45" concept="6" />
+      <node id="5102513431032780448" at="346,78,347,178" concept="5" />
+      <node id="5102513431032780448" at="347,178,348,34" concept="1" />
+      <node id="5102513431032780448" at="348,34,349,127" concept="1" />
+      <node id="5102513431032780448" at="349,127,350,110" concept="1" />
+      <node id="5102513431032780448" at="350,110,351,17" concept="1" />
+      <node id="5102513431032780450" at="351,17,352,176" concept="1" />
+      <node id="5102513431032780448" at="352,176,353,22" concept="6" />
+      <node id="5102513431032780448" at="346,0,355,0" concept="8" trace="createDescriptorForPythonNumericLiteral#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5102513431032780448" at="119,54,120,45" />
+      <scope id="5102513431032780448" at="346,78,353,22">
         <var name="b" id="5102513431032780448" />
       </scope>
-      <scope id="5102513431032780448" at="333,0,342,0" />
+      <scope id="5102513431032780448" at="346,0,355,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032780449">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5102513431032780449" at="28,0,29,0" concept="2" trace="props_PythonLiteral" />
-      <node id="5102513431032780449" at="165,42,166,76" concept="5" />
-      <node id="5102513431032780449" at="166,76,167,47" concept="1" />
-      <node id="5102513431032780449" at="167,47,168,45" concept="1" />
-      <node id="5102513431032780449" at="169,9,170,35" concept="6" />
-      <node id="5102513431032780449" at="164,47,169,9" concept="3" />
-      <scope id="5102513431032780449" at="165,42,168,45">
+      <node id="5102513431032780449" at="29,0,30,0" concept="2" trace="props_PythonLiteral" />
+      <node id="5102513431032780449" at="173,42,174,76" concept="5" />
+      <node id="5102513431032780449" at="174,76,175,47" concept="1" />
+      <node id="5102513431032780449" at="175,47,176,45" concept="1" />
+      <node id="5102513431032780449" at="177,9,178,35" concept="6" />
+      <node id="5102513431032780449" at="172,47,177,9" concept="3" />
+      <scope id="5102513431032780449" at="173,42,176,45">
         <var name="cpb" id="5102513431032780449" />
       </scope>
-      <scope id="5102513431032780449" at="164,47,170,35" />
+      <scope id="5102513431032780449" at="172,47,178,35" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5102513431032780449" at="28,0,29,0" concept="7" trace="PythonLiteral" />
-      <node id="5102513431032780449" at="58,67,59,52" concept="1" />
+      <node id="5102513431032780449" at="29,0,30,0" concept="7" trace="PythonLiteral" />
+      <node id="5102513431032780449" at="60,67,61,52" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5102513431032780449" at="37,0,38,0" concept="2" trace="myConceptPythonLiteral" />
-      <node id="5102513431032780449" at="110,47,111,38" concept="6" />
-      <node id="5102513431032780449" at="307,71,308,171" concept="5" />
-      <node id="5102513431032780449" at="308,171,309,34" concept="1" />
-      <node id="5102513431032780449" at="309,34,310,130" concept="1" />
-      <node id="5102513431032780449" at="310,130,311,110" concept="1" />
-      <node id="5102513431032780449" at="311,110,312,17" concept="1" />
-      <node id="5102513431032780449" at="312,17,313,22" concept="6" />
-      <node id="5102513431032780449" at="307,0,315,0" concept="8" trace="createDescriptorForPythonLiteral#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5102513431032780449" at="110,47,111,38" />
-      <scope id="5102513431032780449" at="307,71,313,22">
+      <node id="5102513431032780449" at="38,0,39,0" concept="2" trace="myConceptPythonLiteral" />
+      <node id="5102513431032780449" at="113,47,114,38" concept="6" />
+      <node id="5102513431032780449" at="320,71,321,171" concept="5" />
+      <node id="5102513431032780449" at="321,171,322,34" concept="1" />
+      <node id="5102513431032780449" at="322,34,323,130" concept="1" />
+      <node id="5102513431032780449" at="323,130,324,110" concept="1" />
+      <node id="5102513431032780449" at="324,110,325,17" concept="1" />
+      <node id="5102513431032780449" at="325,17,326,22" concept="6" />
+      <node id="5102513431032780449" at="320,0,328,0" concept="8" trace="createDescriptorForPythonLiteral#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5102513431032780449" at="113,47,114,38" />
+      <scope id="5102513431032780449" at="320,71,326,22">
         <var name="b" id="5102513431032780449" />
       </scope>
-      <scope id="5102513431032780449" at="307,0,315,0" />
+      <scope id="5102513431032780449" at="320,0,328,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217390644194">
@@ -589,45 +589,45 @@
       <unit id="5289828217390644194" at="12,0,118,0" name="com.juliuscanute.python.structure.EnumerationDescriptor_PythonBinaryOperator" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5289828217390644194" at="50,0,51,0" concept="2" trace="myEnumerationPythonBinaryOperator" />
+      <node id="5289828217390644194" at="51,0,52,0" concept="2" trace="myEnumerationPythonBinaryOperator" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217390667743">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="5289828217390667743" at="20,0,21,0" concept="2" trace="props_PythonBinaryExpression" />
-      <node id="5289828217390667743" at="109,51,110,76" concept="5" />
-      <node id="5289828217390667743" at="110,76,111,45" concept="1" />
-      <node id="5289828217390667743" at="111,45,112,56" concept="1" />
-      <node id="5289828217390667743" at="112,56,113,54" concept="1" />
-      <node id="5289828217390667743" at="114,9,115,44" concept="6" />
-      <node id="5289828217390667743" at="108,56,114,9" concept="3" />
-      <scope id="5289828217390667743" at="109,51,113,54">
+      <node id="5289828217390667743" at="110,51,111,76" concept="5" />
+      <node id="5289828217390667743" at="111,76,112,45" concept="1" />
+      <node id="5289828217390667743" at="112,45,113,56" concept="1" />
+      <node id="5289828217390667743" at="113,56,114,54" concept="1" />
+      <node id="5289828217390667743" at="115,9,116,44" concept="6" />
+      <node id="5289828217390667743" at="109,56,115,9" concept="3" />
+      <scope id="5289828217390667743" at="110,51,114,54">
         <var name="cpb" id="5289828217390667743" />
       </scope>
-      <scope id="5289828217390667743" at="108,56,115,44" />
+      <scope id="5289828217390667743" at="109,56,116,44" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="5289828217390667743" at="20,0,21,0" concept="7" trace="PythonBinaryExpression" />
-      <node id="5289828217390667743" at="50,65,51,61" concept="1" />
+      <node id="5289828217390667743" at="51,65,52,61" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5289828217390667743" at="29,0,30,0" concept="2" trace="myConceptPythonBinaryExpression" />
-      <node id="5289828217390667743" at="94,56,95,47" concept="6" />
-      <node id="5289828217390667743" at="229,80,230,180" concept="5" />
-      <node id="5289828217390667743" at="230,180,231,34" concept="1" />
-      <node id="5289828217390667743" at="231,34,232,130" concept="1" />
-      <node id="5289828217390667743" at="232,130,233,110" concept="1" />
-      <node id="5289828217390667743" at="233,110,234,17" concept="1" />
-      <node id="5289828217390667744" at="234,17,235,179" concept="1" />
-      <node id="5289828217390667746" at="235,179,236,198" concept="1" />
-      <node id="5289828217390667748" at="236,198,237,199" concept="1" />
-      <node id="5289828217390667743" at="237,199,238,22" concept="6" />
-      <node id="5289828217390667743" at="229,0,240,0" concept="8" trace="createDescriptorForPythonBinaryExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5289828217390667743" at="94,56,95,47" />
-      <scope id="5289828217390667743" at="229,80,238,22">
+      <node id="5289828217390667743" at="95,56,96,47" concept="6" />
+      <node id="5289828217390667743" at="232,80,233,180" concept="5" />
+      <node id="5289828217390667743" at="233,180,234,34" concept="1" />
+      <node id="5289828217390667743" at="234,34,235,130" concept="1" />
+      <node id="5289828217390667743" at="235,130,236,110" concept="1" />
+      <node id="5289828217390667743" at="236,110,237,17" concept="1" />
+      <node id="5289828217390667744" at="237,17,238,179" concept="1" />
+      <node id="5289828217390667746" at="238,179,239,198" concept="1" />
+      <node id="5289828217390667748" at="239,198,240,199" concept="1" />
+      <node id="5289828217390667743" at="240,199,241,22" concept="6" />
+      <node id="5289828217390667743" at="232,0,243,0" concept="8" trace="createDescriptorForPythonBinaryExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5289828217390667743" at="95,56,96,47" />
+      <scope id="5289828217390667743" at="232,80,241,22">
         <var name="b" id="5289828217390667743" />
       </scope>
-      <scope id="5289828217390667743" at="229,0,240,0" />
+      <scope id="5289828217390667743" at="232,0,243,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217390930621">
@@ -677,225 +677,226 @@
       <unit id="5289828217390930621" at="12,0,61,0" name="com.juliuscanute.python.structure.EnumerationDescriptor_PythonLogicalOperator" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5289828217390930621" at="51,0,52,0" concept="2" trace="myEnumerationPythonLogicalOperator" />
+      <node id="5289828217390930621" at="52,0,53,0" concept="2" trace="myEnumerationPythonLogicalOperator" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217390932485">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5289828217390932485" at="29,0,30,0" concept="2" trace="props_PythonLogicalExpression" />
-      <node id="5289828217390932485" at="172,52,173,76" concept="5" />
-      <node id="5289828217390932485" at="173,76,174,57" concept="1" />
-      <node id="5289828217390932485" at="174,57,175,55" concept="1" />
-      <node id="5289828217390932485" at="176,9,177,45" concept="6" />
-      <node id="5289828217390932485" at="171,57,176,9" concept="3" />
-      <scope id="5289828217390932485" at="172,52,175,55">
+      <node id="5289828217390932485" at="30,0,31,0" concept="2" trace="props_PythonLogicalExpression" />
+      <node id="5289828217390932485" at="180,52,181,76" concept="5" />
+      <node id="5289828217390932485" at="181,76,182,57" concept="1" />
+      <node id="5289828217390932485" at="182,57,183,55" concept="1" />
+      <node id="5289828217390932485" at="184,9,185,45" concept="6" />
+      <node id="5289828217390932485" at="179,57,184,9" concept="3" />
+      <scope id="5289828217390932485" at="180,52,183,55">
         <var name="cpb" id="5289828217390932485" />
       </scope>
-      <scope id="5289828217390932485" at="171,57,177,45" />
+      <scope id="5289828217390932485" at="179,57,185,45" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5289828217390932485" at="29,0,30,0" concept="7" trace="PythonLogicalExpression" />
-      <node id="5289828217390932485" at="59,52,60,62" concept="1" />
+      <node id="5289828217390932485" at="30,0,31,0" concept="7" trace="PythonLogicalExpression" />
+      <node id="5289828217390932485" at="61,52,62,62" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5289828217390932485" at="38,0,39,0" concept="2" trace="myConceptPythonLogicalExpression" />
-      <node id="5289828217390932485" at="112,57,113,48" concept="6" />
-      <node id="5289828217390932485" at="315,81,316,181" concept="5" />
-      <node id="5289828217390932485" at="316,181,317,34" concept="1" />
-      <node id="5289828217390932485" at="317,34,318,130" concept="1" />
-      <node id="5289828217390932485" at="318,130,319,110" concept="1" />
-      <node id="5289828217390932485" at="319,110,320,17" concept="1" />
-      <node id="5289828217390967733" at="320,17,321,179" concept="1" />
-      <node id="5289828217390967735" at="321,179,322,198" concept="1" />
-      <node id="5289828217390967737" at="322,198,323,199" concept="1" />
-      <node id="5289828217390932485" at="323,199,324,22" concept="6" />
-      <node id="5289828217390932485" at="315,0,326,0" concept="8" trace="createDescriptorForPythonLogicalExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5289828217390932485" at="112,57,113,48" />
-      <scope id="5289828217390932485" at="315,81,324,22">
+      <node id="5289828217390932485" at="39,0,40,0" concept="2" trace="myConceptPythonLogicalExpression" />
+      <node id="5289828217390932485" at="115,57,116,48" concept="6" />
+      <node id="5289828217390932485" at="328,81,329,181" concept="5" />
+      <node id="5289828217390932485" at="329,181,330,34" concept="1" />
+      <node id="5289828217390932485" at="330,34,331,130" concept="1" />
+      <node id="5289828217390932485" at="331,130,332,110" concept="1" />
+      <node id="5289828217390932485" at="332,110,333,17" concept="1" />
+      <node id="5289828217390967733" at="333,17,334,179" concept="1" />
+      <node id="5289828217390967735" at="334,179,335,198" concept="1" />
+      <node id="5289828217390967737" at="335,198,336,199" concept="1" />
+      <node id="5289828217390932485" at="336,199,337,22" concept="6" />
+      <node id="5289828217390932485" at="328,0,339,0" concept="8" trace="createDescriptorForPythonLogicalExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5289828217390932485" at="115,57,116,48" />
+      <scope id="5289828217390932485" at="328,81,337,22">
         <var name="b" id="5289828217390932485" />
       </scope>
-      <scope id="5289828217390932485" at="315,0,326,0" />
+      <scope id="5289828217390932485" at="328,0,339,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217391055882">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5289828217391055882" at="36,0,37,0" concept="2" trace="props_PythonStringLiteral" />
-      <node id="5289828217391055882" at="222,48,223,76" concept="5" />
-      <node id="5289828217391055882" at="223,76,224,42" concept="1" />
-      <node id="5289828217391055882" at="224,42,225,53" concept="1" />
-      <node id="5289828217391055882" at="225,53,226,51" concept="1" />
-      <node id="5289828217391055882" at="227,9,228,41" concept="6" />
-      <node id="5289828217391055882" at="221,53,227,9" concept="3" />
-      <scope id="5289828217391055882" at="222,48,226,51">
+      <node id="5289828217391055882" at="37,0,38,0" concept="2" trace="props_PythonStringLiteral" />
+      <node id="5289828217391055882" at="230,48,231,76" concept="5" />
+      <node id="5289828217391055882" at="231,76,232,42" concept="1" />
+      <node id="5289828217391055882" at="232,42,233,53" concept="1" />
+      <node id="5289828217391055882" at="233,53,234,51" concept="1" />
+      <node id="5289828217391055882" at="235,9,236,41" concept="6" />
+      <node id="5289828217391055882" at="229,53,235,9" concept="3" />
+      <scope id="5289828217391055882" at="230,48,234,51">
         <var name="cpb" id="5289828217391055882" />
       </scope>
-      <scope id="5289828217391055882" at="221,53,228,41" />
+      <scope id="5289828217391055882" at="229,53,236,41" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5289828217391055882" at="36,0,37,0" concept="7" trace="PythonStringLiteral" />
-      <node id="5289828217391055882" at="66,54,67,58" concept="1" />
+      <node id="5289828217391055882" at="37,0,38,0" concept="7" trace="PythonStringLiteral" />
+      <node id="5289828217391055882" at="68,54,69,58" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5289828217391055882" at="45,0,46,0" concept="2" trace="myConceptPythonStringLiteral" />
-      <node id="5289828217391055882" at="126,53,127,44" concept="6" />
-      <node id="5289828217391055882" at="382,77,383,177" concept="5" />
-      <node id="5289828217391055882" at="383,177,384,34" concept="1" />
-      <node id="5289828217391055882" at="384,34,385,127" concept="1" />
-      <node id="5289828217391055882" at="385,127,386,110" concept="1" />
-      <node id="5289828217391055882" at="386,110,387,17" concept="1" />
-      <node id="5289828217391055883" at="387,17,388,188" concept="1" />
-      <node id="5289828217391055885" at="388,188,389,188" concept="1" />
-      <node id="5289828217391055882" at="389,188,390,22" concept="6" />
-      <node id="5289828217391055882" at="382,0,392,0" concept="8" trace="createDescriptorForPythonStringLiteral#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5289828217391055882" at="126,53,127,44" />
-      <scope id="5289828217391055882" at="382,77,390,22">
+      <node id="5289828217391055882" at="46,0,47,0" concept="2" trace="myConceptPythonStringLiteral" />
+      <node id="5289828217391055882" at="129,53,130,44" concept="6" />
+      <node id="5289828217391055882" at="395,77,396,177" concept="5" />
+      <node id="5289828217391055882" at="396,177,397,34" concept="1" />
+      <node id="5289828217391055882" at="397,34,398,127" concept="1" />
+      <node id="5289828217391055882" at="398,127,399,110" concept="1" />
+      <node id="5289828217391055882" at="399,110,400,17" concept="1" />
+      <node id="5289828217391055883" at="400,17,401,188" concept="1" />
+      <node id="5289828217391055885" at="401,188,402,188" concept="1" />
+      <node id="5289828217391055882" at="402,188,403,22" concept="6" />
+      <node id="5289828217391055882" at="395,0,405,0" concept="8" trace="createDescriptorForPythonStringLiteral#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5289828217391055882" at="129,53,130,44" />
+      <scope id="5289828217391055882" at="395,77,403,22">
         <var name="b" id="5289828217391055882" />
       </scope>
-      <scope id="5289828217391055882" at="382,0,392,0" />
+      <scope id="5289828217391055882" at="395,0,405,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217391457702">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="5289828217391457702" at="24,0,25,0" concept="2" trace="props_PythonIdentifier" />
-      <node id="5289828217391457702" at="138,45,139,76" concept="5" />
-      <node id="5289828217391457702" at="139,76,140,35" concept="1" />
-      <node id="5289828217391457702" at="140,35,141,48" concept="1" />
-      <node id="5289828217391457702" at="142,9,143,38" concept="6" />
-      <node id="5289828217391457702" at="137,50,142,9" concept="3" />
-      <scope id="5289828217391457702" at="138,45,141,48">
+      <node id="5289828217391457702" at="139,45,140,76" concept="5" />
+      <node id="5289828217391457702" at="140,76,141,35" concept="1" />
+      <node id="5289828217391457702" at="141,35,142,48" concept="1" />
+      <node id="5289828217391457702" at="143,9,144,38" concept="6" />
+      <node id="5289828217391457702" at="138,50,143,9" concept="3" />
+      <scope id="5289828217391457702" at="139,45,142,48">
         <var name="cpb" id="5289828217391457702" />
       </scope>
-      <scope id="5289828217391457702" at="137,50,143,38" />
+      <scope id="5289828217391457702" at="138,50,144,38" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="5289828217391457702" at="24,0,25,0" concept="7" trace="PythonIdentifier" />
-      <node id="5289828217391457702" at="54,64,55,55" concept="1" />
+      <node id="5289828217391457702" at="55,64,56,55" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5289828217391457702" at="33,0,34,0" concept="2" trace="myConceptPythonIdentifier" />
-      <node id="5289828217391457702" at="102,50,103,41" concept="6" />
-      <node id="5289828217391457702" at="268,74,269,174" concept="5" />
-      <node id="5289828217391457702" at="269,174,270,34" concept="1" />
-      <node id="5289828217391457702" at="270,34,271,124" concept="1" />
-      <node id="5289828217391457702" at="271,124,272,71" concept="1" />
-      <node id="5289828217391457702" at="273,76,274,110" concept="1" />
-      <node id="5289828217391457702" at="274,110,275,17" concept="1" />
-      <node id="5289828217391457703" at="275,17,276,177" concept="1" />
-      <node id="5289828217391457702" at="276,177,277,22" concept="6" />
-      <node id="5289828217391457702" at="268,0,279,0" concept="8" trace="createDescriptorForPythonIdentifier#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5289828217391457702" at="102,50,103,41" />
-      <scope id="5289828217391457702" at="268,74,277,22">
+      <node id="5289828217391457702" at="103,50,104,41" concept="6" />
+      <node id="5289828217391457702" at="271,74,272,174" concept="5" />
+      <node id="5289828217391457702" at="272,174,273,34" concept="1" />
+      <node id="5289828217391457702" at="273,34,274,124" concept="1" />
+      <node id="5289828217391457702" at="274,124,275,71" concept="1" />
+      <node id="5289828217391457702" at="276,76,277,110" concept="1" />
+      <node id="5289828217391457702" at="277,110,278,17" concept="1" />
+      <node id="5289828217391457703" at="278,17,279,177" concept="1" />
+      <node id="5289828217391457702" at="279,177,280,22" concept="6" />
+      <node id="5289828217391457702" at="271,0,282,0" concept="8" trace="createDescriptorForPythonIdentifier#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5289828217391457702" at="103,50,104,41" />
+      <scope id="5289828217391457702" at="271,74,280,22">
         <var name="b" id="5289828217391457702" />
       </scope>
-      <scope id="5289828217391457702" at="268,0,279,0" />
+      <scope id="5289828217391457702" at="271,0,282,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217391524837">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5289828217391524837" at="38,0,39,0" concept="2" trace="props_PythonVariableDeclarator" />
-      <node id="5289828217391524837" at="237,53,238,76" concept="5" />
-      <node id="5289828217391524837" at="238,76,239,58" concept="1" />
-      <node id="5289828217391524837" at="239,58,240,56" concept="1" />
-      <node id="5289828217391524837" at="241,9,242,46" concept="6" />
-      <node id="5289828217391524837" at="236,58,241,9" concept="3" />
-      <scope id="5289828217391524837" at="237,53,240,56">
+      <node id="5289828217391524837" at="39,0,40,0" concept="2" trace="props_PythonVariableDeclarator" />
+      <node id="5289828217391524837" at="245,53,246,76" concept="5" />
+      <node id="5289828217391524837" at="246,76,247,58" concept="1" />
+      <node id="5289828217391524837" at="247,58,248,56" concept="1" />
+      <node id="5289828217391524837" at="249,9,250,46" concept="6" />
+      <node id="5289828217391524837" at="244,58,249,9" concept="3" />
+      <scope id="5289828217391524837" at="245,53,248,56">
         <var name="cpb" id="5289828217391524837" />
       </scope>
-      <scope id="5289828217391524837" at="236,58,242,46" />
+      <scope id="5289828217391524837" at="244,58,250,46" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5289828217391524837" at="38,0,39,0" concept="7" trace="PythonVariableDeclarator" />
-      <node id="5289828217391524837" at="68,60,69,63" concept="1" />
+      <node id="5289828217391524837" at="39,0,40,0" concept="7" trace="PythonVariableDeclarator" />
+      <node id="5289828217391524837" at="70,60,71,63" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5289828217391524837" at="47,0,48,0" concept="2" trace="myConceptPythonVariableDeclarator" />
-      <node id="5289828217391524837" at="130,58,131,49" concept="6" />
-      <node id="5289828217391524837" at="402,82,403,182" concept="5" />
-      <node id="5289828217391524837" at="403,182,404,34" concept="1" />
-      <node id="5289828217391524837" at="404,34,405,124" concept="1" />
-      <node id="5289828217391524837" at="405,124,406,110" concept="1" />
-      <node id="5289828217391524837" at="406,110,407,17" concept="1" />
-      <node id="5289828217391524838" at="407,17,408,196" concept="1" />
-      <node id="5289828217391524840" at="408,196,409,197" concept="1" />
-      <node id="5289828217391524837" at="409,197,410,22" concept="6" />
-      <node id="5289828217391524837" at="402,0,412,0" concept="8" trace="createDescriptorForPythonVariableDeclarator#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5289828217391524837" at="130,58,131,49" />
-      <scope id="5289828217391524837" at="402,82,410,22">
+      <node id="5289828217391524837" at="48,0,49,0" concept="2" trace="myConceptPythonVariableDeclarator" />
+      <node id="5289828217391524837" at="133,58,134,49" concept="6" />
+      <node id="5289828217391524837" at="415,82,416,182" concept="5" />
+      <node id="5289828217391524837" at="416,182,417,34" concept="1" />
+      <node id="5289828217391524837" at="417,34,418,124" concept="1" />
+      <node id="5289828217391524837" at="418,124,419,110" concept="1" />
+      <node id="5289828217391524837" at="419,110,420,17" concept="1" />
+      <node id="5289828217391524838" at="420,17,421,196" concept="1" />
+      <node id="5289828217391524840" at="421,196,422,197" concept="1" />
+      <node id="5289828217391524837" at="422,197,423,22" concept="6" />
+      <node id="5289828217391524837" at="415,0,425,0" concept="8" trace="createDescriptorForPythonVariableDeclarator#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5289828217391524837" at="133,58,134,49" />
+      <scope id="5289828217391524837" at="415,82,423,22">
         <var name="b" id="5289828217391524837" />
       </scope>
-      <scope id="5289828217391524837" at="402,0,412,0" />
+      <scope id="5289828217391524837" at="415,0,425,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217391705958">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5289828217391705958" at="27,0,28,0" concept="2" trace="props_PythonLeftHandSideExpression" />
-      <node id="5289828217391705958" at="159,57,160,76" concept="5" />
-      <node id="5289828217391705958" at="160,76,161,60" concept="1" />
-      <node id="5289828217391705958" at="162,9,163,50" concept="6" />
-      <node id="5289828217391705958" at="158,62,162,9" concept="3" />
-      <scope id="5289828217391705958" at="159,57,161,60">
+      <node id="5289828217391705958" at="28,0,29,0" concept="2" trace="props_PythonLeftHandSideExpression" />
+      <node id="5289828217391705958" at="167,57,168,76" concept="5" />
+      <node id="5289828217391705958" at="168,76,169,60" concept="1" />
+      <node id="5289828217391705958" at="170,9,171,50" concept="6" />
+      <node id="5289828217391705958" at="166,62,170,9" concept="3" />
+      <scope id="5289828217391705958" at="167,57,169,60">
         <var name="cpb" id="5289828217391705958" />
       </scope>
-      <scope id="5289828217391705958" at="158,62,163,50" />
+      <scope id="5289828217391705958" at="166,62,171,50" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5289828217391705958" at="27,0,28,0" concept="7" trace="PythonLeftHandSideExpression" />
-      <node id="5289828217391705958" at="57,65,58,67" concept="1" />
+      <node id="5289828217391705958" at="28,0,29,0" concept="7" trace="PythonLeftHandSideExpression" />
+      <node id="5289828217391705958" at="59,65,60,67" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5289828217391705958" at="36,0,37,0" concept="2" trace="myConceptPythonLeftHandSideExpression" />
-      <node id="5289828217391705958" at="108,62,109,53" concept="6" />
-      <node id="5289828217391705958" at="272,71,273,76" concept="1" />
-      <node id="5289828217391705958" at="300,86,301,186" concept="5" />
-      <node id="5289828217391705958" at="301,186,302,19" concept="1" />
-      <node id="5289828217391705958" at="302,19,303,110" concept="1" />
-      <node id="5289828217391705958" at="303,110,304,17" concept="1" />
-      <node id="5289828217391705958" at="304,17,305,22" concept="6" />
-      <node id="5289828217391705958" at="300,0,307,0" concept="8" trace="createDescriptorForPythonLeftHandSideExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5289828217391705958" at="108,62,109,53" />
-      <scope id="5289828217391705958" at="300,86,305,22">
+      <node id="5289828217391705958" at="37,0,38,0" concept="2" trace="myConceptPythonLeftHandSideExpression" />
+      <node id="5289828217391705958" at="111,62,112,53" concept="6" />
+      <node id="5289828217391705958" at="275,71,276,76" concept="1" />
+      <node id="5289828217391705958" at="285,130,286,76" concept="1" />
+      <node id="5289828217391705958" at="313,86,314,186" concept="5" />
+      <node id="5289828217391705958" at="314,186,315,19" concept="1" />
+      <node id="5289828217391705958" at="315,19,316,110" concept="1" />
+      <node id="5289828217391705958" at="316,110,317,17" concept="1" />
+      <node id="5289828217391705958" at="317,17,318,22" concept="6" />
+      <node id="5289828217391705958" at="313,0,320,0" concept="8" trace="createDescriptorForPythonLeftHandSideExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5289828217391705958" at="111,62,112,53" />
+      <scope id="5289828217391705958" at="313,86,318,22">
         <var name="b" id="5289828217391705958" />
       </scope>
-      <scope id="5289828217391705958" at="300,0,307,0" />
+      <scope id="5289828217391705958" at="313,0,320,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217391707804">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="5289828217391707804" at="19,0,20,0" concept="2" trace="props_PythonAssignmentExpression" />
-      <node id="5289828217391707804" at="101,55,102,76" concept="5" />
-      <node id="5289828217391707804" at="102,76,103,49" concept="1" />
-      <node id="5289828217391707804" at="103,49,104,35" concept="1" />
-      <node id="5289828217391707804" at="104,35,105,58" concept="1" />
-      <node id="5289828217391707804" at="106,9,107,48" concept="6" />
-      <node id="5289828217391707804" at="100,60,106,9" concept="3" />
-      <scope id="5289828217391707804" at="101,55,105,58">
+      <node id="5289828217391707804" at="102,55,103,76" concept="5" />
+      <node id="5289828217391707804" at="103,76,104,49" concept="1" />
+      <node id="5289828217391707804" at="104,49,105,35" concept="1" />
+      <node id="5289828217391707804" at="105,35,106,58" concept="1" />
+      <node id="5289828217391707804" at="107,9,108,48" concept="6" />
+      <node id="5289828217391707804" at="101,60,107,9" concept="3" />
+      <scope id="5289828217391707804" at="102,55,106,58">
         <var name="cpb" id="5289828217391707804" />
       </scope>
-      <scope id="5289828217391707804" at="100,60,107,48" />
+      <scope id="5289828217391707804" at="101,60,108,48" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="5289828217391707804" at="19,0,20,0" concept="7" trace="PythonAssignmentExpression" />
-      <node id="5289828217391707804" at="49,60,50,65" concept="1" />
+      <node id="5289828217391707804" at="50,60,51,65" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5289828217391707804" at="28,0,29,0" concept="2" trace="myConceptPythonAssignmentExpression" />
-      <node id="5289828217391707804" at="92,60,93,51" concept="6" />
-      <node id="5289828217391707804" at="217,84,218,184" concept="5" />
-      <node id="5289828217391707804" at="218,184,219,34" concept="1" />
-      <node id="5289828217391707804" at="219,34,220,130" concept="1" />
-      <node id="5289828217391707804" at="220,130,221,110" concept="1" />
-      <node id="5289828217391707804" at="221,110,222,17" concept="1" />
-      <node id="5289828217391709650" at="222,17,223,179" concept="1" />
-      <node id="5289828217391707805" at="223,179,224,198" concept="1" />
-      <node id="5289828217391707807" at="224,198,225,199" concept="1" />
-      <node id="5289828217391707804" at="225,199,226,17" concept="1" />
-      <node id="5289828217391707804" at="226,17,227,22" concept="6" />
-      <node id="5289828217391707804" at="217,0,229,0" concept="8" trace="createDescriptorForPythonAssignmentExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5289828217391707804" at="92,60,93,51" />
-      <scope id="5289828217391707804" at="217,84,227,22">
+      <node id="5289828217391707804" at="93,60,94,51" concept="6" />
+      <node id="5289828217391707804" at="220,84,221,184" concept="5" />
+      <node id="5289828217391707804" at="221,184,222,34" concept="1" />
+      <node id="5289828217391707804" at="222,34,223,130" concept="1" />
+      <node id="5289828217391707804" at="223,130,224,110" concept="1" />
+      <node id="5289828217391707804" at="224,110,225,17" concept="1" />
+      <node id="5289828217391709650" at="225,17,226,179" concept="1" />
+      <node id="5289828217391707805" at="226,179,227,198" concept="1" />
+      <node id="5289828217391707807" at="227,198,228,199" concept="1" />
+      <node id="5289828217391707804" at="228,199,229,17" concept="1" />
+      <node id="5289828217391707804" at="229,17,230,22" concept="6" />
+      <node id="5289828217391707804" at="220,0,232,0" concept="8" trace="createDescriptorForPythonAssignmentExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5289828217391707804" at="93,60,94,51" />
+      <scope id="5289828217391707804" at="220,84,230,22">
         <var name="b" id="5289828217391707804" />
       </scope>
-      <scope id="5289828217391707804" at="217,0,229,0" />
+      <scope id="5289828217391707804" at="220,0,232,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217391709256">
@@ -975,387 +976,422 @@
       <unit id="5289828217391709256" at="12,0,91,0" name="com.juliuscanute.python.structure.EnumerationDescriptor_PythonAssignmentOperator" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5289828217391709256" at="49,0,50,0" concept="2" trace="myEnumerationPythonAssignmentOperator" />
+      <node id="5289828217391709256" at="50,0,51,0" concept="2" trace="myEnumerationPythonAssignmentOperator" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217392333493">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="5289828217392333493" at="18,0,19,0" concept="2" trace="props_PythonArrayExpression" />
-      <node id="5289828217392333493" at="93,50,94,76" concept="5" />
-      <node id="5289828217392333493" at="94,76,95,44" concept="1" />
-      <node id="5289828217392333493" at="95,44,96,35" concept="1" />
-      <node id="5289828217392333493" at="96,35,97,53" concept="1" />
-      <node id="5289828217392333493" at="98,9,99,43" concept="6" />
-      <node id="5289828217392333493" at="92,55,98,9" concept="3" />
-      <scope id="5289828217392333493" at="93,50,97,53">
+      <node id="5289828217392333493" at="94,50,95,76" concept="5" />
+      <node id="5289828217392333493" at="95,76,96,44" concept="1" />
+      <node id="5289828217392333493" at="96,44,97,35" concept="1" />
+      <node id="5289828217392333493" at="97,35,98,53" concept="1" />
+      <node id="5289828217392333493" at="99,9,100,43" concept="6" />
+      <node id="5289828217392333493" at="93,55,99,9" concept="3" />
+      <scope id="5289828217392333493" at="94,50,98,53">
         <var name="cpb" id="5289828217392333493" />
       </scope>
-      <scope id="5289828217392333493" at="92,55,99,43" />
+      <scope id="5289828217392333493" at="93,55,100,43" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="5289828217392333493" at="18,0,19,0" concept="7" trace="PythonArrayExpression" />
-      <node id="5289828217392333493" at="48,43,49,60" concept="1" />
+      <node id="5289828217392333493" at="49,43,50,60" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5289828217392333493" at="27,0,28,0" concept="2" trace="myConceptPythonArrayExpression" />
-      <node id="5289828217392333493" at="90,55,91,46" concept="6" />
-      <node id="5289828217392333493" at="207,79,208,179" concept="5" />
-      <node id="5289828217392333493" at="208,179,209,34" concept="1" />
-      <node id="5289828217392333493" at="209,34,210,130" concept="1" />
-      <node id="5289828217392333493" at="210,130,211,110" concept="1" />
-      <node id="5289828217392333493" at="211,110,212,17" concept="1" />
-      <node id="5289828217392333496" at="212,17,213,200" concept="1" />
-      <node id="5289828217392333493" at="213,200,214,17" concept="1" />
-      <node id="5289828217392333493" at="214,17,215,22" concept="6" />
-      <node id="5289828217392333493" at="207,0,217,0" concept="8" trace="createDescriptorForPythonArrayExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5289828217392333493" at="90,55,91,46" />
-      <scope id="5289828217392333493" at="207,79,215,22">
+      <node id="5289828217392333493" at="91,55,92,46" concept="6" />
+      <node id="5289828217392333493" at="210,79,211,179" concept="5" />
+      <node id="5289828217392333493" at="211,179,212,34" concept="1" />
+      <node id="5289828217392333493" at="212,34,213,130" concept="1" />
+      <node id="5289828217392333493" at="213,130,214,110" concept="1" />
+      <node id="5289828217392333493" at="214,110,215,17" concept="1" />
+      <node id="5289828217392333496" at="215,17,216,200" concept="1" />
+      <node id="5289828217392333493" at="216,200,217,17" concept="1" />
+      <node id="5289828217392333493" at="217,17,218,22" concept="6" />
+      <node id="5289828217392333493" at="210,0,220,0" concept="8" trace="createDescriptorForPythonArrayExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5289828217392333493" at="91,55,92,46" />
+      <scope id="5289828217392333493" at="210,79,218,22">
         <var name="b" id="5289828217392333493" />
       </scope>
-      <scope id="5289828217392333493" at="207,0,217,0" />
+      <scope id="5289828217392333493" at="210,0,220,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217392510327">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5289828217392510327" at="34,0,35,0" concept="2" trace="props_PythonProperty" />
-      <node id="5289828217392510327" at="208,43,209,76" concept="5" />
-      <node id="5289828217392510327" at="209,76,210,48" concept="1" />
-      <node id="5289828217392510327" at="210,48,211,46" concept="1" />
-      <node id="5289828217392510327" at="212,9,213,36" concept="6" />
-      <node id="5289828217392510327" at="207,48,212,9" concept="3" />
-      <scope id="5289828217392510327" at="208,43,211,46">
+      <node id="5289828217392510327" at="35,0,36,0" concept="2" trace="props_PythonProperty" />
+      <node id="5289828217392510327" at="216,43,217,76" concept="5" />
+      <node id="5289828217392510327" at="217,76,218,48" concept="1" />
+      <node id="5289828217392510327" at="218,48,219,46" concept="1" />
+      <node id="5289828217392510327" at="220,9,221,36" concept="6" />
+      <node id="5289828217392510327" at="215,48,220,9" concept="3" />
+      <scope id="5289828217392510327" at="216,43,219,46">
         <var name="cpb" id="5289828217392510327" />
       </scope>
-      <scope id="5289828217392510327" at="207,48,213,36" />
+      <scope id="5289828217392510327" at="215,48,221,36" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5289828217392510327" at="34,0,35,0" concept="7" trace="PythonProperty" />
-      <node id="5289828217392510327" at="64,52,65,53" concept="1" />
+      <node id="5289828217392510327" at="35,0,36,0" concept="7" trace="PythonProperty" />
+      <node id="5289828217392510327" at="66,52,67,53" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5289828217392510327" at="43,0,44,0" concept="2" trace="myConceptPythonProperty" />
-      <node id="5289828217392510327" at="122,48,123,39" concept="6" />
-      <node id="5289828217392510327" at="363,72,364,172" concept="5" />
-      <node id="5289828217392510327" at="364,172,365,34" concept="1" />
-      <node id="5289828217392510327" at="365,34,366,124" concept="1" />
-      <node id="5289828217392510327" at="366,124,367,110" concept="1" />
-      <node id="5289828217392510327" at="367,110,368,17" concept="1" />
-      <node id="5289828217392510328" at="368,17,369,197" concept="1" />
-      <node id="5289828217392510330" at="369,197,370,199" concept="1" />
-      <node id="5289828217392510327" at="370,199,371,22" concept="6" />
-      <node id="5289828217392510327" at="363,0,373,0" concept="8" trace="createDescriptorForPythonProperty#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5289828217392510327" at="122,48,123,39" />
-      <scope id="5289828217392510327" at="363,72,371,22">
+      <node id="5289828217392510327" at="44,0,45,0" concept="2" trace="myConceptPythonProperty" />
+      <node id="5289828217392510327" at="125,48,126,39" concept="6" />
+      <node id="5289828217392510327" at="376,72,377,172" concept="5" />
+      <node id="5289828217392510327" at="377,172,378,34" concept="1" />
+      <node id="5289828217392510327" at="378,34,379,124" concept="1" />
+      <node id="5289828217392510327" at="379,124,380,110" concept="1" />
+      <node id="5289828217392510327" at="380,110,381,17" concept="1" />
+      <node id="5289828217392510328" at="381,17,382,197" concept="1" />
+      <node id="5289828217392510330" at="382,197,383,199" concept="1" />
+      <node id="5289828217392510327" at="383,199,384,22" concept="6" />
+      <node id="5289828217392510327" at="376,0,386,0" concept="8" trace="createDescriptorForPythonProperty#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5289828217392510327" at="125,48,126,39" />
+      <scope id="5289828217392510327" at="376,72,384,22">
         <var name="b" id="5289828217392510327" />
       </scope>
-      <scope id="5289828217392510327" at="363,0,373,0" />
+      <scope id="5289828217392510327" at="376,0,386,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217392563977">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5289828217392563977" at="32,0,33,0" concept="2" trace="props_PythonObjectExpression" />
-      <node id="5289828217392563977" at="193,51,194,76" concept="5" />
-      <node id="5289828217392563977" at="194,76,195,45" concept="1" />
-      <node id="5289828217392563977" at="195,45,196,35" concept="1" />
-      <node id="5289828217392563977" at="196,35,197,54" concept="1" />
-      <node id="5289828217392563977" at="198,9,199,44" concept="6" />
-      <node id="5289828217392563977" at="192,56,198,9" concept="3" />
-      <scope id="5289828217392563977" at="193,51,197,54">
+      <node id="5289828217392563977" at="33,0,34,0" concept="2" trace="props_PythonObjectExpression" />
+      <node id="5289828217392563977" at="201,51,202,76" concept="5" />
+      <node id="5289828217392563977" at="202,76,203,45" concept="1" />
+      <node id="5289828217392563977" at="203,45,204,35" concept="1" />
+      <node id="5289828217392563977" at="204,35,205,54" concept="1" />
+      <node id="5289828217392563977" at="206,9,207,44" concept="6" />
+      <node id="5289828217392563977" at="200,56,206,9" concept="3" />
+      <scope id="5289828217392563977" at="201,51,205,54">
         <var name="cpb" id="5289828217392563977" />
       </scope>
-      <scope id="5289828217392563977" at="192,56,199,44" />
+      <scope id="5289828217392563977" at="200,56,207,44" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5289828217392563977" at="32,0,33,0" concept="7" trace="PythonObjectExpression" />
-      <node id="5289828217392563977" at="62,59,63,61" concept="1" />
+      <node id="5289828217392563977" at="33,0,34,0" concept="7" trace="PythonObjectExpression" />
+      <node id="5289828217392563977" at="64,59,65,61" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5289828217392563977" at="41,0,42,0" concept="2" trace="myConceptPythonObjectExpression" />
-      <node id="5289828217392563977" at="118,56,119,47" concept="6" />
-      <node id="5289828217392563977" at="342,80,343,180" concept="5" />
-      <node id="5289828217392563977" at="343,180,344,34" concept="1" />
-      <node id="5289828217392563977" at="344,34,345,130" concept="1" />
-      <node id="5289828217392563977" at="345,130,346,110" concept="1" />
-      <node id="5289828217392563977" at="346,110,347,17" concept="1" />
-      <node id="5289828217392563978" at="347,17,348,202" concept="1" />
-      <node id="5289828217392563977" at="348,202,349,17" concept="1" />
-      <node id="5289828217392563977" at="349,17,350,22" concept="6" />
-      <node id="5289828217392563977" at="342,0,352,0" concept="8" trace="createDescriptorForPythonObjectExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5289828217392563977" at="118,56,119,47" />
-      <scope id="5289828217392563977" at="342,80,350,22">
+      <node id="5289828217392563977" at="42,0,43,0" concept="2" trace="myConceptPythonObjectExpression" />
+      <node id="5289828217392563977" at="121,56,122,47" concept="6" />
+      <node id="5289828217392563977" at="355,80,356,180" concept="5" />
+      <node id="5289828217392563977" at="356,180,357,34" concept="1" />
+      <node id="5289828217392563977" at="357,34,358,130" concept="1" />
+      <node id="5289828217392563977" at="358,130,359,110" concept="1" />
+      <node id="5289828217392563977" at="359,110,360,17" concept="1" />
+      <node id="5289828217392563978" at="360,17,361,202" concept="1" />
+      <node id="5289828217392563977" at="361,202,362,17" concept="1" />
+      <node id="5289828217392563977" at="362,17,363,22" concept="6" />
+      <node id="5289828217392563977" at="355,0,365,0" concept="8" trace="createDescriptorForPythonObjectExpression#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5289828217392563977" at="121,56,122,47" />
+      <scope id="5289828217392563977" at="355,80,363,22">
         <var name="b" id="5289828217392563977" />
       </scope>
-      <scope id="5289828217392563977" at="342,0,352,0" />
+      <scope id="5289828217392563977" at="355,0,365,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217393522400">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5289828217393522400" at="26,0,27,0" concept="2" trace="props_PythonIndentBlockStatement" />
-      <node id="5289828217393522400" at="152,55,153,76" concept="5" />
-      <node id="5289828217393522400" at="153,76,154,60" concept="1" />
-      <node id="5289828217393522400" at="154,60,155,58" concept="1" />
-      <node id="5289828217393522400" at="156,9,157,48" concept="6" />
-      <node id="5289828217393522400" at="151,60,156,9" concept="3" />
-      <scope id="5289828217393522400" at="152,55,155,58">
+      <node id="5289828217393522400" at="27,0,28,0" concept="2" trace="props_PythonIndentBlockStatement" />
+      <node id="5289828217393522400" at="160,55,161,76" concept="5" />
+      <node id="5289828217393522400" at="161,76,162,60" concept="1" />
+      <node id="5289828217393522400" at="162,60,163,58" concept="1" />
+      <node id="5289828217393522400" at="164,9,165,48" concept="6" />
+      <node id="5289828217393522400" at="159,60,164,9" concept="3" />
+      <scope id="5289828217393522400" at="160,55,163,58">
         <var name="cpb" id="5289828217393522400" />
       </scope>
-      <scope id="5289828217393522400" at="151,60,157,48" />
+      <scope id="5289828217393522400" at="159,60,165,48" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5289828217393522400" at="26,0,27,0" concept="7" trace="PythonIndentBlockStatement" />
-      <node id="5289828217393522400" at="56,60,57,65" concept="1" />
+      <node id="5289828217393522400" at="27,0,28,0" concept="7" trace="PythonIndentBlockStatement" />
+      <node id="5289828217393522400" at="58,60,59,65" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5289828217393522400" at="35,0,36,0" concept="2" trace="myConceptPythonIndentBlockStatement" />
-      <node id="5289828217393522400" at="106,60,107,51" concept="6" />
-      <node id="5289828217393522400" at="290,84,291,184" concept="5" />
-      <node id="5289828217393522400" at="291,184,292,34" concept="1" />
-      <node id="5289828217393522400" at="292,34,293,129" concept="1" />
-      <node id="5289828217393522400" at="293,129,294,76" concept="1" />
-      <node id="5289828217393522400" at="294,76,295,110" concept="1" />
-      <node id="5289828217393522400" at="295,110,296,17" concept="1" />
-      <node id="5289828217393522403" at="296,17,297,197" concept="1" />
-      <node id="5289828217393522400" at="297,197,298,22" concept="6" />
-      <node id="5289828217393522400" at="290,0,300,0" concept="8" trace="createDescriptorForPythonIndentBlockStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5289828217393522400" at="106,60,107,51" />
-      <scope id="5289828217393522400" at="290,84,298,22">
+      <node id="5289828217393522400" at="36,0,37,0" concept="2" trace="myConceptPythonIndentBlockStatement" />
+      <node id="5289828217393522400" at="109,60,110,51" concept="6" />
+      <node id="5289828217393522400" at="303,84,304,184" concept="5" />
+      <node id="5289828217393522400" at="304,184,305,34" concept="1" />
+      <node id="5289828217393522400" at="305,34,306,129" concept="1" />
+      <node id="5289828217393522400" at="306,129,307,76" concept="1" />
+      <node id="5289828217393522400" at="307,76,308,110" concept="1" />
+      <node id="5289828217393522400" at="308,110,309,17" concept="1" />
+      <node id="5289828217393522403" at="309,17,310,197" concept="1" />
+      <node id="5289828217393522400" at="310,197,311,22" concept="6" />
+      <node id="5289828217393522400" at="303,0,313,0" concept="8" trace="createDescriptorForPythonIndentBlockStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5289828217393522400" at="109,60,110,51" />
+      <scope id="5289828217393522400" at="303,84,311,22">
         <var name="b" id="5289828217393522400" />
       </scope>
-      <scope id="5289828217393522400" at="290,0,300,0" />
+      <scope id="5289828217393522400" at="303,0,313,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217393571959">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5289828217393571959" at="39,0,40,0" concept="2" trace="props_PythonWhileStatement" />
-      <node id="5289828217393571959" at="244,49,245,76" concept="5" />
-      <node id="5289828217393571959" at="245,76,246,39" concept="1" />
-      <node id="5289828217393571959" at="246,39,247,52" concept="1" />
-      <node id="5289828217393571959" at="248,9,249,42" concept="6" />
-      <node id="5289828217393571959" at="243,54,248,9" concept="3" />
-      <scope id="5289828217393571959" at="244,49,247,52">
+      <node id="5289828217393571959" at="40,0,41,0" concept="2" trace="props_PythonWhileStatement" />
+      <node id="5289828217393571959" at="252,49,253,76" concept="5" />
+      <node id="5289828217393571959" at="253,76,254,39" concept="1" />
+      <node id="5289828217393571959" at="254,39,255,52" concept="1" />
+      <node id="5289828217393571959" at="256,9,257,42" concept="6" />
+      <node id="5289828217393571959" at="251,54,256,9" concept="3" />
+      <scope id="5289828217393571959" at="252,49,255,52">
         <var name="cpb" id="5289828217393571959" />
       </scope>
-      <scope id="5289828217393571959" at="243,54,249,42" />
+      <scope id="5289828217393571959" at="251,54,257,42" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5289828217393571959" at="39,0,40,0" concept="7" trace="PythonWhileStatement" />
-      <node id="5289828217393571959" at="69,63,70,59" concept="1" />
+      <node id="5289828217393571959" at="40,0,41,0" concept="7" trace="PythonWhileStatement" />
+      <node id="5289828217393571959" at="71,63,72,59" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5289828217393571959" at="48,0,49,0" concept="2" trace="myConceptPythonWhileStatement" />
-      <node id="5289828217393571959" at="132,54,133,45" concept="6" />
-      <node id="5289828217393571959" at="412,78,413,178" concept="5" />
-      <node id="5289828217393571959" at="413,178,414,34" concept="1" />
-      <node id="5289828217393571959" at="414,34,415,140" concept="1" />
-      <node id="5289828217393571959" at="415,140,416,110" concept="1" />
-      <node id="5289828217393571959" at="416,110,417,17" concept="1" />
-      <node id="5289828217393571960" at="417,17,418,198" concept="1" />
-      <node id="5289828217394102522" at="418,198,419,200" concept="1" />
-      <node id="5289828217393571959" at="419,200,420,21" concept="1" />
-      <node id="5289828217393571959" at="420,21,421,22" concept="6" />
-      <node id="5289828217393571959" at="412,0,423,0" concept="8" trace="createDescriptorForPythonWhileStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5289828217393571959" at="132,54,133,45" />
-      <scope id="5289828217393571959" at="412,78,421,22">
+      <node id="5289828217393571959" at="49,0,50,0" concept="2" trace="myConceptPythonWhileStatement" />
+      <node id="5289828217393571959" at="135,54,136,45" concept="6" />
+      <node id="5289828217393571959" at="425,78,426,178" concept="5" />
+      <node id="5289828217393571959" at="426,178,427,34" concept="1" />
+      <node id="5289828217393571959" at="427,34,428,140" concept="1" />
+      <node id="5289828217393571959" at="428,140,429,110" concept="1" />
+      <node id="5289828217393571959" at="429,110,430,17" concept="1" />
+      <node id="5289828217393571960" at="430,17,431,198" concept="1" />
+      <node id="5289828217394102522" at="431,198,432,200" concept="1" />
+      <node id="5289828217393571959" at="432,200,433,21" concept="1" />
+      <node id="5289828217393571959" at="433,21,434,22" concept="6" />
+      <node id="5289828217393571959" at="425,0,436,0" concept="8" trace="createDescriptorForPythonWhileStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5289828217393571959" at="135,54,136,45" />
+      <scope id="5289828217393571959" at="425,78,434,22">
         <var name="b" id="5289828217393571959" />
       </scope>
-      <scope id="5289828217393571959" at="412,0,423,0" />
+      <scope id="5289828217393571959" at="425,0,436,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5655210078314577318">
     <file name="ConceptPresentationAspectImpl.java">
-      <node id="5655210078314577318" at="25,0,26,0" concept="2" trace="props_PythonIfElseStatement" />
-      <node id="5655210078314577318" at="145,50,146,76" concept="5" />
-      <node id="5655210078314577318" at="146,76,147,36" concept="1" />
-      <node id="5655210078314577318" at="147,36,148,53" concept="1" />
-      <node id="5655210078314577318" at="149,9,150,43" concept="6" />
-      <node id="5655210078314577318" at="144,55,149,9" concept="3" />
-      <scope id="5655210078314577318" at="145,50,148,53">
+      <node id="5655210078314577318" at="26,0,27,0" concept="2" trace="props_PythonIfElseStatement" />
+      <node id="5655210078314577318" at="153,50,154,76" concept="5" />
+      <node id="5655210078314577318" at="154,76,155,36" concept="1" />
+      <node id="5655210078314577318" at="155,36,156,53" concept="1" />
+      <node id="5655210078314577318" at="157,9,158,43" concept="6" />
+      <node id="5655210078314577318" at="152,55,157,9" concept="3" />
+      <scope id="5655210078314577318" at="153,50,156,53">
         <var name="cpb" id="5655210078314577318" />
       </scope>
-      <scope id="5655210078314577318" at="144,55,150,43" />
+      <scope id="5655210078314577318" at="152,55,158,43" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="5655210078314577318" at="25,0,26,0" concept="7" trace="PythonIfElseStatement" />
-      <node id="5655210078314577318" at="55,55,56,60" concept="1" />
+      <node id="5655210078314577318" at="26,0,27,0" concept="7" trace="PythonIfElseStatement" />
+      <node id="5655210078314577318" at="57,64,58,60" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="5655210078314577318" at="34,0,35,0" concept="2" trace="myConceptPythonIfElseStatement" />
-      <node id="5655210078314577318" at="104,55,105,46" concept="6" />
-      <node id="5655210078314577318" at="279,79,280,179" concept="5" />
-      <node id="5655210078314577318" at="280,179,281,34" concept="1" />
-      <node id="5655210078314577318" at="281,34,282,140" concept="1" />
-      <node id="5655210078314577318" at="282,140,283,110" concept="1" />
-      <node id="5655210078314577318" at="283,110,284,17" concept="1" />
-      <node id="5655210078314677534" at="284,17,285,206" concept="1" />
-      <node id="5655210078314577321" at="285,206,286,199" concept="1" />
-      <node id="5655210078314577318" at="286,199,287,18" concept="1" />
-      <node id="5655210078314577318" at="287,18,288,22" concept="6" />
-      <node id="5655210078314577318" at="279,0,290,0" concept="8" trace="createDescriptorForPythonIfElseStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5655210078314577318" at="104,55,105,46" />
-      <scope id="5655210078314577318" at="279,79,288,22">
+      <node id="5655210078314577318" at="35,0,36,0" concept="2" trace="myConceptPythonIfElseStatement" />
+      <node id="5655210078314577318" at="107,55,108,46" concept="6" />
+      <node id="5655210078314577318" at="292,79,293,179" concept="5" />
+      <node id="5655210078314577318" at="293,179,294,34" concept="1" />
+      <node id="5655210078314577318" at="294,34,295,140" concept="1" />
+      <node id="5655210078314577318" at="295,140,296,110" concept="1" />
+      <node id="5655210078314577318" at="296,110,297,17" concept="1" />
+      <node id="5655210078314677534" at="297,17,298,206" concept="1" />
+      <node id="5655210078314577321" at="298,206,299,199" concept="1" />
+      <node id="5655210078314577318" at="299,199,300,18" concept="1" />
+      <node id="5655210078314577318" at="300,18,301,22" concept="6" />
+      <node id="5655210078314577318" at="292,0,303,0" concept="8" trace="createDescriptorForPythonIfElseStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5655210078314577318" at="107,55,108,46" />
+      <scope id="5655210078314577318" at="292,79,301,22">
         <var name="b" id="5655210078314577318" />
       </scope>
-      <scope id="5655210078314577318" at="279,0,290,0" />
+      <scope id="5655210078314577318" at="292,0,303,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5655210078314577367">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="5655210078314577367" at="21,0,22,0" concept="2" trace="props_PythonElseIfStatement" />
-      <node id="5655210078314577367" at="117,50,118,76" concept="5" />
-      <node id="5655210078314577367" at="118,76,119,55" concept="1" />
-      <node id="5655210078314577367" at="119,55,120,53" concept="1" />
-      <node id="5655210078314577367" at="121,9,122,43" concept="6" />
-      <node id="5655210078314577367" at="116,55,121,9" concept="3" />
-      <scope id="5655210078314577367" at="117,50,120,53">
+      <node id="5655210078314577367" at="118,50,119,76" concept="5" />
+      <node id="5655210078314577367" at="119,76,120,55" concept="1" />
+      <node id="5655210078314577367" at="120,55,121,53" concept="1" />
+      <node id="5655210078314577367" at="122,9,123,43" concept="6" />
+      <node id="5655210078314577367" at="117,55,122,9" concept="3" />
+      <scope id="5655210078314577367" at="118,50,121,53">
         <var name="cpb" id="5655210078314577367" />
       </scope>
-      <scope id="5655210078314577367" at="116,55,122,43" />
+      <scope id="5655210078314577367" at="117,55,123,43" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="5655210078314577367" at="21,0,22,0" concept="7" trace="PythonElseIfStatement" />
-      <node id="5655210078314577367" at="51,61,52,60" concept="1" />
+      <node id="5655210078314577367" at="52,61,53,60" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="5655210078314577367" at="30,0,31,0" concept="2" trace="myConceptPythonElseIfStatement" />
-      <node id="5655210078314577367" at="96,55,97,46" concept="6" />
-      <node id="5655210078314577367" at="240,79,241,179" concept="5" />
-      <node id="5655210078314577367" at="241,179,242,34" concept="1" />
-      <node id="5655210078314577367" at="242,34,243,124" concept="1" />
-      <node id="5655210078314577367" at="243,124,244,110" concept="1" />
-      <node id="5655210078314577367" at="244,110,245,17" concept="1" />
-      <node id="5655210078314581823" at="245,17,246,197" concept="1" />
-      <node id="5655210078314581825" at="246,197,247,202" concept="1" />
-      <node id="5655210078314577367" at="247,202,248,22" concept="6" />
-      <node id="5655210078314577367" at="240,0,250,0" concept="8" trace="createDescriptorForPythonElseIfStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="5655210078314577367" at="96,55,97,46" />
-      <scope id="5655210078314577367" at="240,79,248,22">
+      <node id="5655210078314577367" at="97,55,98,46" concept="6" />
+      <node id="5655210078314577367" at="243,79,244,179" concept="5" />
+      <node id="5655210078314577367" at="244,179,245,34" concept="1" />
+      <node id="5655210078314577367" at="245,34,246,124" concept="1" />
+      <node id="5655210078314577367" at="246,124,247,110" concept="1" />
+      <node id="5655210078314577367" at="247,110,248,17" concept="1" />
+      <node id="5655210078314581823" at="248,17,249,197" concept="1" />
+      <node id="5655210078314581825" at="249,197,250,202" concept="1" />
+      <node id="5655210078314577367" at="250,202,251,22" concept="6" />
+      <node id="5655210078314577367" at="243,0,253,0" concept="8" trace="createDescriptorForPythonElseIfStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5655210078314577367" at="97,55,98,46" />
+      <scope id="5655210078314577367" at="243,79,251,22">
         <var name="b" id="5655210078314577367" />
       </scope>
-      <scope id="5655210078314577367" at="240,0,250,0" />
+      <scope id="5655210078314577367" at="243,0,253,0" />
+    </file>
+  </root>
+  <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5655210078315129181">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5655210078315129181" at="25,0,26,0" concept="2" trace="props_PythonIdentifierReference" />
+      <node id="5655210078315129181" at="146,54,147,76" concept="5" />
+      <node id="5655210078315129181" at="147,76,148,144" concept="1" />
+      <node id="5655210078315129181" at="148,144,149,57" concept="1" />
+      <node id="5655210078315129181" at="150,9,151,47" concept="6" />
+      <node id="5655210078315129181" at="145,59,150,9" concept="3" />
+      <scope id="5655210078315129181" at="146,54,149,57">
+        <var name="cpb" id="5655210078315129181" />
+      </scope>
+      <scope id="5655210078315129181" at="145,59,151,47" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5655210078315129181" at="25,0,26,0" concept="7" trace="PythonIdentifierReference" />
+      <node id="5655210078315129181" at="56,55,57,64" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5655210078315129181" at="34,0,35,0" concept="2" trace="myConceptPythonIdentifierReference" />
+      <node id="5655210078315129181" at="105,59,106,50" concept="6" />
+      <node id="5655210078315129181" at="282,83,283,183" concept="5" />
+      <node id="5655210078315129181" at="283,183,284,34" concept="1" />
+      <node id="5655210078315129181" at="284,34,285,130" concept="1" />
+      <node id="5655210078315129181" at="286,76,287,110" concept="1" />
+      <node id="5655210078315129181" at="287,110,288,17" concept="1" />
+      <node id="5655210078315129182" at="288,17,289,174" concept="1" />
+      <node id="5655210078315129181" at="289,174,290,22" concept="6" />
+      <node id="5655210078315129181" at="282,0,292,0" concept="8" trace="createDescriptorForPythonIdentifierReference#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5655210078315129181" at="105,59,106,50" />
+      <scope id="5655210078315129181" at="282,83,290,22">
+        <var name="b" id="5655210078315129181" />
+      </scope>
+      <scope id="5655210078315129181" at="282,0,292,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/7550366242933707097">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="7550366242933707097" at="16,0,17,0" concept="2" trace="props_ImportStatementAsName" />
-      <node id="7550366242933707097" at="78,50,79,76" concept="5" />
-      <node id="7550366242933707097" at="79,76,80,54" concept="1" />
-      <node id="7550366242933707097" at="80,54,81,48" concept="1" />
-      <node id="7550366242933707097" at="81,48,82,53" concept="1" />
-      <node id="7550366242933707097" at="83,9,84,43" concept="6" />
-      <node id="7550366242933707097" at="77,55,83,9" concept="3" />
-      <scope id="7550366242933707097" at="78,50,82,53">
+      <node id="7550366242933707097" at="79,50,80,76" concept="5" />
+      <node id="7550366242933707097" at="80,76,81,54" concept="1" />
+      <node id="7550366242933707097" at="81,54,82,48" concept="1" />
+      <node id="7550366242933707097" at="82,48,83,53" concept="1" />
+      <node id="7550366242933707097" at="84,9,85,43" concept="6" />
+      <node id="7550366242933707097" at="78,55,84,9" concept="3" />
+      <scope id="7550366242933707097" at="79,50,83,53">
         <var name="cpb" id="7550366242933707097" />
       </scope>
-      <scope id="7550366242933707097" at="77,55,84,43" />
+      <scope id="7550366242933707097" at="78,55,85,43" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="7550366242933707097" at="16,0,17,0" concept="7" trace="ImportStatementAsName" />
-      <node id="7550366242933707097" at="46,54,47,60" concept="1" />
+      <node id="7550366242933707097" at="47,54,48,60" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7550366242933707097" at="25,0,26,0" concept="2" trace="myConceptImportStatementAsName" />
-      <node id="7550366242933707097" at="86,55,87,46" concept="6" />
-      <node id="7550366242933707097" at="188,79,189,179" concept="5" />
-      <node id="7550366242933707097" at="189,179,190,34" concept="1" />
-      <node id="7550366242933707097" at="190,34,191,129" concept="1" />
-      <node id="7550366242933707097" at="191,129,192,110" concept="1" />
-      <node id="7550366242933707097" at="192,110,193,17" concept="1" />
-      <node id="7550366242933707098" at="193,17,194,204" concept="1" />
-      <node id="7550366242933707125" at="194,204,195,200" concept="1" />
-      <node id="7550366242933707097" at="195,200,196,30" concept="1" />
-      <node id="7550366242933707097" at="196,30,197,22" concept="6" />
-      <node id="7550366242933707097" at="188,0,199,0" concept="8" trace="createDescriptorForImportStatementAsName#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="7550366242933707097" at="86,55,87,46" />
-      <scope id="7550366242933707097" at="188,79,197,22">
+      <node id="7550366242933707097" at="87,55,88,46" concept="6" />
+      <node id="7550366242933707097" at="191,79,192,179" concept="5" />
+      <node id="7550366242933707097" at="192,179,193,34" concept="1" />
+      <node id="7550366242933707097" at="193,34,194,129" concept="1" />
+      <node id="7550366242933707097" at="194,129,195,110" concept="1" />
+      <node id="7550366242933707097" at="195,110,196,17" concept="1" />
+      <node id="7550366242933707098" at="196,17,197,204" concept="1" />
+      <node id="7550366242933707125" at="197,204,198,200" concept="1" />
+      <node id="7550366242933707097" at="198,200,199,30" concept="1" />
+      <node id="7550366242933707097" at="199,30,200,22" concept="6" />
+      <node id="7550366242933707097" at="191,0,202,0" concept="8" trace="createDescriptorForImportStatementAsName#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7550366242933707097" at="87,55,88,46" />
+      <scope id="7550366242933707097" at="191,79,200,22">
         <var name="b" id="7550366242933707097" />
       </scope>
-      <scope id="7550366242933707097" at="188,0,199,0" />
+      <scope id="7550366242933707097" at="191,0,202,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/7550366242933743821">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="7550366242933743821" at="13,0,14,0" concept="2" trace="props_FromStatement" />
-      <node id="7550366242933743821" at="54,42,55,76" concept="5" />
-      <node id="7550366242933743821" at="55,76,56,52" concept="1" />
-      <node id="7550366242933743821" at="56,52,57,45" concept="1" />
-      <node id="7550366242933743821" at="57,45,58,45" concept="1" />
-      <node id="7550366242933743821" at="59,9,60,35" concept="6" />
-      <node id="7550366242933743821" at="53,47,59,9" concept="3" />
-      <scope id="7550366242933743821" at="54,42,58,45">
+      <node id="7550366242933743821" at="55,42,56,76" concept="5" />
+      <node id="7550366242933743821" at="56,76,57,52" concept="1" />
+      <node id="7550366242933743821" at="57,52,58,45" concept="1" />
+      <node id="7550366242933743821" at="58,45,59,45" concept="1" />
+      <node id="7550366242933743821" at="60,9,61,35" concept="6" />
+      <node id="7550366242933743821" at="54,47,60,9" concept="3" />
+      <scope id="7550366242933743821" at="55,42,59,45">
         <var name="cpb" id="7550366242933743821" />
       </scope>
-      <scope id="7550366242933743821" at="53,47,60,35" />
+      <scope id="7550366242933743821" at="54,47,61,35" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="7550366242933743821" at="13,0,14,0" concept="7" trace="FromStatement" />
-      <node id="7550366242933743821" at="43,49,44,52" concept="1" />
+      <node id="7550366242933743821" at="44,49,45,52" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7550366242933743821" at="22,0,23,0" concept="2" trace="myConceptFromStatement" />
-      <node id="7550366242933743821" at="80,47,81,38" concept="6" />
-      <node id="7550366242933743821" at="156,71,157,171" concept="5" />
-      <node id="7550366242933743821" at="157,171,158,34" concept="1" />
-      <node id="7550366242933743821" at="158,34,159,129" concept="1" />
-      <node id="7550366242933743821" at="159,129,160,110" concept="1" />
-      <node id="7550366242933743821" at="160,110,161,17" concept="1" />
-      <node id="7550366242933743822" at="161,17,162,204" concept="1" />
-      <node id="7550366242933743823" at="162,204,163,209" concept="1" />
-      <node id="7550366242933743821" at="163,209,164,27" concept="1" />
-      <node id="7550366242933743821" at="164,27,165,22" concept="6" />
-      <node id="7550366242933743821" at="156,0,167,0" concept="8" trace="createDescriptorForFromStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="7550366242933743821" at="80,47,81,38" />
-      <scope id="7550366242933743821" at="156,71,165,22">
+      <node id="7550366242933743821" at="81,47,82,38" concept="6" />
+      <node id="7550366242933743821" at="159,71,160,171" concept="5" />
+      <node id="7550366242933743821" at="160,171,161,34" concept="1" />
+      <node id="7550366242933743821" at="161,34,162,129" concept="1" />
+      <node id="7550366242933743821" at="162,129,163,110" concept="1" />
+      <node id="7550366242933743821" at="163,110,164,17" concept="1" />
+      <node id="7550366242933743822" at="164,17,165,204" concept="1" />
+      <node id="7550366242933743823" at="165,204,166,209" concept="1" />
+      <node id="7550366242933743821" at="166,209,167,27" concept="1" />
+      <node id="7550366242933743821" at="167,27,168,22" concept="6" />
+      <node id="7550366242933743821" at="159,0,170,0" concept="8" trace="createDescriptorForFromStatement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7550366242933743821" at="81,47,82,38" />
+      <scope id="7550366242933743821" at="159,71,168,22">
         <var name="b" id="7550366242933743821" />
       </scope>
-      <scope id="7550366242933743821" at="156,0,167,0" />
+      <scope id="7550366242933743821" at="159,0,170,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/7550366242933778757">
     <file name="ConceptPresentationAspectImpl.java">
       <node id="7550366242933778757" at="14,0,15,0" concept="2" trace="props_FromStatementAsName" />
-      <node id="7550366242933778757" at="62,48,63,76" concept="5" />
-      <node id="7550366242933778757" at="63,76,64,52" concept="1" />
-      <node id="7550366242933778757" at="64,52,65,53" concept="1" />
-      <node id="7550366242933778757" at="65,53,66,51" concept="1" />
-      <node id="7550366242933778757" at="67,9,68,41" concept="6" />
-      <node id="7550366242933778757" at="61,53,67,9" concept="3" />
-      <scope id="7550366242933778757" at="62,48,66,51">
+      <node id="7550366242933778757" at="63,48,64,76" concept="5" />
+      <node id="7550366242933778757" at="64,76,65,52" concept="1" />
+      <node id="7550366242933778757" at="65,52,66,53" concept="1" />
+      <node id="7550366242933778757" at="66,53,67,51" concept="1" />
+      <node id="7550366242933778757" at="68,9,69,41" concept="6" />
+      <node id="7550366242933778757" at="62,53,68,9" concept="3" />
+      <scope id="7550366242933778757" at="63,48,67,51">
         <var name="cpb" id="7550366242933778757" />
       </scope>
-      <scope id="7550366242933778757" at="61,53,68,41" />
+      <scope id="7550366242933778757" at="62,53,69,41" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="7550366242933778757" at="14,0,15,0" concept="7" trace="FromStatementAsName" />
-      <node id="7550366242933778757" at="44,52,45,58" concept="1" />
+      <node id="7550366242933778757" at="45,52,46,58" concept="1" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7550366242933778757" at="23,0,24,0" concept="2" trace="myConceptFromStatementAsName" />
-      <node id="7550366242933778757" at="82,53,83,44" concept="6" />
-      <node id="7550366242933778757" at="167,77,168,177" concept="5" />
-      <node id="7550366242933778757" at="168,177,169,34" concept="1" />
-      <node id="7550366242933778757" at="169,34,170,129" concept="1" />
-      <node id="7550366242933778757" at="170,129,171,110" concept="1" />
-      <node id="7550366242933778757" at="171,110,172,17" concept="1" />
-      <node id="7550366242933778758" at="172,17,173,204" concept="1" />
-      <node id="7550366242933778759" at="173,204,174,211" concept="1" />
-      <node id="7550366242933778757" at="174,211,175,35" concept="1" />
-      <node id="7550366242933778757" at="175,35,176,22" concept="6" />
-      <node id="7550366242933778757" at="167,0,178,0" concept="8" trace="createDescriptorForFromStatementAsName#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="7550366242933778757" at="82,53,83,44" />
-      <scope id="7550366242933778757" at="167,77,176,22">
+      <node id="7550366242933778757" at="83,53,84,44" concept="6" />
+      <node id="7550366242933778757" at="170,77,171,177" concept="5" />
+      <node id="7550366242933778757" at="171,177,172,34" concept="1" />
+      <node id="7550366242933778757" at="172,34,173,129" concept="1" />
+      <node id="7550366242933778757" at="173,129,174,110" concept="1" />
+      <node id="7550366242933778757" at="174,110,175,17" concept="1" />
+      <node id="7550366242933778758" at="175,17,176,204" concept="1" />
+      <node id="7550366242933778759" at="176,204,177,211" concept="1" />
+      <node id="7550366242933778757" at="177,211,178,35" concept="1" />
+      <node id="7550366242933778757" at="178,35,179,22" concept="6" />
+      <node id="7550366242933778757" at="170,0,181,0" concept="8" trace="createDescriptorForFromStatementAsName#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7550366242933778757" at="83,53,84,44" />
+      <scope id="7550366242933778757" at="170,77,179,22">
         <var name="b" id="7550366242933778757" />
       </scope>
-      <scope id="7550366242933778757" at="167,0,178,0" />
+      <scope id="7550366242933778757" at="170,0,181,0" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/7727025628334104092">
     <file name="StructureAspectDescriptor.java">
-      <node id="7727025628334104092" at="53,0,54,0" concept="2" trace="myCSDatatype_PythonDoubleStringCharacters" />
+      <node id="7727025628334104092" at="54,0,55,0" concept="2" trace="myCSDatatype_PythonDoubleStringCharacters" />
     </file>
   </root>
   <root nodeRef="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/7727025628334104349">
     <file name="StructureAspectDescriptor.java">
-      <node id="7727025628334104349" at="56,0,57,0" concept="2" trace="myCSDatatype_PythonSingleStringCharacters" />
+      <node id="7727025628334104349" at="57,0,58,0" concept="2" trace="myCSDatatype_PythonSingleStringCharacters" />
     </file>
   </root>
 </debug-info>

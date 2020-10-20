@@ -22,6 +22,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonExpression;
   private ConceptPresentation props_PythonExpressionStatement;
   private ConceptPresentation props_PythonIdentifier;
+  private ConceptPresentation props_PythonIdentifierReference;
   private ConceptPresentation props_PythonIfElseStatement;
   private ConceptPresentation props_PythonIndentBlockStatement;
   private ConceptPresentation props_PythonLeftHandSideExpression;
@@ -141,6 +142,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonIdentifier = cpb.create();
         }
         return props_PythonIdentifier;
+      case LanguageConceptSwitch.PythonIdentifierReference:
+        if (props_PythonIdentifierReference == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByReference(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a882ea95dL, 0x4e7b579a882ea95eL, "identifier", "", "");
+          props_PythonIdentifierReference = cpb.create();
+        }
+        return props_PythonIdentifierReference;
       case LanguageConceptSwitch.PythonIfElseStatement:
         if (props_PythonIfElseStatement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
