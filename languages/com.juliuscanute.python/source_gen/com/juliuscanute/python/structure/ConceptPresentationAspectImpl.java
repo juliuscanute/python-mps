@@ -18,9 +18,11 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonArrayExpression;
   private ConceptPresentation props_PythonAssignmentExpression;
   private ConceptPresentation props_PythonBinaryExpression;
+  private ConceptPresentation props_PythonElseIfStatement;
   private ConceptPresentation props_PythonExpression;
   private ConceptPresentation props_PythonExpressionStatement;
   private ConceptPresentation props_PythonIdentifier;
+  private ConceptPresentation props_PythonIfElseStatement;
   private ConceptPresentation props_PythonIndentBlockStatement;
   private ConceptPresentation props_PythonLeftHandSideExpression;
   private ConceptPresentation props_PythonLiteral;
@@ -111,6 +113,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonBinaryExpression = cpb.create();
         }
         return props_PythonBinaryExpression;
+      case LanguageConceptSwitch.PythonElseIfStatement:
+        if (props_PythonElseIfStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonElseIfStatement");
+          props_PythonElseIfStatement = cpb.create();
+        }
+        return props_PythonElseIfStatement;
       case LanguageConceptSwitch.PythonExpression:
         if (props_PythonExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -132,6 +141,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonIdentifier = cpb.create();
         }
         return props_PythonIdentifier;
+      case LanguageConceptSwitch.PythonIfElseStatement:
+        if (props_PythonIfElseStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("if");
+          props_PythonIfElseStatement = cpb.create();
+        }
+        return props_PythonIfElseStatement;
       case LanguageConceptSwitch.PythonIndentBlockStatement:
         if (props_PythonIndentBlockStatement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
