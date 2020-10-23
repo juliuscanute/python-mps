@@ -1006,5 +1006,48 @@
       <ref role="PrY4T" node="4_DfFMGu6XA" resolve="PythonLeftHandSideExpression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4TVlTE8qxNI">
+    <property role="EcuMT" value="5655210078319025390" />
+    <property role="3GE5qa" value="statement" />
+    <property role="TrG5h" value="PythonFunctionDefinitionStatement" />
+    <property role="34LRSv" value="function" />
+    <ref role="1TJDcQ" node="4rfLeTAmc$r" resolve="PythonStatement" />
+    <node concept="1TJgyj" id="4TVlTE8qxNL" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078319025393" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="id" />
+      <ref role="20lvS9" node="4_DfFMGtamA" resolve="PythonIdentifier" />
+    </node>
+    <node concept="1TJgyj" id="4TVlTE8qxNN" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078319025395" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="params" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4_DfFMGtamA" resolve="PythonIdentifier" />
+    </node>
+    <node concept="1TJgyj" id="4TVlTE8qxNQ" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078319025398" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4_DfFMG_2rw" resolve="PythonIndentBlockStatement" />
+    </node>
+    <node concept="PrWs8" id="4TVlTE8qxNJ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4TVlTE8sKfZ">
+    <property role="EcuMT" value="5655210078319608831" />
+    <property role="3GE5qa" value="statement" />
+    <property role="TrG5h" value="PythonReturnStatement" />
+    <property role="34LRSv" value="return" />
+    <ref role="1TJDcQ" node="4rfLeTAmc$r" resolve="PythonStatement" />
+    <node concept="1TJgyj" id="4TVlTE8sKg0" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078319608832" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="argument" />
+      <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    </node>
+  </node>
 </model>
 

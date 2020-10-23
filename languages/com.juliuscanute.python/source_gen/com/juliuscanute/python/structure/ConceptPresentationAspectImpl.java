@@ -21,6 +21,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonElseIfStatement;
   private ConceptPresentation props_PythonExpression;
   private ConceptPresentation props_PythonExpressionStatement;
+  private ConceptPresentation props_PythonFunctionDefinitionStatement;
   private ConceptPresentation props_PythonIdentifier;
   private ConceptPresentation props_PythonIdentifierReference;
   private ConceptPresentation props_PythonIfElseStatement;
@@ -33,6 +34,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonObjectExpression;
   private ConceptPresentation props_PythonProgram;
   private ConceptPresentation props_PythonProperty;
+  private ConceptPresentation props_PythonReturnStatement;
   private ConceptPresentation props_PythonStatement;
   private ConceptPresentation props_PythonStringLiteral;
   private ConceptPresentation props_PythonUnaryExpression;
@@ -135,6 +137,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonExpressionStatement = cpb.create();
         }
         return props_PythonExpressionStatement;
+      case LanguageConceptSwitch.PythonFunctionDefinitionStatement:
+        if (props_PythonFunctionDefinitionStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("function");
+          props_PythonFunctionDefinitionStatement = cpb.create();
+        }
+        return props_PythonFunctionDefinitionStatement;
       case LanguageConceptSwitch.PythonIdentifier:
         if (props_PythonIdentifier == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -219,6 +228,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonProperty = cpb.create();
         }
         return props_PythonProperty;
+      case LanguageConceptSwitch.PythonReturnStatement:
+        if (props_PythonReturnStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("return");
+          props_PythonReturnStatement = cpb.create();
+        }
+        return props_PythonReturnStatement;
       case LanguageConceptSwitch.PythonStatement:
         if (props_PythonStatement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

@@ -19,6 +19,12 @@
         <child id="7550366242933707098" name="dottedName" index="12S_H2" />
         <child id="7550366242933707125" name="asName" index="12S_HH" />
       </concept>
+      <concept id="5655210078319608831" name="com.juliuscanute.python.structure.PythonReturnStatement" flags="ng" index="3625h_" />
+      <concept id="5655210078319025390" name="com.juliuscanute.python.structure.PythonFunctionDefinitionStatement" flags="ng" index="364kHO">
+        <child id="5655210078319025395" name="params" index="364kHD" />
+        <child id="5655210078319025393" name="id" index="364kHF" />
+        <child id="5655210078319025398" name="body" index="364kHG" />
+      </concept>
       <concept id="5655210078315129181" name="com.juliuscanute.python.structure.PythonIdentifierReference" flags="ng" index="36lvV7">
         <reference id="5655210078315129182" name="identifier" index="36lvV4" />
       </concept>
@@ -82,6 +88,35 @@
     </node>
     <node concept="w$BEf" id="4TVlTE8pGdq" role="w_N3S">
       <node concept="w__i5" id="4TVlTE8pGf6" role="w$BEc" />
+    </node>
+    <node concept="364kHO" id="4TVlTE8tDlX" role="w_N3S">
+      <node concept="3_7pGq" id="4TVlTE8tDnd" role="364kHD">
+        <property role="TrG5h" value="a" />
+      </node>
+      <node concept="3_7pGq" id="4TVlTE8tDnf" role="364kHD">
+        <property role="TrG5h" value="b" />
+      </node>
+      <node concept="3_Zhxs" id="4TVlTE8tDlZ" role="364kHG">
+        <node concept="36nmCW" id="4TVlTE8tDnr" role="3_Zhxv">
+          <node concept="3_0q_z" id="4TVlTE8tDnE" role="36n9a4">
+            <property role="3_0q_s" value="4_DfFMGq3JO/bnGt" />
+            <node concept="36lvV7" id="4TVlTE8tDn_" role="3_0q_u">
+              <ref role="36lvV4" node="4TVlTE8tDnd" resolve="a" />
+            </node>
+            <node concept="36lvV7" id="4TVlTE8tDnI" role="3_0q_o">
+              <ref role="36lvV4" node="4TVlTE8tDnf" resolve="b" />
+            </node>
+          </node>
+          <node concept="36nmDd" id="4TVlTE8tDo2" role="36nmCN">
+            <node concept="3625h_" id="4TVlTE8tVY3" role="36nhzr" />
+          </node>
+          <node concept="3625h_" id="4TVlTE8tVXP" role="3_Zhxv" />
+        </node>
+        <node concept="w_KRP" id="4TVlTE8tDm1" role="3_Zhxv" />
+      </node>
+      <node concept="3_7pGq" id="4TVlTE8tDnb" role="364kHF">
+        <property role="TrG5h" value="max" />
+      </node>
     </node>
     <node concept="w$BEf" id="4TVlTE8pGfm" role="w_N3S">
       <node concept="3_4kww" id="4TVlTE8pGfk" role="w$BEc">
@@ -237,7 +272,6 @@
           <property role="w$p9c" value="100" />
         </node>
       </node>
-      <node concept="w_KRP" id="4TVlTE8pY6o" role="3_Zhxv" />
     </node>
   </node>
 </model>

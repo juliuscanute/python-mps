@@ -226,7 +226,10 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
-      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY">
+        <property id="16410578721444372" name="customizeEmptyCell" index="2ru_X1" />
+        <child id="16410578721629643" name="emptyCellModel" index="2ruayu" />
+      </concept>
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="843003353410421268" name="jetbrains.mps.lang.editor.structure.IOutputConceptTransformationMenuPart" flags="ng" index="1FNN41">
         <child id="843003353410424960" name="outputConceptReference" index="1FNMel" />
@@ -3433,6 +3436,56 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4TVlTE8qNz7">
+    <property role="3GE5qa" value="statement" />
+    <ref role="1XX52x" to="e5uo:4TVlTE8qxNI" resolve="PythonFunctionDefinitionStatement" />
+    <node concept="3EZMnI" id="4TVlTE8qNz9" role="2wV5jI">
+      <node concept="3F0ifn" id="4TVlTE8qNzg" role="3EZMnx">
+        <property role="3F0ifm" value="def" />
+        <ref role="1k5W1q" node="bcrrPfrAxm" resolve="PythonKeyWord" />
+      </node>
+      <node concept="3F1sOY" id="4TVlTE8qNzm" role="3EZMnx">
+        <ref role="1NtTu8" to="e5uo:4TVlTE8qxNL" resolve="id" />
+      </node>
+      <node concept="3F0ifn" id="4TVlTE8qNzu" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F2HdR" id="4TVlTE8qNzC" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="e5uo:4TVlTE8qxNN" resolve="params" />
+        <node concept="l2Vlx" id="4TVlTE8qNzE" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="4TVlTE8qNzR" role="3EZMnx">
+        <property role="3F0ifm" value="):" />
+      </node>
+      <node concept="3F1sOY" id="4TVlTE8qN$7" role="3EZMnx">
+        <ref role="1NtTu8" to="e5uo:4TVlTE8qxNQ" resolve="body" />
+        <node concept="pVoyu" id="4TVlTE8qN$g" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4TVlTE8qNzc" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4TVlTE8sKgs">
+    <property role="3GE5qa" value="statement" />
+    <ref role="1XX52x" to="e5uo:4TVlTE8sKfZ" resolve="PythonReturnStatement" />
+    <node concept="3EZMnI" id="4TVlTE8sKgu" role="2wV5jI">
+      <node concept="3F0ifn" id="4TVlTE8sKg_" role="3EZMnx">
+        <property role="3F0ifm" value="return" />
+        <ref role="1k5W1q" node="bcrrPfrAxm" resolve="PythonKeyWord" />
+      </node>
+      <node concept="3F1sOY" id="4TVlTE8sKgF" role="3EZMnx">
+        <property role="2ru_X1" value="true" />
+        <ref role="1NtTu8" to="e5uo:4TVlTE8sKg0" resolve="argument" />
+        <node concept="3EZMnI" id="4TVlTE8sKgR" role="2ruayu">
+          <node concept="l2Vlx" id="4TVlTE8sKgS" role="2iSdaV" />
+          <node concept="VPM3Z" id="4TVlTE8sKgT" role="3F10Kt" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4TVlTE8sKgx" role="2iSdaV" />
     </node>
   </node>
 </model>
