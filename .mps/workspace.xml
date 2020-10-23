@@ -2,41 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a3ae692-2d06-436f-97a3-2ce7f29a99a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/PythonIdentifierReference_Constraints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifierReference_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifierReference_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifierReference_SubstituteMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonIdentifier__BehaviorDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonProgram__BehaviorDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifier_TransformationMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/ConstraintsAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/ConstraintsAspectDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/BehaviorAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/BehaviorAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/EditorAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Include_2hq236_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Include_2hq236_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Include_2hq236_b.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Include_2hq236_b.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Include_2hq236_c.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Include_2hq236_c.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/LanguageConceptSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/LanguageConceptSwitch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/StructureAspectDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/com.juliuscanute.python.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/com.juliuscanute.python.mpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.behavior.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.constraints.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.structure.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/models/com.juliuscanute.python.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/models/com.juliuscanute.python.sandbox.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/source_gen.caches/com/juliuscanute/python/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/source_gen.caches/com/juliuscanute/python/sandbox/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/behavior/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/behavior/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/behavior/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/constraints/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/constraints/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/constraints/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/constraints/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/editor/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/editor/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/structure/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/ConstraintsAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/ConstraintsAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/BehaviorAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/BehaviorAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/PythonIdentifier_Constraints.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/PythonIdentifier_Constraints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/EditorAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_variableInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_variableInitialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifierReference_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifierReference_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifier_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifier_EditorBuilder_a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/LanguageConceptSwitch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/StructureAspectDescriptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/trace.info" afterDir="false" />
@@ -205,6 +210,28 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/models/com.juliuscanute.python.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="expression" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -221,6 +248,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:769c6d46-0027-44b7-9c28-7725c4d476ba(com.juliuscanute.python.sandbox) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/sandbox/models/com.juliuscanute.python.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/models/com.juliuscanute.python.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="statement" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/models/com.juliuscanute.python.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="declaration" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,50 +334,8 @@
               <option name="myItemId" value="expression" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/models/com.juliuscanute.python.intentions.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="statement" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:930dbe19-d10a-49fc-9cce-22eea21d7110(com.juliuscanute.python.behavior) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/models/com.juliuscanute.python.behavior.mps]" />
+              <option name="myItemId" value="literal" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,66 +350,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/models/com.juliuscanute.python.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/models/com.juliuscanute.python.intentions.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/models/com.juliuscanute.python.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="declaration" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/models/com.juliuscanute.python.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="statement" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,19 +359,19 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
+              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
+              <option name="myItemId" value="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/models/com.juliuscanute.python.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:769c6d46-0027-44b7-9c28-7725c4d476ba(com.juliuscanute.python.sandbox) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/sandbox/models/com.juliuscanute.python.sandbox.mps]" />
+              <option name="myItemId" value="statement" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="5289828217390617721" />
+              <option name="myItemId" value="3865884777285625834" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -445,14 +426,11 @@
           <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
             <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
           </child>
-          <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
-            <generated_finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
-          </child>
         </result_provider>
         <query>
           <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.ProjectScope" />
           <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
-            <node ref="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/223815598156788958" title="isPythonScriptReservedWord(string):boolean" />
+            <node ref="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217391457703" title="idName" />
           </holder>
         </query>
         <usage_view>
@@ -474,10 +452,10 @@
                     <child caption="com.juliuscanute.python.structure" excluded="false" isresult="false" results_section="false">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="PythonIdentifierConstraintsUtil" info="" excluded="false" isresult="false" results_section="false" nodePtr="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/223815598156675961" isRoot="true">
+                      <child caption="PythonIdentifier" info="" excluded="false" isresult="false" results_section="false" nodePtr="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217391457702" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="isPythonScriptReservedWord(string):boolean" info="(role: member in: PythonIdentifierConstraintsUtil)" excluded="false" isresult="true" results_section="false" nodePtr="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/223815598156788958">
+                        <child caption="idName" info="(role: propertyDeclaration in: PythonIdentifier)" excluded="false" isresult="true" results_section="false" nodePtr="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217391457703">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="target" />
                         </child>
@@ -496,34 +474,59 @@
                   <child caption="com.juliuscanute.python" excluded="false" isresult="false" results_section="true" module_ref="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)">
                     <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
                     <role name="module" />
-                    <child caption="com.juliuscanute.python.editor" excluded="false" isresult="false" results_section="true">
+                    <child caption="com.juliuscanute.python.behavior" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="PythonExpression_variableInitialization" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217391958716" isRoot="true">
+                      <child caption="PythonIdentifier_Behavior" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:930dbe19-d10a-49fc-9cce-22eea21d7110(com.juliuscanute.python.behavior)/5655210078316576164" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="PythonIdentifierConstraintsUtil.isPythonScriptReservedWord(string):boolean" info="(role: expression in: !)" excluded="false" isresult="true" results_section="true" nodePtr="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217392013991">
+                        <child caption="getFqName():string" info="(role: method in: PythonIdentifier_Behavior)" excluded="false" isresult="false" results_section="true" nodePtr="r:930dbe19-d10a-49fc-9cce-22eea21d7110(com.juliuscanute.python.behavior)/5655210078317805994">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="idName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:930dbe19-d10a-49fc-9cce-22eea21d7110(com.juliuscanute.python.behavior)/5655210078317808046">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                        </child>
+                      </child>
+                      <model uid="r:930dbe19-d10a-49fc-9cce-22eea21d7110(com.juliuscanute.python.behavior)" />
+                    </child>
+                    <child caption="com.juliuscanute.python.constraints" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="PythonIdentifier_Constraints" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:bb5b1e79-7326-4c74-b7d4-38c4c3851640(com.juliuscanute.python.constraints)/5289828217392857241" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="property {idName}" info="(role: property in: PythonIdentifier_Constraints)" excluded="false" isresult="true" results_section="true" nodePtr="r:bb5b1e79-7326-4c74-b7d4-38c4c3851640(com.juliuscanute.python.constraints)/5289828217392857242">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="target" />
                         </child>
                       </child>
-                      <model uid="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)" />
+                      <model uid="r:bb5b1e79-7326-4c74-b7d4-38c4c3851640(com.juliuscanute.python.constraints)" />
                     </child>
-                  </child>
-                </child>
-                <child caption="Exact Method Usages" excluded="false" isresult="false" results_section="true" category="Exact Method Usages" category_kind="Category">
-                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
-                  <role name="category:Category" />
-                  <child caption="com.juliuscanute.python" excluded="false" isresult="false" results_section="true" module_ref="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)">
-                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
-                    <role name="module" />
                     <child caption="com.juliuscanute.python.editor" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
                       <child caption="PythonExpression_variableInitialization" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217391958716" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="PythonIdentifierConstraintsUtil.isPythonScriptReservedWord(string):boolean" info="(role: expression in: !)" excluded="false" isresult="true" results_section="true" nodePtr="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217392013991">
+                        <child caption="idName" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217391961633">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="PythonIdentifierReference_Editor" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5655210078315189532" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="{idName}" info="(role: cellModel in: InlineEditorComponent)" excluded="false" isresult="true" results_section="true" nodePtr="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5655210078315189550">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="PythonIdentifier_Editor" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217391457733" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="{idName}" info="(role: childCellModel in: collection)" excluded="false" isresult="true" results_section="true" nodePtr="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217391457746">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="target" />
                         </child>
@@ -543,22 +546,22 @@
     </default_view_options>
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="-755" key="#MPSPropertiesConfigurable" timestamp="1603230384388">
+    <state x="309" y="-755" key="#MPSPropertiesConfigurable" timestamp="1603425477798">
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="309" y="-755" key="#MPSPropertiesConfigurable/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1603230384388" />
+    <state x="309" y="-755" key="#MPSPropertiesConfigurable/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1603425477798" />
     <state x="565" y="-755" key="#Web_Browsers" timestamp="1602995557821">
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
     <state x="565" y="-755" key="#Web_Browsers/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1602995557821" />
-    <state x="583" y="-840" key="#jetbrains.mps.ide.util.NodesChooser" timestamp="1603230839677">
+    <state x="583" y="-840" key="#jetbrains.mps.ide.util.NodesChooser" timestamp="1603425597964">
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="583" y="-840" key="#jetbrains.mps.ide.util.NodesChooser/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1603230839677" />
-    <state x="508" y="-778" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2" timestamp="1603102578192">
+    <state x="583" y="-840" key="#jetbrains.mps.ide.util.NodesChooser/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1603425597964" />
+    <state x="508" y="-778" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2" timestamp="1603425647269">
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="508" y="-778" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1603102578192" />
+    <state x="508" y="-778" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1603425647269" />
     <state x="358" y="-790" key="IDE.errors.dialog" timestamp="1602977868513">
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
@@ -571,10 +574,10 @@
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
     <state x="644" y="-661" key="jetbrains.mps.ide.editor.actions.HintsDialog/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1602976780984" />
-    <state x="561" y="-712" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1603230382378">
+    <state x="561" y="-712" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1603425476203">
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="561" y="-712" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1603230382378" />
+    <state x="561" y="-712" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1603425476203" />
     <state x="435" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1602983254515">
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>

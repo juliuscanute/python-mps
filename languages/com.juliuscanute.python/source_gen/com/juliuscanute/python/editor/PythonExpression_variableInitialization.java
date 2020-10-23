@@ -92,7 +92,7 @@ public class PythonExpression_variableInitialization extends SubstituteMenuBase 
       public SNode createNode(@NotNull String pattern) {
         SNode assignExp = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac78769cL, "com.juliuscanute.python.structure.PythonAssignmentExpression"));
         SNode identifier = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L, "com.juliuscanute.python.structure.PythonIdentifier"));
-        SPropertyOperations.assign(identifier, PROPS.idName$vWIE, pattern.trim());
+        SPropertyOperations.assign(identifier, PROPS.name$MnvL, pattern.trim());
         SLinkOperations.setTarget(assignExp, LINKS.left$Rjha, identifier);
         SPropertyOperations.assignEnum(assignExp, PROPS.operator$beAs, SEnumOperations.getMember(MetaAdapterFactory.getEnumeration(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac787c48L, "com.juliuscanute.python.structure.PythonAssignmentOperator"), 0x49693ebcac787c49L, "aoAssign"));
         return assignExp;
@@ -131,7 +131,7 @@ public class PythonExpression_variableInitialization extends SubstituteMenuBase 
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty idName$vWIE = MetaAdapterFactory.getProperty(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L, 0x49693ebcac74a5a7L, "idName");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
     /*package*/ static final SProperty operator$beAs = MetaAdapterFactory.getProperty(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac78769cL, 0x49693ebcac787dd2L, "operator");
     /*package*/ static final SProperty constraint$Gtcd = MetaAdapterFactory.getProperty(0xc72da2b97cce4447L, 0x8389f407dc1158b7L, 0xfc268c7a37L, 0xfc2bc4ff02L, "constraint");
   }

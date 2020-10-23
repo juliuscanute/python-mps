@@ -15,6 +15,7 @@
   </languages>
   <imports>
     <import index="e5uo" ref="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -84,7 +85,7 @@
     <property role="3GE5qa" value="declaration" />
     <ref role="1M2myG" to="e5uo:4_DfFMGtamA" resolve="PythonIdentifier" />
     <node concept="EnEH3" id="4_DfFMGyw2q" role="1MhHOB">
-      <ref role="EomxK" to="e5uo:4_DfFMGtamB" resolve="idName" />
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
       <node concept="QB0g5" id="4_DfFMGyw4S" role="QCWH9">
         <node concept="3clFbS" id="4_DfFMGyw4T" role="2VODD2">
           <node concept="3clFbF" id="4_DfFMGyw9B" role="3cqZAp">

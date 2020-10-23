@@ -276,7 +276,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac786f66L);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217391457702");
     b.version(2);
-    b.property("idName", 0x49693ebcac74a5a7L).type(MetaIdFactory.dataTypeId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x2bc918a81333994dL)).origin("5289828217391457703").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPythonIdentifierReference() {

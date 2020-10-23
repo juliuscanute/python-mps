@@ -22,9 +22,9 @@ public class PythonIdentifier_Constraints extends BaseConstraintsDescriptor {
     super(CONCEPTS.PythonIdentifier$Ol);
   }
 
-  public static class IdName_Property extends BasePropertyConstraintsDescriptor {
-    public IdName_Property(ConstraintsDescriptor container) {
-      super(PROPS.idName$vWIE, container);
+  public static class Name_Property extends BasePropertyConstraintsDescriptor {
+    public Name_Property(ConstraintsDescriptor container) {
+      super(PROPS.name$MnvL, container);
     }
     @Override
     public boolean hasOwnValidator() {
@@ -46,7 +46,7 @@ public class PythonIdentifier_Constraints extends BaseConstraintsDescriptor {
   @Override
   protected Map<SProperty, PropertyConstraintsDescriptor> getSpecifiedProperties() {
     Map<SProperty, PropertyConstraintsDescriptor> properties = new HashMap<SProperty, PropertyConstraintsDescriptor>();
-    properties.put(PROPS.idName$vWIE, new IdName_Property(this));
+    properties.put(PROPS.name$MnvL, new Name_Property(this));
     return properties;
   }
 
@@ -55,6 +55,6 @@ public class PythonIdentifier_Constraints extends BaseConstraintsDescriptor {
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty idName$vWIE = MetaAdapterFactory.getProperty(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L, 0x49693ebcac74a5a7L, "idName");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
   }
 }

@@ -17,7 +17,7 @@
   <root nodeRef="r:bb5b1e79-7326-4c74-b7d4-38c4c3851640(com.juliuscanute.python.constraints)/5289828217392857241">
     <file name="PythonIdentifier_Constraints.java">
       <node id="5289828217392857241" at="21,41,22,40" concept="8" />
-      <node id="5289828217392857242" at="26,61,27,42" concept="8" />
+      <node id="5289828217392857242" at="26,59,27,40" concept="8" />
       <node id="5289828217392857242" at="30,38,31,18" concept="5" />
       <node id="5289828217392857242" at="33,0,34,0" concept="6" trace="validatePropertyBreakingPoint" />
       <node id="5289828217392857242" at="35,109,36,99" concept="4" />
@@ -25,19 +25,19 @@
       <node id="5289828217392857242" at="39,7,40,20" concept="5" />
       <node id="5289828217392857703" at="42,85,43,172" concept="5" />
       <node id="5289828217392857241" at="47,84,48,119" concept="4" />
-      <node id="5289828217392857242" at="48,119,49,65" concept="1" />
-      <node id="5289828217392857241" at="49,65,50,22" concept="5" />
+      <node id="5289828217392857242" at="48,119,49,61" concept="1" />
+      <node id="5289828217392857241" at="49,61,50,22" concept="5" />
       <node id="5289828217392857241" at="54,0,55,0" concept="6" trace="PythonIdentifier$Ol" />
-      <node id="5289828217392857241" at="58,0,59,0" concept="6" trace="idName$vWIE" />
+      <node id="5289828217392857241" at="58,0,59,0" concept="6" trace="name$MnvL" />
       <node id="5289828217392857241" at="21,0,24,0" concept="0" trace="PythonIdentifier_Constraints#()V" />
-      <node id="5289828217392857242" at="26,0,29,0" concept="0" trace="IdName_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="5289828217392857242" at="26,0,29,0" concept="0" trace="Name_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
       <node id="5289828217392857242" at="36,99,39,7" concept="2" />
       <node id="5289828217392857242" at="42,0,45,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
       <node id="5289828217392857242" at="29,0,33,0" concept="3" trace="hasOwnValidator#()Z" />
       <node id="5289828217392857241" at="46,0,52,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
       <node id="5289828217392857242" at="34,0,42,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
       <scope id="5289828217392857241" at="21,41,22,40" />
-      <scope id="5289828217392857242" at="26,61,27,42" />
+      <scope id="5289828217392857242" at="26,59,27,40" />
       <scope id="5289828217392857242" at="30,38,31,18" />
       <scope id="5289828217392857242" at="37,53,38,75" />
       <scope id="5289828217392857401" at="42,85,43,172" />
@@ -64,7 +64,7 @@
       </scope>
       <unit id="5289828217392857241" at="53,0,56,0" name="com.juliuscanute.python.constraints.PythonIdentifier_Constraints$CONCEPTS" />
       <unit id="5289828217392857241" at="57,0,60,0" name="com.juliuscanute.python.constraints.PythonIdentifier_Constraints$PROPS" />
-      <unit id="5289828217392857242" at="25,0,46,0" name="com.juliuscanute.python.constraints.PythonIdentifier_Constraints$IdName_Property" />
+      <unit id="5289828217392857242" at="25,0,46,0" name="com.juliuscanute.python.constraints.PythonIdentifier_Constraints$Name_Property" />
       <unit id="5289828217392857241" at="20,0,61,0" name="com.juliuscanute.python.constraints.PythonIdentifier_Constraints" />
     </file>
   </root>

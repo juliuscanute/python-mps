@@ -57,7 +57,7 @@ public class PythonExpression_SubstituteMenu extends SubstituteMenuBase {
     @Override
     public List<SubstituteMenuItem> createItems(SubstituteMenuContext context) {
       context.getEditorMenuTrace().pushTraceInfo();
-      context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("include " + "named substitute menu " + "PythonExpression_variableInitialization", new SNodePointer("r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)", "5289828217392108856")));
+      context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("include " + "named substitute menu " + "PythonExpression_variableInitialization", new SNodePointer("r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)", "5655210078318731944")));
       try {
         return super.createItems(context);
       } finally {
