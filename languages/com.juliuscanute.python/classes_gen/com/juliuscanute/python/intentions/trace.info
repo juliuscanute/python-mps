@@ -12,13 +12,13 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="IntentionsDescriptor.java">
-      <unit at="18,0,64,0" name="com.juliuscanute.python.intentions.IntentionsDescriptor" />
+      <unit at="18,0,72,0" name="com.juliuscanute.python.intentions.IntentionsDescriptor" />
     </file>
   </root>
   <root nodeRef="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)/5655210078314218813">
     <file name="IntentionsDescriptor.java">
-      <node id="5655210078314218813" at="44,47,45,74" concept="2" />
-      <node id="5655210078314218813" at="57,52,58,60" concept="2" />
+      <node id="5655210078314218813" at="51,47,52,74" concept="2" />
+      <node id="5655210078314218813" at="64,52,65,60" concept="2" />
     </file>
     <file name="PythonWhileStatement_toggleElse_Intention.java">
       <node id="5655210078314218813" at="22,0,23,0" concept="3" trace="myCachedExecutable" />
@@ -90,8 +90,8 @@
   </root>
   <root nodeRef="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)/5655210078314749977">
     <file name="IntentionsDescriptor.java">
-      <node id="5655210078314749977" at="37,47,38,75" concept="2" />
-      <node id="5655210078314749977" at="58,60,59,61" concept="2" />
+      <node id="5655210078314749977" at="44,47,45,75" concept="2" />
+      <node id="5655210078314749977" at="65,60,66,61" concept="2" />
     </file>
     <file name="PythonIfElseStatement_toggleElse_Intention.java">
       <node id="5655210078314749977" at="23,0,24,0" concept="3" trace="myCachedExecutable" />
@@ -154,6 +154,77 @@
       <unit id="5655210078314749977" at="66,0,69,0" name="com.juliuscanute.python.intentions.PythonIfElseStatement_toggleElse_Intention$LINKS" />
       <unit id="5655210078314749977" at="45,0,65,0" name="com.juliuscanute.python.intentions.PythonIfElseStatement_toggleElse_Intention$IntentionImplementation" />
       <unit id="5655210078314749977" at="22,0,70,0" name="com.juliuscanute.python.intentions.PythonIfElseStatement_toggleElse_Intention" />
+    </file>
+  </root>
+  <root nodeRef="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)/5655210078322211122">
+    <file name="IntentionsDescriptor.java">
+      <node id="5655210078322211122" at="37,47,38,72" concept="2" />
+      <node id="5655210078322211122" at="66,61,67,58" concept="2" />
+    </file>
+    <file name="PythonForStatement_toggleElse_Intention.java">
+      <node id="5655210078322211122" at="22,0,23,0" concept="3" trace="myCachedExecutable" />
+      <node id="5655210078322211122" at="23,52,24,149" concept="9" />
+      <node id="5655210078322211122" at="27,35,28,43" concept="7" />
+      <node id="5655210078322211122" at="31,84,32,16" concept="7" />
+      <node id="5655210078322211122" at="35,35,36,17" concept="7" />
+      <node id="5655210078322211122" at="39,37,40,105" concept="2" />
+      <node id="5655210078322211122" at="41,5,42,30" concept="7" />
+      <node id="5655210078322211432" at="48,87,49,30" concept="7" />
+      <node id="5655210078322236185" at="53,74,54,220" concept="6" />
+      <node id="5655210078322231418" at="54,220,55,74" concept="2" />
+      <node id="5655210078322237060" at="56,14,57,66" concept="2" />
+      <node id="5655210078322211122" at="61,48,62,58" concept="7" />
+      <node id="5655210078322211122" at="67,0,68,0" concept="8" trace="elseBlk$_9Sh" />
+      <node id="5655210078322211122" at="45,0,47,0" concept="1" trace="IntentionImplementation#()V" />
+      <node id="5655210078322214523" at="56,12,58,7" concept="0" />
+      <node id="5655210078322211122" at="23,0,26,0" concept="1" trace="PythonForStatement_toggleElse_Intention#()V" />
+      <node id="5655210078322211122" at="38,99,41,5" concept="4" />
+      <node id="5655210078322211122" at="26,0,30,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="5655210078322211122" at="30,0,34,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="5655210078322211122" at="34,0,38,0" concept="5" trace="isSurroundWith#()Z" />
+      <node id="5655210078322211122" at="47,0,51,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="5655210078322211122" at="60,0,64,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="5655210078322211122" at="38,0,44,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="5655210078322214507" at="52,78,58,7" concept="4" />
+      <node id="5655210078322211122" at="51,0,60,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="5655210078322211122" at="45,38,45,38" />
+      <scope id="5655210078322211122" at="23,52,24,149" />
+      <scope id="5655210078322211122" at="27,35,28,43" />
+      <scope id="5655210078322211122" at="31,84,32,16" />
+      <scope id="5655210078322211122" at="35,35,36,17" />
+      <scope id="5655210078322211122" at="39,37,40,105" />
+      <scope id="5655210078322211124" at="48,87,49,30" />
+      <scope id="5655210078322214524" at="56,14,57,66" />
+      <scope id="5655210078322211122" at="61,48,62,58" />
+      <scope id="5655210078322211122" at="45,0,47,0" />
+      <scope id="5655210078322214513" at="53,74,55,74">
+        <var name="blkStatement" id="5655210078322236188" />
+      </scope>
+      <scope id="5655210078322211122" at="23,0,26,0" />
+      <scope id="5655210078322211122" at="26,0,30,0" />
+      <scope id="5655210078322211122" at="30,0,34,0">
+        <var name="editorContext" id="5655210078322211122" />
+        <var name="node" id="5655210078322211122" />
+      </scope>
+      <scope id="5655210078322211122" at="34,0,38,0" />
+      <scope id="5655210078322211122" at="38,99,42,30" />
+      <scope id="5655210078322211122" at="47,0,51,0">
+        <var name="editorContext" id="5655210078322211122" />
+        <var name="node" id="5655210078322211122" />
+      </scope>
+      <scope id="5655210078322211122" at="60,0,64,0" />
+      <scope id="5655210078322211122" at="38,0,44,0">
+        <var name="context" id="5655210078322211122" />
+        <var name="node" id="5655210078322211122" />
+      </scope>
+      <scope id="5655210078322211126" at="52,78,58,7" />
+      <scope id="5655210078322211122" at="51,0,60,0">
+        <var name="editorContext" id="5655210078322211122" />
+        <var name="node" id="5655210078322211122" />
+      </scope>
+      <unit id="5655210078322211122" at="66,0,69,0" name="com.juliuscanute.python.intentions.PythonForStatement_toggleElse_Intention$LINKS" />
+      <unit id="5655210078322211122" at="44,0,65,0" name="com.juliuscanute.python.intentions.PythonForStatement_toggleElse_Intention$IntentionImplementation" />
+      <unit id="5655210078322211122" at="21,0,70,0" name="com.juliuscanute.python.intentions.PythonForStatement_toggleElse_Intention" />
     </file>
   </root>
 </debug-info>

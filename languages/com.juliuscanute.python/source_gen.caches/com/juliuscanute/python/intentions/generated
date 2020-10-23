@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-1uqfl57ydryxrhsgyf79bf13yak966n">
-  <files names="IntentionsDescriptor.java:PythonIfElseStatement_toggleElse_Intention.java:PythonWhileStatement_toggleElse_Intention.java" />
+<product version="3" modelHash="-a6faxmzdvh8h8pu3rkcsrse2xv3xgq">
+  <files names="IntentionsDescriptor.java:PythonForStatement_toggleElse_Intention.java:PythonIfElseStatement_toggleElse_Intention.java:PythonWhileStatement_toggleElse_Intention.java" />
 </product>
 

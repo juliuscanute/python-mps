@@ -35,10 +35,17 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
         if (true) {
           // concept 
           intentions = new IntentionFactory[1];
-          intentions[0] = new PythonIfElseStatement_toggleElse_Intention();
+          intentions[0] = new PythonForStatement_toggleElse_Intention();
         }
         break;
       case 1:
+        if (true) {
+          // concept 
+          intentions = new IntentionFactory[1];
+          intentions[0] = new PythonIfElseStatement_toggleElse_Intention();
+        }
+        break;
+      case 2:
         if (true) {
           // concept 
           intentions = new IntentionFactory[1];
@@ -54,10 +61,11 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
   @NotNull
   @Override
   public Collection<IntentionFactory> getAllIntentions() {
-    IntentionFactory[] rv = new IntentionFactory[2];
+    IntentionFactory[] rv = new IntentionFactory[3];
     rv[0] = new PythonWhileStatement_toggleElse_Intention();
     rv[1] = new PythonIfElseStatement_toggleElse_Intention();
+    rv[2] = new PythonForStatement_toggleElse_Intention();
     return Arrays.asList(rv);
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88263da6L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac94e877L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a889ab886L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88263da6L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac94e877L)).seal();
 }

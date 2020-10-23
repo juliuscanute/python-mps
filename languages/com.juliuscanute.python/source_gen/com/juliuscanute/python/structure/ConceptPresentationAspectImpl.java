@@ -22,6 +22,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonElseIfStatement;
   private ConceptPresentation props_PythonExpression;
   private ConceptPresentation props_PythonExpressionStatement;
+  private ConceptPresentation props_PythonForStatement;
   private ConceptPresentation props_PythonFunctionDefinitionStatement;
   private ConceptPresentation props_PythonIdentifier;
   private ConceptPresentation props_PythonIdentifierReference;
@@ -38,6 +39,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonReturnStatement;
   private ConceptPresentation props_PythonStatement;
   private ConceptPresentation props_PythonStringLiteral;
+  private ConceptPresentation props_PythonTupleExpression;
   private ConceptPresentation props_PythonUnaryExpression;
   private ConceptPresentation props_PythonVariableDeclarator;
   private ConceptPresentation props_PythonWhileStatement;
@@ -96,7 +98,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.PythonArrayExpression:
         if (props_PythonArrayExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("array expression");
+          cpb.shortDesc("create a array");
           cpb.rawPresentation("[");
           props_PythonArrayExpression = cpb.create();
         }
@@ -121,7 +123,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
         if (props_PythonCallExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.shortDesc("call expression");
-          cpb.rawPresentation("PythonCallExpression");
+          cpb.rawPresentation("call");
           props_PythonCallExpression = cpb.create();
         }
         return props_PythonCallExpression;
@@ -146,11 +148,19 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonExpressionStatement = cpb.create();
         }
         return props_PythonExpressionStatement;
+      case LanguageConceptSwitch.PythonForStatement:
+        if (props_PythonForStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("for loop");
+          cpb.rawPresentation("for");
+          props_PythonForStatement = cpb.create();
+        }
+        return props_PythonForStatement;
       case LanguageConceptSwitch.PythonFunctionDefinitionStatement:
         if (props_PythonFunctionDefinitionStatement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.shortDesc("function definition");
-          cpb.rawPresentation("function");
+          cpb.rawPresentation("def");
           props_PythonFunctionDefinitionStatement = cpb.create();
         }
         return props_PythonFunctionDefinitionStatement;
@@ -260,6 +270,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonStringLiteral = cpb.create();
         }
         return props_PythonStringLiteral;
+      case LanguageConceptSwitch.PythonTupleExpression:
+        if (props_PythonTupleExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("create a tuple");
+          cpb.rawPresentation("(");
+          props_PythonTupleExpression = cpb.create();
+        }
+        return props_PythonTupleExpression;
       case LanguageConceptSwitch.PythonUnaryExpression:
         if (props_PythonUnaryExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

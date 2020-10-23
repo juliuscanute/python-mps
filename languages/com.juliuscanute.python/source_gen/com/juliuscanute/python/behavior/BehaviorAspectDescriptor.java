@@ -19,6 +19,7 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
   private final BHDescriptor myPythonStringLiteral__BehaviorDescriptor = new PythonStringLiteral__BehaviorDescriptor();
   private final BHDescriptor myPythonIdentifier__BehaviorDescriptor = new PythonIdentifier__BehaviorDescriptor();
   private final BHDescriptor myPythonFunctionDefinitionStatement__BehaviorDescriptor = new PythonFunctionDefinitionStatement__BehaviorDescriptor();
+  private final BHDescriptor myPythonForStatement__BehaviorDescriptor = new PythonForStatement__BehaviorDescriptor();
   private final BHDescriptor myImportStatementAsName__BehaviorDescriptor = new ImportStatementAsName__BehaviorDescriptor();
   private final BHDescriptor myFromStatement__BehaviorDescriptor = new FromStatement__BehaviorDescriptor();
   private final BHDescriptor myFromStatementAsName__BehaviorDescriptor = new FromStatementAsName__BehaviorDescriptor();
@@ -41,18 +42,20 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
       case 4:
         return myPythonExpressionStatement__BehaviorDescriptor;
       case 5:
-        return myPythonFunctionDefinitionStatement__BehaviorDescriptor;
+        return myPythonForStatement__BehaviorDescriptor;
       case 6:
-        return myPythonIdentifier__BehaviorDescriptor;
+        return myPythonFunctionDefinitionStatement__BehaviorDescriptor;
       case 7:
-        return myPythonProgram__BehaviorDescriptor;
+        return myPythonIdentifier__BehaviorDescriptor;
       case 8:
-        return myPythonStatement__BehaviorDescriptor;
+        return myPythonProgram__BehaviorDescriptor;
       case 9:
+        return myPythonStatement__BehaviorDescriptor;
+      case 10:
         return myPythonStringLiteral__BehaviorDescriptor;
       default:
     }
     return null;
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2aa0cdL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2b2945L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327eaL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2a1159L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee665dbe61L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a886a1ceeL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327e9L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6e840aL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2aa0cdL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2b2945L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327eaL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2a1159L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee665dbe61L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a889ab886L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a886a1ceeL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327e9L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6e840aL)).seal();
 }
