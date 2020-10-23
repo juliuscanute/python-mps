@@ -173,12 +173,15 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3mAorzWGRUx" resolve="DottedName" />
     </node>
+    <node concept="PrWs8" id="4TVlTE8ya_h" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3mAorzWGMvH">
     <property role="EcuMT" value="3865884777285625837" />
     <property role="TrG5h" value="Name" />
     <property role="3GE5qa" value="declaration" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="4rfLeTAm2Oy" resolve="PythonNode" />
     <node concept="1TJgyi" id="3mAorzWGP4y" role="1TKVEl">
       <property role="IQ2nx" value="3865884777285636386" />
       <property role="TrG5h" value="name" />
@@ -189,7 +192,7 @@
     <property role="EcuMT" value="3865884777285648033" />
     <property role="TrG5h" value="DottedName" />
     <property role="3GE5qa" value="declaration" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="4rfLeTAm2Oy" resolve="PythonNode" />
     <node concept="1TJgyj" id="3mAorzWGRUy" role="1TKVEi">
       <property role="IQ2ns" value="3865884777285648034" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -217,7 +220,10 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="asName" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3mAorzWGMvH" resolve="Name" />
+      <ref role="20lvS9" node="4_DfFMGtamA" resolve="PythonIdentifier" />
+    </node>
+    <node concept="PrWs8" id="4TVlTE8yVaF" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="6z8ixwEaE3d">
@@ -241,6 +247,9 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3mAorzWGMvE" resolve="ImportStatement" />
     </node>
+    <node concept="PrWs8" id="4TVlTE8$gkU" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6z8ixwEaM_5">
     <property role="EcuMT" value="7550366242933778757" />
@@ -262,6 +271,9 @@
       <property role="20kJfa" value="importAsStatement" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6z8ixwEax5p" resolve="ImportStatementAsName" />
+    </node>
+    <node concept="PrWs8" id="4TVlTE8$gkW" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="4rfLeTAm2Oy">

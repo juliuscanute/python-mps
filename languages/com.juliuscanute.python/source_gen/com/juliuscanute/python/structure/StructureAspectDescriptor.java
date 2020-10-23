@@ -160,6 +160,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForDottedName() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "DottedName", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L);
     b.class_(false, false, false);
+    b.super_("com.juliuscanute.python.structure.PythonNode", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee66582d22L);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3865884777285648033");
     b.version(2);
     b.aggregate("names", 0x35a661b8fcb37ea2L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L).optional(false).ordered(true).multiple(true).origin("3865884777285648034").done();
@@ -169,6 +170,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "FromStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2aa0cdL);
     b.class_(false, false, false);
     b.super_("com.juliuscanute.python.structure.PythonStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/7550366242933743821");
     b.version(2);
     b.aggregate("dottedName", 0x68c84a182a2aa0ceL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L).optional(false).ordered(true).multiple(false).origin("7550366242933743822").done();
@@ -180,6 +182,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "FromStatementAsName", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2b2945L);
     b.class_(false, false, false);
     b.super_("com.juliuscanute.python.structure.PythonStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/7550366242933778757");
     b.version(2);
     b.aggregate("dottedName", 0x68c84a182a2b2946L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L).optional(false).ordered(true).multiple(false).origin("7550366242933778758").done();
@@ -191,6 +194,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "ImportStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327eaL);
     b.class_(false, false, false);
     b.super_("com.juliuscanute.python.structure.PythonStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3865884777285625834");
     b.version(2);
     b.aggregate("dottedName", 0x35a661b8fcb32ec0L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L).optional(false).ordered(true).multiple(false).origin("3865884777285627584").done();
@@ -201,16 +205,18 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "ImportStatementAsName", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2a1159L);
     b.class_(false, false, false);
     b.super_("com.juliuscanute.python.structure.PythonStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/7550366242933707097");
     b.version(2);
     b.aggregate("dottedName", 0x68c84a182a2a115aL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L).optional(false).ordered(true).multiple(false).origin("7550366242933707098").done();
-    b.aggregate("asName", 0x68c84a182a2a1175L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327edL).optional(false).ordered(true).multiple(false).origin("7550366242933707125").done();
+    b.aggregate("asName", 0x68c84a182a2a1175L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L).optional(false).ordered(true).multiple(false).origin("7550366242933707125").done();
     b.alias("import_as_name");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForName() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "Name", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327edL);
     b.class_(false, false, false);
+    b.super_("com.juliuscanute.python.structure.PythonNode", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee66582d22L);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3865884777285625837");
     b.version(2);
     b.property("name", 0x35a661b8fcb35122L).type(PrimitiveTypeId.STRING).origin("3865884777285636386").done();

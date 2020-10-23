@@ -17,7 +17,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="19,0,175,0" name="com.juliuscanute.python.editor.EditorAspectDescriptorImpl" />
+      <unit at="19,0,177,0" name="com.juliuscanute.python.editor.EditorAspectDescriptorImpl" />
     </file>
     <file name="PythonIdentifierReference_SubstituteMenu.java">
       <unit at="90,0,93,0" name="com.juliuscanute.python.editor.PythonIdentifierReference_SubstituteMenu$CONCEPTS" />
@@ -1101,8 +1101,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5102513431032802523">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5102513431032802523" at="151,82,152,96" concept="8" />
-      <scope id="5102513431032802523" at="151,82,152,96" />
+      <node id="5102513431032802523" at="153,82,154,96" concept="8" />
+      <scope id="5102513431032802523" at="153,82,154,96" />
     </file>
     <file name="PythonExpression_numericLiteral.java">
       <node id="5102513431032802523" at="31,118,32,140" concept="7" />
@@ -1738,8 +1738,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217390855752">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5289828217390855752" at="113,84,114,102" concept="8" />
-      <scope id="5289828217390855752" at="113,84,114,102" />
+      <node id="5289828217390855752" at="115,84,116,102" concept="8" />
+      <scope id="5289828217390855752" at="115,84,116,102" />
     </file>
     <file name="PythonExpression_binaryExpression.java">
       <node id="5289828217390855752" at="48,0,49,0" concept="3" trace="myLocations" />
@@ -2412,8 +2412,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217390968754">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5289828217390968754" at="115,85,116,103" concept="8" />
-      <scope id="5289828217390968754" at="115,85,116,103" />
+      <node id="5289828217390968754" at="117,85,118,103" concept="8" />
+      <scope id="5289828217390968754" at="117,85,118,103" />
     </file>
     <file name="PythonExpression_logicalExpression.java">
       <node id="5289828217390968754" at="51,0,52,0" concept="3" trace="myLocations" />
@@ -2802,8 +2802,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217391225409">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5289828217391225409" at="153,81,154,95" concept="8" />
-      <scope id="5289828217391225409" at="153,81,154,95" />
+      <node id="5289828217391225409" at="155,81,156,95" concept="8" />
+      <scope id="5289828217391225409" at="155,81,156,95" />
     </file>
     <file name="PythonExpression_stringLiteral.java">
       <node id="5289828217391225409" at="34,118,35,140" concept="7" />
@@ -3711,8 +3711,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217391958716">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5289828217391958716" at="157,90,158,104" concept="8" />
-      <scope id="5289828217391958716" at="157,90,158,104" />
+      <node id="5289828217391958716" at="159,90,160,104" concept="8" />
+      <scope id="5289828217391958716" at="159,90,160,104" />
     </file>
     <file name="PythonExpression_variableInitialization.java">
       <node id="5289828217391958716" at="35,118,36,140" concept="7" />
@@ -6969,10 +6969,171 @@
       <unit id="5655210078320075475" at="14,0,68,0" name="com.juliuscanute.python.editor.PythonCallExpression_Argument_Actions" />
     </file>
   </root>
+  <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5655210078321871528">
+    <file name="PythonReturnStatement_TransformationMenu.java">
+      <node id="5655210078321871528" at="47,0,48,0" concept="3" trace="myLocations" />
+      <node id="5655210078321871528" at="49,67,50,63" concept="8" />
+      <node id="5655210078321871528" at="55,99,56,49" concept="2" />
+      <node id="5655210078321871528" at="56,49,57,254" concept="2" />
+      <node id="5655210078321871528" at="58,9,59,44" concept="8" />
+      <node id="5655210078321871528" at="60,15,61,50" concept="2" />
+      <node id="5655210078321871528" at="67,124,68,156" concept="7" />
+      <node id="5655210078321871550" at="73,101,74,55" concept="2" />
+      <node id="5655210078321871550" at="74,55,75,278" concept="2" />
+      <node id="5655210078321871550" at="76,15,77,46" concept="8" />
+      <node id="5655210078321871550" at="78,21,79,56" concept="2" />
+      <node id="5655210078321871569" at="85,138,86,44" concept="2" />
+      <node id="5655210078321871528" at="87,5,88,18" concept="8" />
+      <node id="5655210078321871822" at="93,72,94,90" concept="8" />
+      <node id="5655210078321871569" at="99,97,100,51" concept="2" />
+      <node id="5655210078321871569" at="100,51,101,223" concept="2" />
+      <node id="5655210078321871569" at="102,11,103,42" concept="8" />
+      <node id="5655210078321871569" at="104,17,105,52" concept="2" />
+      <node id="5655210078321871569" at="109,92,110,117" concept="8" />
+      <node id="5655210078321876048" at="114,86,115,38" concept="7" />
+      <node id="5655210078321876048" at="115,38,116,27" concept="7" />
+      <node id="5655210078321876048" at="117,13,118,64" concept="2" />
+      <node id="5655210078321876048" at="119,31,120,105" concept="2" />
+      <node id="5655210078321876048" at="120,105,121,22" concept="8" />
+      <node id="5655210078321876048" at="122,9,123,53" concept="2" />
+      <node id="5655210078321876048" at="124,13,125,211" concept="2" />
+      <node id="5655210078321876048" at="125,211,126,73" concept="2" />
+      <node id="5655210078321876048" at="127,19,128,54" concept="2" />
+      <node id="5655210078321876048" at="129,9,130,20" concept="8" />
+      <node id="5655210078321876048" at="134,0,135,0" concept="3" trace="_context" />
+      <node id="5655210078321876048" at="135,0,136,0" concept="3" trace="myEditorMenuTraceInfo" />
+      <node id="5655210078321876048" at="136,57,137,29" concept="2" />
+      <node id="5655210078321876048" at="139,61,140,39" concept="2" />
+      <node id="5655210078321876395" at="144,52,145,21" concept="8" />
+      <node id="5655210078321876463" at="149,54,150,210" concept="7" />
+      <node id="5655210078321876558" at="150,210,151,89" concept="2" />
+      <node id="5655210078321879415" at="151,89,152,262" concept="2" />
+      <node id="5655210078321876048" at="159,51,160,39" concept="8" />
+      <node id="5655210078321876048" at="163,74,164,159" concept="7" />
+      <node id="5655210078321876048" at="164,159,165,48" concept="7" />
+      <node id="5655210078321876048" at="165,48,166,292" concept="7" />
+      <node id="5655210078321876048" at="167,116,168,58" concept="2" />
+      <node id="5655210078321871528" at="177,0,178,0" concept="11" trace="PythonReturnStatement$ap" />
+      <node id="5655210078321871528" at="181,0,182,0" concept="11" trace="argument$A7KE" />
+      <node id="5655210078321871561" at="84,5,87,5" concept="5" />
+      <node id="5655210078321876048" at="136,0,139,0" concept="1" trace="Item#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;)V" />
+      <node id="5655210078321876048" at="139,0,142,0" concept="6" trace="setTraceInfo#(Ljetbrains/mps/openapi/editor/menus/EditorMenuTraceInfo;)V" />
+      <node id="5655210078321876048" at="166,292,169,11" concept="4" />
+      <node id="5655210078321871528" at="48,0,52,0" concept="6" trace="isApplicableToLocation#(Ljava/lang/String;)Z" />
+      <node id="5655210078321871569" at="92,0,96,0" concept="6" trace="isApplicable#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;)Z" />
+      <node id="5655210078321871569" at="108,0,112,0" concept="6" trace="getParts#()Ljava/util/List;" />
+      <node id="5655210078321876048" at="158,0,162,0" concept="6" trace="getTraceInfo#()Ljetbrains/mps/openapi/editor/menus/EditorMenuTraceInfo;" />
+      <node id="5655210078321871528" at="57,254,62,5" concept="14" />
+      <node id="5655210078321871550" at="75,278,80,11" concept="14" />
+      <node id="5655210078321871569" at="101,223,106,7" concept="14" />
+      <node id="5655210078321876048" at="142,0,147,0" concept="6" trace="getLabelText#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="5655210078321876048" at="116,27,122,9" concept="14" />
+      <node id="5655210078321876048" at="123,53,129,9" concept="14" />
+      <node id="5655210078321876048" at="148,0,154,0" concept="6" trace="execute#(Ljava/lang/String;)V" />
+      <node id="5655210078321876048" at="163,0,171,0" concept="6" trace="customize#(Ljava/lang/String;Ljetbrains/mps/openapi/editor/menus/style/EditorMenuItemStyle;)V" />
+      <node id="5655210078321871528" at="53,0,64,0" concept="6" trace="createMenuItems#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;)Ljava/util/List;" />
+      <node id="5655210078321871550" at="71,0,82,0" concept="6" trace="createItems#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;)Ljava/util/List;" />
+      <node id="5655210078321871569" at="97,0,108,0" concept="6" trace="createItems#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;)Ljava/util/List;" />
+      <node id="5655210078321871550" at="69,173,83,9" concept="2" />
+      <node id="5655210078321871535" at="68,156,84,5" concept="5" />
+      <node id="5655210078321876048" at="113,0,132,0" concept="6" trace="createItem#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;)Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuItem;" />
+      <node id="5655210078321871528" at="65,0,90,0" concept="6" trace="getParts#(Ljetbrains/mps/openapi/editor/menus/transformation/TransformationMenuContext;)Ljava/util/List;" />
+      <scope id="5655210078321871528" at="49,67,50,63" />
+      <scope id="5655210078321871528" at="58,9,59,44" />
+      <scope id="5655210078321871528" at="60,15,61,50" />
+      <scope id="5655210078321871550" at="76,15,77,46" />
+      <scope id="5655210078321871550" at="78,21,79,56" />
+      <scope id="5655210078321871561" at="85,138,86,44" />
+      <scope id="5655210078321871572" at="93,72,94,90" />
+      <scope id="5655210078321871569" at="102,11,103,42" />
+      <scope id="5655210078321871569" at="104,17,105,52" />
+      <scope id="5655210078321871569" at="109,92,110,117" />
+      <scope id="5655210078321876048" at="117,13,118,64" />
+      <scope id="5655210078321876048" at="127,19,128,54" />
+      <scope id="5655210078321876048" at="136,57,137,29" />
+      <scope id="5655210078321876048" at="139,61,140,39" />
+      <scope id="5655210078321876050" at="144,52,145,21" />
+      <scope id="5655210078321876048" at="159,51,160,39" />
+      <scope id="5655210078321876048" at="167,116,168,58" />
+      <scope id="5655210078321876048" at="119,31,121,22" />
+      <scope id="5655210078321876048" at="124,13,126,73" />
+      <scope id="5655210078321876048" at="119,9,122,9">
+        <var name="t" id="5655210078321876048" />
+      </scope>
+      <scope id="5655210078321876048" at="136,0,139,0">
+        <var name="context" id="5655210078321876048" />
+      </scope>
+      <scope id="5655210078321876048" at="139,0,142,0">
+        <var name="info" id="5655210078321876048" />
+      </scope>
+      <scope id="5655210078321876052" at="149,54,152,262">
+        <var name="expression" id="5655210078321876466" />
+      </scope>
+      <scope id="5655210078321876048" at="166,292,169,11">
+        <var name="customizer" id="5655210078321876048" />
+      </scope>
+      <scope id="5655210078321871528" at="48,0,52,0">
+        <var name="location" id="5655210078321871528" />
+      </scope>
+      <scope id="5655210078321871569" at="92,0,96,0">
+        <var name="_context" id="5655210078321871569" />
+      </scope>
+      <scope id="5655210078321871569" at="108,0,112,0" />
+      <scope id="5655210078321876048" at="158,0,162,0" />
+      <scope id="5655210078321876048" at="142,0,147,0">
+        <var name="pattern" id="5655210078321876048" />
+      </scope>
+      <scope id="5655210078321876048" at="148,0,154,0">
+        <var name="pattern" id="5655210078321876048" />
+      </scope>
+      <scope id="5655210078321876048" at="163,74,169,11">
+        <var name="compositeContext" id="5655210078321876048" />
+        <var name="modifyingContext" id="5655210078321876048" />
+        <var name="outputConcept" id="5655210078321876048" />
+      </scope>
+      <scope id="5655210078321871528" at="55,99,62,5" />
+      <scope id="5655210078321871550" at="73,101,80,11" />
+      <scope id="5655210078321871569" at="99,97,106,7" />
+      <scope id="5655210078321876048" at="163,0,171,0">
+        <var name="pattern" id="5655210078321876048" />
+        <var name="style" id="5655210078321876048" />
+      </scope>
+      <scope id="5655210078321871528" at="53,0,64,0">
+        <var name="context" id="5655210078321871528" />
+      </scope>
+      <scope id="5655210078321871550" at="71,0,82,0">
+        <var name="context" id="5655210078321871550" />
+      </scope>
+      <scope id="5655210078321871569" at="97,0,108,0">
+        <var name="context" id="5655210078321871569" />
+      </scope>
+      <scope id="5655210078321871535" at="69,173,83,9" />
+      <scope id="5655210078321876048" at="114,86,130,20">
+        <var name="description" id="5655210078321876048" />
+        <var name="item" id="5655210078321876048" />
+      </scope>
+      <scope id="5655210078321876048" at="113,0,132,0">
+        <var name="context" id="5655210078321876048" />
+      </scope>
+      <scope id="5655210078321871528" at="67,124,88,18">
+        <var name="result" id="5655210078321871528" />
+      </scope>
+      <scope id="5655210078321871528" at="65,0,90,0">
+        <var name="_context" id="5655210078321871528" />
+      </scope>
+      <unit id="5655210078321871528" at="176,0,179,0" name="com.juliuscanute.python.editor.PythonReturnStatement_TransformationMenu$CONCEPTS" />
+      <unit id="5655210078321871528" at="180,0,183,0" name="com.juliuscanute.python.editor.PythonReturnStatement_TransformationMenu$LINKS" />
+      <unit id="5655210078321871550" at="70,21,83,7" name="com.juliuscanute.python.editor.PythonReturnStatement_TransformationMenu$1" />
+      <unit id="5655210078321876048" at="133,0,172,0" name="com.juliuscanute.python.editor.PythonReturnStatement_TransformationMenu$TMP_Group_8n3h2q_a1$TMP_Action_8n3h2q_a0b$Item" />
+      <unit id="5655210078321876048" at="112,0,174,0" name="com.juliuscanute.python.editor.PythonReturnStatement_TransformationMenu$TMP_Group_8n3h2q_a1$TMP_Action_8n3h2q_a0b" />
+      <unit id="5655210078321871569" at="91,0,175,0" name="com.juliuscanute.python.editor.PythonReturnStatement_TransformationMenu$TMP_Group_8n3h2q_a1" />
+      <unit id="5655210078321871528" at="46,0,184,0" name="com.juliuscanute.python.editor.PythonReturnStatement_TransformationMenu" />
+    </file>
+  </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5741310041268745326">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5741310041268745326" at="155,83,156,97" concept="8" />
-      <scope id="5741310041268745326" at="155,83,156,97" />
+      <node id="5741310041268745326" at="157,83,158,97" concept="8" />
+      <scope id="5741310041268745326" at="157,83,158,97" />
     </file>
     <file name="PythonExpression_unaryExpression.java">
       <node id="5741310041268745326" at="35,118,36,140" concept="7" />
@@ -7284,8 +7445,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5741310041269031464">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5741310041269031464" at="117,84,118,102" concept="8" />
-      <scope id="5741310041269031464" at="117,84,118,102" />
+      <node id="5741310041269031464" at="119,84,120,102" concept="8" />
+      <scope id="5741310041269031464" at="119,84,120,102" />
     </file>
     <file name="PythonExpression_unaryExpression1.java">
       <node id="5741310041269031464" at="51,0,52,0" concept="3" trace="myLocations" />

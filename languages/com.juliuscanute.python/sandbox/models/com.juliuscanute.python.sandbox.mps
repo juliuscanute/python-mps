@@ -15,15 +15,25 @@
       </concept>
       <concept id="5102513431032467563" name="com.juliuscanute.python.structure.PythonExpression" flags="ng" index="w__i5" />
       <concept id="5102513431032416539" name="com.juliuscanute.python.structure.PythonStatement" flags="ng" index="w_KRP" />
+      <concept id="7550366242933707097" name="com.juliuscanute.python.structure.ImportStatementAsName" flags="ng" index="12S_H1">
+        <child id="7550366242933707098" name="dottedName" index="12S_H2" />
+        <child id="7550366242933707125" name="asName" index="12S_HH" />
+      </concept>
       <concept id="7550366242933743821" name="com.juliuscanute.python.structure.FromStatement" flags="ng" index="12SIFl">
         <child id="7550366242933743822" name="dottedName" index="12SIFm" />
         <child id="7550366242933743823" name="importStatement" index="12SIFn" />
+      </concept>
+      <concept id="7550366242933778757" name="com.juliuscanute.python.structure.FromStatementAsName" flags="ng" index="12SQdt">
+        <child id="7550366242933778758" name="dottedName" index="12SQdu" />
+        <child id="7550366242933778759" name="importAsStatement" index="12SQdv" />
       </concept>
       <concept id="5655210078319996862" name="com.juliuscanute.python.structure.PythonCallExpression" flags="ng" index="360Vw$">
         <child id="5655210078319996863" name="callee" index="360Vw_" />
         <child id="5655210078319996865" name="argumets" index="360Vxr" />
       </concept>
-      <concept id="5655210078319608831" name="com.juliuscanute.python.structure.PythonReturnStatement" flags="ng" index="3625h_" />
+      <concept id="5655210078319608831" name="com.juliuscanute.python.structure.PythonReturnStatement" flags="ng" index="3625h_">
+        <child id="5655210078319608832" name="argument" index="3625eq" />
+      </concept>
       <concept id="5655210078319025390" name="com.juliuscanute.python.structure.PythonFunctionDefinitionStatement" flags="ng" index="364kHO">
         <child id="5655210078319025395" name="params" index="364kHD" />
         <child id="5655210078319025393" name="id" index="364kHF" />
@@ -124,10 +134,37 @@
         </node>
       </node>
     </node>
-    <node concept="w_KRP" id="4TVlTE8wZot" role="w_N3S" />
-    <node concept="w$BEf" id="4TVlTE8xjPK" role="w_N3S">
-      <node concept="w__i5" id="4TVlTE8xjRJ" role="w$BEc" />
+    <node concept="12S_H1" id="4TVlTE8zjWn" role="w_N3S">
+      <node concept="395hWp" id="4TVlTE8zjWp" role="12S_H2">
+        <node concept="3_7pGq" id="4TVlTE8zjWr" role="395hWq">
+          <property role="TrG5h" value="os" />
+        </node>
+        <node concept="3_7pGq" id="4TVlTE8zjYw" role="395hWq">
+          <property role="TrG5h" value="path" />
+        </node>
+      </node>
+      <node concept="3_7pGq" id="4TVlTE8zWJk" role="12S_HH">
+        <property role="TrG5h" value="file_path" />
+      </node>
     </node>
+    <node concept="12SQdt" id="4TVlTE8$H2A" role="w_N3S">
+      <node concept="395hWp" id="4TVlTE8$H2C" role="12SQdu">
+        <node concept="3_7pGq" id="4TVlTE8$H2E" role="395hWq">
+          <property role="TrG5h" value="urllib3" />
+        </node>
+      </node>
+      <node concept="12S_H1" id="4TVlTE8$H2G" role="12SQdv">
+        <node concept="395hWp" id="4TVlTE8$H2I" role="12S_H2">
+          <node concept="3_7pGq" id="4TVlTE8$H2K" role="395hWq">
+            <property role="TrG5h" value="response" />
+          </node>
+        </node>
+        <node concept="3_7pGq" id="4TVlTE8$H2M" role="12S_HH">
+          <property role="TrG5h" value="HTTP" />
+        </node>
+      </node>
+    </node>
+    <node concept="w_KRP" id="4TVlTE8$H4Y" role="w_N3S" />
     <node concept="364kHO" id="4TVlTE8tDlX" role="w_N3S">
       <node concept="3_7pGq" id="4TVlTE8tDnd" role="364kHD">
         <property role="TrG5h" value="ab" />
@@ -136,23 +173,65 @@
         <property role="TrG5h" value="bc" />
       </node>
       <node concept="3_7pGq" id="4TVlTE8xOAH" role="364kHD">
-        <property role="TrG5h" value="bc" />
+        <property role="TrG5h" value="ca" />
       </node>
       <node concept="3_Zhxs" id="4TVlTE8tDlZ" role="364kHG">
-        <node concept="36nmCW" id="4TVlTE8tDnr" role="3_Zhxv">
-          <node concept="3_0q_z" id="4TVlTE8tDnE" role="36n9a4">
+        <node concept="36nmCW" id="4TVlTE8_JjQ" role="3_Zhxv">
+          <node concept="36nmCW" id="4TVlTE8_Jkk" role="3_Zhxv">
+            <node concept="3625h_" id="4TVlTE8_JkY" role="3_Zhxv">
+              <node concept="36lvV7" id="4TVlTE8_Jl5" role="3625eq">
+                <ref role="36lvV4" node="4TVlTE8tDnd" resolve="ab" />
+              </node>
+            </node>
+            <node concept="3_0q_z" id="4TVlTE8_Jkz" role="36n9a4">
+              <property role="3_0q_s" value="4_DfFMGq3JO/bnGt" />
+              <node concept="36lvV7" id="4TVlTE8_Jku" role="3_0q_u">
+                <ref role="36lvV4" node="4TVlTE8tDnd" resolve="ab" />
+              </node>
+              <node concept="36lvV7" id="4TVlTE8_JkF" role="3_0q_o">
+                <ref role="36lvV4" node="4TVlTE8xOAH" resolve="ca" />
+              </node>
+            </node>
+            <node concept="36nmDd" id="4TVlTE8_Jle" role="36nmCN">
+              <node concept="3625h_" id="4TVlTE8_Jlk" role="36nhzr">
+                <node concept="36lvV7" id="4TVlTE8_Jlq" role="3625eq">
+                  <ref role="36lvV4" node="4TVlTE8xOAH" resolve="ca" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3_0q_z" id="4TVlTE8_Jk7" role="36n9a4">
             <property role="3_0q_s" value="4_DfFMGq3JO/bnGt" />
-            <node concept="36lvV7" id="4TVlTE8tDn_" role="3_0q_u">
+            <node concept="36lvV7" id="4TVlTE8_Jk2" role="3_0q_u">
               <ref role="36lvV4" node="4TVlTE8tDnd" resolve="ab" />
             </node>
-            <node concept="36lvV7" id="4TVlTE8tDnI" role="3_0q_o">
+            <node concept="36lvV7" id="4TVlTE8_Jkf" role="3_0q_o">
               <ref role="36lvV4" node="4TVlTE8tDnf" resolve="bc" />
             </node>
           </node>
-          <node concept="36nmDd" id="4TVlTE8tDo2" role="36nmCN">
-            <node concept="3625h_" id="4TVlTE8tVY3" role="36nhzr" />
+          <node concept="36nmDd" id="4TVlTE8_Jlt" role="36nmCN">
+            <node concept="3625h_" id="4TVlTE8_JlO" role="36nhzr">
+              <node concept="36lvV7" id="4TVlTE8_JlU" role="3625eq">
+                <ref role="36lvV4" node="4TVlTE8tDnf" resolve="bc" />
+              </node>
+            </node>
+            <node concept="3_0q_z" id="4TVlTE8_JlI" role="36nhy_">
+              <property role="3_0q_s" value="4_DfFMGq3JO/bnGt" />
+              <node concept="36lvV7" id="4TVlTE8_JlE" role="3_0q_u">
+                <ref role="36lvV4" node="4TVlTE8tDnf" resolve="bc" />
+              </node>
+              <node concept="36lvV7" id="4TVlTE8_JlM" role="3_0q_o">
+                <ref role="36lvV4" node="4TVlTE8xOAH" resolve="ca" />
+              </node>
+            </node>
           </node>
-          <node concept="3625h_" id="4TVlTE8tVXP" role="3_Zhxv" />
+          <node concept="36nmDd" id="4TVlTE8_JlX" role="36nmCN">
+            <node concept="3625h_" id="4TVlTE8_Jm7" role="36nhzr">
+              <node concept="36lvV7" id="4TVlTE8_Jmd" role="3625eq">
+                <ref role="36lvV4" node="4TVlTE8xOAH" resolve="ca" />
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="w_KRP" id="4TVlTE8tDm1" role="3_Zhxv" />
       </node>
@@ -195,18 +274,18 @@
         <node concept="3_7pGq" id="4TVlTE8pGiq" role="3_4kwx">
           <property role="TrG5h" value="max" />
         </node>
-        <node concept="360Vw$" id="4TVlTE8xOAn" role="3_4kwz">
-          <node concept="36lvV7" id="4TVlTE8xOA_" role="360Vxr">
+        <node concept="360Vw$" id="4TVlTE8_49n" role="3_4kwz">
+          <node concept="36lvV7" id="4TVlTE8_49t" role="360Vw_">
+            <ref role="36lvV4" node="4TVlTE8tDnb" resolve="maxOf" />
+          </node>
+          <node concept="36lvV7" id="4TVlTE8_49w" role="360Vxr">
             <ref role="36lvV4" node="4TVlTE8pGfl" resolve="a" />
           </node>
-          <node concept="36lvV7" id="4TVlTE8xOAD" role="360Vxr">
+          <node concept="36lvV7" id="4TVlTE8_49D" role="360Vxr">
             <ref role="36lvV4" node="4TVlTE8pGg0" resolve="b" />
           </node>
-          <node concept="36lvV7" id="4TVlTE8xOAP" role="360Vxr">
+          <node concept="36lvV7" id="4TVlTE8_49N" role="360Vxr">
             <ref role="36lvV4" node="4TVlTE8pGgF" resolve="c" />
-          </node>
-          <node concept="36lvV7" id="4TVlTE8xOAt" role="360Vw_">
-            <ref role="36lvV4" node="4TVlTE8tDnb" resolve="maxOf" />
           </node>
         </node>
       </node>
