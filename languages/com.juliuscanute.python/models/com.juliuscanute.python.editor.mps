@@ -177,6 +177,7 @@
       </concept>
       <concept id="1139535280617" name="jetbrains.mps.lang.editor.structure.CellActionMapItem" flags="lg" index="1hA7zw">
         <property id="1139535298778" name="actionId" index="1hAc7j" />
+        <property id="1139537298254" name="description" index="1hHO97" />
         <child id="1139535280620" name="executeFunction" index="1hA7z_" />
       </concept>
       <concept id="1139535439104" name="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" flags="in" index="1hAIg9" />
@@ -3451,6 +3452,12 @@
       </node>
       <node concept="3F0ifn" id="4TVlTE8qNzu" role="3EZMnx">
         <property role="3F0ifm" value="(" />
+        <node concept="11L4FC" id="4TVlTE8vL6t" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="4TVlTE8vL6C" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F2HdR" id="4TVlTE8qNzC" role="3EZMnx">
         <property role="2czwfO" value="," />
@@ -3459,6 +3466,9 @@
       </node>
       <node concept="3F0ifn" id="4TVlTE8qNzR" role="3EZMnx">
         <property role="3F0ifm" value="):" />
+        <node concept="11L4FC" id="4TVlTE8vL6G" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F1sOY" id="4TVlTE8qN$7" role="3EZMnx">
         <ref role="1NtTu8" to="e5uo:4TVlTE8qxNQ" resolve="body" />
@@ -3486,6 +3496,77 @@
         </node>
       </node>
       <node concept="l2Vlx" id="4TVlTE8sKgx" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4TVlTE8uxh0">
+    <property role="3GE5qa" value="expression" />
+    <ref role="1XX52x" to="e5uo:4TVlTE8ueYY" resolve="PythonCallExpression" />
+    <node concept="3EZMnI" id="4TVlTE8uxh2" role="2wV5jI">
+      <node concept="3F1sOY" id="4TVlTE8uxh9" role="3EZMnx">
+        <ref role="1NtTu8" to="e5uo:4TVlTE8ueYZ" resolve="callee" />
+      </node>
+      <node concept="3F0ifn" id="4TVlTE8uxhf" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <ref role="1k5W1q" node="4_DfFMGxouO" resolve="PythonLeftBrace" />
+        <node concept="11L4FC" id="4TVlTE8uxhH" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="4TVlTE8uxhT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="4TVlTE8uxhn" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="e5uo:4TVlTE8ueZ1" resolve="argumets" />
+        <ref role="1ERwB7" node="4TVlTE8uybj" resolve="PythonCallExpression_Argument_Actions" />
+        <node concept="l2Vlx" id="4TVlTE8uxhp" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="4TVlTE8uxh$" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <ref role="1k5W1q" node="4_DfFMGxov_" resolve="PythonRightBrace" />
+        <ref role="1ERwB7" node="4TVlTE8uxmn" resolve="PythonCallExpression_Paren_Actions" />
+        <node concept="11L4FC" id="4TVlTE8v7$J" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4TVlTE8uxh5" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="1h_SRR" id="4TVlTE8uxmn">
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="PythonCallExpression_Paren_Actions" />
+    <ref role="1h_SK9" to="e5uo:4TVlTE8ueYY" resolve="PythonCallExpression" />
+    <node concept="1hA7zw" id="4TVlTE8uxmo" role="1h_SK8">
+      <property role="1hAc7j" value="g_hAxAO/delete_action_id" />
+      <property role="1hHO97" value="Revert from &quot;call()&quot; to &quot;call&quot; when deleting &quot;)&quot;" />
+      <node concept="1hAIg9" id="4TVlTE8uxmp" role="1hA7z_">
+        <node concept="3clFbS" id="4TVlTE8uxmq" role="2VODD2">
+          <node concept="3clFbF" id="4TVlTE8uxmB" role="3cqZAp">
+            <node concept="2OqwBi" id="4TVlTE8uxvh" role="3clFbG">
+              <node concept="0IXxy" id="4TVlTE8uxmA" role="2Oq$k0" />
+              <node concept="1P9Npp" id="4TVlTE8uxFf" role="2OqNvi">
+                <node concept="2OqwBi" id="4TVlTE8uxRw" role="1P9ThW">
+                  <node concept="0IXxy" id="4TVlTE8uxHt" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="4TVlTE8uy5c" role="2OqNvi">
+                    <ref role="3Tt5mk" to="e5uo:4TVlTE8ueYZ" resolve="callee" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1h_SRR" id="4TVlTE8uybj">
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="PythonCallExpression_Argument_Actions" />
+    <ref role="1h_SK9" to="e5uo:4TVlTE8ueYY" resolve="PythonCallExpression" />
+    <node concept="1hA7zw" id="4TVlTE8uybs" role="1h_SK8">
+      <property role="1hAc7j" value="g_hAxAO/delete_action_id" />
+      <node concept="1hAIg9" id="4TVlTE8uybt" role="1hA7z_">
+        <node concept="3clFbS" id="4TVlTE8uybu" role="2VODD2" />
+      </node>
     </node>
   </node>
 </model>

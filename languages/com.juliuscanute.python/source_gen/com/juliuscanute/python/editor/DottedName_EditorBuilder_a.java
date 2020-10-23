@@ -78,7 +78,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return LINKS.names$oUqE;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Name$uw;
+      return CONCEPTS.PythonIdentifier$Ol;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -148,6 +148,6 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Name$uw = MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327edL, "com.juliuscanute.python.structure.Name");
+    /*package*/ static final SConcept PythonIdentifier$Ol = MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L, "com.juliuscanute.python.structure.PythonIdentifier");
   }
 }

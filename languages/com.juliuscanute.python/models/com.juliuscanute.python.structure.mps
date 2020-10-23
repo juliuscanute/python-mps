@@ -195,7 +195,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="names" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="3mAorzWGMvH" resolve="Name" />
+      <ref role="20lvS9" node="4_DfFMGtamA" resolve="PythonIdentifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="6z8ixwEax5p">
@@ -1011,6 +1011,7 @@
     <property role="3GE5qa" value="statement" />
     <property role="TrG5h" value="PythonFunctionDefinitionStatement" />
     <property role="34LRSv" value="function" />
+    <property role="R4oN_" value="function definition" />
     <ref role="1TJDcQ" node="4rfLeTAmc$r" resolve="PythonStatement" />
     <node concept="1TJgyj" id="4TVlTE8qxNL" role="1TKVEi">
       <property role="IQ2ns" value="5655210078319025393" />
@@ -1046,6 +1047,27 @@
       <property role="IQ2ns" value="5655210078319608832" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="argument" />
+      <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4TVlTE8ueYY">
+    <property role="EcuMT" value="5655210078319996862" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="PythonCallExpression" />
+    <property role="R4oN_" value="call expression" />
+    <ref role="1TJDcQ" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    <node concept="1TJgyj" id="4TVlTE8ueYZ" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078319996863" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="callee" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    </node>
+    <node concept="1TJgyj" id="4TVlTE8ueZ1" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078319996865" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="argumets" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
     </node>
   </node>

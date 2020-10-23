@@ -18,6 +18,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonArrayExpression;
   private ConceptPresentation props_PythonAssignmentExpression;
   private ConceptPresentation props_PythonBinaryExpression;
+  private ConceptPresentation props_PythonCallExpression;
   private ConceptPresentation props_PythonElseIfStatement;
   private ConceptPresentation props_PythonExpression;
   private ConceptPresentation props_PythonExpressionStatement;
@@ -116,6 +117,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonBinaryExpression = cpb.create();
         }
         return props_PythonBinaryExpression;
+      case LanguageConceptSwitch.PythonCallExpression:
+        if (props_PythonCallExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("call expression");
+          cpb.rawPresentation("PythonCallExpression");
+          props_PythonCallExpression = cpb.create();
+        }
+        return props_PythonCallExpression;
       case LanguageConceptSwitch.PythonElseIfStatement:
         if (props_PythonElseIfStatement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -140,6 +149,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.PythonFunctionDefinitionStatement:
         if (props_PythonFunctionDefinitionStatement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("function definition");
           cpb.rawPresentation("function");
           props_PythonFunctionDefinitionStatement = cpb.create();
         }
