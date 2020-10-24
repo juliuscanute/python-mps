@@ -428,5 +428,74 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="4TVlTE8Q6QD">
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="PythonCallExpression_toggleArguments" />
+    <ref role="2ZfgGC" to="e5uo:4TVlTE8ueYY" resolve="PythonCallExpression" />
+    <node concept="2S6ZIM" id="4TVlTE8Q6QE" role="2ZfVej">
+      <node concept="3clFbS" id="4TVlTE8Q6QF" role="2VODD2">
+        <node concept="3clFbF" id="4TVlTE8Q6VB" role="3cqZAp">
+          <node concept="Xl_RD" id="4TVlTE8Q6VA" role="3clFbG">
+            <property role="Xl_RC" value="toggle arguments" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="4TVlTE8Q6QG" role="2ZfgGD">
+      <node concept="3clFbS" id="4TVlTE8Q6QH" role="2VODD2">
+        <node concept="3clFbJ" id="4TVlTE8Q7eZ" role="3cqZAp">
+          <node concept="2OqwBi" id="4TVlTE8Q9LD" role="3clFbw">
+            <node concept="2OqwBi" id="4TVlTE8Q7q3" role="2Oq$k0">
+              <node concept="2Sf5sV" id="4TVlTE8Q7fo" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="4TVlTE8Q7$e" role="2OqNvi">
+                <ref role="3TtcxE" to="e5uo:4TVlTE8ueZ1" resolve="argumets" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4TVlTE8QbgU" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~List.isEmpty()" resolve="isEmpty" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="4TVlTE8Q7f1" role="3clFbx">
+            <node concept="3clFbF" id="4TVlTE8Qcn2" role="3cqZAp">
+              <node concept="2OqwBi" id="4TVlTE8Qeny" role="3clFbG">
+                <node concept="2OqwBi" id="4TVlTE8QcvN" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="4TVlTE8Qcn1" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="4TVlTE8QcDX" role="2OqNvi">
+                    <ref role="3TtcxE" to="e5uo:4TVlTE8ueZ1" resolve="argumets" />
+                  </node>
+                </node>
+                <node concept="TSZUe" id="4TVlTE8QfOE" role="2OqNvi">
+                  <node concept="2ShNRf" id="4TVlTE8QgQS" role="25WWJ7">
+                    <node concept="3zrR0B" id="4TVlTE8Qh9d" role="2ShVmc">
+                      <node concept="3Tqbb2" id="4TVlTE8Qh9f" role="3zrR0E">
+                        <ref role="ehGHo" to="e5uo:4rfLeTAmp1F" resolve="PythonExpression" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="4TVlTE8Qbu9" role="9aQIa">
+            <node concept="3clFbS" id="4TVlTE8Qbua" role="9aQI4">
+              <node concept="3clFbF" id="4TVlTE8Qhuy" role="3cqZAp">
+                <node concept="2OqwBi" id="4TVlTE8QnvA" role="3clFbG">
+                  <node concept="2OqwBi" id="4TVlTE8QhBj" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="4TVlTE8Qhux" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="4TVlTE8QhLt" role="2OqNvi">
+                      <ref role="3TtcxE" to="e5uo:4TVlTE8ueZ1" resolve="argumets" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="4TVlTE8QqVK" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~List.clear()" resolve="clear" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

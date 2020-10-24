@@ -122,6 +122,8 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
           switch (menuId.getFqName()) {
             case "com.juliuscanute.python.editor.PythonExpression_binaryExpression":
               return Arrays.asList(new TransformationMenu[]{new PythonExpression_binaryExpression()});
+            case "com.juliuscanute.python.editor.PythonExpression_callExpression":
+              return Arrays.asList(new TransformationMenu[]{new PythonExpression_callExpression()});
             case "com.juliuscanute.python.editor.PythonExpression_logicalExpression":
               return Arrays.asList(new TransformationMenu[]{new PythonExpression_logicalExpression()});
             case "com.juliuscanute.python.editor.PythonExpression_memberExpression":

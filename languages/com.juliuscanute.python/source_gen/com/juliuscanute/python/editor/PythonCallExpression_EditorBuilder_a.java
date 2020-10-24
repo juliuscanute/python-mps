@@ -9,6 +9,8 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -57,9 +59,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
     setCellContext(editorCell);
     editorCell.addEditorCell(createRefNode_0());
     editorCell.addEditorCell(createConstant_0());
-    editorCell.addEditorCell(createRefNodeList_0());
+    if (nodeCondition_to9tgd_a2a()) {
+      editorCell.addEditorCell(createRefNodeList_0());
+    }
     editorCell.addEditorCell(createConstant_1());
     return editorCell;
+  }
+  private boolean nodeCondition_to9tgd_a2a() {
+    return Sequence.fromIterable(AttributeOperations.getChildNodesAndAttributes(myNode, LINKS.argumets$RvFG)).isNotEmpty();
   }
   private EditorCell createRefNode_0() {
     SingleRoleCellProvider provider = new calleeSingleRoleHandler_to9tgd_a0(myNode, LINKS.callee$RvdE, getEditorContext());
@@ -228,8 +235,8 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink callee$RvdE = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a8878efbeL, 0x4e7b579a8878efbfL, "callee");
     /*package*/ static final SContainmentLink argumets$RvFG = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a8878efbeL, 0x4e7b579a8878efc1L, "argumets");
+    /*package*/ static final SContainmentLink callee$RvdE = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a8878efbeL, 0x4e7b579a8878efbfL, "callee");
   }
 
   private static final class CONCEPTS {
