@@ -881,8 +881,8 @@
     <property role="EcuMT" value="5289828217392333493" />
     <property role="3GE5qa" value="expression" />
     <property role="TrG5h" value="PythonArrayExpression" />
-    <property role="34LRSv" value="[" />
     <property role="R4oN_" value="create a array" />
+    <property role="34LRSv" value="[" />
     <ref role="1TJDcQ" node="4rfLeTAmp1F" resolve="PythonExpression" />
     <node concept="1TJgyj" id="4_DfFMGwwaS" role="1TKVEi">
       <property role="IQ2ns" value="5289828217392333496" />
@@ -1128,6 +1128,59 @@
     </node>
     <node concept="PrWs8" id="4TVlTE8CPgH" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4TVlTE8Ee$F">
+    <property role="EcuMT" value="5655210078323140907" />
+    <property role="3GE5qa" value="statement" />
+    <property role="TrG5h" value="PythonClassStatement" />
+    <property role="34LRSv" value="class" />
+    <property role="R4oN_" value="class definition" />
+    <ref role="1TJDcQ" node="4rfLeTAmc$r" resolve="PythonStatement" />
+    <node concept="1TJgyj" id="4TVlTE8Ezan" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078323225239" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="className" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4_DfFMGtamA" resolve="PythonIdentifier" />
+    </node>
+    <node concept="1TJgyj" id="4TVlTE8Ezap" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078323225241" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="memberFunctions" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="4TVlTE8qxNI" resolve="PythonFunctionDefinitionStatement" />
+    </node>
+    <node concept="PrWs8" id="4TVlTE8IcGF" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4TVlTE8ES_Q">
+    <property role="EcuMT" value="5655210078323313014" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="PythonMemberExpression" />
+    <ref role="1TJDcQ" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    <node concept="1TJgyj" id="4TVlTE8ES_R" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078323313015" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="object" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    </node>
+    <node concept="1TJgyj" id="4TVlTE8ES_V" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078323313019" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="identifierProperty" />
+      <ref role="20lvS9" node="4_DfFMGtamA" resolve="PythonIdentifier" />
+    </node>
+    <node concept="1TJgyj" id="4TVlTE8ES_Y" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078323313022" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expressionProperty" />
+      <ref role="20lvS9" node="4rfLeTAmp1F" resolve="PythonExpression" />
+    </node>
+    <node concept="PrWs8" id="4TVlTE8ES_T" role="PzmwI">
+      <ref role="PrY4T" node="4_DfFMGu6XA" resolve="PythonLeftHandSideExpression" />
     </node>
   </node>
 </model>

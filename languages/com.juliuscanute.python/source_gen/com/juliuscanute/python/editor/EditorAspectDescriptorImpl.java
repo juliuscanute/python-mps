@@ -42,46 +42,50 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       case 9:
         return Collections.<ConceptEditor>singletonList(new PythonCallExpression_Editor());
       case 10:
-        return Collections.<ConceptEditor>singletonList(new PythonElseIfStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonClassStatement_Editor());
       case 11:
-        return Collections.<ConceptEditor>singletonList(new PythonExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonElseIfStatement_Editor());
       case 12:
-        return Collections.<ConceptEditor>singletonList(new PythonExpressionStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonExpression_Editor());
       case 13:
-        return Collections.<ConceptEditor>singletonList(new PythonForStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonExpressionStatement_Editor());
       case 14:
-        return Collections.<ConceptEditor>singletonList(new PythonFunctionDefinitionStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonForStatement_Editor());
       case 15:
-        return Collections.<ConceptEditor>singletonList(new PythonIdentifier_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonFunctionDefinitionStatement_Editor());
       case 16:
-        return Collections.<ConceptEditor>singletonList(new PythonIdentifierReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonIdentifier_Editor());
       case 17:
-        return Collections.<ConceptEditor>singletonList(new PythonIfElseStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonIdentifierReference_Editor());
       case 18:
-        return Collections.<ConceptEditor>singletonList(new PythonIndentBlockStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonIfElseStatement_Editor());
       case 19:
-        return Collections.<ConceptEditor>singletonList(new PythonLogicalExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonIndentBlockStatement_Editor());
       case 20:
-        return Collections.<ConceptEditor>singletonList(new PythonNumericLiteral_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonLogicalExpression_Editor());
       case 21:
-        return Collections.<ConceptEditor>singletonList(new PythonObjectExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonMemberExpression_Editor());
       case 22:
-        return Collections.<ConceptEditor>singletonList(new PythonProgram_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonNumericLiteral_Editor());
       case 23:
-        return Collections.<ConceptEditor>singletonList(new PythonProperty_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonObjectExpression_Editor());
       case 24:
-        return Collections.<ConceptEditor>singletonList(new PythonReturnStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonProgram_Editor());
       case 25:
-        return Collections.<ConceptEditor>singletonList(new PythonStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonProperty_Editor());
       case 26:
-        return Collections.<ConceptEditor>singletonList(new PythonStringLiteral_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonReturnStatement_Editor());
       case 27:
-        return Collections.<ConceptEditor>singletonList(new PythonTupleExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonStatement_Editor());
       case 28:
-        return Collections.<ConceptEditor>singletonList(new PythonUnaryExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonStringLiteral_Editor());
       case 29:
-        return Collections.<ConceptEditor>singletonList(new PythonVariableDeclarator_Editor());
+        return Collections.<ConceptEditor>singletonList(new PythonTupleExpression_Editor());
       case 30:
+        return Collections.<ConceptEditor>singletonList(new PythonUnaryExpression_Editor());
+      case 31:
+        return Collections.<ConceptEditor>singletonList(new PythonVariableDeclarator_Editor());
+      case 32:
         return Collections.<ConceptEditor>singletonList(new PythonWhileStatement_Editor());
       default:
     }
@@ -120,6 +124,8 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
               return Arrays.asList(new TransformationMenu[]{new PythonExpression_binaryExpression()});
             case "com.juliuscanute.python.editor.PythonExpression_logicalExpression":
               return Arrays.asList(new TransformationMenu[]{new PythonExpression_logicalExpression()});
+            case "com.juliuscanute.python.editor.PythonExpression_memberExpression":
+              return Arrays.asList(new TransformationMenu[]{new PythonExpression_memberExpression()});
             case "com.juliuscanute.python.editor.PythonExpression_unaryExpression1":
               return Arrays.asList(new TransformationMenu[]{new PythonExpression_unaryExpression1()});
             default:
@@ -172,7 +178,7 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     return Collections.<SubstituteMenu>emptyList();
   }
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2aa0cdL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2b2945L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327eaL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2a1159L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327edL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac8202b5L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac78769cL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6897dfL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a8878efbeL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88263dd7L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee665dbe61L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a889ab886L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a886a1ceeL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a882ea95dL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88263da6L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac9426e0L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6ca205L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee665e56a0L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac858709L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327e9L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac84b577L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a887303ffL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6e840aL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a8896f590L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee66599075L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac75abe5L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac94e877L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2aa0cdL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2b2945L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327eaL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x68c84a182a2a1159L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327edL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac8202b5L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac78769cL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6897dfL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a8878efbeL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88a8e92bL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88263dd7L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee665dbe61L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a889ab886L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a886a1ceeL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a882ea95dL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88263da6L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac9426e0L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6ca205L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88ab8976L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee665e56a0L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac858709L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327e9L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac84b577L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a887303ffL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6e840aL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a8896f590L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee66599075L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac75abe5L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac94e877L)).seal();
   private static final ConceptSwitchIndex conceptIndex1 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac786f66L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a887303ffL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac75abe5L)).seal();
   private static final ConceptSwitchIndex conceptIndex2 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL)).seal();
   private static final ConceptSwitchIndex conceptIndex3 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a882ea95dL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL)).seal();

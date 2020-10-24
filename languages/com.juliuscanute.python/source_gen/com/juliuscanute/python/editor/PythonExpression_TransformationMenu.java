@@ -69,11 +69,35 @@ public class PythonExpression_TransformationMenu extends TransformationMenuBase 
       result.add(new TMP_Include_6nrs95_b0());
       result.add(new TMP_Include_6nrs95_c0());
       result.add(new TMP_Include_6nrs95_d0());
+      result.add(new TMP_Include_6nrs95_e0());
     }
     return result;
   }
 
   public class TMP_Include_6nrs95_b0 extends IncludeTransformationMenuTransformationMenuPart {
+    @NotNull
+    @Override
+    public List<TransformationMenuItem> createItems(@NotNull TransformationMenuContext context) {
+      context.getEditorMenuTrace().pushTraceInfo();
+      context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("include " + "named transformation menu " + "PythonExpression_memberExpression", new SNodePointer("r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)", "5655210078323723741")));
+      try {
+        return super.createItems(context);
+      } finally {
+        context.getEditorMenuTrace().popTraceInfo();
+      }
+    }
+
+    @Nullable
+    @Override
+    protected TransformationMenuLookup getMenuLookup(TransformationMenuContext _context) {
+      final SNode node = _context.getNode();
+      final EditorContext editorContext = _context.getEditorContext();
+
+      return new NamedTransformationMenuLookup(LanguageRegistry.getInstance(editorContext.getRepository()), CONCEPTS.PythonExpression$6o, "com.juliuscanute.python.editor.PythonExpression_memberExpression");
+    }
+
+  }
+  public class TMP_Include_6nrs95_c0 extends IncludeTransformationMenuTransformationMenuPart {
     @NotNull
     @Override
     public List<TransformationMenuItem> createItems(@NotNull TransformationMenuContext context) {
@@ -96,7 +120,7 @@ public class PythonExpression_TransformationMenu extends TransformationMenuBase 
     }
 
   }
-  public class TMP_Include_6nrs95_c0 extends IncludeTransformationMenuTransformationMenuPart {
+  public class TMP_Include_6nrs95_d0 extends IncludeTransformationMenuTransformationMenuPart {
     @NotNull
     @Override
     public List<TransformationMenuItem> createItems(@NotNull TransformationMenuContext context) {
@@ -119,7 +143,7 @@ public class PythonExpression_TransformationMenu extends TransformationMenuBase 
     }
 
   }
-  public class TMP_Include_6nrs95_d0 extends IncludeTransformationMenuTransformationMenuPart {
+  public class TMP_Include_6nrs95_e0 extends IncludeTransformationMenuTransformationMenuPart {
     @NotNull
     @Override
     public List<TransformationMenuItem> createItems(@NotNull TransformationMenuContext context) {

@@ -28,6 +28,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptPythonAssignmentExpression = createDescriptorForPythonAssignmentExpression();
   /*package*/ final ConceptDescriptor myConceptPythonBinaryExpression = createDescriptorForPythonBinaryExpression();
   /*package*/ final ConceptDescriptor myConceptPythonCallExpression = createDescriptorForPythonCallExpression();
+  /*package*/ final ConceptDescriptor myConceptPythonClassStatement = createDescriptorForPythonClassStatement();
   /*package*/ final ConceptDescriptor myConceptPythonElseIfStatement = createDescriptorForPythonElseIfStatement();
   /*package*/ final ConceptDescriptor myConceptPythonExpression = createDescriptorForPythonExpression();
   /*package*/ final ConceptDescriptor myConceptPythonExpressionStatement = createDescriptorForPythonExpressionStatement();
@@ -40,6 +41,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptPythonLeftHandSideExpression = createDescriptorForPythonLeftHandSideExpression();
   /*package*/ final ConceptDescriptor myConceptPythonLiteral = createDescriptorForPythonLiteral();
   /*package*/ final ConceptDescriptor myConceptPythonLogicalExpression = createDescriptorForPythonLogicalExpression();
+  /*package*/ final ConceptDescriptor myConceptPythonMemberExpression = createDescriptorForPythonMemberExpression();
   /*package*/ final ConceptDescriptor myConceptPythonNode = createDescriptorForPythonNode();
   /*package*/ final ConceptDescriptor myConceptPythonNumericLiteral = createDescriptorForPythonNumericLiteral();
   /*package*/ final ConceptDescriptor myConceptPythonObjectExpression = createDescriptorForPythonObjectExpression();
@@ -74,7 +76,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptFromStatementAsName, myConceptImportStatement, myConceptImportStatementAsName, myConceptName, myConceptPythonArrayExpression, myConceptPythonAssignmentExpression, myConceptPythonBinaryExpression, myConceptPythonCallExpression, myConceptPythonElseIfStatement, myConceptPythonExpression, myConceptPythonExpressionStatement, myConceptPythonForStatement, myConceptPythonFunctionDefinitionStatement, myConceptPythonIdentifier, myConceptPythonIdentifierReference, myConceptPythonIfElseStatement, myConceptPythonIndentBlockStatement, myConceptPythonLeftHandSideExpression, myConceptPythonLiteral, myConceptPythonLogicalExpression, myConceptPythonNode, myConceptPythonNumericLiteral, myConceptPythonObjectExpression, myConceptPythonProgram, myConceptPythonProperty, myConceptPythonReturnStatement, myConceptPythonStatement, myConceptPythonStringLiteral, myConceptPythonTupleExpression, myConceptPythonUnaryExpression, myConceptPythonVariableDeclarator, myConceptPythonWhileStatement);
+    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptFromStatementAsName, myConceptImportStatement, myConceptImportStatementAsName, myConceptName, myConceptPythonArrayExpression, myConceptPythonAssignmentExpression, myConceptPythonBinaryExpression, myConceptPythonCallExpression, myConceptPythonClassStatement, myConceptPythonElseIfStatement, myConceptPythonExpression, myConceptPythonExpressionStatement, myConceptPythonForStatement, myConceptPythonFunctionDefinitionStatement, myConceptPythonIdentifier, myConceptPythonIdentifierReference, myConceptPythonIfElseStatement, myConceptPythonIndentBlockStatement, myConceptPythonLeftHandSideExpression, myConceptPythonLiteral, myConceptPythonLogicalExpression, myConceptPythonMemberExpression, myConceptPythonNode, myConceptPythonNumericLiteral, myConceptPythonObjectExpression, myConceptPythonProgram, myConceptPythonProperty, myConceptPythonReturnStatement, myConceptPythonStatement, myConceptPythonStringLiteral, myConceptPythonTupleExpression, myConceptPythonUnaryExpression, myConceptPythonVariableDeclarator, myConceptPythonWhileStatement);
   }
 
   @Override
@@ -101,6 +103,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptPythonBinaryExpression;
       case LanguageConceptSwitch.PythonCallExpression:
         return myConceptPythonCallExpression;
+      case LanguageConceptSwitch.PythonClassStatement:
+        return myConceptPythonClassStatement;
       case LanguageConceptSwitch.PythonElseIfStatement:
         return myConceptPythonElseIfStatement;
       case LanguageConceptSwitch.PythonExpression:
@@ -125,6 +129,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptPythonLiteral;
       case LanguageConceptSwitch.PythonLogicalExpression:
         return myConceptPythonLogicalExpression;
+      case LanguageConceptSwitch.PythonMemberExpression:
+        return myConceptPythonMemberExpression;
       case LanguageConceptSwitch.PythonNode:
         return myConceptPythonNode;
       case LanguageConceptSwitch.PythonNumericLiteral:
@@ -272,6 +278,18 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("call");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForPythonClassStatement() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonClassStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88a8e92bL);
+    b.class_(false, false, false);
+    b.super_("com.juliuscanute.python.structure.PythonStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L);
+    b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5655210078323140907");
+    b.version(2);
+    b.aggregate("className", 0x4e7b579a88aa3297L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L).optional(false).ordered(true).multiple(false).origin("5655210078323225239").done();
+    b.aggregate("memberFunctions", 0x4e7b579a88aa3299L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a886a1ceeL).optional(false).ordered(true).multiple(true).origin("5655210078323225241").done();
+    b.alias("class");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForPythonElseIfStatement() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonElseIfStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88263dd7L);
     b.class_(false, false, false);
@@ -391,6 +409,18 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("operator", 0x49693ebcac6d2bb5L).type(MetaIdFactory.dataTypeId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6c9abdL)).origin("5289828217390967733").done();
     b.aggregate("left", 0x49693ebcac6d2bb7L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL).optional(false).ordered(true).multiple(false).origin("5289828217390967735").done();
     b.aggregate("right", 0x49693ebcac6d2bb9L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL).optional(false).ordered(true).multiple(false).origin("5289828217390967737").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPythonMemberExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonMemberExpression", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88ab8976L);
+    b.class_(false, false, false);
+    b.super_("com.juliuscanute.python.structure.PythonExpression", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL);
+    b.parent(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac786f66L);
+    b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5655210078323313014");
+    b.version(2);
+    b.aggregate("object", 0x4e7b579a88ab8977L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL).optional(false).ordered(true).multiple(false).origin("5655210078323313015").done();
+    b.aggregate("identifierProperty", 0x4e7b579a88ab897bL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L).optional(true).ordered(true).multiple(false).origin("5655210078323313019").done();
+    b.aggregate("expressionProperty", 0x4e7b579a88ab897eL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL).optional(true).ordered(true).multiple(false).origin("5655210078323313022").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPythonNode() {

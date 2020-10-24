@@ -19,6 +19,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonAssignmentExpression;
   private ConceptPresentation props_PythonBinaryExpression;
   private ConceptPresentation props_PythonCallExpression;
+  private ConceptPresentation props_PythonClassStatement;
   private ConceptPresentation props_PythonElseIfStatement;
   private ConceptPresentation props_PythonExpression;
   private ConceptPresentation props_PythonExpressionStatement;
@@ -31,6 +32,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonLeftHandSideExpression;
   private ConceptPresentation props_PythonLiteral;
   private ConceptPresentation props_PythonLogicalExpression;
+  private ConceptPresentation props_PythonMemberExpression;
   private ConceptPresentation props_PythonNode;
   private ConceptPresentation props_PythonNumericLiteral;
   private ConceptPresentation props_PythonObjectExpression;
@@ -127,6 +129,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonCallExpression = cpb.create();
         }
         return props_PythonCallExpression;
+      case LanguageConceptSwitch.PythonClassStatement:
+        if (props_PythonClassStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("class definition");
+          cpb.rawPresentation("class");
+          props_PythonClassStatement = cpb.create();
+        }
+        return props_PythonClassStatement;
       case LanguageConceptSwitch.PythonElseIfStatement:
         if (props_PythonElseIfStatement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -212,6 +222,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonLogicalExpression = cpb.create();
         }
         return props_PythonLogicalExpression;
+      case LanguageConceptSwitch.PythonMemberExpression:
+        if (props_PythonMemberExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonMemberExpression");
+          props_PythonMemberExpression = cpb.create();
+        }
+        return props_PythonMemberExpression;
       case LanguageConceptSwitch.PythonNode:
         if (props_PythonNode == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
