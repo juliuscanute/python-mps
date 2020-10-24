@@ -4313,5 +4313,17 @@
       <property role="TrG5h" value="PythonExpression_callExpression" />
     </node>
   </node>
+  <node concept="24kQdi" id="4TVlTE8RafK">
+    <property role="3GE5qa" value="expression" />
+    <ref role="1XX52x" to="e5uo:4TVlTE8Rafl" resolve="PythonSelfExpression" />
+    <node concept="3F0ifn" id="4TVlTE8RafM" role="2wV5jI">
+      <property role="3F0ifm" value="self" />
+      <ref role="1k5W1q" node="bcrrPfrAxm" resolve="PythonKeyWord" />
+      <node concept="VPxyj" id="4TVlTE8RafP" role="3F10Kt" />
+      <node concept="VPRnO" id="4TVlTE8RafU" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
 </model>
 

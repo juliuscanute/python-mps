@@ -18,6 +18,7 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.scope.CompositeScope;
 import jetbrains.mps.lang.scopes.runtime.NamedElementsScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.scopes.runtime.ScopeUtils;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
@@ -37,6 +38,7 @@ public final class PythonClassStatement__BehaviorDescriptor extends BaseBHDescri
     CompositeScope scope = new CompositeScope();
     scope.addScope(new NamedElementsScope(SLinkOperations.getTarget(__thisNode__, LINKS.className$ZmdT)));
     scope.addScope(new NamedElementsScope(SLinkOperations.getChildren(__thisNode__, LINKS.memberFunctions$ZrBg)));
+    scope.addScope(ScopeUtils.lazyParentScope(__thisNode__, kind));
     return scope;
   }
 

@@ -1183,5 +1183,13 @@
       <ref role="PrY4T" node="4_DfFMGu6XA" resolve="PythonLeftHandSideExpression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4TVlTE8Rafl">
+    <property role="EcuMT" value="5655210078326531029" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="PythonSelfExpression" />
+    <property role="34LRSv" value="self" />
+    <property role="R4oN_" value="self expression" />
+    <ref role="1TJDcQ" node="4rfLeTAmp1F" resolve="PythonExpression" />
+  </node>
 </model>
 

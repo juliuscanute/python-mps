@@ -39,6 +39,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonProgram;
   private ConceptPresentation props_PythonProperty;
   private ConceptPresentation props_PythonReturnStatement;
+  private ConceptPresentation props_PythonSelfExpression;
   private ConceptPresentation props_PythonStatement;
   private ConceptPresentation props_PythonStringLiteral;
   private ConceptPresentation props_PythonTupleExpression;
@@ -272,6 +273,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonReturnStatement = cpb.create();
         }
         return props_PythonReturnStatement;
+      case LanguageConceptSwitch.PythonSelfExpression:
+        if (props_PythonSelfExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("self expression");
+          cpb.rawPresentation("self");
+          props_PythonSelfExpression = cpb.create();
+        }
+        return props_PythonSelfExpression;
       case LanguageConceptSwitch.PythonStatement:
         if (props_PythonStatement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
