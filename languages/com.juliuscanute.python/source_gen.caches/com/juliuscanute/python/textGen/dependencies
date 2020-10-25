@@ -20,6 +20,17 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SContainmentLink" />
     <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
   </dependency>
+  <dependency className="com.juliuscanute.python.textGen.PythonAssignmentExpression_TextGen">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SContainmentLink" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SProperty" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
   <dependency className="com.juliuscanute.python.textGen.PythonBooleanLiteral_TextGen">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
@@ -27,6 +38,12 @@
     <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
     <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SProperty" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="com.juliuscanute.python.textGen.PythonExpression_TextGen">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
     <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
   </dependency>
   <dependency className="com.juliuscanute.python.textGen.PythonIdentifier_TextGen">
@@ -85,7 +102,9 @@
     <classNode dependClassName="com.juliuscanute.python.structure.LanguageConceptSwitch" />
     <classNode dependClassName="com.juliuscanute.python.textGen.DottedName_TextGen" />
     <classNode dependClassName="com.juliuscanute.python.textGen.PythonArrayExpression_TextGen" />
+    <classNode dependClassName="com.juliuscanute.python.textGen.PythonAssignmentExpression_TextGen" />
     <classNode dependClassName="com.juliuscanute.python.textGen.PythonBooleanLiteral_TextGen" />
+    <classNode dependClassName="com.juliuscanute.python.textGen.PythonExpression_TextGen" />
     <classNode dependClassName="com.juliuscanute.python.textGen.PythonIdentifier_TextGen" />
     <classNode dependClassName="com.juliuscanute.python.textGen.PythonNoneLiteral_TextGen" />
     <classNode dependClassName="com.juliuscanute.python.textGen.PythonNumericLiteral_TextGen" />

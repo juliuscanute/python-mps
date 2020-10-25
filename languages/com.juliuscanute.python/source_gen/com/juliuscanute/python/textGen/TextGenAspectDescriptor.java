@@ -23,8 +23,12 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new DottedName_TextGen();
       case LanguageConceptSwitch.PythonArrayExpression:
         return new PythonArrayExpression_TextGen();
+      case LanguageConceptSwitch.PythonAssignmentExpression:
+        return new PythonAssignmentExpression_TextGen();
       case LanguageConceptSwitch.PythonBooleanLiteral:
         return new PythonBooleanLiteral_TextGen();
+      case LanguageConceptSwitch.PythonExpression:
+        return new PythonExpression_TextGen();
       case LanguageConceptSwitch.PythonIdentifier:
         return new PythonIdentifier_TextGen();
       case LanguageConceptSwitch.PythonNoneLiteral:

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-77tiv8q4khfm7pgexsgodsob9j6u7rn">
-  <files names="DottedName_TextGen.java:PythonArrayExpression_TextGen.java:PythonBooleanLiteral_TextGen.java:PythonIdentifier_TextGen.java:PythonNoneLiteral_TextGen.java:PythonNumericLiteral_TextGen.java:PythonProperty_TextGen.java:PythonStringLiteral_TextGen.java:PythonVariableDeclarator_TextGen.java:TextGenAspectDescriptor.java" />
+<product version="3" modelHash="bp4k77ea0aifrh87u1cve2frdm2sul">
+  <files names="DottedName_TextGen.java:PythonArrayExpression_TextGen.java:PythonAssignmentExpression_TextGen.java:PythonBooleanLiteral_TextGen.java:PythonExpression_TextGen.java:PythonIdentifier_TextGen.java:PythonNoneLiteral_TextGen.java:PythonNumericLiteral_TextGen.java:PythonProperty_TextGen.java:PythonStringLiteral_TextGen.java:PythonVariableDeclarator_TextGen.java:TextGenAspectDescriptor.java" />
 </product>
 
