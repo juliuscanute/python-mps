@@ -14,10 +14,14 @@ public class PythonStringLiteral_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     if (isNotEmptyString(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.singleQuotedValue$VDXc))) {
+      tgs.append("'");
       tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.singleQuotedValue$VDXc));
+      tgs.append("'");
     }
     if (isNotEmptyString(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.doubleQuotedValue$VDva))) {
+      tgs.append("\"");
       tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.doubleQuotedValue$VDva));
+      tgs.append("\"");
     }
   }
   private static boolean isNotEmptyString(String str) {

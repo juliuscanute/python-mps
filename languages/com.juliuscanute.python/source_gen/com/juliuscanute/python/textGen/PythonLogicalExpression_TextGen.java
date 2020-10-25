@@ -17,7 +17,7 @@ public class PythonLogicalExpression_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.left$tnbf));
     tgs.append(" ");
-    tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.operator$tmHd).getName());
+    tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.operator$tmHd).getPresentation());
     tgs.append(" ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.right$tnDh));
   }

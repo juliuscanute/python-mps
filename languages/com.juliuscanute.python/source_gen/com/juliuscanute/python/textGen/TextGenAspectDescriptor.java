@@ -8,6 +8,12 @@ import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.text.rt.TextGenDescriptor;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
+import jetbrains.mps.text.rt.TextGenModelOutline;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SProperty;
 
 public class TextGenAspectDescriptor extends TextGenAspectBase {
   private final LanguageConceptSwitch myIndex = new LanguageConceptSwitch();
@@ -21,6 +27,14 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
     switch (myIndex.index(concept)) {
       case LanguageConceptSwitch.DottedName:
         return new DottedName_TextGen();
+      case LanguageConceptSwitch.FromStatement:
+        return new FromStatement_TextGen();
+      case LanguageConceptSwitch.FromStatementAsName:
+        return new FromStatementAsName_TextGen();
+      case LanguageConceptSwitch.ImportStatement:
+        return new ImportStatement_TextGen();
+      case LanguageConceptSwitch.ImportStatementAsName:
+        return new ImportStatementAsName_TextGen();
       case LanguageConceptSwitch.PythonArrayExpression:
         return new PythonArrayExpression_TextGen();
       case LanguageConceptSwitch.PythonAssignmentExpression:
@@ -33,6 +47,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new PythonCallExpression_TextGen();
       case LanguageConceptSwitch.PythonExpression:
         return new PythonExpression_TextGen();
+      case LanguageConceptSwitch.PythonExpressionStatement:
+        return new PythonExpressionStatement_TextGen();
       case LanguageConceptSwitch.PythonIdentifier:
         return new PythonIdentifier_TextGen();
       case LanguageConceptSwitch.PythonIdentifierReference:
@@ -49,18 +65,51 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new PythonNumericLiteral_TextGen();
       case LanguageConceptSwitch.PythonObjectExpression:
         return new PythonObjectExpression_TextGen();
+      case LanguageConceptSwitch.PythonProgram:
+        return new PythonProgram_TextGen();
       case LanguageConceptSwitch.PythonProperty:
         return new PythonProperty_TextGen();
+      case LanguageConceptSwitch.PythonReturnStatement:
+        return new PythonReturnStatement_TextGen();
       case LanguageConceptSwitch.PythonSelfExpression:
         return new PythonSelfExpression_TextGen();
+      case LanguageConceptSwitch.PythonStatement:
+        return new PythonStatement_TextGen();
       case LanguageConceptSwitch.PythonStringLiteral:
         return new PythonStringLiteral_TextGen();
       case LanguageConceptSwitch.PythonTupleExpression:
         return new PythonTupleExpression_TextGen();
+      case LanguageConceptSwitch.PythonUnaryExpression:
+        return new PythonUnaryExpression_TextGen();
       case LanguageConceptSwitch.PythonVariableDeclarator:
         return new PythonVariableDeclarator_TextGen();
     }
     return null;
   }
 
+  @Override
+  public void breakdownToUnits(@NotNull TextGenModelOutline outline) {
+    for (SNode root : outline.getModel().getRootNodes()) {
+      if (root.getConcept().equals(CONCEPTS.PythonProgram$s$)) {
+        String fname = getFileName_PythonProgram(root);
+        String ext = getFileExtension_PythonProgram(root);
+        outline.registerTextUnit((ext == null ? fname : (fname + '.' + ext)), root);
+        continue;
+      }
+    }
+  }
+  private static String getFileName_PythonProgram(SNode node) {
+    return SPropertyOperations.getString(node, PROPS.name$MnvL);
+  }
+  private static String getFileExtension_PythonProgram(SNode node) {
+    return null;
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept PythonProgram$s$ = MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327e9L, "com.juliuscanute.python.structure.PythonProgram");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+  }
 }

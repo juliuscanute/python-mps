@@ -17,7 +17,7 @@ public class PythonAssignmentExpression_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.left$Rjha));
     tgs.append(" ");
-    tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.operator$beAs).getName());
+    tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.operator$beAs).getPresentation());
     tgs.append(" ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.right$RjJc));
   }
