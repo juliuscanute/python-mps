@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="83rykuvc6r6w3ll29xtfsax8wrzlylr">
-  <files names="DottedName_TextGen.java:PythonArrayExpression_TextGen.java:PythonAssignmentExpression_TextGen.java:PythonBinaryExpression_TextGen.java:PythonBooleanLiteral_TextGen.java:PythonCallExpression_TextGen.java:PythonExpression_TextGen.java:PythonIdentifier_TextGen.java:PythonNoneLiteral_TextGen.java:PythonNumericLiteral_TextGen.java:PythonProperty_TextGen.java:PythonStringLiteral_TextGen.java:PythonVariableDeclarator_TextGen.java:TextGenAspectDescriptor.java" />
+<product version="3" modelHash="-fb1pyhm9opug5jdegpptrsd8h1hh7a">
+  <files names="DottedName_TextGen.java:PythonArrayExpression_TextGen.java:PythonAssignmentExpression_TextGen.java:PythonBinaryExpression_TextGen.java:PythonBooleanLiteral_TextGen.java:PythonCallExpression_TextGen.java:PythonExpression_TextGen.java:PythonIdentifierReference_TextGen.java:PythonIdentifier_TextGen.java:PythonLogicalExpression_TextGen.java:PythonMemberExpression_TextGen.java:PythonNode_TextGen.java:PythonNoneLiteral_TextGen.java:PythonNumericLiteral_TextGen.java:PythonObjectExpression_TextGen.java:PythonProperty_TextGen.java:PythonStringLiteral_TextGen.java:PythonVariableDeclarator_TextGen.java:TextGenAspectDescriptor.java" />
 </product>
 
