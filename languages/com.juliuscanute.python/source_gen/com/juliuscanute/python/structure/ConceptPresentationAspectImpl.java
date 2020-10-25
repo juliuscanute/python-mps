@@ -18,6 +18,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonArrayExpression;
   private ConceptPresentation props_PythonAssignmentExpression;
   private ConceptPresentation props_PythonBinaryExpression;
+  private ConceptPresentation props_PythonBooleanLiteral;
   private ConceptPresentation props_PythonCallExpression;
   private ConceptPresentation props_PythonClassStatement;
   private ConceptPresentation props_PythonElseIfStatement;
@@ -34,6 +35,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonLogicalExpression;
   private ConceptPresentation props_PythonMemberExpression;
   private ConceptPresentation props_PythonNode;
+  private ConceptPresentation props_PythonNoneLiteral;
   private ConceptPresentation props_PythonNumericLiteral;
   private ConceptPresentation props_PythonObjectExpression;
   private ConceptPresentation props_PythonProgram;
@@ -42,6 +44,11 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonSelfExpression;
   private ConceptPresentation props_PythonStatement;
   private ConceptPresentation props_PythonStringLiteral;
+  private ConceptPresentation props_PythonTryElseStatement;
+  private ConceptPresentation props_PythonTryExceptExpressionStatement;
+  private ConceptPresentation props_PythonTryExceptStatement;
+  private ConceptPresentation props_PythonTryFinallyStatement;
+  private ConceptPresentation props_PythonTryStatement;
   private ConceptPresentation props_PythonTupleExpression;
   private ConceptPresentation props_PythonUnaryExpression;
   private ConceptPresentation props_PythonVariableDeclarator;
@@ -122,6 +129,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonBinaryExpression = cpb.create();
         }
         return props_PythonBinaryExpression;
+      case LanguageConceptSwitch.PythonBooleanLiteral:
+        if (props_PythonBooleanLiteral == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonBooleanLiteral");
+          props_PythonBooleanLiteral = cpb.create();
+        }
+        return props_PythonBooleanLiteral;
       case LanguageConceptSwitch.PythonCallExpression:
         if (props_PythonCallExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -237,6 +251,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonNode = cpb.create();
         }
         return props_PythonNode;
+      case LanguageConceptSwitch.PythonNoneLiteral:
+        if (props_PythonNoneLiteral == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("set no value");
+          cpb.rawPresentation("None");
+          props_PythonNoneLiteral = cpb.create();
+        }
+        return props_PythonNoneLiteral;
       case LanguageConceptSwitch.PythonNumericLiteral:
         if (props_PythonNumericLiteral == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -296,6 +318,42 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonStringLiteral = cpb.create();
         }
         return props_PythonStringLiteral;
+      case LanguageConceptSwitch.PythonTryElseStatement:
+        if (props_PythonTryElseStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonTryElseStatement");
+          props_PythonTryElseStatement = cpb.create();
+        }
+        return props_PythonTryElseStatement;
+      case LanguageConceptSwitch.PythonTryExceptExpressionStatement:
+        if (props_PythonTryExceptExpressionStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonTryExceptExpressionStatement");
+          props_PythonTryExceptExpressionStatement = cpb.create();
+        }
+        return props_PythonTryExceptExpressionStatement;
+      case LanguageConceptSwitch.PythonTryExceptStatement:
+        if (props_PythonTryExceptStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonTryExceptStatement");
+          props_PythonTryExceptStatement = cpb.create();
+        }
+        return props_PythonTryExceptStatement;
+      case LanguageConceptSwitch.PythonTryFinallyStatement:
+        if (props_PythonTryFinallyStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonTryFinallyStatement");
+          props_PythonTryFinallyStatement = cpb.create();
+        }
+        return props_PythonTryFinallyStatement;
+      case LanguageConceptSwitch.PythonTryStatement:
+        if (props_PythonTryStatement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("try catch & finally");
+          cpb.rawPresentation("try");
+          props_PythonTryStatement = cpb.create();
+        }
+        return props_PythonTryStatement;
       case LanguageConceptSwitch.PythonTupleExpression:
         if (props_PythonTupleExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

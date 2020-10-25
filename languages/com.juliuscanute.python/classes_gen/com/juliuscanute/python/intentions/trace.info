@@ -12,13 +12,13 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="IntentionsDescriptor.java">
-      <unit at="18,0,88,0" name="com.juliuscanute.python.intentions.IntentionsDescriptor" />
+      <unit at="18,0,108,0" name="com.juliuscanute.python.intentions.IntentionsDescriptor" />
     </file>
   </root>
   <root nodeRef="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)/5655210078314218813">
     <file name="IntentionsDescriptor.java">
-      <node id="5655210078314218813" at="65,47,66,74" concept="2" />
-      <node id="5655210078314218813" at="78,52,79,60" concept="2" />
+      <node id="5655210078314218813" at="81,47,82,74" concept="2" />
+      <node id="5655210078314218813" at="94,52,95,60" concept="2" />
     </file>
     <file name="PythonWhileStatement_toggleElse_Intention.java">
       <node id="5655210078314218813" at="22,0,23,0" concept="3" trace="myCachedExecutable" />
@@ -91,7 +91,7 @@
   <root nodeRef="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)/5655210078314749977">
     <file name="IntentionsDescriptor.java">
       <node id="5655210078314749977" at="51,47,52,75" concept="2" />
-      <node id="5655210078314749977" at="79,60,80,61" concept="2" />
+      <node id="5655210078314749977" at="95,60,96,61" concept="2" />
     </file>
     <file name="PythonIfElseStatement_toggleElse_Intention.java">
       <node id="5655210078314749977" at="23,0,24,0" concept="3" trace="myCachedExecutable" />
@@ -159,7 +159,7 @@
   <root nodeRef="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)/5655210078322211122">
     <file name="IntentionsDescriptor.java">
       <node id="5655210078322211122" at="44,47,45,72" concept="2" />
-      <node id="5655210078322211122" at="80,61,81,58" concept="2" />
+      <node id="5655210078322211122" at="96,61,97,58" concept="2" />
     </file>
     <file name="PythonForStatement_toggleElse_Intention.java">
       <node id="5655210078322211122" at="22,0,23,0" concept="3" trace="myCachedExecutable" />
@@ -230,7 +230,7 @@
   <root nodeRef="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)/5655210078323515365">
     <file name="IntentionsDescriptor.java">
       <node id="5655210078323515365" at="58,47,59,100" concept="2" />
-      <node id="5655210078323515365" at="81,58,82,86" concept="2" />
+      <node id="5655210078323515365" at="97,58,98,86" concept="2" />
     </file>
     <file name="PythonMemberExpression_toggleIdentifierExpressionProperty_Intention.java">
       <node id="5655210078323515365" at="21,0,22,0" concept="3" trace="myCachedExecutable" />
@@ -301,7 +301,7 @@
   <root nodeRef="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)/5655210078326255017">
     <file name="IntentionsDescriptor.java">
       <node id="5655210078326255017" at="37,47,38,79" concept="2" />
-      <node id="5655210078326255017" at="82,86,83,65" concept="2" />
+      <node id="5655210078326255017" at="98,86,99,65" concept="2" />
     </file>
     <file name="PythonCallExpression_toggleArguments_Intention.java">
       <node id="5655210078326255017" at="23,0,24,0" concept="3" trace="myCachedExecutable" />
@@ -364,6 +364,304 @@
       <unit id="5655210078326255017" at="66,0,69,0" name="com.juliuscanute.python.intentions.PythonCallExpression_toggleArguments_Intention$LINKS" />
       <unit id="5655210078326255017" at="45,0,65,0" name="com.juliuscanute.python.intentions.PythonCallExpression_toggleArguments_Intention$IntentionImplementation" />
       <unit id="5655210078326255017" at="22,0,70,0" name="com.juliuscanute.python.intentions.PythonCallExpression_toggleArguments_Intention" />
+    </file>
+  </root>
+  <root nodeRef="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)/5655210078328784050">
+    <file name="IntentionsDescriptor.java">
+      <node id="5655210078328784050" at="72,47,73,75" concept="2" />
+      <node id="5655210078328784050" at="99,65,100,61" concept="2" />
+    </file>
+    <file name="PythonTryStatement_toggleFinally_Intention.java">
+      <node id="5655210078328784050" at="22,0,23,0" concept="3" trace="myCachedExecutable" />
+      <node id="5655210078328784050" at="23,55,24,149" concept="9" />
+      <node id="5655210078328784050" at="27,35,28,46" concept="7" />
+      <node id="5655210078328784050" at="31,84,32,16" concept="7" />
+      <node id="5655210078328784050" at="35,35,36,17" concept="7" />
+      <node id="5655210078328784050" at="39,37,40,105" concept="2" />
+      <node id="5655210078328784050" at="41,5,42,30" concept="7" />
+      <node id="5655210078328784368" at="48,87,49,30" concept="7" />
+      <node id="5655210078328897406" at="53,76,54,221" concept="6" />
+      <node id="5655210078328898166" at="54,221,55,263" concept="2" />
+      <node id="5655210078328790472" at="55,263,56,78" concept="2" />
+      <node id="5655210078328794469" at="57,14,58,68" concept="2" />
+      <node id="5655210078328784050" at="62,48,63,61" concept="7" />
+      <node id="5655210078328784050" at="68,0,69,0" concept="8" trace="finalStmt$eaRg" />
+      <node id="5655210078328784050" at="69,0,70,0" concept="8" trace="finalBlk$3PC3" />
+      <node id="5655210078328784050" at="45,0,47,0" concept="1" trace="IntentionImplementation#()V" />
+      <node id="5655210078328794143" at="57,12,59,7" concept="0" />
+      <node id="5655210078328784050" at="23,0,26,0" concept="1" trace="PythonTryStatement_toggleFinally_Intention#()V" />
+      <node id="5655210078328784050" at="38,99,41,5" concept="4" />
+      <node id="5655210078328784050" at="26,0,30,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="5655210078328784050" at="30,0,34,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="5655210078328784050" at="34,0,38,0" concept="5" trace="isSurroundWith#()Z" />
+      <node id="5655210078328784050" at="47,0,51,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="5655210078328784050" at="61,0,65,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="5655210078328784050" at="38,0,44,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="5655210078328787036" at="52,78,59,7" concept="4" />
+      <node id="5655210078328784050" at="51,0,61,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="5655210078328784050" at="45,38,45,38" />
+      <scope id="5655210078328784050" at="23,55,24,149" />
+      <scope id="5655210078328784050" at="27,35,28,46" />
+      <scope id="5655210078328784050" at="31,84,32,16" />
+      <scope id="5655210078328784050" at="35,35,36,17" />
+      <scope id="5655210078328784050" at="39,37,40,105" />
+      <scope id="5655210078328784052" at="48,87,49,30" />
+      <scope id="5655210078328794144" at="57,14,58,68" />
+      <scope id="5655210078328784050" at="62,48,63,61" />
+      <scope id="5655210078328784050" at="45,0,47,0" />
+      <scope id="5655210078328784050" at="23,0,26,0" />
+      <scope id="5655210078328787038" at="53,76,56,78">
+        <var name="finalStatement" id="5655210078328897409" />
+      </scope>
+      <scope id="5655210078328784050" at="26,0,30,0" />
+      <scope id="5655210078328784050" at="30,0,34,0">
+        <var name="editorContext" id="5655210078328784050" />
+        <var name="node" id="5655210078328784050" />
+      </scope>
+      <scope id="5655210078328784050" at="34,0,38,0" />
+      <scope id="5655210078328784050" at="38,99,42,30" />
+      <scope id="5655210078328784050" at="47,0,51,0">
+        <var name="editorContext" id="5655210078328784050" />
+        <var name="node" id="5655210078328784050" />
+      </scope>
+      <scope id="5655210078328784050" at="61,0,65,0" />
+      <scope id="5655210078328784050" at="38,0,44,0">
+        <var name="context" id="5655210078328784050" />
+        <var name="node" id="5655210078328784050" />
+      </scope>
+      <scope id="5655210078328784054" at="52,78,59,7" />
+      <scope id="5655210078328784050" at="51,0,61,0">
+        <var name="editorContext" id="5655210078328784050" />
+        <var name="node" id="5655210078328784050" />
+      </scope>
+      <unit id="5655210078328784050" at="67,0,71,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleFinally_Intention$LINKS" />
+      <unit id="5655210078328784050" at="44,0,66,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleFinally_Intention$IntentionImplementation" />
+      <unit id="5655210078328784050" at="21,0,72,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleFinally_Intention" />
+    </file>
+  </root>
+  <root nodeRef="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)/5655210078329000589">
+    <file name="IntentionsDescriptor.java">
+      <node id="5655210078329000589" at="73,75,74,74" concept="2" />
+      <node id="5655210078329000589" at="100,61,101,60" concept="2" />
+    </file>
+    <file name="PythonTryStatement_toggleExcept_Intention.java">
+      <node id="5655210078329000589" at="23,0,24,0" concept="3" trace="myCachedExecutable" />
+      <node id="5655210078329000589" at="24,54,25,149" concept="9" />
+      <node id="5655210078329000589" at="28,35,29,45" concept="7" />
+      <node id="5655210078329000589" at="32,84,33,16" concept="7" />
+      <node id="5655210078329000589" at="36,35,37,17" concept="7" />
+      <node id="5655210078329000589" at="40,37,41,105" concept="2" />
+      <node id="5655210078329000589" at="42,5,43,30" concept="7" />
+      <node id="5655210078329000638" at="49,87,50,29" concept="7" />
+      <node id="5655210078329017678" at="54,79,55,221" concept="6" />
+      <node id="5655210078329020173" at="55,221,56,265" concept="2" />
+      <node id="5655210078329022616" at="56,265,57,256" concept="2" />
+      <node id="5655210078329024836" at="57,256,58,116" concept="2" />
+      <node id="5655210078329053981" at="59,14,60,73" concept="2" />
+      <node id="5655210078329000589" at="64,48,65,60" concept="7" />
+      <node id="5655210078329000589" at="70,0,71,0" concept="8" trace="exceptStmt$xbOp" />
+      <node id="5655210078329000589" at="71,0,72,0" concept="8" trace="exceptBlk$tZHi" />
+      <node id="5655210078329000589" at="72,0,73,0" concept="8" trace="expression$u0bk" />
+      <node id="5655210078329000589" at="46,0,48,0" concept="1" trace="IntentionImplementation#()V" />
+      <node id="5655210078329052858" at="59,12,61,7" concept="0" />
+      <node id="5655210078329000589" at="24,0,27,0" concept="1" trace="PythonTryStatement_toggleExcept_Intention#()V" />
+      <node id="5655210078329000589" at="39,99,42,5" concept="4" />
+      <node id="5655210078329000589" at="27,0,31,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="5655210078329000589" at="31,0,35,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="5655210078329000589" at="35,0,39,0" concept="5" trace="isSurroundWith#()Z" />
+      <node id="5655210078329000589" at="48,0,52,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="5655210078329000589" at="63,0,67,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="5655210078329000589" at="39,0,45,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="5655210078329001067" at="53,78,61,7" concept="4" />
+      <node id="5655210078329000589" at="52,0,63,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="5655210078329000589" at="46,38,46,38" />
+      <scope id="5655210078329000589" at="24,54,25,149" />
+      <scope id="5655210078329000589" at="28,35,29,45" />
+      <scope id="5655210078329000589" at="32,84,33,16" />
+      <scope id="5655210078329000589" at="36,35,37,17" />
+      <scope id="5655210078329000589" at="40,37,41,105" />
+      <scope id="5655210078329000591" at="49,87,50,29" />
+      <scope id="5655210078329052859" at="59,14,60,73" />
+      <scope id="5655210078329000589" at="64,48,65,60" />
+      <scope id="5655210078329000589" at="46,0,48,0" />
+      <scope id="5655210078329000589" at="24,0,27,0" />
+      <scope id="5655210078329000589" at="27,0,31,0" />
+      <scope id="5655210078329000589" at="31,0,35,0">
+        <var name="editorContext" id="5655210078329000589" />
+        <var name="node" id="5655210078329000589" />
+      </scope>
+      <scope id="5655210078329000589" at="35,0,39,0" />
+      <scope id="5655210078329000589" at="39,99,43,30" />
+      <scope id="5655210078329000589" at="48,0,52,0">
+        <var name="editorContext" id="5655210078329000589" />
+        <var name="node" id="5655210078329000589" />
+      </scope>
+      <scope id="5655210078329001069" at="54,79,58,116">
+        <var name="exceptStatement" id="5655210078329017681" />
+      </scope>
+      <scope id="5655210078329000589" at="63,0,67,0" />
+      <scope id="5655210078329000589" at="39,0,45,0">
+        <var name="context" id="5655210078329000589" />
+        <var name="node" id="5655210078329000589" />
+      </scope>
+      <scope id="5655210078329000593" at="53,78,61,7" />
+      <scope id="5655210078329000589" at="52,0,63,0">
+        <var name="editorContext" id="5655210078329000589" />
+        <var name="node" id="5655210078329000589" />
+      </scope>
+      <unit id="5655210078329000589" at="69,0,74,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleExcept_Intention$LINKS" />
+      <unit id="5655210078329000589" at="45,0,68,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleExcept_Intention$IntentionImplementation" />
+      <unit id="5655210078329000589" at="22,0,75,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleExcept_Intention" />
+    </file>
+  </root>
+  <root nodeRef="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)/5655210078329168698">
+    <file name="IntentionsDescriptor.java">
+      <node id="5655210078329168698" at="74,74,75,72" concept="2" />
+      <node id="5655210078329168698" at="101,60,102,58" concept="2" />
+    </file>
+    <file name="PythonTryStatement_toggleElse_Intention.java">
+      <node id="5655210078329168698" at="22,0,23,0" concept="3" trace="myCachedExecutable" />
+      <node id="5655210078329168698" at="23,52,24,149" concept="9" />
+      <node id="5655210078329168698" at="27,35,28,43" concept="7" />
+      <node id="5655210078329168698" at="31,84,32,16" concept="7" />
+      <node id="5655210078329168698" at="35,35,36,17" concept="7" />
+      <node id="5655210078329168698" at="39,37,40,105" concept="2" />
+      <node id="5655210078329168698" at="41,5,42,30" concept="7" />
+      <node id="5655210078329169018" at="48,87,49,27" concept="7" />
+      <node id="5655210078329173344" at="53,75,54,212" concept="6" />
+      <node id="5655210078329173487" at="54,212,55,256" concept="2" />
+      <node id="5655210078329175826" at="55,256,56,71" concept="2" />
+      <node id="5655210078329180333" at="57,14,58,67" concept="2" />
+      <node id="5655210078329168698" at="62,48,63,58" concept="7" />
+      <node id="5655210078329168698" at="68,0,69,0" concept="8" trace="elseStmt$Zy9N" />
+      <node id="5655210078329168698" at="69,0,70,0" concept="8" trace="elseBlk$3P9y" />
+      <node id="5655210078329168698" at="45,0,47,0" concept="1" trace="IntentionImplementation#()V" />
+      <node id="5655210078329179794" at="57,12,59,7" concept="0" />
+      <node id="5655210078329168698" at="23,0,26,0" concept="1" trace="PythonTryStatement_toggleElse_Intention#()V" />
+      <node id="5655210078329168698" at="38,99,41,5" concept="4" />
+      <node id="5655210078329168698" at="26,0,30,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="5655210078329168698" at="30,0,34,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="5655210078329168698" at="34,0,38,0" concept="5" trace="isSurroundWith#()Z" />
+      <node id="5655210078329168698" at="47,0,51,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="5655210078329168698" at="61,0,65,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="5655210078329168698" at="38,0,44,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="5655210078329169354" at="52,78,59,7" concept="4" />
+      <node id="5655210078329168698" at="51,0,61,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="5655210078329168698" at="45,38,45,38" />
+      <scope id="5655210078329168698" at="23,52,24,149" />
+      <scope id="5655210078329168698" at="27,35,28,43" />
+      <scope id="5655210078329168698" at="31,84,32,16" />
+      <scope id="5655210078329168698" at="35,35,36,17" />
+      <scope id="5655210078329168698" at="39,37,40,105" />
+      <scope id="5655210078329168700" at="48,87,49,27" />
+      <scope id="5655210078329179795" at="57,14,58,67" />
+      <scope id="5655210078329168698" at="62,48,63,58" />
+      <scope id="5655210078329168698" at="45,0,47,0" />
+      <scope id="5655210078329168698" at="23,0,26,0" />
+      <scope id="5655210078329169356" at="53,75,56,71">
+        <var name="elseStmt" id="5655210078329173347" />
+      </scope>
+      <scope id="5655210078329168698" at="26,0,30,0" />
+      <scope id="5655210078329168698" at="30,0,34,0">
+        <var name="editorContext" id="5655210078329168698" />
+        <var name="node" id="5655210078329168698" />
+      </scope>
+      <scope id="5655210078329168698" at="34,0,38,0" />
+      <scope id="5655210078329168698" at="38,99,42,30" />
+      <scope id="5655210078329168698" at="47,0,51,0">
+        <var name="editorContext" id="5655210078329168698" />
+        <var name="node" id="5655210078329168698" />
+      </scope>
+      <scope id="5655210078329168698" at="61,0,65,0" />
+      <scope id="5655210078329168698" at="38,0,44,0">
+        <var name="context" id="5655210078329168698" />
+        <var name="node" id="5655210078329168698" />
+      </scope>
+      <scope id="5655210078329168702" at="52,78,59,7" />
+      <scope id="5655210078329168698" at="51,0,61,0">
+        <var name="editorContext" id="5655210078329168698" />
+        <var name="node" id="5655210078329168698" />
+      </scope>
+      <unit id="5655210078329168698" at="67,0,71,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleElse_Intention$LINKS" />
+      <unit id="5655210078329168698" at="44,0,66,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleElse_Intention$IntentionImplementation" />
+      <unit id="5655210078329168698" at="21,0,72,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleElse_Intention" />
+    </file>
+  </root>
+  <root nodeRef="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)/5655210078330181903">
+    <file name="IntentionsDescriptor.java">
+      <node id="5655210078330181903" at="65,47,66,76" concept="2" />
+      <node id="5655210078330181903" at="102,58,103,62" concept="2" />
+    </file>
+    <file name="PythonTryExceptStatement_toggleAs_Intention.java">
+      <node id="5655210078330181903" at="22,0,23,0" concept="3" trace="myCachedExecutable" />
+      <node id="5655210078330181903" at="23,56,24,149" concept="9" />
+      <node id="5655210078330181903" at="27,35,28,47" concept="7" />
+      <node id="5655210078330181903" at="31,84,32,16" concept="7" />
+      <node id="5655210078330181903" at="35,35,36,17" concept="7" />
+      <node id="5655210078330181903" at="39,37,40,105" concept="2" />
+      <node id="5655210078330181903" at="41,5,42,30" concept="7" />
+      <node id="5655210078330182221" at="48,87,49,36" concept="7" />
+      <node id="5655210078330185787" at="52,78,53,221" concept="6" />
+      <node id="5655210078330190096" at="54,134,55,184" concept="2" />
+      <node id="5655210078330185927" at="55,184,56,255" concept="2" />
+      <node id="5655210078330191948" at="56,255,57,72" concept="2" />
+      <node id="5655210078330312032" at="58,14,59,184" concept="2" />
+      <node id="5655210078330196382" at="59,184,60,79" concept="2" />
+      <node id="5655210078330198356" at="60,79,61,72" concept="2" />
+      <node id="5655210078330181903" at="65,48,66,62" concept="7" />
+      <node id="5655210078330181903" at="71,0,72,0" concept="8" trace="expression$u0bk" />
+      <node id="5655210078330181903" at="72,0,73,0" concept="8" trace="renamedIdentifier$nuAh" />
+      <node id="5655210078330181903" at="73,0,74,0" concept="8" trace="actualIdentifier$nzZC" />
+      <node id="5655210078330181903" at="45,0,47,0" concept="1" trace="IntentionImplementation#()V" />
+      <node id="5655210078330181903" at="23,0,26,0" concept="1" trace="PythonTryExceptStatement_toggleAs_Intention#()V" />
+      <node id="5655210078330181903" at="38,99,41,5" concept="4" />
+      <node id="5655210078330181903" at="26,0,30,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="5655210078330181903" at="30,0,34,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="5655210078330181903" at="34,0,38,0" concept="5" trace="isSurroundWith#()Z" />
+      <node id="5655210078330181903" at="47,0,51,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="5655210078330194178" at="58,12,62,7" concept="0" />
+      <node id="5655210078330181903" at="64,0,68,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="5655210078330181903" at="38,0,44,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="5655210078330182712" at="53,221,62,7" concept="4" />
+      <node id="5655210078330181903" at="51,0,64,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="5655210078330181903" at="45,38,45,38" />
+      <scope id="5655210078330181903" at="23,56,24,149" />
+      <scope id="5655210078330181903" at="27,35,28,47" />
+      <scope id="5655210078330181903" at="31,84,32,16" />
+      <scope id="5655210078330181903" at="35,35,36,17" />
+      <scope id="5655210078330181903" at="39,37,40,105" />
+      <scope id="5655210078330181905" at="48,87,49,36" />
+      <scope id="5655210078330181903" at="65,48,66,62" />
+      <scope id="5655210078330181903" at="45,0,47,0" />
+      <scope id="5655210078330181903" at="23,0,26,0" />
+      <scope id="5655210078330182714" at="54,134,57,72" />
+      <scope id="5655210078330194179" at="58,14,61,72" />
+      <scope id="5655210078330181903" at="26,0,30,0" />
+      <scope id="5655210078330181903" at="30,0,34,0">
+        <var name="editorContext" id="5655210078330181903" />
+        <var name="node" id="5655210078330181903" />
+      </scope>
+      <scope id="5655210078330181903" at="34,0,38,0" />
+      <scope id="5655210078330181903" at="38,99,42,30" />
+      <scope id="5655210078330181903" at="47,0,51,0">
+        <var name="editorContext" id="5655210078330181903" />
+        <var name="node" id="5655210078330181903" />
+      </scope>
+      <scope id="5655210078330181903" at="64,0,68,0" />
+      <scope id="5655210078330181903" at="38,0,44,0">
+        <var name="context" id="5655210078330181903" />
+        <var name="node" id="5655210078330181903" />
+      </scope>
+      <scope id="5655210078330181907" at="52,78,62,7">
+        <var name="expStmt" id="5655210078330185790" />
+      </scope>
+      <scope id="5655210078330181903" at="51,0,64,0">
+        <var name="editorContext" id="5655210078330181903" />
+        <var name="node" id="5655210078330181903" />
+      </scope>
+      <unit id="5655210078330181903" at="70,0,75,0" name="com.juliuscanute.python.intentions.PythonTryExceptStatement_toggleAs_Intention$LINKS" />
+      <unit id="5655210078330181903" at="44,0,69,0" name="com.juliuscanute.python.intentions.PythonTryExceptStatement_toggleAs_Intention$IntentionImplementation" />
+      <unit id="5655210078330181903" at="21,0,76,0" name="com.juliuscanute.python.intentions.PythonTryExceptStatement_toggleAs_Intention" />
     </file>
   </root>
 </debug-info>

@@ -53,6 +53,21 @@
         <child id="5655210078314581823" name="test" index="36nhy_" />
         <child id="5655210078314581825" name="consequent" index="36nhzr" />
       </concept>
+      <concept id="5655210078326817755" name="com.juliuscanute.python.structure.PythonTryStatement" flags="ng" index="36A_h1">
+        <child id="5655210078328477814" name="exceptStmt" index="36wgZG" />
+        <child id="5655210078328671760" name="elseStmt" index="36xxAa" />
+        <child id="5655210078327103344" name="finalStmt" index="36BwzE" />
+      </concept>
+      <concept id="5655210078326817758" name="com.juliuscanute.python.structure.PythonTryFinallyStatement" flags="ng" index="36A_h4">
+        <child id="5655210078326817763" name="finalBlk" index="36A_hT" />
+      </concept>
+      <concept id="5655210078326817756" name="com.juliuscanute.python.structure.PythonTryExceptStatement" flags="ng" index="36A_h6">
+        <child id="5655210078328477744" name="expression" index="36wgYE" />
+        <child id="5655210078328477742" name="exceptBlk" index="36wgYO" />
+      </concept>
+      <concept id="5655210078326817757" name="com.juliuscanute.python.structure.PythonTryElseStatement" flags="ng" index="36A_h7">
+        <child id="5655210078326817761" name="elseBlk" index="36A_hV" />
+      </concept>
       <concept id="5655210078326531029" name="com.juliuscanute.python.structure.PythonSelfExpression" flags="ng" index="36DZhf" />
       <concept id="5655210078323313014" name="com.juliuscanute.python.structure.PythonMemberExpression" flags="ng" index="36OdVG">
         <child id="5655210078323313019" name="identifierProperty" index="36OdVx" />
@@ -71,6 +86,14 @@
       <concept id="5655210078321964432" name="com.juliuscanute.python.structure.PythonTupleExpression" flags="ng" index="36Vq8a">
         <child id="5655210078321964474" name="elements" index="36Vq8w" />
       </concept>
+      <concept id="5655210078330064009" name="com.juliuscanute.python.structure.PythonNoneLiteral" flags="ng" index="37qtGj" />
+      <concept id="5655210078329933692" name="com.juliuscanute.python.structure.PythonBooleanLiteral" flags="ng" index="37qXzA">
+        <property id="5655210078329933693" name="value" index="37qXzB" />
+      </concept>
+      <concept id="5655210078330166377" name="com.juliuscanute.python.structure.PythonTryExceptExpressionStatement" flags="ng" index="37rOJN">
+        <child id="5655210078330166418" name="renamedIdentifier" index="37rOG8" />
+        <child id="5655210078330166420" name="actualIdentifier" index="37rOGe" />
+      </concept>
       <concept id="3865884777285648033" name="com.juliuscanute.python.structure.DottedName" flags="ng" index="395hWp">
         <child id="3865884777285648034" name="names" index="395hWq" />
       </concept>
@@ -87,6 +110,7 @@
       </concept>
       <concept id="5289828217391055882" name="com.juliuscanute.python.structure.PythonStringLiteral" flags="ng" index="3_1VEQ">
         <property id="5289828217391055885" name="singleQuotedValue" index="3_1VEL" />
+        <property id="5289828217391055883" name="doubleQuotedValue" index="3_1VER" />
       </concept>
       <concept id="5289828217391707804" name="com.juliuscanute.python.structure.PythonAssignmentExpression" flags="ng" index="3_4kww">
         <child id="5289828217391707805" name="left" index="3_4kwx" />
@@ -512,6 +536,34 @@
       </node>
     </node>
     <node concept="w_KRP" id="4TVlTE8Nc3$" role="w_N3S" />
+    <node concept="w$BEf" id="4TVlTE94Cr5" role="w_N3S">
+      <node concept="3_4kww" id="4TVlTE94Cr3" role="w$BEc">
+        <node concept="3_7pGq" id="4TVlTE94Cr4" role="3_4kwx">
+          <property role="TrG5h" value="answer1" />
+        </node>
+        <node concept="37qXzA" id="4TVlTE94CwM" role="3_4kwz">
+          <property role="37qXzB" value="True" />
+        </node>
+      </node>
+    </node>
+    <node concept="w$BEf" id="4TVlTE94CA$" role="w_N3S">
+      <node concept="3_4kww" id="4TVlTE94CAy" role="w$BEc">
+        <node concept="3_7pGq" id="4TVlTE94CAz" role="3_4kwx">
+          <property role="TrG5h" value="answer2" />
+        </node>
+        <node concept="37qXzA" id="4TVlTE94CGl" role="3_4kwz">
+          <property role="37qXzB" value="False" />
+        </node>
+      </node>
+    </node>
+    <node concept="w$BEf" id="4TVlTE94CN7" role="w_N3S">
+      <node concept="3_4kww" id="4TVlTE951Lz" role="w$BEc">
+        <node concept="3_7pGq" id="4TVlTE951L$" role="3_4kwx">
+          <property role="TrG5h" value="answer3" />
+        </node>
+        <node concept="37qtGj" id="4TVlTE951LB" role="3_4kwz" />
+      </node>
+    </node>
     <node concept="36SuWs" id="4TVlTE8BRcD" role="w_N3S">
       <node concept="w$BEf" id="4TVlTE8BRfx" role="3_Zhxv">
         <node concept="360Vw$" id="4TVlTE8BRft" role="w$BEc">
@@ -523,6 +575,89 @@
           </node>
         </node>
       </node>
+      <node concept="36A_h1" id="4TVlTE8ZKi1" role="3_Zhxv">
+        <node concept="w$BEf" id="4TVlTE8ZKif" role="3_Zhxv">
+          <node concept="360Vw$" id="4TVlTE8ZKib" role="w$BEc">
+            <node concept="3_7pGq" id="4TVlTE8ZKid" role="360Vw_">
+              <property role="TrG5h" value="print" />
+            </node>
+            <node concept="3_1VEQ" id="4TVlTE8ZKim" role="360Vxr">
+              <property role="3_1VER" value="try block" />
+            </node>
+          </node>
+        </node>
+        <node concept="36A_h7" id="4TVlTE93Kl5" role="36xxAa">
+          <node concept="3_Zhxs" id="4TVlTE93Kl6" role="36A_hV">
+            <node concept="w$BEf" id="4TVlTE948Tj" role="3_Zhxv">
+              <node concept="360Vw$" id="4TVlTE948Tf" role="w$BEc">
+                <node concept="3_7pGq" id="4TVlTE948Th" role="360Vw_">
+                  <property role="TrG5h" value="print" />
+                </node>
+                <node concept="3_1VEQ" id="4TVlTE948Tu" role="360Vxr">
+                  <property role="3_1VER" value="hello" />
+                </node>
+              </node>
+            </node>
+            <node concept="w$BEf" id="4TVlTE948T0" role="3_Zhxv">
+              <node concept="360Vw$" id="4TVlTE948SY" role="w$BEc">
+                <node concept="3_7pGq" id="4TVlTE948SZ" role="360Vw_">
+                  <property role="TrG5h" value="print" />
+                </node>
+                <node concept="3_1VEQ" id="4TVlTE948T7" role="360Vxr">
+                  <property role="3_1VER" value="else" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="36A_h4" id="4TVlTE948Tw" role="36BwzE">
+          <node concept="3_Zhxs" id="4TVlTE948Tx" role="36A_hT">
+            <node concept="w$BEf" id="4TVlTE948U9" role="3_Zhxv">
+              <node concept="360Vw$" id="4TVlTE948U5" role="w$BEc">
+                <node concept="3_7pGq" id="4TVlTE948U7" role="360Vw_">
+                  <property role="TrG5h" value="print" />
+                </node>
+                <node concept="3_1VEQ" id="4TVlTE948Uk" role="360Vxr">
+                  <property role="3_1VER" value="hello world" />
+                </node>
+              </node>
+            </node>
+            <node concept="w$BEf" id="4TVlTE948TA" role="3_Zhxv">
+              <node concept="360Vw$" id="4TVlTE948T$" role="w$BEc">
+                <node concept="3_7pGq" id="4TVlTE948T_" role="360Vw_">
+                  <property role="TrG5h" value="print" />
+                </node>
+                <node concept="3_1VEQ" id="4TVlTE948TH" role="360Vxr">
+                  <property role="3_1VER" value="finally" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="36A_h6" id="4TVlTE948Um" role="36wgZG">
+          <node concept="3_Zhxs" id="4TVlTE948Un" role="36wgYO">
+            <node concept="w$BEf" id="4TVlTE948UV" role="3_Zhxv">
+              <node concept="360Vw$" id="4TVlTE948UT" role="w$BEc">
+                <node concept="3_7pGq" id="4TVlTE948UU" role="360Vw_">
+                  <property role="TrG5h" value="print" />
+                </node>
+                <node concept="36lvV7" id="4TVlTE96u5U" role="360Vxr">
+                  <ref role="36lvV4" node="4TVlTE95YQz" resolve="e" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37rOJN" id="4TVlTE95YQy" role="36wgYE">
+            <node concept="3_7pGq" id="4TVlTE95z1r" role="37rOGe">
+              <property role="TrG5h" value="Hello" />
+            </node>
+            <node concept="3_7pGq" id="4TVlTE95YQz" role="37rOG8">
+              <property role="TrG5h" value="e" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="w_KRP" id="4TVlTE948VH" role="3_Zhxv" />
       <node concept="36lvV7" id="4TVlTE8BRfn" role="36SuWj">
         <ref role="36lvV4" node="4TVlTE8w3X4" resolve="items" />
       </node>
@@ -724,7 +859,6 @@
         </node>
       </node>
     </node>
-    <node concept="w_KRP" id="4TVlTE8Bd$w" role="w_N3S" />
     <node concept="36OVUL" id="4TVlTE8ES2Q" role="w_N3S">
       <node concept="364kHO" id="4TVlTE8Q6vN" role="36Omk3">
         <node concept="3_7pGq" id="4TVlTE8Q6wf" role="364kHD">
@@ -827,7 +961,7 @@
         </node>
       </node>
     </node>
-    <node concept="w_KRP" id="4TVlTE8IBOc" role="w_N3S" />
+    <node concept="w_KRP" id="4TVlTE8VZ4v" role="w_N3S" />
     <node concept="w$BEf" id="4TVlTE8ES6T" role="w_N3S">
       <node concept="3_4kww" id="4TVlTE8ES6R" role="w$BEc">
         <node concept="3_7pGq" id="4TVlTE8ES6S" role="3_4kwx">
@@ -881,11 +1015,8 @@
                     <property role="w$p9c" value="2.2" />
                   </node>
                 </node>
-                <node concept="36OdVG" id="4TVlTE8Rafa" role="3_0q_o">
-                  <node concept="36lvV7" id="4TVlTE8QLQr" role="36OdVH">
-                    <ref role="36lvV4" node="4TVlTE8ES6S" resolve="x" />
-                  </node>
-                  <node concept="w__i5" id="4TVlTE8Rafb" role="36OdVx" />
+                <node concept="36lvV7" id="4TVlTE8QLQr" role="3_0q_o">
+                  <ref role="36lvV4" node="4TVlTE8ES6S" resolve="x" />
                 </node>
               </node>
             </node>
@@ -893,6 +1024,8 @@
         </node>
       </node>
     </node>
+    <node concept="w_KRP" id="4TVlTE8VdIE" role="w_N3S" />
+    <node concept="w_KRP" id="4TVlTE8Y_hw" role="w_N3S" />
   </node>
 </model>
 

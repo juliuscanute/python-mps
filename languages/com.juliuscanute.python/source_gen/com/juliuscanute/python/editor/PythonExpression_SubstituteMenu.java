@@ -34,7 +34,8 @@ public class PythonExpression_SubstituteMenu extends SubstituteMenuBase {
     result.add(new SMP_Include_2hq236_b());
     result.add(new SMP_Include_2hq236_c());
     result.add(new SMP_Include_2hq236_d());
-    result.add(new SMP_Subconcepts_2hq236_e());
+    result.add(new SMP_Include_2hq236_e());
+    result.add(new SMP_Subconcepts_2hq236_f());
     return result;
   }
 
@@ -147,7 +148,31 @@ public class PythonExpression_SubstituteMenu extends SubstituteMenuBase {
       return CONCEPTS.PythonExpression$6o;
     }
   }
-  public class SMP_Subconcepts_2hq236_e extends ConceptMenusPart<SubstituteMenuItem, SubstituteMenuContext> {
+  public class SMP_Include_2hq236_e extends IncludeSubstituteMenuSubstituteMenuPart {
+
+    @NotNull
+    @Override
+    public List<SubstituteMenuItem> createItems(SubstituteMenuContext context) {
+      context.getEditorMenuTrace().pushTraceInfo();
+      context.getEditorMenuTrace().setDescriptor(new EditorMenuDescriptorBase("include " + "named substitute menu " + "PythonExpression_booleanLiteral", new SNodePointer("r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)", "5655210078329963667")));
+      try {
+        return super.createItems(context);
+      } finally {
+        context.getEditorMenuTrace().popTraceInfo();
+      }
+    }
+    @Nullable
+    @Override
+    protected SubstituteMenuLookup getMenuLookup(SubstituteMenuContext _context) {
+      final EditorContext editorContext = _context.getEditorContext();
+      SAbstractConcept conceptToFindMenuFor = getConceptToFindMenuFor(_context);
+      return new NamedSubstituteMenuLookup(LanguageRegistry.getInstance(editorContext.getRepository()), conceptToFindMenuFor, "com.juliuscanute.python.editor.PythonExpression_booleanLiteral");
+    }
+    private SAbstractConcept getConceptToFindMenuFor(SubstituteMenuContext _context) {
+      return CONCEPTS.PythonExpression$6o;
+    }
+  }
+  public class SMP_Subconcepts_2hq236_f extends ConceptMenusPart<SubstituteMenuItem, SubstituteMenuContext> {
     protected Collection getConcepts(final SubstituteMenuContext _context) {
       return ConceptDescendantsCache.getInstance().getDirectDescendants(CONCEPTS.PythonExpression$6o);
     }

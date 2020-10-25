@@ -63,6 +63,22 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
         if (true) {
           // concept 
           intentions = new IntentionFactory[1];
+          intentions[0] = new PythonTryExceptStatement_toggleAs_Intention();
+        }
+        break;
+      case 5:
+        if (true) {
+          // concept 
+          intentions = new IntentionFactory[3];
+          intentions[0] = new PythonTryStatement_toggleFinally_Intention();
+          intentions[1] = new PythonTryStatement_toggleExcept_Intention();
+          intentions[2] = new PythonTryStatement_toggleElse_Intention();
+        }
+        break;
+      case 6:
+        if (true) {
+          // concept 
+          intentions = new IntentionFactory[1];
           intentions[0] = new PythonWhileStatement_toggleElse_Intention();
         }
         break;
@@ -75,13 +91,17 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
   @NotNull
   @Override
   public Collection<IntentionFactory> getAllIntentions() {
-    IntentionFactory[] rv = new IntentionFactory[5];
+    IntentionFactory[] rv = new IntentionFactory[9];
     rv[0] = new PythonWhileStatement_toggleElse_Intention();
     rv[1] = new PythonIfElseStatement_toggleElse_Intention();
     rv[2] = new PythonForStatement_toggleElse_Intention();
     rv[3] = new PythonMemberExpression_toggleIdentifierExpressionProperty_Intention();
     rv[4] = new PythonCallExpression_toggleArguments_Intention();
+    rv[5] = new PythonTryStatement_toggleFinally_Intention();
+    rv[6] = new PythonTryStatement_toggleExcept_Intention();
+    rv[7] = new PythonTryStatement_toggleElse_Intention();
+    rv[8] = new PythonTryExceptStatement_toggleAs_Intention();
     return Arrays.asList(rv);
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a8878efbeL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a889ab886L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88263da6L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88ab8976L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac94e877L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a8878efbeL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a889ab886L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88263da6L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88ab8976L), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88e103dcL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88e103dbL), MetaIdFactory.conceptId(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac94e877L)).seal();
 }

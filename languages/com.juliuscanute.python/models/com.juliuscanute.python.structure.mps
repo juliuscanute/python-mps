@@ -1191,5 +1191,124 @@
     <property role="R4oN_" value="self expression" />
     <ref role="1TJDcQ" node="4rfLeTAmp1F" resolve="PythonExpression" />
   </node>
+  <node concept="1TIwiD" id="4TVlTE8Sgfr">
+    <property role="EcuMT" value="5655210078326817755" />
+    <property role="3GE5qa" value="statement.try" />
+    <property role="TrG5h" value="PythonTryStatement" />
+    <property role="34LRSv" value="try" />
+    <property role="R4oN_" value="try catch &amp; finally" />
+    <ref role="1TJDcQ" node="4_DfFMG_2rw" resolve="PythonIndentBlockStatement" />
+    <node concept="1TJgyj" id="4TVlTE8TlXK" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078327103344" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="finalStmt" />
+      <ref role="20lvS9" node="4TVlTE8Sgfu" resolve="PythonTryFinallyStatement" />
+    </node>
+    <node concept="1TJgyj" id="4TVlTE8Y_xQ" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078328477814" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="exceptStmt" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4TVlTE8Sgfs" resolve="PythonTryExceptStatement" />
+    </node>
+    <node concept="1TJgyj" id="4TVlTE8ZkSg" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078328671760" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="elseStmt" />
+      <ref role="20lvS9" node="4TVlTE8Sgft" resolve="PythonTryElseStatement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4TVlTE8Sgfs">
+    <property role="EcuMT" value="5655210078326817756" />
+    <property role="3GE5qa" value="statement.try" />
+    <property role="TrG5h" value="PythonTryExceptStatement" />
+    <ref role="1TJDcQ" node="4rfLeTAm2Oy" resolve="PythonNode" />
+    <node concept="1TJgyj" id="4TVlTE8Y_wI" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078328477742" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="exceptBlk" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4_DfFMG_2rw" resolve="PythonIndentBlockStatement" />
+    </node>
+    <node concept="1TJgyj" id="4TVlTE8Y_wK" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078328477744" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4TVlTE951LD" resolve="PythonTryExceptExpressionStatement" />
+    </node>
+    <node concept="PrWs8" id="4TVlTE95Z8r" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4TVlTE8Sgft">
+    <property role="EcuMT" value="5655210078326817757" />
+    <property role="3GE5qa" value="statement.try" />
+    <property role="TrG5h" value="PythonTryElseStatement" />
+    <ref role="1TJDcQ" node="4rfLeTAm2Oy" resolve="PythonNode" />
+    <node concept="1TJgyj" id="4TVlTE8Sgfx" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078326817761" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="elseBlk" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4_DfFMG_2rw" resolve="PythonIndentBlockStatement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4TVlTE8Sgfu">
+    <property role="EcuMT" value="5655210078326817758" />
+    <property role="3GE5qa" value="statement.try" />
+    <property role="TrG5h" value="PythonTryFinallyStatement" />
+    <ref role="1TJDcQ" node="4rfLeTAm2Oy" resolve="PythonNode" />
+    <node concept="1TJgyj" id="4TVlTE8Sgfz" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078326817763" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="finalBlk" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4_DfFMG_2rw" resolve="PythonIndentBlockStatement" />
+    </node>
+  </node>
+  <node concept="Az7Fb" id="4TVlTE948XV">
+    <property role="3F6X1D" value="5655210078329933691" />
+    <property role="3GE5qa" value="expression.literal" />
+    <property role="TrG5h" value="_PythonBooleanLiteral" />
+    <property role="FLfZY" value="True|False" />
+  </node>
+  <node concept="1TIwiD" id="4TVlTE948XW">
+    <property role="EcuMT" value="5655210078329933692" />
+    <property role="3GE5qa" value="expression.literal" />
+    <property role="TrG5h" value="PythonBooleanLiteral" />
+    <ref role="1TJDcQ" node="4rfLeTAn_qx" resolve="PythonLiteral" />
+    <node concept="1TJgyi" id="4TVlTE948XX" role="1TKVEl">
+      <property role="IQ2nx" value="5655210078329933693" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="4TVlTE948XV" resolve="_PythonBooleanLiteral" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4TVlTE94CM9">
+    <property role="EcuMT" value="5655210078330064009" />
+    <property role="3GE5qa" value="expression.literal" />
+    <property role="TrG5h" value="PythonNoneLiteral" />
+    <property role="34LRSv" value="None" />
+    <property role="R4oN_" value="set no value" />
+    <ref role="1TJDcQ" node="4rfLeTAn_qx" resolve="PythonLiteral" />
+  </node>
+  <node concept="1TIwiD" id="4TVlTE951LD">
+    <property role="EcuMT" value="5655210078330166377" />
+    <property role="3GE5qa" value="statement.try" />
+    <property role="TrG5h" value="PythonTryExceptExpressionStatement" />
+    <ref role="1TJDcQ" node="4rfLeTAm2Oy" resolve="PythonNode" />
+    <node concept="1TJgyj" id="4TVlTE951Mi" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078330166418" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="renamedIdentifier" />
+      <ref role="20lvS9" node="4_DfFMGtamA" resolve="PythonIdentifier" />
+    </node>
+    <node concept="1TJgyj" id="4TVlTE951Mk" role="1TKVEi">
+      <property role="IQ2ns" value="5655210078330166420" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="actualIdentifier" />
+      <ref role="20lvS9" node="4_DfFMGtamA" resolve="PythonIdentifier" />
+    </node>
+  </node>
 </model>
 
