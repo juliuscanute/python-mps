@@ -25,8 +25,12 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new PythonArrayExpression_TextGen();
       case LanguageConceptSwitch.PythonAssignmentExpression:
         return new PythonAssignmentExpression_TextGen();
+      case LanguageConceptSwitch.PythonBinaryExpression:
+        return new PythonBinaryExpression_TextGen();
       case LanguageConceptSwitch.PythonBooleanLiteral:
         return new PythonBooleanLiteral_TextGen();
+      case LanguageConceptSwitch.PythonCallExpression:
+        return new PythonCallExpression_TextGen();
       case LanguageConceptSwitch.PythonExpression:
         return new PythonExpression_TextGen();
       case LanguageConceptSwitch.PythonIdentifier:
