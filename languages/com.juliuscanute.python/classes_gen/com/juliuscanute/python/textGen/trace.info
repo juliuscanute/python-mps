@@ -429,15 +429,34 @@
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078339661417">
     <file name="PythonObjectExpression_TextGen.java">
-      <node id="5655210078339661417" at="11,54,12,55" concept="5" />
-      <node id="5655210078339661417" at="10,0,14,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
-      <scope id="5655210078339661417" at="11,54,12,55">
+      <node id="5655210078339661417" at="15,54,16,55" concept="5" />
+      <node id="5655210078340117019" at="16,55,17,122" concept="5" />
+      <node id="5655210078340117032" at="19,19,20,24" concept="1" />
+      <node id="5655210078340117037" at="21,7,22,133" concept="1" />
+      <node id="5655210078340117046" at="23,28,24,25" concept="1" />
+      <node id="5655210078340117055" at="25,14,26,24" concept="1" />
+      <node id="5655210078339661417" at="32,0,33,0" concept="7" trace="properties$79sa" />
+      <node id="5655210078340117052" at="25,12,27,7" concept="0" />
+      <node id="5655210078340117029" at="18,38,21,7" concept="3" />
+      <node id="5655210078340117043" at="22,133,27,7" concept="3" />
+      <node id="5655210078340117027" at="17,122,28,5" concept="2" />
+      <node id="5655210078339661417" at="14,0,30,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5655210078340117030" at="19,19,20,24" />
+      <scope id="5655210078340117044" at="23,28,24,25" />
+      <scope id="5655210078340117053" at="25,14,26,24" />
+      <scope id="5655210078340117028" at="18,38,27,7" />
+      <scope id="5655210078340117027" at="17,122,28,5">
+        <var name="i" id="5655210078340117056" />
+      </scope>
+      <scope id="5655210078339661417" at="15,54,28,5">
+        <var name="length" id="5655210078340117020" />
         <var name="tgs" id="5655210078339661417" />
       </scope>
-      <scope id="5655210078339661417" at="10,0,14,0">
+      <scope id="5655210078339661417" at="14,0,30,0">
         <var name="ctx" id="5655210078339661417" />
       </scope>
-      <unit id="5655210078339661417" at="9,0,15,0" name="com.juliuscanute.python.textGen.PythonObjectExpression_TextGen" />
+      <unit id="5655210078339661417" at="31,0,34,0" name="com.juliuscanute.python.textGen.PythonObjectExpression_TextGen$LINKS" />
+      <unit id="5655210078339661417" at="13,0,35,0" name="com.juliuscanute.python.textGen.PythonObjectExpression_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
       <node id="5655210078339661417" at="50,56,51,52" concept="6" />

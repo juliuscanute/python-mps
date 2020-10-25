@@ -5,10 +5,30 @@ package com.juliuscanute.python.textGen;
 import jetbrains.mps.text.rt.TextGenDescriptorBase;
 import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class PythonObjectExpression_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
+    int length = ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.properties$79sa)).count();
+    for (int i = 0; i < length; i++) {
+      if (i == 0) {
+        tgs.append("{");
+      }
+      tgs.appendNode(ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.properties$79sa)).getElement(i));
+      if (i != length - 1) {
+        tgs.append(", ");
+      } else {
+        tgs.append("}");
+      }
+    }
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink properties$79sa = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac858709L, 0x49693ebcac85870aL, "properties");
   }
 }
