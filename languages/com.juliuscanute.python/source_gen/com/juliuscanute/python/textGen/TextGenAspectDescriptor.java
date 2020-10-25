@@ -21,6 +21,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
     switch (myIndex.index(concept)) {
       case LanguageConceptSwitch.DottedName:
         return new DottedName_TextGen();
+      case LanguageConceptSwitch.PythonArrayExpression:
+        return new PythonArrayExpression_TextGen();
       case LanguageConceptSwitch.PythonBooleanLiteral:
         return new PythonBooleanLiteral_TextGen();
       case LanguageConceptSwitch.PythonIdentifier:
