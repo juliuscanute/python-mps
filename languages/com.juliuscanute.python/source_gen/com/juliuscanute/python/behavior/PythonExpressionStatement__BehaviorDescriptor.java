@@ -48,7 +48,6 @@ public final class PythonExpressionStatement__BehaviorDescriptor extends BaseBHD
     } else {
       scope.addScope(ScopeUtils.lazyParentScope(__thisNode__, kind));
     }
-
     return scope;
   }
 

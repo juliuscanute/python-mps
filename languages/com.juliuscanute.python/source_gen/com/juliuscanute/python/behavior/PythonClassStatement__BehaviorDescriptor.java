@@ -37,7 +37,6 @@ public final class PythonClassStatement__BehaviorDescriptor extends BaseBHDescri
   /*package*/ static Scope getScope_id52_Geb4QDV$(@NotNull SNode __thisNode__, SAbstractConcept kind, SNode child) {
     CompositeScope scope = new CompositeScope();
     scope.addScope(new NamedElementsScope(SLinkOperations.getTarget(__thisNode__, LINKS.className$ZmdT)));
-    scope.addScope(new NamedElementsScope(SLinkOperations.getChildren(__thisNode__, LINKS.memberFunctions$ZrBg)));
     scope.addScope(ScopeUtils.lazyParentScope(__thisNode__, kind));
     return scope;
   }
@@ -90,6 +89,5 @@ public final class PythonClassStatement__BehaviorDescriptor extends BaseBHDescri
 
   private static final class LINKS {
     /*package*/ static final SContainmentLink className$ZmdT = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88a8e92bL, 0x4e7b579a88aa3297L, "className");
-    /*package*/ static final SContainmentLink memberFunctions$ZrBg = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88a8e92bL, 0x4e7b579a88aa3299L, "memberFunctions");
   }
 }
