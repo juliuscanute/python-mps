@@ -44,6 +44,14 @@ public final class PythonExpressionStatement__BehaviorDescriptor extends BaseBHD
         if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(assignExpr, LINKS.left$Rjha), CONCEPTS.PythonIdentifier$Ol)) {
           scope.addScope(new NamedElementsScope(SNodeOperations.cast(SLinkOperations.getTarget(assignExpr, LINKS.left$Rjha), CONCEPTS.PythonIdentifier$Ol)));
         }
+      } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(__thisNode__, LINKS.expression$RFwE), CONCEPTS.PythonMemberExpression$Iq)) {
+        SNode memberExpression = SNodeOperations.cast(SLinkOperations.getTarget(__thisNode__, LINKS.expression$RFwE), CONCEPTS.PythonMemberExpression$Iq);
+        if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(memberExpression, LINKS.identifierProperty$hqHe), CONCEPTS.PythonAssignmentExpression$xq)) {
+          SNode assignExpr = SNodeOperations.cast(SLinkOperations.getTarget(memberExpression, LINKS.identifierProperty$hqHe), CONCEPTS.PythonAssignmentExpression$xq);
+          if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(assignExpr, LINKS.left$Rjha), CONCEPTS.PythonIdentifier$Ol)) {
+            scope.addScope(new NamedElementsScope(SNodeOperations.cast(SLinkOperations.getTarget(assignExpr, LINKS.left$Rjha), CONCEPTS.PythonIdentifier$Ol)));
+          }
+        }
       }
     } else {
       scope.addScope(ScopeUtils.lazyParentScope(__thisNode__, kind));
@@ -100,10 +108,12 @@ public final class PythonExpressionStatement__BehaviorDescriptor extends BaseBHD
   private static final class LINKS {
     /*package*/ static final SContainmentLink expression$RFwE = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee665dbe61L, 0x46cfc4ee665dbe62L, "expression");
     /*package*/ static final SContainmentLink left$Rjha = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac78769cL, 0x49693ebcac78769dL, "left");
+    /*package*/ static final SContainmentLink identifierProperty$hqHe = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88ab8976L, 0x4e7b579a88ab897bL, "identifierProperty");
   }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept PythonAssignmentExpression$xq = MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac78769cL, "com.juliuscanute.python.structure.PythonAssignmentExpression");
     /*package*/ static final SConcept PythonIdentifier$Ol = MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L, "com.juliuscanute.python.structure.PythonIdentifier");
+    /*package*/ static final SConcept PythonMemberExpression$Iq = MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88ab8976L, "com.juliuscanute.python.structure.PythonMemberExpression");
   }
 }

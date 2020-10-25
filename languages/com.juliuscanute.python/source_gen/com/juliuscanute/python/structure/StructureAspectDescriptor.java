@@ -320,7 +320,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5655210078323140907");
     b.version(2);
     b.aggregate("className", 0x4e7b579a88aa3297L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L).optional(false).ordered(true).multiple(false).origin("5655210078323225239").done();
-    b.aggregate("memberFunctions", 0x4e7b579a88aa3299L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a886a1ceeL).optional(false).ordered(true).multiple(true).origin("5655210078323225241").done();
+    b.aggregate("initFunction", 0x4e7b579a8980366fL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a886a1ceeL).optional(true).ordered(true).multiple(false).origin("5655210078337250927").done();
+    b.aggregate("memberFunctions", 0x4e7b579a88aa3299L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a886a1ceeL).optional(true).ordered(true).multiple(true).origin("5655210078323225241").done();
     b.alias("class");
     return b.create();
   }
@@ -402,6 +403,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonIfElseStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88263da6L);
     b.class_(false, false, false);
     b.super_("com.juliuscanute.python.structure.PythonIndentBlockStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac9426e0L);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5655210078314577318");
     b.version(2);
     b.aggregate("discriminant", 0x4e7b579a8827c51eL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL).optional(false).ordered(true).multiple(false).origin("5655210078314677534").done();
@@ -449,7 +451,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonMemberExpression", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88ab8976L);
     b.class_(false, false, false);
     b.super_("com.juliuscanute.python.structure.PythonExpression", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL);
-    b.parent(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac786f66L);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5655210078323313014");
     b.version(2);
     b.aggregate("object", 0x4e7b579a88ab8977L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL).optional(false).ordered(true).multiple(false).origin("5655210078323313015").done();
@@ -636,6 +637,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonWhileStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac94e877L);
     b.class_(false, false, false);
     b.super_("com.juliuscanute.python.structure.PythonIndentBlockStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac9426e0L);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5289828217393571959");
     b.version(2);
     b.aggregate("test", 0x49693ebcac94e878L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL).optional(false).ordered(true).multiple(false).origin("5289828217393571960").done();

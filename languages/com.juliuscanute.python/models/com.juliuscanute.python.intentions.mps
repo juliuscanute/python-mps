@@ -12,6 +12,7 @@
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="e5uo" ref="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -72,6 +73,7 @@
       <concept id="1192795911897" name="jetbrains.mps.lang.intentions.structure.ExecuteBlock" flags="in" index="2Sbjvc" />
       <concept id="1192796902958" name="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node" flags="nn" index="2Sf5sV" />
       <concept id="2522969319638091381" name="jetbrains.mps.lang.intentions.structure.BaseIntentionDeclaration" flags="ig" index="2ZfUlf">
+        <property id="2522969319638091386" name="isAvailableInChildNodes" index="2ZfUl0" />
         <reference id="2522969319638198290" name="forConcept" index="2ZfgGC" />
         <child id="2522969319638198291" name="executeFunction" index="2ZfgGD" />
         <child id="2522969319638093993" name="descriptionFunction" index="2ZfVej" />
@@ -88,6 +90,9 @@
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
+      </concept>
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
@@ -352,6 +357,7 @@
   <node concept="2S6QgY" id="4TVlTE8FDZ_">
     <property role="3GE5qa" value="expression" />
     <property role="TrG5h" value="PythonMemberExpression_toggleIdentifierExpressionProperty" />
+    <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="e5uo:4TVlTE8ES_Q" resolve="PythonMemberExpression" />
     <node concept="2S6ZIM" id="4TVlTE8FDZA" role="2ZfVej">
       <node concept="3clFbS" id="4TVlTE8FDZB" role="2VODD2">
@@ -963,6 +969,195 @@
                     <node concept="37vLTw" id="4TVlTE959_q" role="2oxUTC">
                       <ref role="3cqZAo" node="4TVlTE956wY" resolve="expStmt" />
                     </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="4TVlTE9w3zX">
+    <property role="3GE5qa" value="statement" />
+    <property role="TrG5h" value="PythonClassStatement__toggleInit" />
+    <ref role="2ZfgGC" to="e5uo:4TVlTE8Ee$F" resolve="PythonClassStatement" />
+    <node concept="2S6ZIM" id="4TVlTE9w3zY" role="2ZfVej">
+      <node concept="3clFbS" id="4TVlTE9w3zZ" role="2VODD2">
+        <node concept="3clFbF" id="4TVlTE9w3CV" role="3cqZAp">
+          <node concept="Xl_RD" id="4TVlTE9w3CU" role="3clFbG">
+            <property role="Xl_RC" value="toggle class init" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="4TVlTE9w3$0" role="2ZfgGD">
+      <node concept="3clFbS" id="4TVlTE9w3$1" role="2VODD2">
+        <node concept="3clFbJ" id="4TVlTE9w3Ib" role="3cqZAp">
+          <node concept="2OqwBi" id="4TVlTE9w4kr" role="3clFbw">
+            <node concept="2OqwBi" id="4TVlTE9w3U8" role="2Oq$k0">
+              <node concept="2Sf5sV" id="4TVlTE9w3I$" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4TVlTE9w465" role="2OqNvi">
+                <ref role="3Tt5mk" to="e5uo:4TVlTE9w3pJ" resolve="initFunction" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="4TVlTE9w4yg" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="4TVlTE9w3Id" role="3clFbx">
+            <node concept="3cpWs8" id="4TVlTE9w4Y8" role="3cqZAp">
+              <node concept="3cpWsn" id="4TVlTE9w4Yb" role="3cpWs9">
+                <property role="TrG5h" value="initFunction" />
+                <node concept="3Tqbb2" id="4TVlTE9w4Y7" role="1tU5fm">
+                  <ref role="ehGHo" to="e5uo:4TVlTE8qxNI" resolve="PythonFunctionDefinitionStatement" />
+                </node>
+                <node concept="2ShNRf" id="4TVlTE9w4Zl" role="33vP2m">
+                  <node concept="3zrR0B" id="4TVlTE9w4Zj" role="2ShVmc">
+                    <node concept="3Tqbb2" id="4TVlTE9w4Zk" role="3zrR0E">
+                      <ref role="ehGHo" to="e5uo:4TVlTE8qxNI" resolve="PythonFunctionDefinitionStatement" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="4TVlTE9w62n" role="3cqZAp">
+              <node concept="3cpWsn" id="4TVlTE9w62q" role="3cpWs9">
+                <property role="TrG5h" value="identifier" />
+                <node concept="3Tqbb2" id="4TVlTE9w62l" role="1tU5fm">
+                  <ref role="ehGHo" to="e5uo:4_DfFMGtamA" resolve="PythonIdentifier" />
+                </node>
+                <node concept="2ShNRf" id="4TVlTE9w63S" role="33vP2m">
+                  <node concept="3zrR0B" id="4TVlTE9w63Q" role="2ShVmc">
+                    <node concept="3Tqbb2" id="4TVlTE9w63R" role="3zrR0E">
+                      <ref role="ehGHo" to="e5uo:4_DfFMGtamA" resolve="PythonIdentifier" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="4TVlTE9w81h" role="3cqZAp">
+              <node concept="3cpWsn" id="4TVlTE9w81k" role="3cpWs9">
+                <property role="TrG5h" value="paramIdentifier" />
+                <node concept="3Tqbb2" id="4TVlTE9w81f" role="1tU5fm">
+                  <ref role="ehGHo" to="e5uo:4_DfFMGtamA" resolve="PythonIdentifier" />
+                </node>
+                <node concept="2ShNRf" id="4TVlTE9w8bX" role="33vP2m">
+                  <node concept="3zrR0B" id="4TVlTE9w8bV" role="2ShVmc">
+                    <node concept="3Tqbb2" id="4TVlTE9w8bW" role="3zrR0E">
+                      <ref role="ehGHo" to="e5uo:4_DfFMGtamA" resolve="PythonIdentifier" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4TVlTE9w64J" role="3cqZAp">
+              <node concept="37vLTI" id="4TVlTE9w6MS" role="3clFbG">
+                <node concept="Xl_RD" id="4TVlTE9w6RK" role="37vLTx">
+                  <property role="Xl_RC" value="__init__" />
+                </node>
+                <node concept="2OqwBi" id="4TVlTE9w6el" role="37vLTJ">
+                  <node concept="37vLTw" id="4TVlTE9w64H" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4TVlTE9w62q" resolve="identifier" />
+                  </node>
+                  <node concept="3TrcHB" id="4TVlTE9w6pY" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4TVlTE9w72A" role="3cqZAp">
+              <node concept="37vLTI" id="4TVlTE9w7MR" role="3clFbG">
+                <node concept="37vLTw" id="4TVlTE9w7S0" role="37vLTx">
+                  <ref role="3cqZAo" node="4TVlTE9w62q" resolve="identifier" />
+                </node>
+                <node concept="2OqwBi" id="4TVlTE9w7co" role="37vLTJ">
+                  <node concept="37vLTw" id="4TVlTE9w72$" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4TVlTE9w4Yb" resolve="initFunction" />
+                  </node>
+                  <node concept="3TrEf2" id="4TVlTE9w7oj" role="2OqNvi">
+                    <ref role="3Tt5mk" to="e5uo:4TVlTE8qxNL" resolve="id" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4TVlTE9w8fb" role="3cqZAp">
+              <node concept="37vLTI" id="4TVlTE9w8XA" role="3clFbG">
+                <node concept="Xl_RD" id="4TVlTE9w92u" role="37vLTx">
+                  <property role="Xl_RC" value="self" />
+                </node>
+                <node concept="2OqwBi" id="4TVlTE9w8p3" role="37vLTJ">
+                  <node concept="37vLTw" id="4TVlTE9w8f9" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4TVlTE9w81k" resolve="paramIdentifier" />
+                  </node>
+                  <node concept="3TrcHB" id="4TVlTE9w8$G" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4TVlTE9wiJH" role="3cqZAp">
+              <node concept="2OqwBi" id="4TVlTE9wwHP" role="3clFbG">
+                <node concept="2OqwBi" id="4TVlTE9wrOJ" role="2Oq$k0">
+                  <node concept="37vLTw" id="4TVlTE9wiJF" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4TVlTE9w4Yb" resolve="initFunction" />
+                  </node>
+                  <node concept="3Tsc0h" id="4TVlTE9ws0X" role="2OqNvi">
+                    <ref role="3TtcxE" to="e5uo:4TVlTE8qxNN" resolve="params" />
+                  </node>
+                </node>
+                <node concept="TSZUe" id="4TVlTE9wy_4" role="2OqNvi">
+                  <node concept="37vLTw" id="4TVlTE9wyP0" role="25WWJ7">
+                    <ref role="3cqZAo" node="4TVlTE9w81k" resolve="paramIdentifier" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4TVlTE9wziN" role="3cqZAp">
+              <node concept="37vLTI" id="4TVlTE9wzUF" role="3clFbG">
+                <node concept="2ShNRf" id="4TVlTE9w$0J" role="37vLTx">
+                  <node concept="3zrR0B" id="4TVlTE9w$aj" role="2ShVmc">
+                    <node concept="3Tqbb2" id="4TVlTE9w$al" role="3zrR0E">
+                      <ref role="ehGHo" to="e5uo:4_DfFMG_2rw" resolve="PythonIndentBlockStatement" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="4TVlTE9wzFC" role="37vLTJ">
+                  <node concept="37vLTw" id="4TVlTE9wziL" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4TVlTE9w4Yb" resolve="initFunction" />
+                  </node>
+                  <node concept="3TrEf2" id="4TVlTE9wzGt" role="2OqNvi">
+                    <ref role="3Tt5mk" to="e5uo:4TVlTE8qxNQ" resolve="body" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4TVlTE9w$iT" role="3cqZAp">
+              <node concept="2OqwBi" id="4TVlTE9w$Pp" role="3clFbG">
+                <node concept="2OqwBi" id="4TVlTE9w$td" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="4TVlTE9w$iS" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="4TVlTE9w$D9" role="2OqNvi">
+                    <ref role="3Tt5mk" to="e5uo:4TVlTE9w3pJ" resolve="initFunction" />
+                  </node>
+                </node>
+                <node concept="2oxUTD" id="4TVlTE9w_4x" role="2OqNvi">
+                  <node concept="37vLTw" id="4TVlTE9w_b1" role="2oxUTC">
+                    <ref role="3cqZAo" node="4TVlTE9w4Yb" resolve="initFunction" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="4TVlTE9w_dY" role="9aQIa">
+            <node concept="3clFbS" id="4TVlTE9w_dZ" role="9aQI4">
+              <node concept="3clFbF" id="4TVlTE9w_q$" role="3cqZAp">
+                <node concept="2OqwBi" id="4TVlTE9w_WF" role="3clFbG">
+                  <node concept="2OqwBi" id="4TVlTE9w_$5" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="4TVlTE9w_qz" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="4TVlTE9w_K1" role="2OqNvi">
+                      <ref role="3Tt5mk" to="e5uo:4TVlTE9w3pJ" resolve="initFunction" />
+                    </node>
+                  </node>
+                  <node concept="2oxUTD" id="4TVlTE9wAav" role="2OqNvi">
+                    <node concept="10Nm6u" id="4TVlTE9wAeC" role="2oxUTC" />
                   </node>
                 </node>
               </node>

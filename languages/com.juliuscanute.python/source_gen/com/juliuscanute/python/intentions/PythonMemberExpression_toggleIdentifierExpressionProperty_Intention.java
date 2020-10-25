@@ -20,7 +20,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 public final class PythonMemberExpression_toggleIdentifierExpressionProperty_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
   public PythonMemberExpression_toggleIdentifierExpressionProperty_Intention() {
-    super(Kind.NORMAL, false, new SNodePointer("r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)", "5655210078323515365"));
+    super(Kind.NORMAL, true, new SNodePointer("r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)", "5655210078323515365"));
   }
   @Override
   public String getPresentation() {

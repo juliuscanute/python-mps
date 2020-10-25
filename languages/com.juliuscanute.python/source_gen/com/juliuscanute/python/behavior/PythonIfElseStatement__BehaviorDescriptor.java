@@ -15,16 +15,13 @@ import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.scope.CompositeScope;
-import jetbrains.mps.lang.scopes.runtime.NamedElementsScope;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.scopes.runtime.ScopeUtils;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
 
-public final class PythonClassStatement__BehaviorDescriptor extends BaseBHDescriptor {
-  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88a8e92bL, "com.juliuscanute.python.structure.PythonClassStatement");
+public final class PythonIfElseStatement__BehaviorDescriptor extends BaseBHDescriptor {
+  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88263da6L, "com.juliuscanute.python.structure.PythonIfElseStatement");
 
   public static final SMethod<Scope> getScope_id52_Geb4QDV$ = new SMethodBuilder<Scope>(new SJavaCompoundTypeImpl(Scope.class)).name("getScope").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("52_Geb4QDV$").build(SMethodBuilder.createJavaParameter((Class<SAbstractConcept>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
@@ -34,13 +31,10 @@ public final class PythonClassStatement__BehaviorDescriptor extends BaseBHDescri
   }
 
   /*package*/ static Scope getScope_id52_Geb4QDV$(@NotNull SNode __thisNode__, SAbstractConcept kind, SNode child) {
-    CompositeScope scope = new CompositeScope();
-    scope.addScope(new NamedElementsScope(SLinkOperations.getTarget(__thisNode__, LINKS.className$ZmdT)));
-    scope.addScope(new NamedElementsScope(SLinkOperations.getChildren(SLinkOperations.getTarget(__thisNode__, LINKS.initFunction$TiZE), LINKS.params$$Sde)));
-    return scope;
+    return ScopeUtils.lazyParentScope(__thisNode__, kind);
   }
 
-  /*package*/ PythonClassStatement__BehaviorDescriptor() {
+  /*package*/ PythonIfElseStatement__BehaviorDescriptor() {
   }
 
   @Override
@@ -84,11 +78,5 @@ public final class PythonClassStatement__BehaviorDescriptor extends BaseBHDescri
   @Override
   public SAbstractConcept getConcept() {
     return CONCEPT;
-  }
-
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink className$ZmdT = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88a8e92bL, 0x4e7b579a88aa3297L, "className");
-    /*package*/ static final SContainmentLink initFunction$TiZE = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88a8e92bL, 0x4e7b579a8980366fL, "initFunction");
-    /*package*/ static final SContainmentLink params$$Sde = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a886a1ceeL, 0x4e7b579a886a1cf3L, "params");
   }
 }
