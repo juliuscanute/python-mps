@@ -177,17 +177,6 @@
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3mAorzWGMvH">
-    <property role="EcuMT" value="3865884777285625837" />
-    <property role="TrG5h" value="Name" />
-    <property role="3GE5qa" value="declaration" />
-    <ref role="1TJDcQ" node="4rfLeTAm2Oy" resolve="PythonNode" />
-    <node concept="1TJgyi" id="3mAorzWGP4y" role="1TKVEl">
-      <property role="IQ2nx" value="3865884777285636386" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3mAorzWGRUx">
     <property role="EcuMT" value="3865884777285648033" />
     <property role="TrG5h" value="DottedName" />

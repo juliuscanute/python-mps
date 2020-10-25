@@ -516,14 +516,6 @@
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
-  <node concept="24kQdi" id="3mAorzWGMwA">
-    <property role="3GE5qa" value="declaration" />
-    <ref role="1XX52x" to="e5uo:3mAorzWGMvH" resolve="Name" />
-    <node concept="3F0A7n" id="3mAorzWGRUu" role="2wV5jI">
-      <property role="1$x2rV" value="library" />
-      <ref role="1NtTu8" to="e5uo:3mAorzWGP4y" resolve="name" />
-    </node>
-  </node>
   <node concept="24kQdi" id="3mAorzWGNLu">
     <property role="3GE5qa" value="statement" />
     <ref role="1XX52x" to="e5uo:3mAorzWGMvE" resolve="ImportStatement" />

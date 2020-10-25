@@ -14,7 +14,6 @@ import jetbrains.mps.smodel.adapter.ids.SConceptId;
 import jetbrains.mps.smodel.runtime.DataTypeDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
-import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
@@ -23,7 +22,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptFromStatementAsName = createDescriptorForFromStatementAsName();
   /*package*/ final ConceptDescriptor myConceptImportStatement = createDescriptorForImportStatement();
   /*package*/ final ConceptDescriptor myConceptImportStatementAsName = createDescriptorForImportStatementAsName();
-  /*package*/ final ConceptDescriptor myConceptName = createDescriptorForName();
   /*package*/ final ConceptDescriptor myConceptPythonArrayExpression = createDescriptorForPythonArrayExpression();
   /*package*/ final ConceptDescriptor myConceptPythonAssignmentExpression = createDescriptorForPythonAssignmentExpression();
   /*package*/ final ConceptDescriptor myConceptPythonBinaryExpression = createDescriptorForPythonBinaryExpression();
@@ -85,7 +83,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptFromStatementAsName, myConceptImportStatement, myConceptImportStatementAsName, myConceptName, myConceptPythonArrayExpression, myConceptPythonAssignmentExpression, myConceptPythonBinaryExpression, myConceptPythonBooleanLiteral, myConceptPythonCallExpression, myConceptPythonClassStatement, myConceptPythonElseIfStatement, myConceptPythonExpression, myConceptPythonExpressionStatement, myConceptPythonForStatement, myConceptPythonFunctionDefinitionStatement, myConceptPythonIdentifier, myConceptPythonIdentifierReference, myConceptPythonIfElseStatement, myConceptPythonIndentBlockStatement, myConceptPythonLeftHandSideExpression, myConceptPythonLiteral, myConceptPythonLogicalExpression, myConceptPythonMemberExpression, myConceptPythonNode, myConceptPythonNoneLiteral, myConceptPythonNumericLiteral, myConceptPythonObjectExpression, myConceptPythonProgram, myConceptPythonProperty, myConceptPythonReturnStatement, myConceptPythonSelfExpression, myConceptPythonStatement, myConceptPythonStringLiteral, myConceptPythonTryElseStatement, myConceptPythonTryExceptExpressionStatement, myConceptPythonTryExceptStatement, myConceptPythonTryFinallyStatement, myConceptPythonTryStatement, myConceptPythonTupleExpression, myConceptPythonUnaryExpression, myConceptPythonVariableDeclarator, myConceptPythonWhileStatement);
+    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptFromStatementAsName, myConceptImportStatement, myConceptImportStatementAsName, myConceptPythonArrayExpression, myConceptPythonAssignmentExpression, myConceptPythonBinaryExpression, myConceptPythonBooleanLiteral, myConceptPythonCallExpression, myConceptPythonClassStatement, myConceptPythonElseIfStatement, myConceptPythonExpression, myConceptPythonExpressionStatement, myConceptPythonForStatement, myConceptPythonFunctionDefinitionStatement, myConceptPythonIdentifier, myConceptPythonIdentifierReference, myConceptPythonIfElseStatement, myConceptPythonIndentBlockStatement, myConceptPythonLeftHandSideExpression, myConceptPythonLiteral, myConceptPythonLogicalExpression, myConceptPythonMemberExpression, myConceptPythonNode, myConceptPythonNoneLiteral, myConceptPythonNumericLiteral, myConceptPythonObjectExpression, myConceptPythonProgram, myConceptPythonProperty, myConceptPythonReturnStatement, myConceptPythonSelfExpression, myConceptPythonStatement, myConceptPythonStringLiteral, myConceptPythonTryElseStatement, myConceptPythonTryExceptExpressionStatement, myConceptPythonTryExceptStatement, myConceptPythonTryFinallyStatement, myConceptPythonTryStatement, myConceptPythonTupleExpression, myConceptPythonUnaryExpression, myConceptPythonVariableDeclarator, myConceptPythonWhileStatement);
   }
 
   @Override
@@ -102,8 +100,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptImportStatement;
       case LanguageConceptSwitch.ImportStatementAsName:
         return myConceptImportStatementAsName;
-      case LanguageConceptSwitch.Name:
-        return myConceptName;
       case LanguageConceptSwitch.PythonArrayExpression:
         return myConceptPythonArrayExpression;
       case LanguageConceptSwitch.PythonAssignmentExpression:
@@ -248,15 +244,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("dottedName", 0x68c84a182a2a115aL).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb37ea1L).optional(false).ordered(true).multiple(false).origin("7550366242933707098").done();
     b.aggregate("asName", 0x68c84a182a2a1175L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac74a5a6L).optional(false).ordered(true).multiple(false).origin("7550366242933707125").done();
     b.alias("import_as_name");
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForName() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "Name", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x35a661b8fcb327edL);
-    b.class_(false, false, false);
-    b.super_("com.juliuscanute.python.structure.PythonNode", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee66582d22L);
-    b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/3865884777285625837");
-    b.version(2);
-    b.property("name", 0x35a661b8fcb35122L).type(PrimitiveTypeId.STRING).origin("3865884777285636386").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPythonArrayExpression() {

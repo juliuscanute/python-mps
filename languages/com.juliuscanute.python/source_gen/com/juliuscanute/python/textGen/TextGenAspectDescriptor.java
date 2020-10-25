@@ -19,14 +19,22 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
   @Override
   public TextGenDescriptor getDescriptor(@NotNull SAbstractConcept concept) {
     switch (myIndex.index(concept)) {
+      case LanguageConceptSwitch.DottedName:
+        return new DottedName_TextGen();
       case LanguageConceptSwitch.PythonBooleanLiteral:
         return new PythonBooleanLiteral_TextGen();
+      case LanguageConceptSwitch.PythonIdentifier:
+        return new PythonIdentifier_TextGen();
       case LanguageConceptSwitch.PythonNoneLiteral:
         return new PythonNoneLiteral_TextGen();
       case LanguageConceptSwitch.PythonNumericLiteral:
         return new PythonNumericLiteral_TextGen();
+      case LanguageConceptSwitch.PythonProperty:
+        return new PythonProperty_TextGen();
       case LanguageConceptSwitch.PythonStringLiteral:
         return new PythonStringLiteral_TextGen();
+      case LanguageConceptSwitch.PythonVariableDeclarator:
+        return new PythonVariableDeclarator_TextGen();
     }
     return null;
   }
