@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="12,0,35,0" name="com.juliuscanute.python.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078338326815">
+    <file name="PythonBooleanLiteral_TextGen.java">
+      <node id="5655210078338326815" at="14,54,15,55" concept="3" />
+      <node id="5655210078338328777" at="15,55,16,87" concept="0" />
+      <node id="5655210078338326815" at="20,0,21,0" concept="5" trace="value$pdMa" />
+      <node id="5655210078338326815" at="13,0,18,0" concept="2" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5655210078338326815" at="14,54,16,87">
+        <var name="tgs" id="5655210078338326815" />
+      </scope>
+      <scope id="5655210078338326815" at="13,0,18,0">
+        <var name="ctx" id="5655210078338326815" />
+      </scope>
+      <unit id="5655210078338326815" at="19,0,22,0" name="com.juliuscanute.python.textGen.PythonBooleanLiteral_TextGen$PROPS" />
+      <unit id="5655210078338326815" at="12,0,23,0" name="com.juliuscanute.python.textGen.PythonBooleanLiteral_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="5655210078338326815" at="22,54,23,50" concept="4" />
+      <scope id="5655210078338326815" at="22,54,23,50" />
+    </file>
+  </root>
+  <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078338330495">
+    <file name="PythonNoneLiteral_TextGen.java">
+      <node id="5655210078338330495" at="11,54,12,55" concept="3" />
+      <node id="5655210078338333549" at="12,55,13,23" concept="0" />
+      <node id="5655210078338330495" at="10,0,15,0" concept="2" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5655210078338330495" at="11,54,13,23">
+        <var name="tgs" id="5655210078338330495" />
+      </scope>
+      <scope id="5655210078338330495" at="10,0,15,0">
+        <var name="ctx" id="5655210078338330495" />
+      </scope>
+      <unit id="5655210078338330495" at="9,0,16,0" name="com.juliuscanute.python.textGen.PythonNoneLiteral_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="5655210078338330495" at="24,51,25,47" concept="4" />
+      <scope id="5655210078338330495" at="24,51,25,47" />
+    </file>
+  </root>
+  <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078338333794">
+    <file name="PythonNumericLiteral_TextGen.java">
+      <node id="5655210078338333794" at="14,54,15,55" concept="3" />
+      <node id="5655210078338333833" at="15,55,16,87" concept="0" />
+      <node id="5655210078338333794" at="20,0,21,0" concept="5" trace="value$xLkw" />
+      <node id="5655210078338333794" at="13,0,18,0" concept="2" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5655210078338333794" at="14,54,16,87">
+        <var name="tgs" id="5655210078338333794" />
+      </scope>
+      <scope id="5655210078338333794" at="13,0,18,0">
+        <var name="ctx" id="5655210078338333794" />
+      </scope>
+      <unit id="5655210078338333794" at="19,0,22,0" name="com.juliuscanute.python.textGen.PythonNumericLiteral_TextGen$PROPS" />
+      <unit id="5655210078338333794" at="12,0,23,0" name="com.juliuscanute.python.textGen.PythonNumericLiteral_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="5655210078338333794" at="26,54,27,50" concept="4" />
+      <scope id="5655210078338333794" at="26,54,27,50" />
+    </file>
+  </root>
+  <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078338335693">
+    <file name="PythonStringLiteral_TextGen.java">
+      <node id="5655210078338335693" at="14,54,15,55" concept="3" />
+      <node id="5655210078338339319" at="16,111,17,101" concept="0" />
+      <node id="5655210078338344338" at="19,111,20,101" concept="0" />
+      <node id="5655210078338339265" at="23,55,24,43" concept="4" />
+      <node id="5655210078338335693" at="28,0,29,0" concept="5" trace="singleQuotedValue$VDXc" />
+      <node id="5655210078338335693" at="29,0,30,0" concept="5" trace="doubleQuotedValue$VDva" />
+      <node id="5655210078338335712" at="15,55,18,5" concept="1" />
+      <node id="5655210078338341036" at="18,5,21,5" concept="1" />
+      <node id="5655210078338339265" at="23,0,26,0" concept="6" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
+      <node id="5655210078338335693" at="13,0,23,0" concept="2" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5655210078338335714" at="16,111,17,101" />
+      <scope id="5655210078338341038" at="19,111,20,101" />
+      <scope id="5655210078338339265" at="23,55,24,43" />
+      <scope id="5655210078338339265" at="23,0,26,0">
+        <var name="str" id="5655210078338339265" />
+      </scope>
+      <scope id="5655210078338335693" at="14,54,21,5">
+        <var name="tgs" id="5655210078338335693" />
+      </scope>
+      <scope id="5655210078338335693" at="13,0,23,0">
+        <var name="ctx" id="5655210078338335693" />
+      </scope>
+      <unit id="5655210078338335693" at="27,0,31,0" name="com.juliuscanute.python.textGen.PythonStringLiteral_TextGen$PROPS" />
+      <unit id="5655210078338335693" at="12,0,32,0" name="com.juliuscanute.python.textGen.PythonStringLiteral_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="5655210078338335693" at="28,53,29,49" concept="4" />
+      <scope id="5655210078338335693" at="28,53,29,49" />
+    </file>
+  </root>
+</debug-info>
+

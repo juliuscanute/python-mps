@@ -7,6 +7,7 @@
     <classNode dependClassName="com.juliuscanute.python.intentions.IntentionsDescriptor" />
     <classNode dependClassName="com.juliuscanute.python.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="com.juliuscanute.python.structure.StructureAspectDescriptor" />
+    <classNode dependClassName="com.juliuscanute.python.textGen.TextGenAspectDescriptor" />
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -20,6 +21,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenAspectDescriptor" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SLanguage" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
