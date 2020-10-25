@@ -842,29 +842,14 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbJ" id="4TVlTE9ypD7" role="3cqZAp">
-              <node concept="3clFbS" id="4TVlTE9ypD9" role="3clFbx">
-                <node concept="3clFbF" id="4TVlTE9yqFl" role="3cqZAp">
-                  <node concept="2OqwBi" id="4TVlTE9yqXl" role="3clFbG">
-                    <node concept="37vLTw" id="4TVlTE9yqFj" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4TVlTE9h$sa" resolve="scope" />
-                    </node>
-                    <node concept="liA8E" id="4TVlTE9yr9Z" role="2OqNvi">
-                      <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
-                      <node concept="iy90A" id="4TVlTE9yrbT" role="37wK5m" />
-                    </node>
-                  </node>
+            <node concept="3clFbF" id="4TVlTE9zHFd" role="3cqZAp">
+              <node concept="2OqwBi" id="4TVlTE9zHV6" role="3clFbG">
+                <node concept="37vLTw" id="4TVlTE9zHFb" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4TVlTE9h$sa" resolve="scope" />
                 </node>
-              </node>
-              <node concept="2OqwBi" id="4TVlTE9yqmk" role="3clFbw">
-                <node concept="2OqwBi" id="4TVlTE9yqcI" role="2Oq$k0">
-                  <node concept="13iPFW" id="4TVlTE9yq8e" role="2Oq$k0" />
-                  <node concept="1mfA1w" id="4TVlTE9yqdY" role="2OqNvi" />
-                </node>
-                <node concept="1mIQ4w" id="4TVlTE9yqt5" role="2OqNvi">
-                  <node concept="chp4Y" id="4TVlTE9yq$E" role="cj9EA">
-                    <ref role="cht4Q" to="e5uo:4TVlTE8Ee$F" resolve="PythonClassStatement" />
-                  </node>
+                <node concept="liA8E" id="4TVlTE9zIba" role="2OqNvi">
+                  <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
+                  <node concept="iy90A" id="4TVlTE9zIcV" role="37wK5m" />
                 </node>
               </node>
             </node>
@@ -874,6 +859,36 @@
               <ref role="3cqZAo" node="4TVlTE8roOJ" resolve="child" />
             </node>
             <node concept="3x8VRR" id="4TVlTE9r2Qy" role="2OqNvi" />
+          </node>
+          <node concept="9aQIb" id="4TVlTE9zH5Z" role="9aQIa">
+            <node concept="3clFbS" id="4TVlTE9zH60" role="9aQI4">
+              <node concept="3clFbJ" id="4TVlTE9ypD7" role="3cqZAp">
+                <node concept="3clFbS" id="4TVlTE9ypD9" role="3clFbx">
+                  <node concept="3clFbF" id="4TVlTE9yqFl" role="3cqZAp">
+                    <node concept="2OqwBi" id="4TVlTE9yqXl" role="3clFbG">
+                      <node concept="37vLTw" id="4TVlTE9yqFj" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4TVlTE9h$sa" resolve="scope" />
+                      </node>
+                      <node concept="liA8E" id="4TVlTE9yr9Z" role="2OqNvi">
+                        <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
+                        <node concept="iy90A" id="4TVlTE9yrbT" role="37wK5m" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="4TVlTE9yqmk" role="3clFbw">
+                  <node concept="2OqwBi" id="4TVlTE9yqcI" role="2Oq$k0">
+                    <node concept="13iPFW" id="4TVlTE9yq8e" role="2Oq$k0" />
+                    <node concept="1mfA1w" id="4TVlTE9yqdY" role="2OqNvi" />
+                  </node>
+                  <node concept="1mIQ4w" id="4TVlTE9yqt5" role="2OqNvi">
+                    <node concept="chp4Y" id="4TVlTE9yq$E" role="cj9EA">
+                      <ref role="cht4Q" to="e5uo:4TVlTE8Ee$F" resolve="PythonClassStatement" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node concept="3cpWs6" id="4TVlTE9h$tr" role="3cqZAp">

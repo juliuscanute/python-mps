@@ -142,7 +142,7 @@
     </language>
   </registry>
   <node concept="395kph" id="4_DfFMGpXhT">
-    <property role="TrG5h" value="alfred.py" />
+    <property role="TrG5h" value="sample_program.py" />
     <node concept="w$BEf" id="4TVlTE8pGdq" role="w_N3S">
       <node concept="w__i5" id="4TVlTE8pGf6" role="w$BEc" />
     </node>
@@ -1038,6 +1038,301 @@
       <node concept="w__i5" id="4TVlTE97kC5" role="w$BEc" />
     </node>
     <node concept="w_KRP" id="4TVlTE8Y_hw" role="w_N3S" />
+  </node>
+  <node concept="395kph" id="4TVlTE9zGg$">
+    <property role="TrG5h" value="alfred_template.py" />
+    <node concept="395kpi" id="4TVlTE9zGg_" role="w_N3S">
+      <node concept="395hWp" id="4TVlTE9zGgA" role="395kXS">
+        <node concept="3_7pGq" id="4TVlTE9zGgB" role="395hWq">
+          <property role="TrG5h" value="sys" />
+        </node>
+      </node>
+    </node>
+    <node concept="12SIFl" id="4TVlTE9zGgK" role="w_N3S">
+      <node concept="395hWp" id="4TVlTE9zGgM" role="12SIFm">
+        <node concept="3_7pGq" id="4TVlTE9zGgO" role="395hWq">
+          <property role="TrG5h" value="workflow" />
+        </node>
+      </node>
+      <node concept="395kpi" id="4TVlTE9zGgQ" role="12SIFn">
+        <node concept="395hWp" id="4TVlTE9zGgS" role="395kXS">
+          <node concept="3_7pGq" id="4TVlTE9zGh5" role="395hWq">
+            <property role="TrG5h" value="Workflow" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="12SIFl" id="4TVlTE9zGhB" role="w_N3S">
+      <node concept="395hWp" id="4TVlTE9zGhC" role="12SIFm">
+        <node concept="3_7pGq" id="4TVlTE9zGhD" role="395hWq">
+          <property role="TrG5h" value="workflow" />
+        </node>
+      </node>
+      <node concept="395kpi" id="4TVlTE9zGhE" role="12SIFn">
+        <node concept="395hWp" id="4TVlTE9zGhF" role="395kXS">
+          <node concept="3_7pGq" id="4TVlTE9zGhG" role="395hWq">
+            <property role="TrG5h" value="web" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="12SIFl" id="4TVlTE9zGi1" role="w_N3S">
+      <node concept="395hWp" id="4TVlTE9zGi2" role="12SIFm">
+        <node concept="3_7pGq" id="4TVlTE9zGi3" role="395hWq">
+          <property role="TrG5h" value="workflow" />
+        </node>
+      </node>
+      <node concept="395kpi" id="4TVlTE9zGi4" role="12SIFn">
+        <node concept="395hWp" id="4TVlTE9zGi5" role="395kXS">
+          <node concept="3_7pGq" id="4TVlTE9zGi6" role="395hWq">
+            <property role="TrG5h" value="ICON_WEB" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="w_KRP" id="4TVlTE9zGhs" role="w_N3S" />
+    <node concept="w$BEf" id="4TVlTE9zGiR" role="w_N3S">
+      <node concept="3_4kww" id="4TVlTE9zGiP" role="w$BEc">
+        <node concept="3_7pGq" id="4TVlTE9zGiQ" role="3_4kwx">
+          <property role="TrG5h" value="API_KEY" />
+        </node>
+        <node concept="3_1VEQ" id="4TVlTE9zGji" role="3_4kwz">
+          <property role="3_1VEL" value="your-pinboard-api-key" />
+        </node>
+      </node>
+    </node>
+    <node concept="w_KRP" id="4TVlTE9zGjk" role="w_N3S" />
+    <node concept="364kHO" id="4TVlTE9zGkd" role="w_N3S">
+      <node concept="3_7pGq" id="4TVlTE9zGkN" role="364kHD">
+        <property role="TrG5h" value="wf" />
+      </node>
+      <node concept="3_Zhxs" id="4TVlTE9zGkf" role="364kHG">
+        <node concept="w$BEf" id="4TVlTE9zGkU" role="3_Zhxv">
+          <node concept="3_4kww" id="4TVlTE9zGkS" role="w$BEc">
+            <node concept="3_7pGq" id="4TVlTE9zGkT" role="3_4kwx">
+              <property role="TrG5h" value="url" />
+            </node>
+            <node concept="3_1VEQ" id="4TVlTE9zGl0" role="3_4kwz">
+              <property role="3_1VEL" value="https://api.pinboard.in/v1/posts/recent" />
+            </node>
+          </node>
+        </node>
+        <node concept="w$BEf" id="4TVlTE9zGlb" role="3_Zhxv">
+          <node concept="3_4kww" id="4TVlTE9zGl9" role="w$BEc">
+            <node concept="3_7pGq" id="4TVlTE9zGla" role="3_4kwx">
+              <property role="TrG5h" value="params" />
+            </node>
+            <node concept="360Vw$" id="4TVlTE9zGll" role="3_4kwz">
+              <node concept="3_7pGq" id="4TVlTE9zGlm" role="360Vw_">
+                <property role="TrG5h" value="dict" />
+              </node>
+              <node concept="3_4kww" id="4TVlTE9zGlr" role="360Vxr">
+                <node concept="3_7pGq" id="4TVlTE9zGls" role="3_4kwx">
+                  <property role="TrG5h" value="auth_token" />
+                </node>
+                <node concept="36lvV7" id="4TVlTE9$8Tc" role="3_4kwz">
+                  <ref role="36lvV4" node="4TVlTE9zGiQ" resolve="API_KEY" />
+                </node>
+              </node>
+              <node concept="3_4kww" id="4TVlTE9zGlE" role="360Vxr">
+                <node concept="3_7pGq" id="4TVlTE9zGlF" role="3_4kwx">
+                  <property role="TrG5h" value="count" />
+                </node>
+                <node concept="w$p9e" id="4TVlTE9zGlL" role="3_4kwz">
+                  <property role="w$p9c" value="20" />
+                </node>
+              </node>
+              <node concept="3_4kww" id="4TVlTE9zGlV" role="360Vxr">
+                <node concept="3_7pGq" id="4TVlTE9zGlW" role="3_4kwx">
+                  <property role="TrG5h" value="format" />
+                </node>
+                <node concept="3_1VEQ" id="4TVlTE9zGm5" role="3_4kwz">
+                  <property role="3_1VEL" value="json" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="w$BEf" id="4TVlTE9$8TC" role="3_Zhxv">
+          <node concept="3_4kww" id="4TVlTE9$8TA" role="w$BEc">
+            <node concept="3_7pGq" id="4TVlTE9$8TB" role="3_4kwx">
+              <property role="TrG5h" value="r" />
+            </node>
+            <node concept="36OdVG" id="4TVlTE9$8U6" role="3_4kwz">
+              <node concept="36lvV7" id="4TVlTE9$8U2" role="36OdVH">
+                <ref role="36lvV4" node="4TVlTE9zGhG" resolve="web" />
+              </node>
+              <node concept="360Vw$" id="4TVlTE9$8Ud" role="36OdVx">
+                <node concept="3_7pGq" id="4TVlTE9$8Uf" role="360Vw_">
+                  <property role="TrG5h" value="get" />
+                </node>
+                <node concept="36lvV7" id="4TVlTE9$8Ul" role="360Vxr">
+                  <ref role="36lvV4" node="4TVlTE9zGkT" resolve="url" />
+                </node>
+                <node concept="36lvV7" id="4TVlTE9$8Ur" role="360Vxr">
+                  <ref role="36lvV4" node="4TVlTE9zGla" resolve="params" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="w$BEf" id="4TVlTE9$8V1" role="3_Zhxv">
+          <node concept="36OdVG" id="4TVlTE9$8VJ" role="w$BEc">
+            <node concept="36lvV7" id="4TVlTE9$8VR" role="36OdVH">
+              <ref role="36lvV4" node="4TVlTE9$8TB" resolve="r" />
+            </node>
+            <node concept="360Vw$" id="4TVlTE9$8VZ" role="36OdVx">
+              <node concept="3_7pGq" id="4TVlTE9$8W1" role="360Vw_">
+                <property role="TrG5h" value="raise_for_status" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="36SuWs" id="4TVlTE9$8Xe" role="3_Zhxv">
+          <node concept="3_7pGq" id="4TVlTE9$8Xi" role="36SuWh">
+            <property role="TrG5h" value="post" />
+          </node>
+          <node concept="w$BEf" id="4TVlTE9$8ZT" role="3_Zhxv">
+            <node concept="36OdVG" id="4TVlTE9$8ZP" role="w$BEc">
+              <node concept="36lvV7" id="4TVlTE9$900" role="36OdVH">
+                <ref role="36lvV4" node="4TVlTE9zGkN" resolve="wf" />
+              </node>
+              <node concept="360Vw$" id="4TVlTE9$903" role="36OdVx">
+                <node concept="3_7pGq" id="4TVlTE9$905" role="360Vw_">
+                  <property role="TrG5h" value="add_item" />
+                </node>
+                <node concept="36OdVG" id="4TVlTE9$90f" role="360Vxr">
+                  <node concept="36lvV7" id="4TVlTE9$90b" role="36OdVH">
+                    <ref role="36lvV4" node="4TVlTE9$8Xi" resolve="post" />
+                  </node>
+                  <node concept="3_1VEQ" id="4TVlTE9$90m" role="36OdV$">
+                    <property role="3_1VEL" value="description" />
+                  </node>
+                </node>
+                <node concept="36OdVG" id="4TVlTE9$91D" role="360Vxr">
+                  <node concept="36lvV7" id="4TVlTE9$91A" role="36OdVH">
+                    <ref role="36lvV4" node="4TVlTE9$8Xi" resolve="post" />
+                  </node>
+                  <node concept="3_1VEQ" id="4TVlTE9$91N" role="36OdV$">
+                    <property role="3_1VEL" value="href" />
+                  </node>
+                </node>
+                <node concept="3_4kww" id="4TVlTE9$91X" role="360Vxr">
+                  <node concept="3_7pGq" id="4TVlTE9$91Y" role="3_4kwx">
+                    <property role="TrG5h" value="arg" />
+                  </node>
+                  <node concept="36OdVG" id="4TVlTE9$929" role="3_4kwz">
+                    <node concept="36lvV7" id="4TVlTE9$927" role="36OdVH">
+                      <ref role="36lvV4" node="4TVlTE9$8Xi" resolve="post" />
+                    </node>
+                    <node concept="3_1VEQ" id="4TVlTE9$92g" role="36OdV$">
+                      <property role="3_1VEL" value="href" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3_4kww" id="4TVlTE9$92v" role="360Vxr">
+                  <node concept="3_7pGq" id="4TVlTE9$92w" role="3_4kwx">
+                    <property role="TrG5h" value="uid" />
+                  </node>
+                  <node concept="36OdVG" id="4TVlTE9$92L" role="3_4kwz">
+                    <node concept="36lvV7" id="4TVlTE9$92I" role="36OdVH">
+                      <ref role="36lvV4" node="4TVlTE9$8Xi" resolve="post" />
+                    </node>
+                    <node concept="3_1VEQ" id="4TVlTE9$92S" role="36OdV$">
+                      <property role="3_1VEL" value="hash" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3_4kww" id="4TVlTE9$93c" role="360Vxr">
+                  <node concept="3_7pGq" id="4TVlTE9$93d" role="3_4kwx">
+                    <property role="TrG5h" value="valid" />
+                  </node>
+                  <node concept="37qXzA" id="4TVlTE9$93w" role="3_4kwz">
+                    <property role="37qXzB" value="True" />
+                  </node>
+                </node>
+                <node concept="3_4kww" id="4TVlTE9$93R" role="360Vxr">
+                  <node concept="3_7pGq" id="4TVlTE9$93S" role="3_4kwx">
+                    <property role="TrG5h" value="icon" />
+                  </node>
+                  <node concept="36lvV7" id="4TVlTE9$94e" role="3_4kwz">
+                    <ref role="36lvV4" node="4TVlTE9zGi6" resolve="ICON_WEB" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="36OdVG" id="4TVlTE9$8Zx" role="36SuWj">
+            <node concept="36lvV7" id="4TVlTE9$8ZD" role="36OdVH">
+              <ref role="36lvV4" node="4TVlTE9$8TB" resolve="r" />
+            </node>
+            <node concept="36OdVG" id="4TVlTE9$90p" role="36OdVx">
+              <node concept="360Vw$" id="4TVlTE9$8ZG" role="36OdVH">
+                <node concept="3_7pGq" id="4TVlTE9$8ZI" role="360Vw_">
+                  <property role="TrG5h" value="json" />
+                </node>
+              </node>
+              <node concept="3_1VEQ" id="4TVlTE9$90y" role="36OdV$">
+                <property role="3_1VEL" value="posts" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="w$BEf" id="4TVlTE9$95a" role="3_Zhxv">
+          <node concept="36OdVG" id="4TVlTE9$96j" role="w$BEc">
+            <node concept="36lvV7" id="4TVlTE9$958" role="36OdVH">
+              <ref role="36lvV4" node="4TVlTE9zGkN" resolve="wf" />
+            </node>
+            <node concept="360Vw$" id="4TVlTE9$96q" role="36OdVx">
+              <node concept="3_7pGq" id="4TVlTE9$96s" role="360Vw_">
+                <property role="TrG5h" value="send_feedback" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3_7pGq" id="4TVlTE9zGkL" role="364kHF">
+        <property role="TrG5h" value="main" />
+      </node>
+    </node>
+    <node concept="w_KRP" id="4TVlTE9$96w" role="w_N3S" />
+    <node concept="w$BEf" id="4TVlTE9$9eW" role="w_N3S">
+      <node concept="3_4kww" id="4TVlTE9$9eU" role="w$BEc">
+        <node concept="3_7pGq" id="4TVlTE9$9eV" role="3_4kwx">
+          <property role="TrG5h" value="wf" />
+        </node>
+        <node concept="360Vw$" id="4TVlTE9$9gW" role="3_4kwz">
+          <node concept="3_7pGq" id="4TVlTE9$9gY" role="360Vw_">
+            <property role="TrG5h" value="Workflow" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="w$BEf" id="4TVlTE9$9iN" role="w_N3S">
+      <node concept="36OdVG" id="4TVlTE9$9kA" role="w$BEc">
+        <node concept="36lvV7" id="4TVlTE9$9iL" role="36OdVH">
+          <ref role="36lvV4" node="4TVlTE9zGgB" resolve="sys" />
+        </node>
+        <node concept="360Vw$" id="4TVlTE9$9kH" role="36OdVx">
+          <node concept="3_7pGq" id="4TVlTE9$9kJ" role="360Vw_">
+            <property role="TrG5h" value="exit" />
+          </node>
+          <node concept="36OdVG" id="4TVlTE9$9kU" role="360Vxr">
+            <node concept="36lvV7" id="4TVlTE9$9kP" role="36OdVH">
+              <ref role="36lvV4" node="4TVlTE9$9eV" resolve="wf" />
+            </node>
+            <node concept="360Vw$" id="4TVlTE9$9l1" role="36OdVx">
+              <node concept="3_7pGq" id="4TVlTE9$9l3" role="360Vw_">
+                <property role="TrG5h" value="run" />
+              </node>
+              <node concept="36lvV7" id="4TVlTE9$9l9" role="360Vxr">
+                <ref role="36lvV4" node="4TVlTE9zGkL" resolve="main" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

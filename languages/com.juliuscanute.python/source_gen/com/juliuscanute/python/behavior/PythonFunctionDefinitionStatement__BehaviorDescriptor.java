@@ -19,8 +19,8 @@ import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.scope.CompositeScope;
 import jetbrains.mps.lang.scopes.runtime.NamedElementsScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.scopes.runtime.ScopeUtils;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
@@ -42,6 +42,8 @@ public final class PythonFunctionDefinitionStatement__BehaviorDescriptor extends
     scope.addScope(new NamedElementsScope(SLinkOperations.getTarget(__thisNode__, LINKS.id$$RJc)));
     if ((child != null)) {
       scope.addScope(new NamedElementsScope(SLinkOperations.getChildren(__thisNode__, LINKS.params$$Sde)));
+      scope.addScope(ScopeUtils.lazyParentScope(__thisNode__, kind));
+    } else {
       if (SNodeOperations.isInstanceOf(SNodeOperations.getParent(__thisNode__), CONCEPTS.PythonClassStatement$L_)) {
         scope.addScope(ScopeUtils.lazyParentScope(__thisNode__, kind));
       }
