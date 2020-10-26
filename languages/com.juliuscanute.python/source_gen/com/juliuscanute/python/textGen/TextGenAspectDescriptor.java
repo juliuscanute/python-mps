@@ -45,6 +45,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new PythonBooleanLiteral_TextGen();
       case LanguageConceptSwitch.PythonCallExpression:
         return new PythonCallExpression_TextGen();
+      case LanguageConceptSwitch.PythonElseIfStatement:
+        return new PythonElseIfStatement_TextGen();
       case LanguageConceptSwitch.PythonExpression:
         return new PythonExpression_TextGen();
       case LanguageConceptSwitch.PythonExpressionStatement:
@@ -53,6 +55,10 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new PythonIdentifier_TextGen();
       case LanguageConceptSwitch.PythonIdentifierReference:
         return new PythonIdentifierReference_TextGen();
+      case LanguageConceptSwitch.PythonIfElseStatement:
+        return new PythonIfElseStatement_TextGen();
+      case LanguageConceptSwitch.PythonIndentBlockStatement:
+        return new PythonIndentBlockStatement_TextGen();
       case LanguageConceptSwitch.PythonLogicalExpression:
         return new PythonLogicalExpression_TextGen();
       case LanguageConceptSwitch.PythonMemberExpression:
@@ -83,6 +89,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new PythonUnaryExpression_TextGen();
       case LanguageConceptSwitch.PythonVariableDeclarator:
         return new PythonVariableDeclarator_TextGen();
+      case LanguageConceptSwitch.PythonWhileStatement:
+        return new PythonWhileStatement_TextGen();
     }
     return null;
   }

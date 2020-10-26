@@ -223,7 +223,6 @@
         <property role="TrG5h" value="ca" />
       </node>
       <node concept="3_Zhxs" id="4TVlTE8tDlZ" role="364kHG">
-        <node concept="w_KRP" id="4TVlTE9t6UE" role="3_Zhxv" />
         <node concept="36nmCW" id="4TVlTE8_JjQ" role="3_Zhxv">
           <node concept="36nmCW" id="4TVlTE8_Jkk" role="3_Zhxv">
             <node concept="3625h_" id="4TVlTE8_JkY" role="3_Zhxv">
@@ -658,7 +657,6 @@
           </node>
         </node>
       </node>
-      <node concept="w_KRP" id="4TVlTE948VH" role="3_Zhxv" />
       <node concept="36lvV7" id="4TVlTE8BRfn" role="36SuWj">
         <ref role="36lvV4" node="4TVlTE8w3X4" resolve="items" />
       </node>
