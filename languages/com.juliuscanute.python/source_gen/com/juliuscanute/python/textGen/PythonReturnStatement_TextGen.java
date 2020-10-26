@@ -13,7 +13,7 @@ public class PythonReturnStatement_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append("return");
+    tgs.append("return ");
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.argument$A7KE));
     tgs.newLine();
   }

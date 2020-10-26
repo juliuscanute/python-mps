@@ -13,9 +13,9 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
     <file name="TextGenAspectDescriptor.java">
-      <unit at="116,0,119,0" name="com.juliuscanute.python.textGen.TextGenAspectDescriptor$CONCEPTS" />
-      <unit at="120,0,123,0" name="com.juliuscanute.python.textGen.TextGenAspectDescriptor$PROPS" />
-      <unit at="18,0,124,0" name="com.juliuscanute.python.textGen.TextGenAspectDescriptor" />
+      <unit at="122,0,125,0" name="com.juliuscanute.python.textGen.TextGenAspectDescriptor$CONCEPTS" />
+      <unit at="126,0,129,0" name="com.juliuscanute.python.textGen.TextGenAspectDescriptor$PROPS" />
+      <unit at="18,0,130,0" name="com.juliuscanute.python.textGen.TextGenAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078338326815">
@@ -52,8 +52,8 @@
       <unit id="5655210078338330495" at="9,0,16,0" name="com.juliuscanute.python.textGen.PythonNoneLiteral_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078338330495" at="68,51,69,47" concept="8" />
-      <scope id="5655210078338330495" at="68,51,69,47" />
+      <node id="5655210078338330495" at="74,51,75,47" concept="8" />
+      <scope id="5655210078338330495" at="74,51,75,47" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078338333794">
@@ -72,8 +72,8 @@
       <unit id="5655210078338333794" at="12,0,23,0" name="com.juliuscanute.python.textGen.PythonNumericLiteral_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078338333794" at="70,54,71,50" concept="8" />
-      <scope id="5655210078338333794" at="70,54,71,50" />
+      <node id="5655210078338333794" at="76,54,77,50" concept="8" />
+      <scope id="5655210078338333794" at="76,54,77,50" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078338335693">
@@ -108,8 +108,8 @@
       <unit id="5655210078338335693" at="12,0,36,0" name="com.juliuscanute.python.textGen.PythonStringLiteral_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078338335693" at="84,53,85,49" concept="8" />
-      <scope id="5655210078338335693" at="84,53,85,49" />
+      <node id="5655210078338335693" at="90,53,91,49" concept="8" />
+      <scope id="5655210078338335693" at="90,53,91,49" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078338450210">
@@ -128,8 +128,8 @@
       <unit id="5655210078338450210" at="12,0,23,0" name="com.juliuscanute.python.textGen.PythonIdentifier_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078338450210" at="54,50,55,46" concept="8" />
-      <scope id="5655210078338450210" at="54,50,55,46" />
+      <node id="5655210078338450210" at="60,50,61,46" concept="8" />
+      <scope id="5655210078338450210" at="60,50,61,46" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078338559641">
@@ -181,8 +181,8 @@
       <unit id="5655210078338739419" at="12,0,26,0" name="com.juliuscanute.python.textGen.PythonProperty_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078338739419" at="76,48,77,44" concept="8" />
-      <scope id="5655210078338739419" at="76,48,77,44" />
+      <node id="5655210078338739419" at="82,48,83,44" concept="8" />
+      <scope id="5655210078338739419" at="82,48,83,44" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078338743104">
@@ -206,8 +206,8 @@
       <unit id="5655210078338743104" at="12,0,28,0" name="com.juliuscanute.python.textGen.PythonVariableDeclarator_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078338743104" at="90,58,91,54" concept="8" />
-      <scope id="5655210078338743104" at="90,58,91,54" />
+      <node id="5655210078338743104" at="96,58,97,54" concept="8" />
+      <scope id="5655210078338743104" at="96,58,97,54" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078338858124">
@@ -259,8 +259,8 @@
       <unit id="5655210078339017645" at="9,0,15,0" name="com.juliuscanute.python.textGen.PythonExpression_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078339017645" at="50,50,51,46" concept="8" />
-      <scope id="5655210078339017645" at="50,50,51,46" />
+      <node id="5655210078339017645" at="52,50,53,46" concept="8" />
+      <scope id="5655210078339017645" at="52,50,53,46" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078339128958">
@@ -371,8 +371,8 @@
       <unit id="5655210078339527302" at="12,0,23,0" name="com.juliuscanute.python.textGen.PythonIdentifierReference_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078339527302" at="56,59,57,55" concept="8" />
-      <scope id="5655210078339527302" at="56,59,57,55" />
+      <node id="5655210078339527302" at="62,59,63,55" concept="8" />
+      <scope id="5655210078339527302" at="62,59,63,55" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078339529240">
@@ -398,8 +398,8 @@
       <unit id="5655210078339529240" at="14,0,34,0" name="com.juliuscanute.python.textGen.PythonLogicalExpression_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078339529240" at="62,57,63,53" concept="8" />
-      <scope id="5655210078339529240" at="62,57,63,53" />
+      <node id="5655210078339529240" at="68,57,69,53" concept="8" />
+      <scope id="5655210078339529240" at="68,57,69,53" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078339535645">
@@ -431,8 +431,8 @@
       <unit id="5655210078339535645" at="12,0,36,0" name="com.juliuscanute.python.textGen.PythonMemberExpression_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078339535645" at="64,56,65,52" concept="8" />
-      <scope id="5655210078339535645" at="64,56,65,52" />
+      <node id="5655210078339535645" at="70,56,71,52" concept="8" />
+      <scope id="5655210078339535645" at="70,56,71,52" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078339661417">
@@ -467,8 +467,8 @@
       <unit id="5655210078339661417" at="13,0,35,0" name="com.juliuscanute.python.textGen.PythonObjectExpression_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078339661417" at="72,56,73,52" concept="8" />
-      <scope id="5655210078339661417" at="72,56,73,52" />
+      <node id="5655210078339661417" at="78,56,79,52" concept="8" />
+      <scope id="5655210078339661417" at="78,56,79,52" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078339661462">
@@ -484,8 +484,8 @@
       <unit id="5655210078339661462" at="9,0,15,0" name="com.juliuscanute.python.textGen.PythonNode_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078339661462" at="66,44,67,40" concept="8" />
-      <scope id="5655210078339661462" at="66,44,67,40" />
+      <node id="5655210078339661462" at="72,44,73,40" concept="8" />
+      <scope id="5655210078339661462" at="72,44,73,40" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078340241824">
@@ -502,8 +502,8 @@
       <unit id="5655210078340241824" at="9,0,16,0" name="com.juliuscanute.python.textGen.PythonSelfExpression_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078340241824" at="80,54,81,50" concept="8" />
-      <scope id="5655210078340241824" at="80,54,81,50" />
+      <node id="5655210078340241824" at="86,54,87,50" concept="8" />
+      <scope id="5655210078340241824" at="86,54,87,50" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078340242039">
@@ -538,8 +538,8 @@
       <unit id="5655210078340242039" at="13,0,35,0" name="com.juliuscanute.python.textGen.PythonTupleExpression_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078340242039" at="86,55,87,51" concept="8" />
-      <scope id="5655210078340242039" at="86,55,87,51" />
+      <node id="5655210078340242039" at="92,55,93,51" concept="8" />
+      <scope id="5655210078340242039" at="92,55,93,51" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078340366167">
@@ -561,8 +561,8 @@
       <unit id="5655210078340366167" at="14,0,30,0" name="com.juliuscanute.python.textGen.PythonUnaryExpression_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078340366167" at="88,55,89,51" concept="8" />
-      <scope id="5655210078340366167" at="88,55,89,51" />
+      <node id="5655210078340366167" at="94,55,95,51" concept="8" />
+      <scope id="5655210078340366167" at="94,55,95,51" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078340489856">
@@ -673,15 +673,15 @@
       <unit id="5655210078340741885" at="9,0,15,0" name="com.juliuscanute.python.textGen.PythonStatement_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078340741885" at="82,49,83,45" concept="8" />
-      <scope id="5655210078340741885" at="82,49,83,45" />
+      <node id="5655210078340741885" at="88,49,89,45" concept="8" />
+      <scope id="5655210078340741885" at="88,49,89,45" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078340862131">
     <file name="PythonReturnStatement_TextGen.java">
       <node id="5655210078340862131" at="14,54,15,55" concept="7" />
-      <node id="5655210078340862170" at="15,55,16,25" concept="2" />
-      <node id="5655210078340862253" at="16,25,17,90" concept="2" />
+      <node id="5655210078340862170" at="15,55,16,26" concept="2" />
+      <node id="5655210078340862253" at="16,26,17,90" concept="2" />
       <node id="5655210078340864545" at="17,90,18,18" concept="2" />
       <node id="5655210078340862131" at="22,0,23,0" concept="9" trace="argument$A7KE" />
       <node id="5655210078340862131" at="13,0,20,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
@@ -695,8 +695,8 @@
       <unit id="5655210078340862131" at="12,0,25,0" name="com.juliuscanute.python.textGen.PythonReturnStatement_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078340862131" at="78,55,79,51" concept="8" />
-      <scope id="5655210078340862131" at="78,55,79,51" />
+      <node id="5655210078340862131" at="84,55,85,51" concept="8" />
+      <scope id="5655210078340862131" at="84,55,85,51" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078340864618">
@@ -716,8 +716,8 @@
       <unit id="5655210078340864618" at="12,0,24,0" name="com.juliuscanute.python.textGen.PythonExpressionStatement_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078340864618" at="52,59,53,55" concept="8" />
-      <scope id="5655210078340864618" at="52,59,53,55" />
+      <node id="5655210078340864618" at="54,59,55,55" concept="8" />
+      <scope id="5655210078340864618" at="54,59,55,55" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078340867091">
@@ -741,26 +741,26 @@
       <unit id="5655210078340867091" at="14,0,27,0" name="com.juliuscanute.python.textGen.PythonProgram_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078340867091" at="74,47,75,43" concept="8" />
-      <node id="5655210078340867091" at="101,64,102,55" concept="7" />
-      <node id="5655210078340867091" at="102,55,103,58" concept="7" />
-      <node id="5655210078340867091" at="103,58,104,84" concept="2" />
-      <node id="5655210078340867091" at="104,84,105,17" concept="1" />
-      <node id="5655210078340867385" at="109,63,110,64" concept="8" />
-      <node id="5655210078340867091" at="112,68,113,16" concept="8" />
-      <node id="5655210078340867091" at="109,0,112,0" concept="10" trace="getFileName_PythonProgram#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="5655210078340867091" at="112,0,115,0" concept="10" trace="getFileExtension_PythonProgram#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="5655210078340867091" at="100,58,106,7" concept="5" />
-      <scope id="5655210078340867091" at="74,47,75,43" />
-      <scope id="5655210078340867091" at="109,63,110,64" />
-      <scope id="5655210078340867091" at="112,68,113,16" />
-      <scope id="5655210078340867091" at="109,0,112,0">
+      <node id="5655210078340867091" at="80,47,81,43" concept="8" />
+      <node id="5655210078340867091" at="107,64,108,55" concept="7" />
+      <node id="5655210078340867091" at="108,55,109,58" concept="7" />
+      <node id="5655210078340867091" at="109,58,110,84" concept="2" />
+      <node id="5655210078340867091" at="110,84,111,17" concept="1" />
+      <node id="5655210078340867385" at="115,63,116,64" concept="8" />
+      <node id="5655210078340867091" at="118,68,119,16" concept="8" />
+      <node id="5655210078340867091" at="115,0,118,0" concept="10" trace="getFileName_PythonProgram#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5655210078340867091" at="118,0,121,0" concept="10" trace="getFileExtension_PythonProgram#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5655210078340867091" at="106,58,112,7" concept="5" />
+      <scope id="5655210078340867091" at="80,47,81,43" />
+      <scope id="5655210078340867091" at="115,63,116,64" />
+      <scope id="5655210078340867091" at="118,68,119,16" />
+      <scope id="5655210078340867091" at="115,0,118,0">
         <var name="node" id="5655210078340867091" />
       </scope>
-      <scope id="5655210078340867091" at="112,0,115,0">
+      <scope id="5655210078340867091" at="118,0,121,0">
         <var name="node" id="5655210078340867091" />
       </scope>
-      <scope id="5655210078340867091" at="101,64,105,17">
+      <scope id="5655210078340867091" at="107,64,111,17">
         <var name="ext" id="5655210078340867091" />
         <var name="fname" id="5655210078340867091" />
       </scope>
@@ -801,8 +801,8 @@
       <unit id="5655210078341369351" at="14,0,40,0" name="com.juliuscanute.python.textGen.PythonElseIfStatement_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078341369351" at="48,55,49,51" concept="8" />
-      <scope id="5655210078341369351" at="48,55,49,51" />
+      <node id="5655210078341369351" at="50,55,51,51" concept="8" />
+      <scope id="5655210078341369351" at="50,55,51,51" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078341380802">
@@ -841,8 +841,8 @@
       <unit id="5655210078341380802" at="14,0,39,0" name="com.juliuscanute.python.textGen.PythonIfElseStatement_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078341380802" at="58,55,59,51" concept="8" />
-      <scope id="5655210078341380802" at="58,55,59,51" />
+      <node id="5655210078341380802" at="64,55,65,51" concept="8" />
+      <scope id="5655210078341380802" at="64,55,65,51" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078342124195">
@@ -869,8 +869,8 @@
       <unit id="5655210078342124195" at="14,0,30,0" name="com.juliuscanute.python.textGen.PythonIndentBlockStatement_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078342124195" at="60,60,61,56" concept="8" />
-      <scope id="5655210078342124195" at="60,60,61,56" />
+      <node id="5655210078342124195" at="66,60,67,56" concept="8" />
+      <scope id="5655210078342124195" at="66,60,67,56" />
     </file>
   </root>
   <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078342127451">
@@ -908,8 +908,141 @@
       <unit id="5655210078342127451" at="14,0,41,0" name="com.juliuscanute.python.textGen.PythonWhileStatement_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="5655210078342127451" at="92,54,93,50" concept="8" />
-      <scope id="5655210078342127451" at="92,54,93,50" />
+      <node id="5655210078342127451" at="98,54,99,50" concept="8" />
+      <scope id="5655210078342127451" at="98,54,99,50" />
+    </file>
+  </root>
+  <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078342271808">
+    <file name="PythonForStatement_TextGen.java">
+      <node id="5655210078342271808" at="16,54,17,55" concept="7" />
+      <node id="5655210078342285756" at="17,55,18,23" concept="2" />
+      <node id="5655210078342276509" at="18,23,19,123" concept="7" />
+      <node id="5655210078342276527" at="20,38,21,134" concept="2" />
+      <node id="5655210078342276536" at="22,28,23,25" concept="2" />
+      <node id="5655210078342287025" at="25,5,26,23" concept="2" />
+      <node id="5655210078342290418" at="26,23,27,92" concept="2" />
+      <node id="5655210078342292425" at="27,92,28,21" concept="2" />
+      <node id="5655210078342292549" at="28,21,29,18" concept="2" />
+      <node id="5655210078342271808" at="29,18,30,44" concept="2" />
+      <node id="5655210078342271836" at="31,120,32,19" concept="2" />
+      <node id="5655210078342271836" at="32,19,33,32" concept="2" />
+      <node id="5655210078342271808" at="34,5,35,44" concept="2" />
+      <node id="5655210078342271841" at="36,89,37,27" concept="2" />
+      <node id="5655210078342271842" at="37,27,38,20" concept="2" />
+      <node id="5655210078342271844" at="38,20,39,91" concept="2" />
+      <node id="5655210078342271808" at="44,0,45,0" concept="9" trace="identifiers$_9be" />
+      <node id="5655210078342271808" at="45,0,46,0" concept="9" trace="expression$_8Hc" />
+      <node id="5655210078342271808" at="46,0,47,0" concept="9" trace="body$LHHG" />
+      <node id="5655210078342271808" at="47,0,48,0" concept="9" trace="elseBlk$_9Sh" />
+      <node id="5655210078342276533" at="21,134,24,7" concept="5" />
+      <node id="5655210078342271829" at="30,44,34,5" concept="4" />
+      <node id="5655210078342271838" at="35,44,40,5" concept="5" />
+      <node id="5655210078342276517" at="19,123,25,5" concept="3" />
+      <node id="5655210078342271808" at="15,0,42,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5655210078342276534" at="22,28,23,25" />
+      <scope id="5655210078342271834" at="31,120,33,32" />
+      <scope id="5655210078342271839" at="36,89,39,91" />
+      <scope id="5655210078342276518" at="20,38,24,7" />
+      <scope id="5655210078342271829" at="30,44,34,5">
+        <var name="statement" id="5655210078342271830" />
+      </scope>
+      <scope id="5655210078342276517" at="19,123,25,5">
+        <var name="i" id="5655210078342276546" />
+      </scope>
+      <scope id="5655210078342271808" at="16,54,40,5">
+        <var name="length" id="5655210078342276510" />
+        <var name="tgs" id="5655210078342271808" />
+      </scope>
+      <scope id="5655210078342271808" at="15,0,42,0">
+        <var name="ctx" id="5655210078342271808" />
+      </scope>
+      <unit id="5655210078342271808" at="43,0,49,0" name="com.juliuscanute.python.textGen.PythonForStatement_TextGen$LINKS" />
+      <unit id="5655210078342271808" at="14,0,50,0" name="com.juliuscanute.python.textGen.PythonForStatement_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="5655210078342271808" at="56,52,57,48" concept="8" />
+      <scope id="5655210078342271808" at="56,52,57,48" />
+    </file>
+  </root>
+  <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078342423512">
+    <file name="PythonFunctionDefinitionStatement_TextGen.java">
+      <node id="5655210078342423512" at="15,54,16,55" concept="7" />
+      <node id="5655210078342430726" at="16,55,17,17" concept="2" />
+      <node id="5655210078342430726" at="17,17,18,23" concept="2" />
+      <node id="5655210078342436637" at="19,84,20,86" concept="2" />
+      <node id="5655210078342423531" at="21,5,22,118" concept="7" />
+      <node id="5655210078342423544" at="24,19,25,24" concept="2" />
+      <node id="5655210078342423549" at="26,7,27,129" concept="2" />
+      <node id="5655210078342423558" at="28,28,29,25" concept="2" />
+      <node id="5655210078342423567" at="30,14,31,26" concept="2" />
+      <node id="5655210078342443077" at="31,26,32,22" concept="2" />
+      <node id="5655210078342443650" at="34,5,35,86" concept="2" />
+      <node id="5655210078342423512" at="39,0,40,0" concept="9" trace="id$$RJc" />
+      <node id="5655210078342423512" at="40,0,41,0" concept="9" trace="params$$Sde" />
+      <node id="5655210078342423512" at="41,0,42,0" concept="9" trace="body$$SUh" />
+      <node id="5655210078342433050" at="18,23,21,5" concept="5" />
+      <node id="5655210078342423541" at="23,38,26,7" concept="5" />
+      <node id="5655210078342423564" at="30,12,33,7" concept="0" />
+      <node id="5655210078342423555" at="27,129,33,7" concept="5" />
+      <node id="5655210078342423539" at="22,118,34,5" concept="3" />
+      <node id="5655210078342423512" at="14,0,37,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5655210078342433052" at="19,84,20,86" />
+      <scope id="5655210078342423542" at="24,19,25,24" />
+      <scope id="5655210078342423556" at="28,28,29,25" />
+      <scope id="5655210078342423565" at="30,14,32,22" />
+      <scope id="5655210078342423540" at="23,38,33,7" />
+      <scope id="5655210078342423539" at="22,118,34,5">
+        <var name="i" id="5655210078342423568" />
+      </scope>
+      <scope id="5655210078342423512" at="15,54,35,86">
+        <var name="length" id="5655210078342423532" />
+        <var name="tgs" id="5655210078342423512" />
+      </scope>
+      <scope id="5655210078342423512" at="14,0,37,0">
+        <var name="ctx" id="5655210078342423512" />
+      </scope>
+      <unit id="5655210078342423512" at="38,0,43,0" name="com.juliuscanute.python.textGen.PythonFunctionDefinitionStatement_TextGen$LINKS" />
+      <unit id="5655210078342423512" at="13,0,44,0" name="com.juliuscanute.python.textGen.PythonFunctionDefinitionStatement_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="5655210078342423512" at="58,67,59,63" concept="8" />
+      <scope id="5655210078342423512" at="58,67,59,63" />
+    </file>
+  </root>
+  <root nodeRef="r:54b79e64-e8c3-4042-a29d-b0cead902619(com.juliuscanute.python.textGen)/5655210078342704691">
+    <file name="PythonClassStatement_TextGen.java">
+      <node id="5655210078342704691" at="16,54,17,55" concept="7" />
+      <node id="5655210078342704730" at="17,55,18,25" concept="2" />
+      <node id="5655210078342704798" at="18,25,19,91" concept="2" />
+      <node id="5655210078342706745" at="19,91,20,21" concept="2" />
+      <node id="5655210078342706869" at="20,21,21,18" concept="2" />
+      <node id="5655210078342710503" at="22,94,23,96" concept="2" />
+      <node id="5655210078342713605" at="23,96,24,20" concept="2" />
+      <node id="5655210078342715972" at="26,130,27,31" concept="2" />
+      <node id="5655210078342716286" at="27,31,28,20" concept="2" />
+      <node id="5655210078342704691" at="33,0,34,0" concept="9" trace="className$ZmdT" />
+      <node id="5655210078342704691" at="34,0,35,0" concept="9" trace="initFunction$TiZE" />
+      <node id="5655210078342704691" at="35,0,36,0" concept="9" trace="memberFunctions$ZrBg" />
+      <node id="5655210078342706964" at="21,18,25,5" concept="5" />
+      <node id="5655210078342713651" at="25,5,29,5" concept="4" />
+      <node id="5655210078342704691" at="15,0,31,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5655210078342706966" at="22,94,24,20" />
+      <scope id="5655210078342713657" at="26,130,28,20" />
+      <scope id="5655210078342713651" at="25,5,29,5">
+        <var name="function" id="5655210078342713653" />
+      </scope>
+      <scope id="5655210078342704691" at="16,54,29,5">
+        <var name="tgs" id="5655210078342704691" />
+      </scope>
+      <scope id="5655210078342704691" at="15,0,31,0">
+        <var name="ctx" id="5655210078342704691" />
+      </scope>
+      <unit id="5655210078342704691" at="32,0,37,0" name="com.juliuscanute.python.textGen.PythonClassStatement_TextGen$LINKS" />
+      <unit id="5655210078342704691" at="14,0,38,0" name="com.juliuscanute.python.textGen.PythonClassStatement_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="5655210078342704691" at="48,54,49,50" concept="8" />
+      <scope id="5655210078342704691" at="48,54,49,50" />
     </file>
   </root>
 </debug-info>

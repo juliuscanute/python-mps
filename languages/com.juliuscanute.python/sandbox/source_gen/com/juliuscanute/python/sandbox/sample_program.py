@@ -4,7 +4,17 @@ import socket
 from urllib3.response import HTTPResponse
 import os.path as file_path
 from urllib3 import response as HTTP
-a = 1
+def maxOf(ab, bc, ca) :
+  if ab > bc :
+    if ab > ca :
+      return ab
+else :
+      return ca
+elif bc > ca :
+    return bc
+else :
+    return ca
+  a = 1
 b = 2
 c = 3
 max = maxOf(a, b, c)
@@ -25,17 +35,34 @@ print(matrix[1][0])
 answer1 = True
 answer2 = False
 answer3 = None
+for item in items :
   print(item)
       print("try block")
+else :
+  print('no items printed')
+for i in range(10) :
   print(i)
   dictionary = {'key1':1, 'key2':2, 'key3':3, 'key4':4}
 doubleKey = {'key1':{'key2':'hello world'}}
 print(doubleKey['key1']['key2'])
+for key, value in dictionary :
   print(key)
   print(value)
   i = 0
 while i < 100 :
   i = i + 1
-  x = Complex(3.0, -4.5)
+  class Complex :
+def __init__(self, realpart, imagepart) :
+  self.realpart = realpart
+  self.imagepart = imagepart
+
+def output(self) :
+  return self.realpart + self.imagepart
+
+def update_values(self, real, image) :
+  self.realpart = real
+  self.imagepart = image
+
+x = Complex(3.0, -4.5)
 print(x.output + x.update_values(1.1, 2.2))
 

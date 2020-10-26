@@ -45,12 +45,18 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new PythonBooleanLiteral_TextGen();
       case LanguageConceptSwitch.PythonCallExpression:
         return new PythonCallExpression_TextGen();
+      case LanguageConceptSwitch.PythonClassStatement:
+        return new PythonClassStatement_TextGen();
       case LanguageConceptSwitch.PythonElseIfStatement:
         return new PythonElseIfStatement_TextGen();
       case LanguageConceptSwitch.PythonExpression:
         return new PythonExpression_TextGen();
       case LanguageConceptSwitch.PythonExpressionStatement:
         return new PythonExpressionStatement_TextGen();
+      case LanguageConceptSwitch.PythonForStatement:
+        return new PythonForStatement_TextGen();
+      case LanguageConceptSwitch.PythonFunctionDefinitionStatement:
+        return new PythonFunctionDefinitionStatement_TextGen();
       case LanguageConceptSwitch.PythonIdentifier:
         return new PythonIdentifier_TextGen();
       case LanguageConceptSwitch.PythonIdentifierReference:
