@@ -15,12 +15,12 @@ public class PythonIndentBlockStatement_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    ctx.getBuffer().area().increaseIndent();
+    tgs.increaseIndent();
     for (SNode statement : ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.body$LHHG))) {
       tgs.indent();
       tgs.appendNode(statement);
     }
-    ctx.getBuffer().area().decreaseIndent();
+    tgs.decreaseIndent();
   }
 
   private static final class LINKS {

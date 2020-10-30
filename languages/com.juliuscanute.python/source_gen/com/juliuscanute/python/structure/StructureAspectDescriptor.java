@@ -545,7 +545,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("com.juliuscanute.python.structure.PythonNode", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee66582d22L);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5655210078326817757");
     b.version(2);
-    b.aggregate("elseBlk", 0x4e7b579a88e103e1L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac9426e0L).optional(false).ordered(true).multiple(false).origin("5655210078326817761").done();
+    b.aggregate("elseBlk", 0x4e7b579a89fc4af9L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac9426e0L).optional(false).ordered(true).multiple(false).origin("5655210078345382649").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPythonTryExceptExpressionStatement() {

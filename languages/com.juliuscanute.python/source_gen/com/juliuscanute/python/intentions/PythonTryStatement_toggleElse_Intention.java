@@ -52,7 +52,7 @@ public final class PythonTryStatement_toggleElse_Intention extends AbstractInten
     public void execute(final SNode node, final EditorContext editorContext) {
       if ((SLinkOperations.getTarget(node, LINKS.elseStmt$Zy9N) == null)) {
         SNode elseStmt = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88e103ddL, "com.juliuscanute.python.structure.PythonTryElseStatement"));
-        SLinkOperations.setTarget(elseStmt, LINKS.elseBlk$3P9y, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac9426e0L, "com.juliuscanute.python.structure.PythonIndentBlockStatement")));
+        SLinkOperations.setTarget(elseStmt, LINKS.elseBlk$F6qT, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac9426e0L, "com.juliuscanute.python.structure.PythonIndentBlockStatement")));
         SLinkOperations.setTarget(node, LINKS.elseStmt$Zy9N, elseStmt);
       } else {
         SLinkOperations.setTarget(node, LINKS.elseStmt$Zy9N, null);
@@ -66,6 +66,6 @@ public final class PythonTryStatement_toggleElse_Intention extends AbstractInten
 
   private static final class LINKS {
     /*package*/ static final SContainmentLink elseStmt$Zy9N = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88e103dbL, 0x4e7b579a88fd4e10L, "elseStmt");
-    /*package*/ static final SContainmentLink elseBlk$3P9y = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88e103ddL, 0x4e7b579a88e103e1L, "elseBlk");
+    /*package*/ static final SContainmentLink elseBlk$F6qT = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88e103ddL, 0x4e7b579a89fc4af9L, "elseBlk");
   }
 }

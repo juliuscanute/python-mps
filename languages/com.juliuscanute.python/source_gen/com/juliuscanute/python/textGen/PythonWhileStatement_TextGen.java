@@ -19,13 +19,14 @@ public class PythonWhileStatement_TextGen extends TextGenDescriptorBase {
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.test$lGNv));
     tgs.append(" :");
     tgs.newLine();
-    ctx.getBuffer().area().increaseIndent();
+    tgs.increaseIndent();
     for (SNode statement : ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.body$LHHG))) {
       tgs.indent();
       tgs.appendNode(statement);
     }
-    ctx.getBuffer().area().decreaseIndent();
+    tgs.decreaseIndent();
     if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.elseBlk$hpCY) != null)) {
+      tgs.indent();
       tgs.append("else :");
       tgs.newLine();
       tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.elseBlk$hpCY));

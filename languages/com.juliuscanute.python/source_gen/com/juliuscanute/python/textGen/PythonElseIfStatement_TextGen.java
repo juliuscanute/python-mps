@@ -16,20 +16,22 @@ public class PythonElseIfStatement_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.test$dy2P) != null)) {
+      tgs.indent();
       tgs.append("elif ");
       tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.test$dy2P));
       tgs.append(" :");
       tgs.newLine();
     } else {
+      tgs.indent();
       tgs.append("else :");
       tgs.newLine();
     }
-    ctx.getBuffer().area().increaseIndent();
+    tgs.increaseIndent();
     for (SNode statement : ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.consequent$dywR))) {
       tgs.indent();
       tgs.appendNode(statement);
     }
-    ctx.getBuffer().area().decreaseIndent();
+    tgs.decreaseIndent();
   }
 
   private static final class LINKS {

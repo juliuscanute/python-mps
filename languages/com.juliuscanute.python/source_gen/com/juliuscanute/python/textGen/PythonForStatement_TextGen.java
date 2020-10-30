@@ -27,13 +27,14 @@ public class PythonForStatement_TextGen extends TextGenDescriptorBase {
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.expression$_8Hc));
     tgs.append(" :");
     tgs.newLine();
-    ctx.getBuffer().area().increaseIndent();
+    tgs.increaseIndent();
     for (SNode statement : ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.body$LHHG))) {
       tgs.indent();
       tgs.appendNode(statement);
     }
-    ctx.getBuffer().area().decreaseIndent();
+    tgs.decreaseIndent();
     if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.elseBlk$_9Sh) != null)) {
+      tgs.indent();
       tgs.append("else :");
       tgs.newLine();
       tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.elseBlk$_9Sh));

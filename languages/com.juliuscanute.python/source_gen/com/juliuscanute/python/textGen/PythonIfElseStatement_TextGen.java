@@ -19,12 +19,12 @@ public class PythonIfElseStatement_TextGen extends TextGenDescriptorBase {
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.discriminant$h4k4));
     tgs.append(" :");
     tgs.newLine();
-    ctx.getBuffer().area().increaseIndent();
+    tgs.increaseIndent();
     for (SNode statement : ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.body$LHHG))) {
       tgs.indent();
       tgs.appendNode(statement);
     }
-    ctx.getBuffer().area().decreaseIndent();
+    tgs.decreaseIndent();
     for (SNode blk : ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.elseBlk$hAA1))) {
       tgs.appendNode(blk);
     }

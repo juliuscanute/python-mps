@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="58rqo7g8958vie93hgrcnl5exx0em57">
+<product version="3" modelHash="-27mxza585p1afncgib9lg174ezcqlyq">
   <files names="IntentionsDescriptor.java:PythonCallExpression_toggleArguments_Intention.java:PythonClassStatement__toggleInit_Intention.java:PythonForStatement_toggleElse_Intention.java:PythonIfElseStatement_toggleElse_Intention.java:PythonMemberExpression_toggleIdentifierExpressionProperty_Intention.java:PythonTryExceptStatement_toggleAs_Intention.java:PythonTryStatement_toggleElse_Intention.java:PythonTryStatement_toggleExcept_Intention.java:PythonTryStatement_toggleFinally_Intention.java:PythonWhileStatement_toggleElse_Intention.java" />
 </product>
 

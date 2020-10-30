@@ -20,18 +20,15 @@ public class PythonFunctionDefinitionStatement_TextGen extends TextGenDescriptor
       tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.id$$RJc));
     }
     int length = ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.params$$Sde)).count();
+    tgs.append("(");
     for (int i = 0; i < length; i++) {
-      if (i == 0) {
-        tgs.append("(");
-      }
       tgs.appendNode(ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.params$$Sde)).getElement(i));
       if (i != length - 1) {
         tgs.append(", ");
-      } else {
-        tgs.append(") :");
-        tgs.newLine();
       }
     }
+    tgs.append(") :");
+    tgs.newLine();
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.body$$SUh));
   }
 

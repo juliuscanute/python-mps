@@ -89,6 +89,16 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new PythonStatement_TextGen();
       case LanguageConceptSwitch.PythonStringLiteral:
         return new PythonStringLiteral_TextGen();
+      case LanguageConceptSwitch.PythonTryElseStatement:
+        return new PythonTryElseStatement_TextGen();
+      case LanguageConceptSwitch.PythonTryExceptExpressionStatement:
+        return new PythonTryExceptExpressionStatement_TextGen();
+      case LanguageConceptSwitch.PythonTryExceptStatement:
+        return new PythonTryExceptStatement_TextGen();
+      case LanguageConceptSwitch.PythonTryFinallyStatement:
+        return new PythonTryFinallyStatement_TextGen();
+      case LanguageConceptSwitch.PythonTryStatement:
+        return new PythonTryStatement_TextGen();
       case LanguageConceptSwitch.PythonTupleExpression:
         return new PythonTupleExpression_TextGen();
       case LanguageConceptSwitch.PythonUnaryExpression:

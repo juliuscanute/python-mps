@@ -16,17 +16,14 @@ public class PythonCallExpression_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.callee$RvdE));
     int length = ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.argumets$RvFG)).count();
+    tgs.append("(");
     for (int i = 0; i < length; i++) {
-      if (i == 0) {
-        tgs.append("(");
-      }
       tgs.appendNode(ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.argumets$RvFG)).getElement(i));
       if (i != length - 1) {
         tgs.append(", ");
-      } else {
-        tgs.append(")");
       }
     }
+    tgs.append(")");
   }
 
   private static final class LINKS {

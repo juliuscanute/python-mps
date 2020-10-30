@@ -19,6 +19,7 @@ public class PythonClassStatement_TextGen extends TextGenDescriptorBase {
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.className$ZmdT));
     tgs.append(" :");
     tgs.newLine();
+    tgs.increaseIndent();
     if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.initFunction$TiZE) != null)) {
       tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.initFunction$TiZE));
       tgs.newLine();
@@ -27,6 +28,7 @@ public class PythonClassStatement_TextGen extends TextGenDescriptorBase {
       tgs.appendNode(function);
       tgs.newLine();
     }
+    tgs.decreaseIndent();
   }
 
   private static final class LINKS {
