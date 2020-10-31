@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/com.juliuscanute.python/com.juliuscanute.python.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/com.juliuscanute.python.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Python.build/Python.build.msd" folder="" />
     </projectModules>
   </component>
 </project>
