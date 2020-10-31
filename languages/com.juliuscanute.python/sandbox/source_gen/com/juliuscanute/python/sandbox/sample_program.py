@@ -1,4 +1,3 @@
-
 import os.path
 import socket
 from urllib3.response import HTTPResponse

@@ -144,9 +144,6 @@
   </registry>
   <node concept="395kph" id="4_DfFMGpXhT">
     <property role="TrG5h" value="sample_program.py" />
-    <node concept="w$BEf" id="4TVlTE8pGdq" role="w_N3S">
-      <node concept="w__i5" id="4TVlTE8pGf6" role="w$BEc" />
-    </node>
     <node concept="395kpi" id="4TVlTE8wZkZ" role="w_N3S">
       <node concept="395hWp" id="4TVlTE8wZl1" role="395kXS">
         <node concept="3_7pGq" id="4TVlTE8wZl3" role="395hWq">
