@@ -21,7 +21,7 @@ subprojects {
     }
 
     dependencies {
-        "mps"("com.jetbrains:mps:2020.2")
+        "mps"("com.jetbrains:mps:2020.1.4")
     }
 
     configure<PublishingExtension> {
@@ -37,7 +37,7 @@ subprojects {
             if (project.hasProperty("bintray.user")) {
                 val user = project.properties["bintray.user"] as String
                 val key = project.properties["bintray.key"] as String
-                val repo = "specificlanguages.com"
+                val repo = "python-mps"
                 maven(url = "https://api.bintray.com/maven/$user/$repo/${this@subprojects.name}/;publish=0") {
                     credentials {
                         username = user
