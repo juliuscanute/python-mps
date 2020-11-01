@@ -1,0 +1,7 @@
+common/languages/com.juliuscanute.python/source_gen.caches/*
+common/languages/com.juliuscanute.python/classes_gen/*
+common/languages/com.juliuscanute.python/generator/source_gen.caches/*
+common/languages/com.juliuscanute.python/generator/classes_gen/*
+common/languages/com.juliuscanute.python/sandbox/classes_gen/*
+common/languages/com.juliuscanute.python/sandbox/source_gen.caches/*
+.gradle/*
