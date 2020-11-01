@@ -1,7 +1,892 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a3ae692-2d06-436f-97a3-2ce7f29a99a1" name="Default Changelist" comment="" />
+    <list default="true" id="0a3ae692-2d06-436f-97a3-2ce7f29a99a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mps/migration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/Language.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/BehaviorAspectDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/FromStatementAsName__BehaviorDescriptor$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/FromStatementAsName__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/FromStatement__BehaviorDescriptor$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/FromStatement__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/ImportStatementAsName__BehaviorDescriptor$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/ImportStatementAsName__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/ImportStatement__BehaviorDescriptor$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/ImportStatement__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonClassStatement__BehaviorDescriptor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonClassStatement__BehaviorDescriptor$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonClassStatement__BehaviorDescriptor$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonClassStatement__BehaviorDescriptor$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonClassStatement__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonExpressionStatement__BehaviorDescriptor$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonExpressionStatement__BehaviorDescriptor$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonExpressionStatement__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonForStatement__BehaviorDescriptor$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonForStatement__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonFunctionDefinitionStatement__BehaviorDescriptor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonFunctionDefinitionStatement__BehaviorDescriptor$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonFunctionDefinitionStatement__BehaviorDescriptor$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonFunctionDefinitionStatement__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonIdentifier__BehaviorDescriptor$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonIdentifier__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonIfElseStatement__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonIndentBlockStatement__BehaviorDescriptor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonIndentBlockStatement__BehaviorDescriptor$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonIndentBlockStatement__BehaviorDescriptor$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonIndentBlockStatement__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonProgram__BehaviorDescriptor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonProgram__BehaviorDescriptor$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonProgram__BehaviorDescriptor$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonProgram__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonStatement__BehaviorDescriptor$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonStatement__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonStringLiteral__BehaviorDescriptor$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonStringLiteral__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonTryElseStatement__BehaviorDescriptor$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonTryElseStatement__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonTryExceptStatement__BehaviorDescriptor$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonTryExceptStatement__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/PythonWhileStatement__BehaviorDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/behavior/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/ConstraintsAspectDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/PythonIdentifierReference_Constraints$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/PythonIdentifierReference_Constraints$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/PythonIdentifierReference_Constraints$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/PythonIdentifierReference_Constraints$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/PythonIdentifierReference_Constraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/PythonIdentifier_Constraints$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/PythonIdentifier_Constraints$IdName_Property.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/PythonIdentifier_Constraints$Name_Property.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/PythonIdentifier_Constraints$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/PythonIdentifier_Constraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/constraints/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/DottedName_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/DottedName_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/DottedName_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/DottedName_EditorBuilder_a$dottedNameListHandler_jnw8ln_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/DottedName_EditorBuilder_a$namesListHandler_jnw8ln_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/DottedName_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/EditorAspectDescriptorImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/FromStatementAsName_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/FromStatementAsName_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/FromStatementAsName_EditorBuilder_a$dottedNameSingleRoleHandler_it1rjp_b0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/FromStatementAsName_EditorBuilder_a$importAsStatementSingleRoleHandler_it1rjp_c0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/FromStatementAsName_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/FromStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/FromStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/FromStatement_EditorBuilder_a$dottedNameSingleRoleHandler_p6w1er_b0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/FromStatement_EditorBuilder_a$importStatementSingleRoleHandler_p6w1er_c0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/FromStatement_EditorBuilder_a$importStatementSingleRoleHandler_p6w1er_d0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/FromStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatementAsName_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatementAsName_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatementAsName_EditorBuilder_a$asNameSingleRoleHandler_c38y36_d0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatementAsName_EditorBuilder_a$dottedNameSingleRoleHandler_c38y36_b0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatementAsName_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatement_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatement_EditorBuilder_a$Inline_Builder0$dottedNameListHandler_iyzpy9_a0a0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatement_EditorBuilder_a$Inline_Builder0$dottedNameListHandler_iyzpy9_b0a0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatement_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatement_EditorBuilder_a$dottedNameSingleRoleHandler_iyzpy9_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatement_EditorBuilder_a$dottedNameSingleRoleHandler_iyzpy9_b0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/ImportStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonArrayExpression_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonArrayExpression_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonArrayExpression_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonArrayExpression_EditorBuilder_a$elementsListHandler_tjjqwb_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonArrayExpression_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonAssignmentExpression_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonAssignmentExpression_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonAssignmentExpression_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonAssignmentExpression_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonAssignmentExpression_EditorBuilder_a$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonAssignmentExpression_EditorBuilder_a$leftSingleRoleHandler_u9h02d_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonAssignmentExpression_EditorBuilder_a$rightSingleRoleHandler_u9h02d_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonAssignmentExpression_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_EditorBuilder_a$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_EditorBuilder_a$leftSingleRoleHandler_2ub96j_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_EditorBuilder_a$rightSingleRoleHandler_2ub96j_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Left_Actions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Left_Actions$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Left_Actions$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Left_Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Operator_Actions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Operator_Actions$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Operator_Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Right_Actions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Right_Actions$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Right_Actions$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Right_Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBooleanLiteral_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBooleanLiteral_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBooleanLiteral_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBooleanLiteral_EditorBuilder_a$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonBooleanLiteral_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonCallExpression_Argument_Actions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonCallExpression_Argument_Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonCallExpression_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonCallExpression_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonCallExpression_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonCallExpression_EditorBuilder_a$argumetsListHandler_to9tgd_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonCallExpression_EditorBuilder_a$calleeSingleRoleHandler_to9tgd_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonCallExpression_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonCallExpression_Paren_Actions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonCallExpression_Paren_Actions$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonCallExpression_Paren_Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonClassStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonClassStatement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonClassStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonClassStatement_EditorBuilder_a$classNameSingleRoleHandler_ptkfu4_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonClassStatement_EditorBuilder_a$initFunctionSingleRoleHandler_ptkfu4_d0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonClassStatement_EditorBuilder_a$memberFunctionsListHandler_ptkfu4_d0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonClassStatement_EditorBuilder_a$memberFunctionsListHandler_ptkfu4_e0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonClassStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonElseIfStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonElseIfStatement_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonElseIfStatement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonElseIfStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonElseIfStatement_EditorBuilder_a$consequentListHandler_79ky93_d0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonElseIfStatement_EditorBuilder_a$testSingleRoleHandler_79ky93_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonElseIfStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpressionStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpressionStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpressionStatement_EditorBuilder_a$expressionSingleRoleHandler_kbbo2g_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpressionStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_EditorBuilder_a$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Include_2hq236_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Include_2hq236_b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Include_2hq236_c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Include_2hq236_d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Include_2hq236_e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Subconcepts_2hq236_b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Subconcepts_2hq236_c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Subconcepts_2hq236_d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Subconcepts_2hq236_e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu$SMP_Subconcepts_2hq236_f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_TransformationMenu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_TransformationMenu$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_TransformationMenu$TMP_Include_6nrs95_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_TransformationMenu$TMP_Include_6nrs95_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_TransformationMenu$TMP_Include_6nrs95_d0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_TransformationMenu$TMP_Include_6nrs95_e0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_TransformationMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_binaryExpression$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_binaryExpression$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_binaryExpression$TMP_Param_m1y502_a0$TMP_Action_m1y502_a0a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_binaryExpression$TMP_Param_m1y502_a0$TMP_Action_m1y502_a0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_binaryExpression$TMP_Param_m1y502_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_binaryExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_booleanLiteral$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_booleanLiteral$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_booleanLiteral$SMP_Param_3wnmsp_a$SMP_Action_3wnmsp_a0$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_booleanLiteral$SMP_Param_3wnmsp_a$SMP_Action_3wnmsp_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_booleanLiteral$SMP_Param_3wnmsp_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_booleanLiteral.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_callExpression$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_callExpression$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_callExpression$TMP_Action_9yqgqo_a0$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_callExpression$TMP_Action_9yqgqo_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_callExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_logicalExpression$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_logicalExpression$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_logicalExpression$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_logicalExpression$TMP_Param_ugo63_a0$TMP_Action_ugo63_a0a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_logicalExpression$TMP_Param_ugo63_a0$TMP_Action_ugo63_a0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_logicalExpression$TMP_Param_ugo63_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_logicalExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_memberExpression$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_memberExpression$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_memberExpression$TMP_Param_hn6fsu_a0$TMP_Action_hn6fsu_a0a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_memberExpression$TMP_Param_hn6fsu_a0$TMP_Action_hn6fsu_a0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_memberExpression$TMP_Param_hn6fsu_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_memberExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_numericLiteral$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_numericLiteral$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_numericLiteral$SMP_Action_pyuns6_a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_numericLiteral$SMP_Action_pyuns6_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_numericLiteral.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_stringLiteral$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_stringLiteral$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_stringLiteral$SMP_Param_d3wyh5_a$SMP_Action_d3wyh5_a0$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_stringLiteral$SMP_Param_d3wyh5_a$SMP_Action_d3wyh5_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_stringLiteral$SMP_Param_d3wyh5_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_stringLiteral.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression$SMP_Param_ejzc9a_a$SMP_Action_ejzc9a_a0$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression$SMP_Param_ejzc9a_a$SMP_Action_ejzc9a_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression$SMP_Param_ejzc9a_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression1$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression1$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression1$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression1$TMP_Param_p0r85m_a0$TMP_Action_p0r85m_a0a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression1$TMP_Param_p0r85m_a0$TMP_Action_p0r85m_a0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression1$TMP_Param_p0r85m_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_variableInitialization$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_variableInitialization$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_variableInitialization$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_variableInitialization$SMP_Action_me49w3_a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_variableInitialization$SMP_Action_me49w3_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonExpression_variableInitialization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonForStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonForStatement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonForStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonForStatement_EditorBuilder_a$bodyListHandler_9yvrkl_f0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonForStatement_EditorBuilder_a$elseBlkSingleRoleHandler_9yvrkl_c6a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonForStatement_EditorBuilder_a$expressionSingleRoleHandler_9yvrkl_d0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonForStatement_EditorBuilder_a$identifiersListHandler_9yvrkl_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonForStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonFunctionDefinitionStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonFunctionDefinitionStatement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonFunctionDefinitionStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonFunctionDefinitionStatement_EditorBuilder_a$bodySingleRoleHandler_w5j302_f0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonFunctionDefinitionStatement_EditorBuilder_a$idSingleRoleHandler_w5j302_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonFunctionDefinitionStatement_EditorBuilder_a$paramsListHandler_w5j302_d0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonFunctionDefinitionStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_EditorBuilder_a$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_EditorBuilder_a$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_EditorBuilder_a$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_SubstituteMenu$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_SubstituteMenu$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_SubstituteMenu$SMP_ReferenceScope_yuxsuh_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_SubstituteMenu$SMP_Subconcepts_yuxsuh_b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifierReference_SubstituteMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifier_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifier_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifier_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifier_EditorBuilder_a$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifier_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifier_TransformationMenu$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifier_TransformationMenu$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifier_TransformationMenu$TMP_Group_s04cfl_a0$TMP_Action_s04cfl_a0a$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifier_TransformationMenu$TMP_Group_s04cfl_a0$TMP_Action_s04cfl_a0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifier_TransformationMenu$TMP_Group_s04cfl_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIdentifier_TransformationMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIfElseStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIfElseStatement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIfElseStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIfElseStatement_EditorBuilder_a$bodyListHandler_xo9yyv_d0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIfElseStatement_EditorBuilder_a$discriminantSingleRoleHandler_xo9yyv_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIfElseStatement_EditorBuilder_a$elseBlkListHandler_xo9yyv_a4a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIfElseStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIndentBlockStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIndentBlockStatement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIndentBlockStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIndentBlockStatement_EditorBuilder_a$bodyListHandler_xuzoup_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIndentBlockStatement_EditorBuilder_a$bodyListHandler_xuzoup_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonIndentBlockStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLeftHandSideExpression_TransformationMenu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLeftHandSideExpression_TransformationMenu$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLeftHandSideExpression_TransformationMenu$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLeftHandSideExpression_TransformationMenu$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLeftHandSideExpression_TransformationMenu$TMP_Group_oyc3nn_a1$TMP_Param_oyc3nn_a0b$TMP_Action_oyc3nn_a0a1$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLeftHandSideExpression_TransformationMenu$TMP_Group_oyc3nn_a1$TMP_Param_oyc3nn_a0b$TMP_Action_oyc3nn_a0a1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLeftHandSideExpression_TransformationMenu$TMP_Group_oyc3nn_a1$TMP_Param_oyc3nn_a0b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLeftHandSideExpression_TransformationMenu$TMP_Group_oyc3nn_a1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLeftHandSideExpression_TransformationMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_EditorBuilder_a$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_EditorBuilder_a$leftSingleRoleHandler_hmy3kj_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_EditorBuilder_a$rightSingleRoleHandler_hmy3kj_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Left_Actions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Left_Actions$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Left_Actions$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Left_Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Operator_Actions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Operator_Actions$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Operator_Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Right_Actions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Right_Actions$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Right_Actions$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Right_Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_Bracket_Actions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_Bracket_Actions$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_Bracket_Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_EditorBuilder_a$expressionPropertySingleRoleHandler_77b79b_b2a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_EditorBuilder_a$expressionPropertySingleRoleHandler_77b79b_b2b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_EditorBuilder_a$identifierPropertySingleRoleHandler_77b79b_b1a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_EditorBuilder_a$objectSingleRoleHandler_77b79b_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_ExpressionProperty_Actions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_ExpressionProperty_Actions$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_ExpressionProperty_Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_IdentifierProperty_Actions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_IdentifierProperty_Actions$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonMemberExpression_IdentifierProperty_Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonNoneLiteral_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonNoneLiteral_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonNumericLiteral_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonNumericLiteral_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonNumericLiteral_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonNumericLiteral_EditorBuilder_a$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonNumericLiteral_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonObjectExpression_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonObjectExpression_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonObjectExpression_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonObjectExpression_EditorBuilder_a$propertiesListHandler_ox97jw_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonObjectExpression_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProgram_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProgram_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProgram_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProgram_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProgram_EditorBuilder_a$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProgram_EditorBuilder_a$bodyListHandler_6wvile_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProgram_EditorBuilder_a$fromImportAsListHandler_6wvile_d0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProgram_EditorBuilder_a$fromImportListHandler_6wvile_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProgram_EditorBuilder_a$importAsListHandler_6wvile_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProgram_EditorBuilder_a$importListHandler_6wvile_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProgram_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProperty_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProperty_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProperty_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProperty_EditorBuilder_a$keySingleRoleHandler_q3zc5p_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProperty_EditorBuilder_a$valueSingleRoleHandler_q3zc5p_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonProperty_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonReturnStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonReturnStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonReturnStatement_EditorBuilder_a$argumentSingleRoleHandler_g3178k_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonReturnStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonReturnStatement_TransformationMenu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonReturnStatement_TransformationMenu$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonReturnStatement_TransformationMenu$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonReturnStatement_TransformationMenu$TMP_Group_8n3h2q_a1$TMP_Action_8n3h2q_a0b$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonReturnStatement_TransformationMenu$TMP_Group_8n3h2q_a1$TMP_Action_8n3h2q_a0b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonReturnStatement_TransformationMenu$TMP_Group_8n3h2q_a1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonReturnStatement_TransformationMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonScriptStyle_StyleSheet$PythonIdentifierStyleClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonScriptStyle_StyleSheet$PythonKeyWordStyleClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonScriptStyle_StyleSheet$PythonLeftBraceStyleClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonScriptStyle_StyleSheet$PythonLeftBracketStyleClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonScriptStyle_StyleSheet$PythonNumericLiteralStyleClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonScriptStyle_StyleSheet$PythonRightBraceStyleClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonScriptStyle_StyleSheet$PythonRightBracketStyleClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonScriptStyle_StyleSheet$PythonRightParenStyleClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonScriptStyle_StyleSheet$PythonStringLiteralStyleClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonScriptStyle_StyleSheet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonSelfExpression_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonSelfExpression_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStatement_SubstituteMenu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStatement_SubstituteMenu$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStatement_SubstituteMenu$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStatement_SubstituteMenu$SMP_Subconcepts_34nmhe_b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStatement_SubstituteMenu$SMP_Wrap_34nmhe_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStatement_SubstituteMenu$SMP_Wrap_34nmhe_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStatement_SubstituteMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStringLiteral_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStringLiteral_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStringLiteral_EditorBuilder_a$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStringLiteral_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStringLiteral_EditorBuilder_a$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonStringLiteral_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryElseStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryElseStatement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryElseStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryElseStatement_EditorBuilder_a$bodyListHandler_s83n3u_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryElseStatement_EditorBuilder_a$elseBlkSingleRoleHandler_s83n3u_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryElseStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryExceptExpressionStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryExceptExpressionStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryExceptExpressionStatement_EditorBuilder_a$actualIdentifierSingleRoleHandler_1tl5wm_a0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryExceptExpressionStatement_EditorBuilder_a$actualIdentifierSingleRoleHandler_1tl5wm_a1a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryExceptExpressionStatement_EditorBuilder_a$renamedIdentifierSingleRoleHandler_1tl5wm_c1a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryExceptExpressionStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryExceptStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryExceptStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryExceptStatement_EditorBuilder_a$exceptBlkSingleRoleHandler_cnkfd6_d0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryExceptStatement_EditorBuilder_a$expressionSingleRoleHandler_cnkfd6_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryExceptStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryFinallyStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryFinallyStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryFinallyStatement_EditorBuilder_a$finalBlkSingleRoleHandler_tj5ii8_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryFinallyStatement_EditorBuilder_a$finalBlkSingleRoleHandler_tj5ii8_c0a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryFinallyStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryStatement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryStatement_EditorBuilder_a$bodyListHandler_1blej2_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryStatement_EditorBuilder_a$elseStmtSingleRoleHandler_1blej2_a4a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryStatement_EditorBuilder_a$exceptStmtListHandler_1blej2_a3a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryStatement_EditorBuilder_a$finalStmtSingleRoleHandler_1blej2_a3a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryStatement_EditorBuilder_a$finalStmtSingleRoleHandler_1blej2_a5a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTryStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTupleExpression_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTupleExpression_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTupleExpression_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTupleExpression_EditorBuilder_a$elementsListHandler_mipxr8_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonTupleExpression_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonUnaryExpression_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonUnaryExpression_EditorBuilder_a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonUnaryExpression_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonUnaryExpression_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonUnaryExpression_EditorBuilder_a$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonUnaryExpression_EditorBuilder_a$argumentSingleRoleHandler_ex9n1c_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonUnaryExpression_EditorBuilder_a$argumentSingleRoleHandler_ex9n1c_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonUnaryExpression_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonUnaryExpression_Operator_Actions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonUnaryExpression_Operator_Actions$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonUnaryExpression_Operator_Actions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_EditorBuilder_a$idSingleRoleHandler_xo6b0x_a0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_EditorBuilder_a$initSingleRoleHandler_xo6b0x_a1a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_Id_KeyMap$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_Id_KeyMap$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_Id_KeyMap$PythonVariableDeclarator_Id_KeyMap_Action0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_Id_KeyMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_TransformationMenu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_TransformationMenu$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_TransformationMenu$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_TransformationMenu$TMP_Group_8mbdpb_a1$TMP_Action_8mbdpb_a0b$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_TransformationMenu$TMP_Group_8mbdpb_a1$TMP_Action_8mbdpb_a0b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_TransformationMenu$TMP_Group_8mbdpb_a1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_TransformationMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonWhileStatement_Editor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonWhileStatement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonWhileStatement_EditorBuilder_a$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonWhileStatement_EditorBuilder_a$bodyListHandler_q0w7ih_d0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonWhileStatement_EditorBuilder_a$bodyListHandler_q0w7ih_e0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonWhileStatement_EditorBuilder_a$elseBlkListHandler_q0w7ih_b4a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonWhileStatement_EditorBuilder_a$elseBlkSingleRoleHandler_q0w7ih_b4a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonWhileStatement_EditorBuilder_a$elseBlkSingleRoleHandler_q0w7ih_c4a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonWhileStatement_EditorBuilder_a$testSingleRoleHandler_q0w7ih_b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonWhileStatement_EditorBuilder_a$testSingleRoleHandler_q0w7ih_c0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/PythonWhileStatement_EditorBuilder_a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/editor/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/IntentionsDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonCallExpression_toggleArguments_Intention$IntentionImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonCallExpression_toggleArguments_Intention$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonCallExpression_toggleArguments_Intention.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonClassStatement__toggleInit_Intention$IntentionImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonClassStatement__toggleInit_Intention$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonClassStatement__toggleInit_Intention$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonClassStatement__toggleInit_Intention.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonForStatement_toggleElse_Intention$IntentionImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonForStatement_toggleElse_Intention$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonForStatement_toggleElse_Intention.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonIfElseStatement_toggleElse_Intention$IntentionImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonIfElseStatement_toggleElse_Intention$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonIfElseStatement_toggleElse_Intention.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonMemberExpression_toggleIdentifierExpressionProperty_Intention$IntentionImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonMemberExpression_toggleIdentifierExpressionProperty_Intention$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonMemberExpression_toggleIdentifierExpressionProperty_Intention.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonTryExceptStatement_toggleAs_Intention$IntentionImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonTryExceptStatement_toggleAs_Intention$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonTryExceptStatement_toggleAs_Intention.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonTryStatement_toggleElse_Intention$IntentionImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonTryStatement_toggleElse_Intention$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonTryStatement_toggleElse_Intention.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonTryStatement_toggleExcept_Intention$IntentionImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonTryStatement_toggleExcept_Intention$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonTryStatement_toggleExcept_Intention.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonTryStatement_toggleFinally_Intention$IntentionImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonTryStatement_toggleFinally_Intention$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonTryStatement_toggleFinally_Intention.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonWhileStatement_toggleElse_Intention$IntentionImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonWhileStatement_toggleElse_Intention$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/PythonWhileStatement_toggleElse_Intention.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/intentions/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/ConceptPresentationAspectImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/EnumerationDescriptor_PythonAssignmentOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/EnumerationDescriptor_PythonBinaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/EnumerationDescriptor_PythonLogicalOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/EnumerationDescriptor_PythonUnaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/LanguageConceptSwitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/PythonIdentifierConstraintsUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/StructureAspectDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/structure/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/DottedName_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/DottedName_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/FromStatementAsName_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/FromStatementAsName_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/FromStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/FromStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/ImportStatementAsName_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/ImportStatementAsName_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/ImportStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/ImportStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonArrayExpression_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonArrayExpression_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonAssignmentExpression_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonAssignmentExpression_TextGen$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonAssignmentExpression_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonBinaryExpression_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonBinaryExpression_TextGen$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonBinaryExpression_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonBooleanLiteral_TextGen$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonBooleanLiteral_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonCallExpression_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonCallExpression_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonClassStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonClassStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonElseIfStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonElseIfStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonExpressionStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonExpressionStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonExpression_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonForStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonForStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonFunctionDefinitionStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonFunctionDefinitionStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonIdentifierReference_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonIdentifierReference_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonIdentifier_TextGen$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonIdentifier_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonIfElseStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonIfElseStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonIndentBlockStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonIndentBlockStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonLogicalExpression_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonLogicalExpression_TextGen$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonLogicalExpression_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonMemberExpression_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonMemberExpression_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonNode_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonNoneLiteral_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonNumericLiteral_TextGen$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonNumericLiteral_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonObjectExpression_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonObjectExpression_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonProgram_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonProgram_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonProperty_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonProperty_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonReturnStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonReturnStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonSelfExpression_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonStringLiteral_TextGen$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonStringLiteral_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonTryElseStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonTryElseStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonTryExceptExpressionStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonTryExceptExpressionStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonTryExceptStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonTryExceptStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonTryFinallyStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonTryFinallyStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonTryStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonTryStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonTupleExpression_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonTupleExpression_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonUnaryExpression_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonUnaryExpression_TextGen$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonUnaryExpression_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonVariableDeclarator_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonVariableDeclarator_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonWhileStatement_TextGen$LINKS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/PythonWhileStatement_TextGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/TextGenAspectDescriptor$CONCEPTS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/TextGenAspectDescriptor$PROPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/TextGenAspectDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/textGen/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/typesystem/TypesystemDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/typesystem/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/com/juliuscanute/python/typesystem/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/com.juliuscanute.python.mpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/generator/classes_gen/com/juliuscanute/python/generator/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/generator/classes_gen/com/juliuscanute/python/generator/templates/QueriesGenerated.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/generator/classes_gen/com/juliuscanute/python/generator/templates/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/generator/classes_gen/com/juliuscanute/python/generator/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/generator/source_gen.caches/com/juliuscanute/python/generator/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/generator/source_gen.caches/com/juliuscanute/python/generator/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/generator/source_gen.caches/com/juliuscanute/python/generator/templates/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/generator/source_gen.caches/com/juliuscanute/python/generator/templates/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/generator/source_gen/com/juliuscanute/python/generator/Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/generator/source_gen/com/juliuscanute/python/generator/templates/QueriesGenerated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/generator/source_gen/com/juliuscanute/python/generator/templates/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/generator/source_gen/com/juliuscanute/python/generator/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/generator/templates/com.juliuscanute.python.generator.templates@generator.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.behavior.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.constraints.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.editor.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.intentions.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.structure.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.textGen.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/models/com.juliuscanute.python.typesystem.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/classes_gen/com/juliuscanute/python/sandbox/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/com.juliuscanute.python.sandbox.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/models/com.juliuscanute.python.sandbox.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/source_gen.caches/com/juliuscanute/python/sandbox/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/source_gen.caches/com/juliuscanute/python/sandbox/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/source_gen/com/juliuscanute/python/sandbox/alfred_template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/source_gen/com/juliuscanute/python/sandbox/sample_program.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/source_gen/com/juliuscanute/python/sandbox/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/behavior/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/behavior/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/constraints/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/constraints/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/editor/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/editor/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/intentions/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/intentions/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/structure/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/structure/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/textGen/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/textGen/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/typesystem/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen.caches/com/juliuscanute/python/typesystem/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/Language.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/BehaviorAspectDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/FromStatementAsName__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/FromStatement__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/ImportStatementAsName__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/ImportStatement__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonClassStatement__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonExpressionStatement__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonForStatement__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonFunctionDefinitionStatement__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonIdentifier__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonIfElseStatement__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonIndentBlockStatement__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonProgram__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonStatement__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonStringLiteral__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonTryElseStatement__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonTryExceptStatement__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/PythonWhileStatement__BehaviorDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/behavior/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/ConstraintsAspectDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/PythonIdentifierReference_Constraints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/PythonIdentifier_Constraints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/constraints/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/DottedName_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/DottedName_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/EditorAspectDescriptorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/FromStatementAsName_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/FromStatementAsName_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/FromStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/FromStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/ImportStatementAsName_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/ImportStatementAsName_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/ImportStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/ImportStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonArrayExpression_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonArrayExpression_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonAssignmentExpression_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonAssignmentExpression_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonBinaryExpression_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Left_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Operator_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonBinaryExpression_Right_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonBooleanLiteral_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonBooleanLiteral_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonCallExpression_Argument_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonCallExpression_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonCallExpression_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonCallExpression_Paren_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonClassStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonClassStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonElseIfStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonElseIfStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpressionStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpressionStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_SubstituteMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_TransformationMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_binaryExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_booleanLiteral.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_callExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_logicalExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_memberExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_numericLiteral.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_stringLiteral.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_unaryExpression1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonExpression_variableInitialization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonForStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonForStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonFunctionDefinitionStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonFunctionDefinitionStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifierReference_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifierReference_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifierReference_SubstituteMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifier_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifier_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIdentifier_TransformationMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIfElseStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIfElseStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIndentBlockStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonIndentBlockStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonLeftHandSideExpression_TransformationMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonLogicalExpression_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Left_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Operator_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonLogicalExpression_Right_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonMemberExpression_Bracket_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonMemberExpression_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonMemberExpression_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonMemberExpression_ExpressionProperty_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonMemberExpression_IdentifierProperty_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonNoneLiteral_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonNoneLiteral_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonNumericLiteral_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonNumericLiteral_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonObjectExpression_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonObjectExpression_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonProgram_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonProgram_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonProperty_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonProperty_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonReturnStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonReturnStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonReturnStatement_TransformationMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonScriptStyle_StyleSheet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonSelfExpression_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonSelfExpression_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonStatement_SubstituteMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonStringLiteral_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonStringLiteral_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonTryElseStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonTryElseStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonTryExceptExpressionStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonTryExceptExpressionStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonTryExceptStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonTryExceptStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonTryFinallyStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonTryFinallyStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonTryStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonTryStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonTupleExpression_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonTupleExpression_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonUnaryExpression_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonUnaryExpression_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonUnaryExpression_Operator_Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_Id_KeyMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonVariableDeclarator_TransformationMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonWhileStatement_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/PythonWhileStatement_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/editor/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/intentions/IntentionsDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/intentions/PythonCallExpression_toggleArguments_Intention.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/intentions/PythonClassStatement__toggleInit_Intention.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/intentions/PythonForStatement_toggleElse_Intention.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/intentions/PythonIfElseStatement_toggleElse_Intention.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/intentions/PythonMemberExpression_toggleIdentifierExpressionProperty_Intention.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/intentions/PythonTryExceptStatement_toggleAs_Intention.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/intentions/PythonTryStatement_toggleElse_Intention.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/intentions/PythonTryStatement_toggleExcept_Intention.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/intentions/PythonTryStatement_toggleFinally_Intention.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/intentions/PythonWhileStatement_toggleElse_Intention.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/intentions/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/ConceptPresentationAspectImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/EnumerationDescriptor_PythonAssignmentOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/EnumerationDescriptor_PythonBinaryOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/EnumerationDescriptor_PythonLogicalOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/EnumerationDescriptor_PythonUnaryOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/LanguageConceptSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/PythonIdentifierConstraintsUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/StructureAspectDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/structure/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/DottedName_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/FromStatementAsName_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/FromStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/ImportStatementAsName_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/ImportStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonArrayExpression_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonAssignmentExpression_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonBinaryExpression_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonBooleanLiteral_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonCallExpression_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonClassStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonElseIfStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonExpressionStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonExpression_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonForStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonFunctionDefinitionStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonIdentifierReference_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonIdentifier_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonIfElseStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonIndentBlockStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonLogicalExpression_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonMemberExpression_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonNode_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonNoneLiteral_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonNumericLiteral_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonObjectExpression_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonProgram_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonProperty_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonReturnStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonSelfExpression_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonStringLiteral_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonTryElseStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonTryExceptExpressionStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonTryExceptStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonTryFinallyStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonTryStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonTupleExpression_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonUnaryExpression_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonVariableDeclarator_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/PythonWhileStatement_TextGen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/TextGenAspectDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/textGen/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/typesystem/TypesystemDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/typesystem/checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.juliuscanute.python/source_gen/com/juliuscanute/python/typesystem/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Python.build/Python.build.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Python.build/models/Python.build.mps" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +898,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="ef9ab253-5509-42ae-b477-96a6ee418236/r:614f6292-05e2-48e2-b97c-2c6b50677d8d(TempModuleef9ab253-5509-42ae-b477-96a6ee418236/ConsoleModel_327708001505975)">
+            <model ref="e5539d31-a5f2-45b6-82d6-830105002db8/r:9e971a6b-112f-4185-b930-3705355bfae4(TempModulee5539d31-a5f2-45b6-82d6-830105002db8/ConsoleModel_691161316469232)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -33,11 +918,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="4TVlTE884dp">
-                <node concept="3balQm" id="4TVlTE884dq" role="aymYE" />
-                <node concept="2Clz$F" id="4TVlTE884dr" role="aymYO" />
-                <node concept="2_V_lH" id="4TVlTE884ds" role="1PhJh3">
-                  <ref role="2_V_lI" node="4TVlTE884dr" resolve="CommandHolder" />
+              <node concept="aymSD" id="7H_LJVlVOiL">
+                <node concept="3balQm" id="7H_LJVlVOiM" role="aymYE" />
+                <node concept="2Clz$F" id="7H_LJVlVOiN" role="aymYO" />
+                <node concept="2_V_lH" id="7H_LJVlVOiO" role="1PhJh3">
+                  <ref role="2_V_lI" node="7H_LJVlVOiN" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -91,7 +976,170 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectPluginManager">
     <option name="pluginsState">
+      <option name="com.mbeddr.core.base.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.core.codereview.plugin.Codereview_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="com.mbeddr.core.codereview.plugin.Codereview_ProjectPlugin$2" />
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+      <option name="com.mbeddr.doc.aspect.ui.plugin.Ui_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.doc.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.asynccell.plugin.Asynccell_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.breadcrumb.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.ccmenu.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.contextactions.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.ecore.ui.plugin.Ui_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.editingGuide.execution.plugin.Execution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.genreview.plugin.Genreview_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.httpserver.plugin.Httpserver_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.hyperlink.plugin.Hyperlink_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.intentions.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.jfreechart.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.jung.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.multilingual.concept.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.multilingual.settings.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.plantuml.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.projectview.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.projectview.vcs.plugin.Vcs_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.traceExplorer.plugin.TraceExplorer_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="com.mbeddr.mpsutil.userstyles.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.itemis.mps.editor.celllayout.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.itemis.mps.editor.diagram.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.itemis.mps.mouselistener.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
       <option name="de.itemis.mps.selection.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.itemis.mps.tooltips.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.q60.mps.explorer.plugin.Explorer_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.q60.mps.shadowmodels.modelcheck.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.q60.mps.shadowmodels.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.slisson.mps.conditionalEditor.runtime.plugin.Runtime_ProjectPlugin">
         <value>
           <PluginState />
         </value>
@@ -154,71 +1202,44 @@
           <PluginState />
         </value>
       </option>
+      <option name="org.iets3.core.expr.plugin.plugin.Plugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="org.iets3.core.expr.testExecution.plugin.TestExecution_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="org.iets3.core.expr.testExecution.plugin.TestExecution_ProjectPlugin$2" />
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
     </option>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <navigator currentView="FileSystem" proportions="" version="1" />
     <panes>
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
+      </pane>
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:769c6d46-0027-44b7-9c28-7725c4d476ba(com.juliuscanute.python.sandbox) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/sandbox/models/com.juliuscanute.python.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -227,33 +1248,11 @@
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
+      <pane id="CustomProjectView_org.iets3.core.expr.doc.plugin.plugin.BookmarkExplorer">
+        <subPane />
+      </pane>
+      <pane id="CustomProjectView_org.iets3.core.plugin.plugin.SpecExplorer">
+        <subPane />
       </pane>
     </panes>
   </component>
