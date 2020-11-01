@@ -1,10 +1,10 @@
 allprojects {
     group = "com.mbeddr.platform.mpsutil"
-    version = "2019.3.+"
+    version = "exp.2019.1"
 }
 
 plugins {
-    id("com.specificlanguages.mps") version "1.0.1" apply false
+    id("com.specificlanguages.mps") version "0.0.1" apply false
 }
 
 subprojects {
@@ -21,7 +21,7 @@ subprojects {
     }
 
     dependencies {
-        "mps"("com.jetbrains:mps:2020.1.4")
+        "mps"("com.jetbrains:mps:2019.1.5")
     }
 
     configure<PublishingExtension> {
