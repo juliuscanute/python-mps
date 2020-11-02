@@ -7,10 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a3ae692-2d06-436f-97a3-2ce7f29a99a1" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/languages/com.juliuscanute.python/classes_gen/" />
-    <ignored path="$PROJECT_DIR$/solutions/Python.build/classes_gen/" />
-    <ignored path="$PROJECT_DIR$/languages/com.juliuscanute.python/sandbox/classes_gen/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +18,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="e5539d31-a5f2-45b6-82d6-830105002db8/r:9e971a6b-112f-4185-b930-3705355bfae4(TempModulee5539d31-a5f2-45b6-82d6-830105002db8/ConsoleModel_691161316469232)">
+            <model ref="41645875-72ab-442c-baaf-5ad3915ac7c7/r:3c42957b-1f5e-4363-9849-f4ec28c4661e(TempModule41645875-72ab-442c-baaf-5ad3915ac7c7/ConsoleModel_754213417757161)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -42,11 +38,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="7H_LJVlVOiL">
-                <node concept="3balQm" id="7H_LJVlVOiM" role="aymYE" />
-                <node concept="2Clz$F" id="7H_LJVlVOiN" role="aymYO" />
-                <node concept="2_V_lH" id="7H_LJVlVOiO" role="1PhJh3">
-                  <ref role="2_V_lI" node="7H_LJVlVOiN" resolve="CommandHolder" />
+              <node concept="aymSD" id="2KWs7HvEyu1">
+                <node concept="3balQm" id="2KWs7HvEyu2" role="aymYE" />
+                <node concept="2Clz$F" id="2KWs7HvEyu3" role="aymYO" />
+                <node concept="2_V_lH" id="2KWs7HvEyu4" role="1PhJh3">
+                  <ref role="2_V_lI" node="2KWs7HvEyu3" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -347,11 +343,8 @@
     </option>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <navigator currentView="FileSystem" proportions="" version="1" />
     <panes>
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
-        <subPane />
-      </pane>
       <pane id="FileSystem">
         <subPane>
           <expand>
@@ -370,15 +363,15 @@
             <path>
               <item name="" type="" />
               <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
               <item name="" type="" />
               <item name="" type="" />
             </path>
           </expand>
           <select />
         </subPane>
+      </pane>
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -388,25 +381,15 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/models/com.juliuscanute.python.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="statement" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:e3feb37d-7b71-472c-bc91-649eb83f0ad2(Python.build) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/solutions/Python.build/models/Python.build.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,39 +407,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:769c6d46-0027-44b7-9c28-7725c4d476ba(com.juliuscanute.python.sandbox) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/sandbox/models/com.juliuscanute.python.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/models/com.juliuscanute.python.editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e3feb37d-7b71-472c-bc91-649eb83f0ad2(Python.build) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/solutions/Python.build/models/Python.build.mps]" />
+              <option name="myItemId" value="r:769c6d46-0027-44b7-9c28-7725c4d476ba(com.juliuscanute.python.sandbox) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/languages/com.juliuscanute.python/sandbox/models/com.juliuscanute.python.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -467,42 +418,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e3feb37d-7b71-472c-bc91-649eb83f0ad2(Python.build) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/solutions/Python.build/models/Python.build.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5655210078350468999" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -529,10 +444,6 @@
               <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/models/com.juliuscanute.python.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -546,7 +457,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
+              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -561,14 +472,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:769c6d46-0027-44b7-9c28-7725c4d476ba(com.juliuscanute.python.sandbox) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/sandbox/models/com.juliuscanute.python.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5655210078338204708" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -578,28 +481,33 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
+              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
+              <option name="myItemId" value="Python" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:769c6d46-0027-44b7-9c28-7725c4d476ba(com.juliuscanute.python.sandbox) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/languages/com.juliuscanute.python/sandbox/models/com.juliuscanute.python.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5289828217390617721" />
+              <option name="myItemId" value="r:e3feb37d-7b71-472c-bc91-649eb83f0ad2(Python.build) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/solutions/Python.build/models/Python.build.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="CustomProjectView_org.iets3.core.plugin.plugin.SpecExplorer">
+        <subPane />
+      </pane>
       <pane id="CustomProjectView_org.iets3.core.expr.doc.plugin.plugin.BookmarkExplorer">
         <subPane />
       </pane>
       <pane id="CustomProjectView_org.iets3.core.plugin.plugin.SpecExplorer">
+        <subPane />
+      </pane>
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
+      </pane>
+      <pane id="CustomProjectView_org.iets3.core.expr.doc.plugin.plugin.BookmarkExplorer">
         <subPane />
       </pane>
     </panes>
@@ -633,6 +541,11 @@
         <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Build Script.Python" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
