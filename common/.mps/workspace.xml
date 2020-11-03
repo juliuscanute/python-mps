@@ -360,6 +360,12 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
               <option name="myItemType" value="" />
@@ -394,34 +400,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e3feb37d-7b71-472c-bc91-649eb83f0ad2(Python.build) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/solutions/Python.build/models/Python.build.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5655210078350468999" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -547,11 +531,11 @@
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
     <state x="358" y="-790" key="IDE.errors.dialog/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1603504141761" />
-    <state x="279" y="-882" key="SettingsEditor" timestamp="1604378119944">
-      <screen x="-190" y="-1057" width="1920" height="1057" />
+    <state x="279" y="-901" key="SettingsEditor" timestamp="1604378624870">
+      <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
     <state x="279" y="-882" key="SettingsEditor/-190.-1057.1920.1057/0.23.1680.1027@-190.-1057.1920.1057" timestamp="1604378119944" />
-    <state x="279" y="-901" key="SettingsEditor/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1602492821291" />
+    <state x="279" y="-901" key="SettingsEditor/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1604378624870" />
     <state x="393" y="-923" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603499315451">
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
