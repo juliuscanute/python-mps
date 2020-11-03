@@ -97,7 +97,6 @@
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
         <child id="6592112598314499021" name="name" index="m$_yQ" />
         <child id="6592112598314855574" name="containerName" index="m_cZH" />
-        <child id="2172791612906637490" name="description" index="3s6cr7" />
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
@@ -207,10 +206,25 @@
           </node>
         </node>
       </node>
-      <node concept="3_J27D" id="4TVlTEaiuX3" role="3s6cr7">
-        <node concept="3Mxwew" id="2KWs7HvGIbS" role="3MwsjC">
-          <property role="3MwjfP" value="![CDATA[&lt;h1&gt;Python Textgen for JetBrains MPS&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;Ensure your sandbox uses &lt;i&gt;com.juliuscanute.python&lt;/i&gt;&lt;/li&gt;&lt;li&gt;Right click your sandbox and create &lt;i&gt;New &gt; PythonProgram&lt;/i&gt;&lt;/li&gt;&lt;li&gt;Right click the &lt;i&gt;PythonProgram&lt;/i&gt; node created in the previous step and select &lt;i&gt;Preview Generated Text&lt;/i&gt;&lt;/li&gt;&lt;/ol&gt;]]" />
+      <node concept="2pNNFK" id="2KWs7HvHNoI" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="2KWs7HvHNoR" role="3o6s8t" />
+        <node concept="3o6iSG" id="2KWs7HvHNp0" role="3o6s8t">
+          <property role="3o6i5n" value="Python Textgen for JetBrains MPS" />
         </node>
+        <node concept="3o6iSG" id="2KWs7HvHNpW" role="3o6s8t">
+          <property role="3o6i5n" value="To generate text from Python Node:" />
+        </node>
+        <node concept="3o6iSG" id="2KWs7HvHNp4" role="3o6s8t">
+          <property role="3o6i5n" value="1. Ensure your sandbox uses com.juliuscanute.python" />
+        </node>
+        <node concept="3o6iSG" id="2KWs7HvHNpJ" role="3o6s8t">
+          <property role="3o6i5n" value="2. Right click your sandbox and create New &gt; PythonProgram" />
+        </node>
+        <node concept="3o6iSG" id="2KWs7HvHNpP" role="3o6s8t">
+          <property role="3o6i5n" value="3. Right click the PythonProgram node created in the previous step and select Preview Generated Text" />
+        </node>
+        <node concept="3o6iSG" id="2KWs7HvHNoX" role="3o6s8t" />
       </node>
       <node concept="2iUeEo" id="2KWs7HvGIbc" role="2iVFfd">
         <property role="2iUeEt" value="Julius Canute" />

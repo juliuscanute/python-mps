@@ -1,3 +1,4 @@
+![example workflow name](https://github.com/juliuscanute/python-mps/workflows/MPS%20Plugin/badge.svg)
 # Python MPS Plugin
 
 ## Goal
