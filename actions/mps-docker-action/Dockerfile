@@ -16,8 +16,8 @@ RUN tar xzf /usr/local/ant/apache-ant-${ANT_VERSION}-bin.tar.gz -C /usr/local/an
 ADD https://download.jetbrains.com/mps/${MPS_VERSION}/${MPS_BINARY} /usr/local/mps/
 RUN tar xzf /usr/local/mps/${MPS_BINARY} -C /usr/local/mps/ \
     && rm /usr/local/mps/${MPS_BINARY}
-RUN mkdir /usr/share/mps
-WORKDIR /usr/share/mps
+RUN mkdir /github/workspace
+WORKDIR  /github/workspace
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
 
