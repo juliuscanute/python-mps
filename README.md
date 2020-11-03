@@ -1,4 +1,4 @@
-![MPS Plugin](https://github.com/juliuscanute/python-mps/.github/workflows/MPS%20Plugin/badge.svg)
+![MPS Plugin](https://github.com/juliuscanute/python-mps/workflows/.github/workflows/mps.yml/badge.svg)
 # Python MPS Plugin
 
 ## Goal

@@ -343,7 +343,7 @@
     </option>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <navigator currentView="FileSystem" proportions="" version="1" />
     <panes>
       <pane id="FileSystem">
         <subPane>
@@ -381,45 +381,21 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:769c6d46-0027-44b7-9c28-7725c4d476ba(com.juliuscanute.python.sandbox) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/languages/com.juliuscanute.python/sandbox/models/com.juliuscanute.python.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:e3feb37d-7b71-472c-bc91-649eb83f0ad2(Python.build) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/solutions/Python.build/models/Python.build.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,6 +415,16 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -449,15 +435,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
+              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e3feb37d-7b71-472c-bc91-649eb83f0ad2(Python.build) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/solutions/Python.build/models/Python.build.mps]" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -475,25 +457,27 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <SELECTED>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
+              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:e3feb37d-7b71-472c-bc91-649eb83f0ad2(Python.build) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/solutions/Python.build/models/Python.build.mps]" />
+              <option name="myItemId" value="r:769c6d46-0027-44b7-9c28-7725c4d476ba(com.juliuscanute.python.sandbox) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/languages/com.juliuscanute.python/sandbox/models/com.juliuscanute.python.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
             <PATH_ELEMENT>
-              <option name="myItemId" value="5655210078350468999" />
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
