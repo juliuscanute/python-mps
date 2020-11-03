@@ -12,13 +12,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ConceptEditorHintSettings">
+    <option name="enabledHints">
+      <set>
+        <option value="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+        <option value="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+      </set>
+    </option>
+  </component>
   <component name="ConsoleHistory">
     <option name="tabs">
       <list>
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="41645875-72ab-442c-baaf-5ad3915ac7c7/r:3c42957b-1f5e-4363-9849-f4ec28c4661e(TempModule41645875-72ab-442c-baaf-5ad3915ac7c7/ConsoleModel_754213417757161)">
+            <model ref="e236a075-a691-4950-a1c0-9d1d58620aba/r:aca3b435-60f4-4c25-9a35-7618c363471c(TempModulee236a075-a691-4950-a1c0-9d1d58620aba/ConsoleModel_779963585181257)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -38,11 +46,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2KWs7HvEyu1">
-                <node concept="3balQm" id="2KWs7HvEyu2" role="aymYE" />
-                <node concept="2Clz$F" id="2KWs7HvEyu3" role="aymYO" />
-                <node concept="2_V_lH" id="2KWs7HvEyu4" role="1PhJh3">
-                  <ref role="2_V_lI" node="2KWs7HvEyu3" resolve="CommandHolder" />
+              <node concept="aymSD" id="6Y2Bf7QU6rj">
+                <node concept="3balQm" id="6Y2Bf7QU6rk" role="aymYE" />
+                <node concept="2Clz$F" id="6Y2Bf7QU6rl" role="aymYO" />
+                <node concept="2_V_lH" id="6Y2Bf7QU6rm" role="1PhJh3">
+                  <ref role="2_V_lI" node="6Y2Bf7QU6rl" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -65,7 +73,7 @@
     </search_options>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MPSBookmarkManager">
     <option name="myBookmarkInfos">
@@ -345,34 +353,6 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,20 +393,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -436,54 +402,60 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:769c6d46-0027-44b7-9c28-7725c4d476ba(com.juliuscanute.python.sandbox) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/languages/com.juliuscanute.python/sandbox/models/com.juliuscanute.python.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="78bac865-ebcd-4263-9a5f-15ba7afd6597" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:e3feb37d-7b71-472c-bc91-649eb83f0ad2(Python.build) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/solutions/Python.build/models/Python.build.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5655210078350468999" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="CustomProjectView_org.iets3.core.plugin.plugin.SpecExplorer">
+        <subPane />
+      </pane>
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
       <pane id="CustomProjectView_org.iets3.core.expr.doc.plugin.plugin.BookmarkExplorer">
@@ -508,7 +480,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Python" type="Build Script" factoryName="Build Script" temporary="true">
@@ -575,9 +547,10 @@
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
     <state x="358" y="-790" key="IDE.errors.dialog/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1603504141761" />
-    <state x="279" y="-901" key="SettingsEditor" timestamp="1602492821291">
-      <screen x="-190" y="-1080" width="1920" height="1080" />
+    <state x="279" y="-882" key="SettingsEditor" timestamp="1604378119944">
+      <screen x="-190" y="-1057" width="1920" height="1057" />
     </state>
+    <state x="279" y="-882" key="SettingsEditor/-190.-1057.1920.1057/0.23.1680.1027@-190.-1057.1920.1057" timestamp="1604378119944" />
     <state x="279" y="-901" key="SettingsEditor/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1602492821291" />
     <state x="393" y="-923" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603499315451">
       <screen x="-190" y="-1080" width="1920" height="1080" />

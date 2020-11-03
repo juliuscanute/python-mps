@@ -171,7 +171,7 @@
       </node>
       <node concept="3_J27D" id="4TVlTEaiuun" role="m$_w8">
         <node concept="3Mxwew" id="4TVlTEaiuuo" role="3MwsjC">
-          <property role="3MwjfP" value="1.0.1" />
+          <property role="3MwjfP" value="1.0.2" />
         </node>
       </node>
       <node concept="m$f5U" id="4TVlTEaiuup" role="m$_yh">
@@ -210,19 +210,19 @@
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="2KWs7HvHNoR" role="3o6s8t" />
         <node concept="3o6iSG" id="2KWs7HvHNp0" role="3o6s8t">
-          <property role="3o6i5n" value="Python Textgen for JetBrains MPS" />
+          <property role="3o6i5n" value="Python Textgen for JetBrains MPS\n" />
         </node>
         <node concept="3o6iSG" id="2KWs7HvHNpW" role="3o6s8t">
-          <property role="3o6i5n" value="To generate text from Python Node:" />
+          <property role="3o6i5n" value="To generate text from Python Node:\n" />
         </node>
         <node concept="3o6iSG" id="2KWs7HvHNp4" role="3o6s8t">
-          <property role="3o6i5n" value="1. Ensure your sandbox uses com.juliuscanute.python" />
+          <property role="3o6i5n" value="1. Ensure your sandbox uses com.juliuscanute.python\n" />
         </node>
         <node concept="3o6iSG" id="2KWs7HvHNpJ" role="3o6s8t">
-          <property role="3o6i5n" value="2. Right click your sandbox and create New &gt; PythonProgram" />
+          <property role="3o6i5n" value="2. Right click your sandbox and create New &gt; PythonProgram\n" />
         </node>
         <node concept="3o6iSG" id="2KWs7HvHNpP" role="3o6s8t">
-          <property role="3o6i5n" value="3. Right click the PythonProgram node created in the previous step and select Preview Generated Text" />
+          <property role="3o6i5n" value="3. Right click the PythonProgram node created in the previous step and select Preview Generated Text\n" />
         </node>
         <node concept="3o6iSG" id="2KWs7HvHNoX" role="3o6s8t" />
       </node>
