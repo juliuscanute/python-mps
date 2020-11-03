@@ -10,9 +10,17 @@
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
+      <concept id="6666499814681541919" name="jetbrains.mps.core.xml.structure.XmlTextValue" flags="ng" index="2pMdtt">
+        <property id="6666499814681541920" name="text" index="2pMdty" />
+      </concept>
       <concept id="6666499814681415858" name="jetbrains.mps.core.xml.structure.XmlElement" flags="ng" index="2pNNFK">
         <property id="6666499814681415862" name="tagName" index="2pNNFO" />
+        <child id="6666499814681415861" name="attributes" index="2pNNFR" />
         <child id="1622293396948928802" name="content" index="3o6s8t" />
+      </concept>
+      <concept id="6666499814681447923" name="jetbrains.mps.core.xml.structure.XmlAttribute" flags="ng" index="2pNUuL">
+        <property id="6666499814681447926" name="attrName" index="2pNUuO" />
+        <child id="6666499814681541918" name="value" index="2pMdts" />
       </concept>
       <concept id="1622293396948952339" name="jetbrains.mps.core.xml.structure.XmlText" flags="nn" index="3o6iSG">
         <property id="1622293396948953704" name="value" index="3o6i5n" />
@@ -73,12 +81,17 @@
       </concept>
     </language>
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
+      <concept id="7832771629084799699" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginVendor" flags="ng" index="2iUeEo">
+        <property id="7832771629084799702" name="name" index="2iUeEt" />
+        <property id="7832771629084799701" name="url" index="2iUeEu" />
+      </concept>
       <concept id="6592112598314586625" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginGroup" flags="ng" index="m$f5U">
         <reference id="6592112598314586626" name="group" index="m$f5T" />
       </concept>
       <concept id="6592112598314498932" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPlugin" flags="ng" index="m$_wf">
         <property id="6592112598314498927" name="id" index="m$_wk" />
         <child id="1359186315025500371" name="xml" index="20twgj" />
+        <child id="7832771629084912518" name="vendor" index="2iVFfd" />
         <child id="6592112598314498931" name="version" index="m$_w8" />
         <child id="6592112598314499050" name="content" index="m$_yh" />
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
@@ -179,10 +192,29 @@
           <property role="3o6i5n" value="com.intellij.modules.platform" />
         </node>
       </node>
-      <node concept="3_J27D" id="4TVlTEaiuX3" role="3s6cr7">
-        <node concept="3Mxwew" id="4TVlTEaiuX5" role="3MwsjC">
-          <property role="3MwjfP" value="Python MPS TextGen" />
+      <node concept="2pNNFK" id="2KWs7HvGIbe" role="20twgj">
+        <property role="2pNNFO" value="idea-version" />
+        <node concept="2pNUuL" id="2KWs7HvGIbk" role="2pNNFR">
+          <property role="2pNUuO" value="since-build" />
+          <node concept="2pMdtt" id="2KWs7HvGIbl" role="2pMdts">
+            <property role="2pMdty" value="202" />
+          </node>
         </node>
+        <node concept="2pNUuL" id="2KWs7HvGIbs" role="2pNNFR">
+          <property role="2pNUuO" value="until-build" />
+          <node concept="2pMdtt" id="2KWs7HvGIbt" role="2pMdts">
+            <property role="2pMdty" value="202.*" />
+          </node>
+        </node>
+      </node>
+      <node concept="3_J27D" id="4TVlTEaiuX3" role="3s6cr7">
+        <node concept="3Mxwew" id="2KWs7HvGIbS" role="3MwsjC">
+          <property role="3MwjfP" value="![CDATA[&lt;h1&gt;Python Textgen for JetBrains MPS&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;Ensure your sandbox uses &lt;i&gt;com.juliuscanute.python&lt;/i&gt;&lt;/li&gt;&lt;li&gt;Right click your sandbox and create &lt;i&gt;New &gt; PythonProgram&lt;/i&gt;&lt;/li&gt;&lt;li&gt;Right click the &lt;i&gt;PythonProgram&lt;/i&gt; node created in the previous step and select &lt;i&gt;Preview Generated Text&lt;/i&gt;&lt;/li&gt;&lt;/ol&gt;]]" />
+        </node>
+      </node>
+      <node concept="2iUeEo" id="2KWs7HvGIbc" role="2iVFfd">
+        <property role="2iUeEt" value="Julius Canute" />
+        <property role="2iUeEu" value="https://github.com/juliuscanute/python-mps" />
       </node>
     </node>
     <node concept="2G$12M" id="4TVlTEaiuuj" role="3989C9">

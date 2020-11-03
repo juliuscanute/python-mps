@@ -37,10 +37,12 @@
       <idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>Python</id>
         <name>Python</name>
-        <description>Python MPS TextGen</description>
+        <description>![CDATA[<h1>Python Textgen for JetBrains MPS</h1><ol><li>Ensure your sandbox uses <i>com.juliuscanute.python</i></li><li>Right click your sandbox and create <i>New > PythonProgram</i></li><li>Right click the <i>PythonProgram</i> node created in the previous step and select <i>Preview Generated Text</i></li></ol>]]</description>
         <version>1.0</version>
+        <vendor url="https://github.com/juliuscanute/python-mps">Julius Canute</vendor>
         <depends>jetbrains.mps.core</depends>
         <depends>com.intellij.modules.platform</depends>
+        <idea-version since-build="202" until-build="202.*" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
