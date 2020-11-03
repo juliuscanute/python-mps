@@ -1,5 +1,3 @@
 #!/bin/sh -l
-
-echo "Hello $1"
-time=$(date)
-echo "::set-output name=time::$time"
+ant=$(/opt/ant/bin/ant -Dartifacts.mps=/usr/local/mps/MPS\ 2020.2  assemble)
+echo "::set-output name=build-log::$ant"

@@ -1,16 +1,15 @@
 # action.yml
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Build MPS Plugin'
+description: 'Builds MPS Plugin from build.xml using Ant'
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  mount-root:  # id of input
+    description: 'mount src directory to docker container'
     required: true
-    default: 'World'
 outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+  build-log: # id of output
+    description: 'Build completed successfully'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.mount-root }}

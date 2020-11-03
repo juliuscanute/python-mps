@@ -1,17 +1,17 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  mps_build_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: A job to build MPS Plugin
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - name: Hello world action step
-      id: hello
+    - name: Use MPS Docker Container
+      id: mps-build
       uses: ./actions/mps-docker-action
       with:
-        who-to-greet: 'Mona the Octocat'
+        mount-root: '--volume=./common/:/usr/share/mps'
     # Use the output from the `hello` step
-    - name: Get the output time
-      run: echo "The time was ${{ steps.hello.outputs.time }}"
+    - name: Print output log
+      run: echo "${{ steps.mps-build.outputs.build-log }}"
