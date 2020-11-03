@@ -7,8 +7,6 @@ ENV MPS_BINARY MPS-2020.2.2.tar.gz
 ENV ANT_VERSION 1.10.9
 ENV ANT_HOME /opt/ant
 
-ARG WORKING_DIRECTORY=/usr/share/mps
-
 ADD http://www.us.apache.org/dist//ant/binaries/apache-ant-${ANT_VERSION}-bin.tar.gz /usr/local/ant/
 
 RUN tar xzf /usr/local/ant/apache-ant-${ANT_VERSION}-bin.tar.gz -C /usr/local/ant/ \
@@ -18,8 +16,8 @@ RUN tar xzf /usr/local/ant/apache-ant-${ANT_VERSION}-bin.tar.gz -C /usr/local/an
 ADD https://download.jetbrains.com/mps/${MPS_VERSION}/${MPS_BINARY} /usr/local/mps/
 RUN tar xzf /usr/local/mps/${MPS_BINARY} -C /usr/local/mps/ \
     && rm /usr/local/mps/${MPS_BINARY}
-RUN mkdir ${WORKING_DIRECTORY}
-WORKDIR ${WORKING_DIRECTORY}
+RUN mkdir /usr/share/mps
+WORKDIR /usr/share/mps
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
 

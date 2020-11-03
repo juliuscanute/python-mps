@@ -10,6 +10,8 @@ jobs:
     - name: Use MPS Docker Container
       id: mps-build
       uses: ./actions/mps-docker-action
+      with:
+        mount-root: '--volume=./common/:/github/workspace'
     # Use the output from the `hello` step
     - name: Print output log
       run: echo "${{ steps.mps-build.outputs.build-log }}"
