@@ -37,7 +37,7 @@
       <idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>Python</id>
         <name>Python</name>
-        <version>1.0</version>
+        <version>1.0.1</version>
         <vendor url="https://github.com/juliuscanute/python-mps">Julius Canute</vendor>
         <depends>jetbrains.mps.core</depends>
         <depends>com.intellij.modules.platform</depends>

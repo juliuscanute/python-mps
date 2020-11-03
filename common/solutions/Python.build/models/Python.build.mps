@@ -171,7 +171,7 @@
       </node>
       <node concept="3_J27D" id="4TVlTEaiuun" role="m$_w8">
         <node concept="3Mxwew" id="4TVlTEaiuuo" role="3MwsjC">
-          <property role="3MwjfP" value="1.0" />
+          <property role="3MwjfP" value="1.0.1" />
         </node>
       </node>
       <node concept="m$f5U" id="4TVlTEaiuup" role="m$_yh">
