@@ -1,15 +1,9 @@
 # action.yml
 name: 'Build MPS Plugin'
 description: 'Builds MPS Plugin from build.xml using Ant'
-inputs:
-  mount-root:  # id of input
-    description: 'mount src directory to docker container'
-    required: true
 outputs:
   build-log: # id of output
     description: 'Build completed successfully'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.mount-root }}
