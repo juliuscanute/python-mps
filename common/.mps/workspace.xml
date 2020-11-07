@@ -26,7 +26,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="ce1c4afa-b011-4a95-8533-4ac159e80e5d/r:a43155f0-6101-41d9-b0d1-750db63dd62b(TempModulece1c4afa-b011-4a95-8533-4ac159e80e5d/ConsoleModel_851647081414304)">
+            <model ref="896cde6e-df7a-4ebd-aada-415ef0b9d845/r:45986e03-ab6e-4f56-9909-13bf10e7a4fb(TempModule896cde6e-df7a-4ebd-aada-415ef0b9d845/ConsoleModel_853700708593410)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -46,11 +46,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="6HczySprsfS">
-                <node concept="3balQm" id="6HczySprsfT" role="aymYE" />
-                <node concept="2Clz$F" id="6HczySprsfU" role="aymYO" />
-                <node concept="2_V_lH" id="6HczySprsfV" role="1PhJh3">
-                  <ref role="2_V_lI" node="6HczySprsfU" resolve="CommandHolder" />
+              <node concept="aymSD" id="qDDEh8PjYo">
+                <node concept="3balQm" id="qDDEh8PjYp" role="aymYE" />
+                <node concept="2Clz$F" id="qDDEh8PjYq" role="aymYO" />
+                <node concept="2_V_lH" id="qDDEh8PjYr" role="1PhJh3">
+                  <ref role="2_V_lI" node="qDDEh8PjYq" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -388,14 +388,14 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,21 +419,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/languages/com.juliuscanute.python/models/com.juliuscanute.python.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3b1a18ff-6fd4-4977-ba7e-a7ddc907c639(com.juliuscanute.python)" />
+              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -458,22 +444,6 @@
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e3feb37d-7b71-472c-bc91-649eb83f0ad2(Python.build) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/solutions/Python.build/models/Python.build.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5655210078350468999" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -507,7 +477,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="mps.compiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Build Script.Python">
     <configuration name="Python" type="Build Script" factoryName="Build Script" temporary="true">
@@ -574,8 +544,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Build Script.Python" />
         <item itemvalue="JUnit Tests.All Tests in Project" />
+        <item itemvalue="Build Script.Python" />
       </list>
     </recent_temporary>
   </component>
@@ -635,11 +605,12 @@
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
     <state x="358" y="-790" key="IDE.errors.dialog/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1603504141761" />
-    <state x="279" y="-901" key="SettingsEditor" timestamp="1604789683798">
+    <state x="279" y="-901" key="SettingsEditor" timestamp="1604791750220">
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
     <state x="279" y="-882" key="SettingsEditor/-190.-1057.1920.1057/0.23.1680.1027@-190.-1057.1920.1057" timestamp="1604378119944" />
-    <state x="279" y="-901" key="SettingsEditor/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1604789683798" />
+    <state x="279" y="-901" key="SettingsEditor/-190.-1080.1920.1080/0.0.1680.1050@-190.-1080.1920.1080" timestamp="1604791670933" />
+    <state x="279" y="-901" key="SettingsEditor/-190.-1080.1920.1080/0.23.1680.1027@-190.-1080.1920.1080" timestamp="1604791750220" />
     <state x="393" y="-923" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603499315451">
       <screen x="-190" y="-1080" width="1920" height="1080" />
     </state>
