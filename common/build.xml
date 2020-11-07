@@ -30,13 +30,13 @@
   
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.tmp}/default/Python.zip" />
-    <mkdir dir="${build.tmp}/default/Python.zip/Python" />
-    <mkdir dir="${build.tmp}/default/Python.zip/Python/META-INF" />
-    <echoxml file="${build.tmp}/default/Python.zip/Python/META-INF/plugin.xml">
+    <mkdir dir="${build.tmp}/default/mps-python.zip" />
+    <mkdir dir="${build.tmp}/default/mps-python.zip/Python" />
+    <mkdir dir="${build.tmp}/default/mps-python.zip/Python/META-INF" />
+    <echoxml file="${build.tmp}/default/mps-python.zip/Python/META-INF/plugin.xml">
       <idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
-        <id>Python</id>
-        <name>Python</name>
+        <id>com.juliuscanute.mps.python</id>
+        <name>MPS Python</name>
         <version>1.0.2</version>
         <vendor url="https://github.com/juliuscanute/python-mps">Julius Canute</vendor>
         <depends>jetbrains.mps.core</depends>
@@ -55,8 +55,8 @@
         </extensions>
       </idea-plugin>
     </echoxml>
-    <mkdir dir="${build.tmp}/default/Python.zip/Python/languages" />
-    <mkdir dir="${build.tmp}/default/Python.zip/Python/languages/Python" />
+    <mkdir dir="${build.tmp}/default/mps-python.zip/Python/languages" />
+    <mkdir dir="${build.tmp}/default/mps-python.zip/Python/languages/com.juiluscanute.mps.extension.python" />
     <mkdir dir="${build.tmp}/default/com.juliuscanute.python.jar" />
     <mkdir dir="${build.tmp}/default/com.juliuscanute.python.jar/META-INF" />
     <echoxml file="${build.tmp}/default/com.juliuscanute.python.jar/META-INF/module.xml">
@@ -127,7 +127,7 @@
         <sources jar="com.juliuscanute.python-src.jar" descriptor="com.juliuscanute.python.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/Python.zip/Python/languages/Python/com.juliuscanute.python.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/mps-python.zip/Python/languages/com.juiluscanute.mps.extension.python/com.juliuscanute.python.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/com.juliuscanute.python" />
       <fileset dir="${basedir}/languages/com.juliuscanute.python/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/com.juliuscanute.python.jar" />
@@ -135,7 +135,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-com.juliuscanute.python-models">
       <fileset dir="${basedir}/languages/com.juliuscanute.python/models" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/Python.zip/Python/languages/Python/com.juliuscanute.python-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/mps-python.zip/Python/languages/com.juiluscanute.mps.extension.python/com.juliuscanute.python-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/com.juliuscanute.python/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -145,8 +145,8 @@
       <zipfileset file="${basedir}/languages/com.juliuscanute.python/com.juliuscanute.python.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-com.juliuscanute.python-models" prefix="module/models" />
     </jar>
-    <zip destfile="${build.layout}/Python.zip">
-      <fileset dir="${build.tmp}/default/Python.zip" />
+    <zip destfile="${build.layout}/mps-python.zip">
+      <fileset dir="${build.tmp}/default/mps-python.zip" />
     </zip>
     <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version.major=${mpsBootstrapCore.version.major}${line.separator}mpsBootstrapCore.version.minor=${mpsBootstrapCore.version.minor}${line.separator}mpsBootstrapCore.version.bugfixNr=${mpsBootstrapCore.version.bugfixNr}${line.separator}mpsBootstrapCore.version.eap=${mpsBootstrapCore.version.eap}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>

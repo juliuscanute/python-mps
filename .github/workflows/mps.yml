@@ -17,5 +17,5 @@ jobs:
       run: echo "${{ steps.mps-build.outputs.build-log }}"
     - uses: actions/upload-artifact@v2
       with:
-        name: mps-python
-        path: ./common/build/artifacts/Python/Python.zip
+        name: python-extension
+        path: ./common/build/artifacts/Python/mps-python.zip

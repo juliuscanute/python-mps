@@ -153,20 +153,20 @@
       <node concept="3981dG" id="4TVlTEaiuuy" role="39821P">
         <node concept="3_J27D" id="4TVlTEaiuuz" role="Nbhlr">
           <node concept="3Mxwew" id="4TVlTEaiuu$" role="3MwsjC">
-            <property role="3MwjfP" value="Python.zip" />
+            <property role="3MwjfP" value="mps-python.zip" />
           </node>
         </node>
         <node concept="m$_wl" id="4TVlTEaiuu_" role="39821P">
-          <ref role="m_rDy" node="4TVlTEaiuuk" resolve="Python" />
+          <ref role="m_rDy" node="4TVlTEaiuuk" resolve="com.juliuscanute.mps.python" />
           <node concept="pUk6x" id="4TVlTEaiuuA" role="pUk7w" />
         </node>
       </node>
     </node>
     <node concept="m$_wf" id="4TVlTEaiuuk" role="3989C9">
-      <property role="m$_wk" value="Python" />
+      <property role="m$_wk" value="com.juliuscanute.mps.python" />
       <node concept="3_J27D" id="4TVlTEaiuul" role="m$_yQ">
         <node concept="3Mxwew" id="4TVlTEaiuum" role="3MwsjC">
-          <property role="3MwjfP" value="Python" />
+          <property role="3MwjfP" value="MPS Python" />
         </node>
       </node>
       <node concept="3_J27D" id="4TVlTEaiuun" role="m$_w8">
@@ -175,7 +175,7 @@
         </node>
       </node>
       <node concept="m$f5U" id="4TVlTEaiuup" role="m$_yh">
-        <ref role="m$f5T" node="4TVlTEaiuuj" resolve="Python" />
+        <ref role="m$f5T" node="4TVlTEaiuuj" resolve="com.juiluscanute.mps.extension.python" />
       </node>
       <node concept="m$_yC" id="4TVlTEaiuuq" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
@@ -232,7 +232,7 @@
       </node>
     </node>
     <node concept="2G$12M" id="4TVlTEaiuuj" role="3989C9">
-      <property role="TrG5h" value="Python" />
+      <property role="TrG5h" value="com.juiluscanute.mps.extension.python" />
       <node concept="1E1JtD" id="4TVlTEaiuui" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="com.juliuscanute.python" />
