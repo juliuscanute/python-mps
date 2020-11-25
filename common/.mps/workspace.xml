@@ -6,9 +6,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a3ae692-2d06-436f-97a3-2ce7f29a99a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.mps/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0a3ae692-2d06-436f-97a3-2ce7f29a99a1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +26,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="665163b1-0760-4888-9a6b-516d295db6f1/r:4fb45c4a-0863-41a1-9033-65734f2b89f2(TempModule665163b1-0760-4888-9a6b-516d295db6f1/ConsoleModel_148731815713432)">
+            <model ref="7173d7c7-7f99-4655-af06-b70fda8436a9/r:d88ee9b8-6b0b-449f-8c7a-d64f6f197eb0(TempModule7173d7c7-7f99-4655-af06-b70fda8436a9/ConsoleModel_150758169530075)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -48,11 +46,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="5shpTaesALx">
-                <node concept="3balQm" id="5shpTaesALy" role="aymYE" />
-                <node concept="2Clz$F" id="5shpTaesALz" role="aymYO" />
-                <node concept="2_V_lH" id="5shpTaesAL$" role="1PhJh3">
-                  <ref role="2_V_lI" node="5shpTaesALz" resolve="CommandHolder" />
+              <node concept="aymSD" id="5shpTaesFRH">
+                <node concept="3balQm" id="5shpTaesFRI" role="aymYE" />
+                <node concept="2Clz$F" id="5shpTaesFRJ" role="aymYO" />
+                <node concept="2_V_lH" id="5shpTaesFRK" role="1PhJh3">
+                  <ref role="2_V_lI" node="5shpTaesFRJ" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -436,9 +434,6 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
-        <subPane />
-      </pane>
       <pane id="FileSystem">
         <subPane>
           <expand>
@@ -467,11 +462,78 @@
           <select />
         </subPane>
       </pane>
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:e3feb37d-7b71-472c-bc91-649eb83f0ad2(Python.build) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/solutions/Python.build/models/Python.build.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="654931f3-8eb6-4d39-8ff4-2ca1eb1e5b08" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:e3feb37d-7b71-472c-bc91-649eb83f0ad2(Python.build) in IdeaFile[path: /Users/juliuscanute/MPSProjects/Python/common/solutions/Python.build/models/Python.build.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5655210078350468999" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
