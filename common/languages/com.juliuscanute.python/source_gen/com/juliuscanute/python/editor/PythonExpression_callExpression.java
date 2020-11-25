@@ -28,7 +28,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.editor.runtime.selection.SelectionUtil;
 import jetbrains.mps.openapi.editor.selection.SelectionManager;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
@@ -40,7 +39,6 @@ import jetbrains.mps.editor.runtime.completion.CompletionItemInformation;
 import jetbrains.mps.openapi.editor.menus.style.EditorMenuItemCustomizer;
 import jetbrains.mps.internal.collections.runtime.CollectionSequence;
 import org.jetbrains.mps.openapi.language.SConcept;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public class PythonExpression_callExpression extends TransformationMenuBase {
   private final Set<String> myLocations = SetSequence.fromSetAndArray(new HashSet<String>(), MenuLocations.RIGHT_SIDE_TRANSFORM);
@@ -111,7 +109,6 @@ public class PythonExpression_callExpression extends TransformationMenuBase {
       public void execute(@NotNull String pattern) {
         SNode callExp = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a8878efbeL, "com.juliuscanute.python.structure.PythonCallExpression"));
         SNodeOperations.replaceWithAnother(_context.getNode(), callExp);
-        SLinkOperations.setTarget(callExp, LINKS.callee$RvdE, _context.getNode());
         SelectionUtil.selectLabelCellAnSetCaret(_context.getEditorContext(), callExp, SelectionManager.FIRST_ERROR_CELL + "|" + SelectionManager.FOCUS_POLICY_CELL + "|" + SelectionManager.FIRST_EDITABLE_CELL + "|" + SelectionManager.FIRST_CELL, -1);
       }
 
@@ -146,9 +143,5 @@ public class PythonExpression_callExpression extends TransformationMenuBase {
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept PythonExpression$6o = MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL, "com.juliuscanute.python.structure.PythonExpression");
-  }
-
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink callee$RvdE = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a8878efbeL, 0x4e7b579a8878efbfL, "callee");
   }
 }

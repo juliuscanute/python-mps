@@ -455,25 +455,23 @@
       <node id="5655210078329000638" at="49,87,50,29" concept="7" />
       <node id="5655210078329017678" at="54,79,55,221" concept="6" />
       <node id="5655210078329020173" at="55,221,56,265" concept="2" />
-      <node id="5655210078329022616" at="56,265,57,256" concept="2" />
-      <node id="5655210078329024836" at="57,256,58,116" concept="2" />
-      <node id="5655210078329053981" at="59,14,60,73" concept="2" />
-      <node id="5655210078329000589" at="64,48,65,60" concept="7" />
-      <node id="5655210078329000589" at="70,0,71,0" concept="8" trace="exceptStmt$xbOp" />
-      <node id="5655210078329000589" at="71,0,72,0" concept="8" trace="exceptBlk$tZHi" />
-      <node id="5655210078329000589" at="72,0,73,0" concept="8" trace="expression$u0bk" />
+      <node id="5655210078329024836" at="56,265,57,116" concept="2" />
+      <node id="5655210078329053981" at="58,14,59,73" concept="2" />
+      <node id="5655210078329000589" at="63,48,64,60" concept="7" />
+      <node id="5655210078329000589" at="69,0,70,0" concept="8" trace="exceptStmt$xbOp" />
+      <node id="5655210078329000589" at="70,0,71,0" concept="8" trace="exceptBlk$tZHi" />
       <node id="5655210078329000589" at="46,0,48,0" concept="1" trace="IntentionImplementation#()V" />
-      <node id="5655210078329052858" at="59,12,61,7" concept="0" />
+      <node id="5655210078329052858" at="58,12,60,7" concept="0" />
       <node id="5655210078329000589" at="24,0,27,0" concept="1" trace="PythonTryStatement_toggleExcept_Intention#()V" />
       <node id="5655210078329000589" at="39,99,42,5" concept="4" />
       <node id="5655210078329000589" at="27,0,31,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
       <node id="5655210078329000589" at="31,0,35,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
       <node id="5655210078329000589" at="35,0,39,0" concept="5" trace="isSurroundWith#()Z" />
       <node id="5655210078329000589" at="48,0,52,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-      <node id="5655210078329000589" at="63,0,67,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="5655210078329000589" at="62,0,66,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
       <node id="5655210078329000589" at="39,0,45,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
-      <node id="5655210078329001067" at="53,78,61,7" concept="4" />
-      <node id="5655210078329000589" at="52,0,63,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="5655210078329001067" at="53,78,60,7" concept="4" />
+      <node id="5655210078329000589" at="52,0,62,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <scope id="5655210078329000589" at="46,38,46,38" />
       <scope id="5655210078329000589" at="24,54,25,149" />
       <scope id="5655210078329000589" at="28,35,29,45" />
@@ -481,10 +479,13 @@
       <scope id="5655210078329000589" at="36,35,37,17" />
       <scope id="5655210078329000589" at="40,37,41,105" />
       <scope id="5655210078329000591" at="49,87,50,29" />
-      <scope id="5655210078329052859" at="59,14,60,73" />
-      <scope id="5655210078329000589" at="64,48,65,60" />
+      <scope id="5655210078329052859" at="58,14,59,73" />
+      <scope id="5655210078329000589" at="63,48,64,60" />
       <scope id="5655210078329000589" at="46,0,48,0" />
       <scope id="5655210078329000589" at="24,0,27,0" />
+      <scope id="5655210078329001069" at="54,79,57,116">
+        <var name="exceptStatement" id="5655210078329017681" />
+      </scope>
       <scope id="5655210078329000589" at="27,0,31,0" />
       <scope id="5655210078329000589" at="31,0,35,0">
         <var name="editorContext" id="5655210078329000589" />
@@ -496,22 +497,19 @@
         <var name="editorContext" id="5655210078329000589" />
         <var name="node" id="5655210078329000589" />
       </scope>
-      <scope id="5655210078329001069" at="54,79,58,116">
-        <var name="exceptStatement" id="5655210078329017681" />
-      </scope>
-      <scope id="5655210078329000589" at="63,0,67,0" />
+      <scope id="5655210078329000589" at="62,0,66,0" />
       <scope id="5655210078329000589" at="39,0,45,0">
         <var name="context" id="5655210078329000589" />
         <var name="node" id="5655210078329000589" />
       </scope>
-      <scope id="5655210078329000593" at="53,78,61,7" />
-      <scope id="5655210078329000589" at="52,0,63,0">
+      <scope id="5655210078329000593" at="53,78,60,7" />
+      <scope id="5655210078329000589" at="52,0,62,0">
         <var name="editorContext" id="5655210078329000589" />
         <var name="node" id="5655210078329000589" />
       </scope>
-      <unit id="5655210078329000589" at="69,0,74,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleExcept_Intention$LINKS" />
-      <unit id="5655210078329000589" at="45,0,68,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleExcept_Intention$IntentionImplementation" />
-      <unit id="5655210078329000589" at="22,0,75,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleExcept_Intention" />
+      <unit id="5655210078329000589" at="68,0,72,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleExcept_Intention$LINKS" />
+      <unit id="5655210078329000589" at="45,0,67,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleExcept_Intention$IntentionImplementation" />
+      <unit id="5655210078329000589" at="22,0,73,0" name="com.juliuscanute.python.intentions.PythonTryStatement_toggleExcept_Intention" />
     </file>
   </root>
   <root nodeRef="r:e5a6e1c7-8d10-4da3-8439-305db38f2394(com.juliuscanute.python.intentions)/5655210078329168698">

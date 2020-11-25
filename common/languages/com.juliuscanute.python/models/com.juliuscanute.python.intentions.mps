@@ -662,25 +662,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="4TVlTE90Eyo" role="3cqZAp">
-              <node concept="37vLTI" id="4TVlTE90EZ$" role="3clFbG">
-                <node concept="2ShNRf" id="4TVlTE90F26" role="37vLTx">
-                  <node concept="3zrR0B" id="4TVlTE90F0f" role="2ShVmc">
-                    <node concept="3Tqbb2" id="4TVlTE90F0g" role="3zrR0E">
-                      <ref role="ehGHo" to="e5uo:4rfLeTAmp1F" resolve="PythonExpression" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="4TVlTE90EEG" role="37vLTJ">
-                  <node concept="37vLTw" id="4TVlTE90Eym" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4TVlTE90Dlh" resolve="exceptStatement" />
-                  </node>
-                  <node concept="3TrEf2" id="4TVlTE90ENl" role="2OqNvi">
-                    <ref role="3Tt5mk" to="e5uo:4TVlTE8Y_wK" resolve="expression" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="4TVlTE90F54" role="3cqZAp">
               <node concept="2OqwBi" id="4TVlTE90K5G" role="3clFbG">
                 <node concept="2OqwBi" id="4TVlTE90I8Q" role="2Oq$k0">

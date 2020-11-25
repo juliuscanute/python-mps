@@ -54,7 +54,6 @@ public final class PythonTryStatement_toggleExcept_Intention extends AbstractInt
       if (SLinkOperations.getChildren(node, LINKS.exceptStmt$xbOp).isEmpty()) {
         SNode exceptStatement = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88e103dcL, "com.juliuscanute.python.structure.PythonTryExceptStatement"));
         SLinkOperations.setTarget(exceptStatement, LINKS.exceptBlk$tZHi, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac9426e0L, "com.juliuscanute.python.structure.PythonIndentBlockStatement")));
-        SLinkOperations.setTarget(exceptStatement, LINKS.expression$u0bk, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL, "com.juliuscanute.python.structure.PythonExpression")));
         ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.exceptStmt$xbOp)).addElement(exceptStatement);
       } else {
         SLinkOperations.getChildren(node, LINKS.exceptStmt$xbOp).clear();
@@ -69,6 +68,5 @@ public final class PythonTryStatement_toggleExcept_Intention extends AbstractInt
   private static final class LINKS {
     /*package*/ static final SContainmentLink exceptStmt$xbOp = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88e103dbL, 0x4e7b579a88fa5876L, "exceptStmt");
     /*package*/ static final SContainmentLink exceptBlk$tZHi = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88e103dcL, 0x4e7b579a88fa582eL, "exceptBlk");
-    /*package*/ static final SContainmentLink expression$u0bk = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x4e7b579a88e103dcL, 0x4e7b579a88fa5830L, "expression");
   }
 }

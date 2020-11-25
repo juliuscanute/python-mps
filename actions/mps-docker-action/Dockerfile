@@ -2,8 +2,8 @@
 FROM adoptopenjdk/openjdk11:x86_64-alpine-jdk-11.0.9_11-slim
 LABEL maintainer "Julius Canute"
 
-ENV MPS_VERSION 2020.2
-ENV MPS_BINARY MPS-2020.2.2.tar.gz
+ENV MPS_VERSION 2020.1.6
+ENV MPS_BINARY MPS-2020.1.6.tar.gz
 ENV ANT_VERSION 1.10.9
 ENV ANT_HOME /opt/ant
 

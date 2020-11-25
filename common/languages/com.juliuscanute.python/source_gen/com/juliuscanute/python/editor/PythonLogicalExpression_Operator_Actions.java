@@ -23,9 +23,9 @@ public class PythonLogicalExpression_Operator_Actions {
         this.execute_internal(editorContext, node);
       }
       public void execute_internal(EditorContext editorContext, SNode node) {
-        SNode expr = SLinkOperations.getTarget(node, LINKS.right$xwte);
+        SNode expr = SLinkOperations.getTarget(node, LINKS.right$tnDh);
         if ((expr == null)) {
-          expr = SLinkOperations.getTarget(node, LINKS.left$xvZc);
+          expr = SLinkOperations.getTarget(node, LINKS.left$tnbf);
         }
         SNodeOperations.replaceWithAnother(node, expr);
       }
@@ -75,7 +75,7 @@ public class PythonLogicalExpression_Operator_Actions {
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink right$xwte = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6897dfL, 0x49693ebcac6897e4L, "right");
-    /*package*/ static final SContainmentLink left$xvZc = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6897dfL, 0x49693ebcac6897e2L, "left");
+    /*package*/ static final SContainmentLink right$tnDh = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6ca205L, 0x49693ebcac6d2bb9L, "right");
+    /*package*/ static final SContainmentLink left$tnbf = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6ca205L, 0x49693ebcac6d2bb7L, "left");
   }
 }

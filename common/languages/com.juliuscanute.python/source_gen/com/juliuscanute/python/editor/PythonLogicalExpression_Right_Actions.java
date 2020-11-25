@@ -25,11 +25,11 @@ public class PythonLogicalExpression_Right_Actions {
         this.execute_internal(editorContext, node);
       }
       public void execute_internal(EditorContext editorContext, SNode node) {
-        if (!(SConceptOperations.isExactly(SNodeOperations.asSConcept(SNodeOperations.getConcept(SLinkOperations.getTarget(node, LINKS.right$xwte))), SNodeOperations.asSConcept(CONCEPTS.PythonExpression$6o)))) {
-          SLinkOperations.setTarget(node, LINKS.right$xwte, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL, "com.juliuscanute.python.structure.PythonExpression")));
+        if (!(SConceptOperations.isExactly(SNodeOperations.asSConcept(SNodeOperations.getConcept(SLinkOperations.getTarget(node, LINKS.right$tnDh))), SNodeOperations.asSConcept(CONCEPTS.PythonExpression$6o)))) {
+          SLinkOperations.setTarget(node, LINKS.right$tnDh, SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL, "com.juliuscanute.python.structure.PythonExpression")));
           return;
         }
-        SNode leftExpr = SLinkOperations.getTarget(node, LINKS.left$xvZc);
+        SNode leftExpr = SLinkOperations.getTarget(node, LINKS.left$tnbf);
         SNodeOperations.replaceWithAnother(node, leftExpr);
       }
 
@@ -78,8 +78,8 @@ public class PythonLogicalExpression_Right_Actions {
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink right$xwte = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6897dfL, 0x49693ebcac6897e4L, "right");
-    /*package*/ static final SContainmentLink left$xvZc = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6897dfL, 0x49693ebcac6897e2L, "left");
+    /*package*/ static final SContainmentLink right$tnDh = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6ca205L, 0x49693ebcac6d2bb9L, "right");
+    /*package*/ static final SContainmentLink left$tnbf = MetaAdapterFactory.getContainmentLink(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x49693ebcac6ca205L, 0x49693ebcac6d2bb7L, "left");
   }
 
   private static final class CONCEPTS {

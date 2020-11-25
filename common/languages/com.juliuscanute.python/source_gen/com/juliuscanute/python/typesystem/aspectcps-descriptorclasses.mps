@@ -3,7 +3,6 @@
   <persistence version="9" />
   <attribute name="checkpoint" value="DescriptorClasses" />
   <attribute name="generation-plan" value="AspectCPS" />
-  <attribute name="user-objects" value="true" />
   <languages />
   <imports>
     <import index="fv9u" ref="r:ef0422e8-5262-43c5-9b8a-faf54fafdcca(com.juliuscanute.python.typesystem)" />
