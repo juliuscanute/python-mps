@@ -21,7 +21,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PythonCallExpression;
   private ConceptPresentation props_PythonClassStatement;
   private ConceptPresentation props_PythonElseIfStatement;
-  private ConceptPresentation props_PythonEmptyStatement;
   private ConceptPresentation props_PythonExpression;
   private ConceptPresentation props_PythonExpressionStatement;
   private ConceptPresentation props_PythonForStatement;
@@ -152,13 +151,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PythonElseIfStatement = cpb.create();
         }
         return props_PythonElseIfStatement;
-      case LanguageConceptSwitch.PythonEmptyStatement:
-        if (props_PythonEmptyStatement == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("PythonEmptyStatement");
-          props_PythonEmptyStatement = cpb.create();
-        }
-        return props_PythonEmptyStatement;
       case LanguageConceptSwitch.PythonExpression:
         if (props_PythonExpression == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -306,6 +298,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.PythonStatement:
         if (props_PythonStatement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PythonStatement");
           props_PythonStatement = cpb.create();
         }
         return props_PythonStatement;

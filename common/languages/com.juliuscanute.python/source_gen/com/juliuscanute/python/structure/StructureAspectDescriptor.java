@@ -29,7 +29,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptPythonCallExpression = createDescriptorForPythonCallExpression();
   /*package*/ final ConceptDescriptor myConceptPythonClassStatement = createDescriptorForPythonClassStatement();
   /*package*/ final ConceptDescriptor myConceptPythonElseIfStatement = createDescriptorForPythonElseIfStatement();
-  /*package*/ final ConceptDescriptor myConceptPythonEmptyStatement = createDescriptorForPythonEmptyStatement();
   /*package*/ final ConceptDescriptor myConceptPythonExpression = createDescriptorForPythonExpression();
   /*package*/ final ConceptDescriptor myConceptPythonExpressionStatement = createDescriptorForPythonExpressionStatement();
   /*package*/ final ConceptDescriptor myConceptPythonForStatement = createDescriptorForPythonForStatement();
@@ -84,7 +83,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptFromStatementAsName, myConceptImportStatement, myConceptImportStatementAsName, myConceptPythonArrayExpression, myConceptPythonAssignmentExpression, myConceptPythonBinaryExpression, myConceptPythonBooleanLiteral, myConceptPythonCallExpression, myConceptPythonClassStatement, myConceptPythonElseIfStatement, myConceptPythonEmptyStatement, myConceptPythonExpression, myConceptPythonExpressionStatement, myConceptPythonForStatement, myConceptPythonFunctionDefinitionStatement, myConceptPythonIdentifier, myConceptPythonIdentifierReference, myConceptPythonIfElseStatement, myConceptPythonIndentBlockStatement, myConceptPythonLeftHandSideExpression, myConceptPythonLiteral, myConceptPythonLogicalExpression, myConceptPythonMemberExpression, myConceptPythonNode, myConceptPythonNoneLiteral, myConceptPythonNumericLiteral, myConceptPythonObjectExpression, myConceptPythonProgram, myConceptPythonProperty, myConceptPythonReturnStatement, myConceptPythonSelfExpression, myConceptPythonStatement, myConceptPythonStringLiteral, myConceptPythonTryElseStatement, myConceptPythonTryExceptExpressionStatement, myConceptPythonTryExceptStatement, myConceptPythonTryFinallyStatement, myConceptPythonTryStatement, myConceptPythonTupleExpression, myConceptPythonUnaryExpression, myConceptPythonVariableDeclarator, myConceptPythonWhileStatement);
+    return Arrays.asList(myConceptDottedName, myConceptFromStatement, myConceptFromStatementAsName, myConceptImportStatement, myConceptImportStatementAsName, myConceptPythonArrayExpression, myConceptPythonAssignmentExpression, myConceptPythonBinaryExpression, myConceptPythonBooleanLiteral, myConceptPythonCallExpression, myConceptPythonClassStatement, myConceptPythonElseIfStatement, myConceptPythonExpression, myConceptPythonExpressionStatement, myConceptPythonForStatement, myConceptPythonFunctionDefinitionStatement, myConceptPythonIdentifier, myConceptPythonIdentifierReference, myConceptPythonIfElseStatement, myConceptPythonIndentBlockStatement, myConceptPythonLeftHandSideExpression, myConceptPythonLiteral, myConceptPythonLogicalExpression, myConceptPythonMemberExpression, myConceptPythonNode, myConceptPythonNoneLiteral, myConceptPythonNumericLiteral, myConceptPythonObjectExpression, myConceptPythonProgram, myConceptPythonProperty, myConceptPythonReturnStatement, myConceptPythonSelfExpression, myConceptPythonStatement, myConceptPythonStringLiteral, myConceptPythonTryElseStatement, myConceptPythonTryExceptExpressionStatement, myConceptPythonTryExceptStatement, myConceptPythonTryFinallyStatement, myConceptPythonTryStatement, myConceptPythonTupleExpression, myConceptPythonUnaryExpression, myConceptPythonVariableDeclarator, myConceptPythonWhileStatement);
   }
 
   @Override
@@ -115,8 +114,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptPythonClassStatement;
       case LanguageConceptSwitch.PythonElseIfStatement:
         return myConceptPythonElseIfStatement;
-      case LanguageConceptSwitch.PythonEmptyStatement:
-        return myConceptPythonEmptyStatement;
       case LanguageConceptSwitch.PythonExpression:
         return myConceptPythonExpression;
       case LanguageConceptSwitch.PythonExpressionStatement:
@@ -325,14 +322,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("consequent", 0x4e7b579a88264f41L).target(0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL).optional(true).ordered(true).multiple(true).origin("5655210078314581825").done();
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForPythonEmptyStatement() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonEmptyStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x517282376ae8e48cL);
-    b.class_(false, false, false);
-    b.super_("com.juliuscanute.python.structure.PythonStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL);
-    b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5868896438945637516");
-    b.version(2);
-    return b.create();
-  }
   private static ConceptDescriptor createDescriptorForPythonExpression() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonExpression", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6659906bL);
     b.class_(false, false, false);
@@ -533,7 +522,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForPythonStatement() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.juliuscanute.python", "PythonStatement", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee6658c91bL);
-    b.class_(false, true, false);
+    b.class_(false, false, false);
     b.super_("com.juliuscanute.python.structure.PythonNode", 0x3b1a18ff6fd44977L, 0xba7ea7ddc907c639L, 0x46cfc4ee66582d22L);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L);
     b.origin("r:00f94cb7-1749-461e-9045-70eb5d47fa62(com.juliuscanute.python.structure)/5102513431032416539");

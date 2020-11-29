@@ -17,7 +17,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="19,0,207,0" name="com.juliuscanute.python.editor.EditorAspectDescriptorImpl" />
+      <unit at="19,0,205,0" name="com.juliuscanute.python.editor.EditorAspectDescriptorImpl" />
     </file>
     <file name="PythonIdentifierReference_SubstituteMenu.java">
       <unit at="90,0,93,0" name="com.juliuscanute.python.editor.PythonIdentifierReference_SubstituteMenu$CONCEPTS" />
@@ -1027,8 +1027,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5102513431032802523">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5102513431032802523" at="183,82,184,96" concept="8" />
-      <scope id="5102513431032802523" at="183,82,184,96" />
+      <node id="5102513431032802523" at="181,82,182,96" concept="8" />
+      <scope id="5102513431032802523" at="181,82,182,96" />
     </file>
     <file name="PythonExpression_numericLiteral.java">
       <node id="5102513431032802523" at="31,118,32,140" concept="7" />
@@ -1664,8 +1664,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217390855752">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5289828217390855752" at="139,84,140,102" concept="8" />
-      <scope id="5289828217390855752" at="139,84,140,102" />
+      <node id="5289828217390855752" at="137,84,138,102" concept="8" />
+      <scope id="5289828217390855752" at="137,84,138,102" />
     </file>
     <file name="PythonExpression_binaryExpression.java">
       <node id="5289828217390855752" at="48,0,49,0" concept="3" trace="myLocations" />
@@ -2338,8 +2338,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217390968754">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5289828217390968754" at="143,85,144,103" concept="8" />
-      <scope id="5289828217390968754" at="143,85,144,103" />
+      <node id="5289828217390968754" at="141,85,142,103" concept="8" />
+      <scope id="5289828217390968754" at="141,85,142,103" />
     </file>
     <file name="PythonExpression_logicalExpression.java">
       <node id="5289828217390968754" at="51,0,52,0" concept="3" trace="myLocations" />
@@ -2728,8 +2728,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217391225409">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5289828217391225409" at="185,81,186,95" concept="8" />
-      <scope id="5289828217391225409" at="185,81,186,95" />
+      <node id="5289828217391225409" at="183,81,184,95" concept="8" />
+      <scope id="5289828217391225409" at="183,81,184,95" />
     </file>
     <file name="PythonExpression_stringLiteral.java">
       <node id="5289828217391225409" at="34,118,35,140" concept="7" />
@@ -3637,8 +3637,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5289828217391958716">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5289828217391958716" at="189,90,190,104" concept="8" />
-      <scope id="5289828217391958716" at="189,90,190,104" />
+      <node id="5289828217391958716" at="187,90,188,104" concept="8" />
+      <scope id="5289828217391958716" at="187,90,188,104" />
     </file>
     <file name="PythonExpression_variableInitialization.java">
       <node id="5289828217391958716" at="35,118,36,140" concept="7" />
@@ -8643,8 +8643,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5655210078323627414">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5655210078323627414" at="145,84,146,102" concept="8" />
-      <scope id="5655210078323627414" at="145,84,146,102" />
+      <node id="5655210078323627414" at="143,84,144,102" concept="8" />
+      <scope id="5655210078323627414" at="143,84,144,102" />
     </file>
     <file name="PythonExpression_memberExpression.java">
       <node id="5655210078323627414" at="48,0,49,0" concept="3" trace="myLocations" />
@@ -8828,8 +8828,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5655210078325864388">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5655210078325864388" at="141,82,142,100" concept="8" />
-      <scope id="5655210078325864388" at="141,82,142,100" />
+      <node id="5655210078325864388" at="139,82,140,100" concept="8" />
+      <scope id="5655210078325864388" at="139,82,140,100" />
     </file>
     <file name="PythonExpression_callExpression.java">
       <node id="5655210078325864388" at="44,0,45,0" concept="3" trace="myLocations" />
@@ -10047,8 +10047,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5655210078329935082">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5655210078329935082" at="181,82,182,96" concept="8" />
-      <scope id="5655210078329935082" at="181,82,182,96" />
+      <node id="5655210078329935082" at="179,82,180,96" concept="8" />
+      <scope id="5655210078329935082" at="179,82,180,96" />
     </file>
     <file name="PythonExpression_booleanLiteral.java">
       <node id="5655210078329935082" at="34,118,35,140" concept="7" />
@@ -10565,8 +10565,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5741310041268745326">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5741310041268745326" at="187,83,188,97" concept="8" />
-      <scope id="5741310041268745326" at="187,83,188,97" />
+      <node id="5741310041268745326" at="185,83,186,97" concept="8" />
+      <scope id="5741310041268745326" at="185,83,186,97" />
     </file>
     <file name="PythonExpression_unaryExpression.java">
       <node id="5741310041268745326" at="35,118,36,140" concept="7" />
@@ -10878,8 +10878,8 @@
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5741310041269031464">
     <file name="EditorAspectDescriptorImpl.java">
-      <node id="5741310041269031464" at="147,84,148,102" concept="8" />
-      <scope id="5741310041269031464" at="147,84,148,102" />
+      <node id="5741310041269031464" at="145,84,146,102" concept="8" />
+      <scope id="5741310041269031464" at="145,84,146,102" />
     </file>
     <file name="PythonExpression_unaryExpression1.java">
       <node id="5741310041269031464" at="51,0,52,0" concept="3" trace="myLocations" />
@@ -11748,49 +11748,6 @@
       <unit id="5289828217390874732" at="123,0,146,0" name="com.juliuscanute.python.editor.PythonExpression_TransformationMenu$TMP_Include_6nrs95_d0" />
       <unit id="5741310041269851484" at="146,0,169,0" name="com.juliuscanute.python.editor.PythonExpression_TransformationMenu$TMP_Include_6nrs95_e0" />
       <unit id="5741310041269851463" at="31,0,174,0" name="com.juliuscanute.python.editor.PythonExpression_TransformationMenu" />
-    </file>
-  </root>
-  <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/5868896438945638599">
-    <file name="PythonEmptyStatement_Editor.java">
-      <node id="5868896438945638599" at="11,79,12,86" concept="8" />
-      <node id="5868896438945638599" at="11,0,14,0" concept="6" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5868896438945638599" at="11,79,12,86" />
-      <scope id="5868896438945638599" at="11,0,14,0">
-        <var name="editorContext" id="5868896438945638599" />
-        <var name="node" id="5868896438945638599" />
-      </scope>
-      <unit id="5868896438945638599" at="10,0,15,0" name="com.juliuscanute.python.editor.PythonEmptyStatement_Editor" />
-    </file>
-    <file name="PythonEmptyStatement_EditorBuilder_a.java">
-      <node id="5868896438945638599" at="16,100,17,19" concept="13" />
-      <node id="5868896438945638599" at="17,19,18,18" concept="2" />
-      <node id="5868896438945638599" at="23,26,24,18" concept="8" />
-      <node id="5868896438945638599" at="27,39,28,30" concept="8" />
-      <node id="5868896438945638610" at="31,41,32,93" concept="7" />
-      <node id="5868896438945638610" at="32,93,33,46" concept="2" />
-      <node id="5868896438945638610" at="33,46,34,28" concept="2" />
-      <node id="5868896438945638610" at="34,28,35,31" concept="2" />
-      <node id="5868896438945638610" at="35,31,36,34" concept="2" />
-      <node id="5868896438945638610" at="36,34,37,22" concept="8" />
-      <node id="5868896438945638599" at="13,0,15,0" concept="3" trace="myNode" />
-      <node id="5868896438945638599" at="27,0,30,0" concept="6" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5868896438945638599" at="16,0,20,0" concept="1" trace="PythonEmptyStatement_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="5868896438945638599" at="21,0,26,0" concept="6" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="5868896438945638610" at="31,0,39,0" concept="6" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="5868896438945638599" at="23,26,24,18" />
-      <scope id="5868896438945638599" at="27,39,28,30" />
-      <scope id="5868896438945638599" at="16,100,18,18" />
-      <scope id="5868896438945638599" at="27,0,30,0" />
-      <scope id="5868896438945638599" at="16,0,20,0">
-        <var name="context" id="5868896438945638599" />
-        <var name="node" id="5868896438945638599" />
-      </scope>
-      <scope id="5868896438945638599" at="21,0,26,0" />
-      <scope id="5868896438945638610" at="31,41,37,22">
-        <var name="editorCell" id="5868896438945638610" />
-      </scope>
-      <scope id="5868896438945638610" at="31,0,39,0" />
-      <unit id="5868896438945638599" at="12,0,40,0" name="com.juliuscanute.python.editor.PythonEmptyStatement_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:400bf90e-8287-4141-96db-9cd6584037db(com.juliuscanute.python.editor)/7550366242933707154">

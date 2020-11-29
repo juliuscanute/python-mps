@@ -4705,10 +4705,5 @@
       <node concept="l2Vlx" id="4TVlTE951Me" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="55MwztEUez7">
-    <property role="3GE5qa" value="statement" />
-    <ref role="1XX52x" to="e5uo:55MwztEUeic" resolve="PythonEmptyStatement" />
-    <node concept="3F0ifn" id="55MwztEUezi" role="2wV5jI" />
-  </node>
 </model>
 
