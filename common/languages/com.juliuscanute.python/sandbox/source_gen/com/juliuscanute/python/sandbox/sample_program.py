@@ -4,7 +4,6 @@ from urllib3.response import HTTPResponse
 import os.path as file_path
 from urllib3 import response as HTTP
 
-
 def maxOf(ab, bc, ca) :
   if ab > bc :
     if ab > ca :
@@ -70,7 +69,6 @@ for key, value in dictionary :
   print(key)
   print(value)
 
-
 for i in range(1, 100) :
   for j in range(1, 100) :
     mul(i, j)
@@ -127,5 +125,3 @@ class Complex :
 
 x = Complex(3.0, -4.5)
 print(x.output() + x.update_values(1.1, 2.2))
-
-

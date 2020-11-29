@@ -16,7 +16,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -92,6 +92,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -274,6 +275,7 @@
     <property role="EcuMT" value="5102513431032416539" />
     <property role="3GE5qa" value="statement" />
     <property role="TrG5h" value="PythonStatement" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="4rfLeTAm2Oy" resolve="PythonNode" />
     <node concept="PrWs8" id="4rfLeTAmc$s" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -1307,6 +1309,12 @@
       <property role="20kJfa" value="actualIdentifier" />
       <ref role="20lvS9" node="4_DfFMGtamA" resolve="PythonIdentifier" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="55MwztEUeic">
+    <property role="EcuMT" value="5868896438945637516" />
+    <property role="3GE5qa" value="statement" />
+    <property role="TrG5h" value="PythonEmptyStatement" />
+    <ref role="1TJDcQ" node="4rfLeTAmc$r" resolve="PythonStatement" />
   </node>
 </model>
 
